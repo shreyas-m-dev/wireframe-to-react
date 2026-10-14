@@ -1,0 +1,51 @@
+{
+  "startedAt": "2026-09-02T05:43:09.202679+00:00",
+  "input": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\preprocessing\\fixtures\\simple_layout.png",
+  "output": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple",
+  "stages": [
+    "preprocessing",
+    "ocr",
+    "detection",
+    "schema",
+    "read-only-rag",
+    "generation",
+    "validation"
+  ],
+  "nodeStages": [
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "schema",
+        "--elements",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple\\detections-elements.json",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple\\schema.json",
+        "--tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple\\schema-tree.txt"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "validate",
+        "--schema",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple\\schema.json",
+        "--code",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple\\generated.jsx",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple\\validation.json",
+        "--fidelity-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\transport-simple\\fidelity.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "finishedAt": "2026-09-02T05:43:22.288207+00:00"
+}

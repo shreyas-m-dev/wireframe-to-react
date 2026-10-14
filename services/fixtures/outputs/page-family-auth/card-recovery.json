@@ -1,0 +1,36 @@
+{
+  "groups": [],
+  "diagnostics": [
+    {
+      "roi": {
+        "x": 260.0,
+        "y": 91.0,
+        "width": 240.0,
+        "height": 511.0
+      },
+      "sourceRegionParent": "section",
+      "headingEvidence": null,
+      "passConfigurations": [
+        {
+          "name": "pass-a-edges",
+          "strategy": "CLAHE/bilateral + contour"
+        },
+        {
+          "name": "pass-b-adaptive",
+          "strategy": "CLAHE/bilateral + contour"
+        }
+      ],
+      "rawCandidates": [],
+      "groupClusters": [],
+      "acceptedGroup": null,
+      "acceptedCardCount": 0,
+      "rejectedCandidates": [],
+      "uncertainty": "low-contrast candidates did not form a multi-signal repeated-card consensus",
+      "projectionPeaks": [
+        178,
+        180,
+        181
+      ]
+    }
+  ]
+}

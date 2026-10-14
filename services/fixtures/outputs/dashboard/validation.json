@@ -1,0 +1,123 @@
+{
+  "cgda": {
+    "stripped": [
+      {
+        "tag": "main",
+        "attrs": "data-wireframe-id=\"container-2\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" className=\"grid grid-cols-1 md:grid-cols-2 gap-5 p-3 w-full\""
+      }
+    ],
+    "kept": 4
+  },
+  "validation": {
+    "finalJsx": "import React from \"react\";\r\n\r\nexport default function GeneratedComponent() {\r\n  return (\n<div data-wireframe-id=\"root-0\" data-wireframe-type=\"root\" data-wireframe-role=\"page-root\" className=\"border rounded p-3\">\n  <div data-wireframe-id=\"container-1\" data-wireframe-type=\"container\" data-wireframe-role=\"page\" className=\"flex flex-col gap-3 p-3 min-h-screen bg-white text-gray-900 p-6 space-y-8\">\n    <div data-wireframe-id=\"container-6\" data-wireframe-type=\"container\" data-wireframe-role=\"\" className=\"border rounded p-3\"></div>\n    <footer data-wireframe-id=\"container-7\" data-wireframe-type=\"container\" data-wireframe-role=\"footer\" className=\"border rounded p-3 w-full border-t pt-5 text-sm text-gray-600\"></footer>\n  </div>\n</div>\r\n  );\r\n}\r\n",
+    "valid": true,
+    "attempts": 0,
+    "log": [
+      {
+        "attempt": 0,
+        "structuralAccuracy": 0.42857142857142855,
+        "missingInCode": [
+          "image",
+          "container",
+          "container",
+          "container"
+        ],
+        "extraInCode": [],
+        "autoFixed": [
+          "img",
+          "div",
+          "div",
+          "div"
+        ],
+        "result": "auto-corrected"
+      }
+    ],
+    "diff": {
+      "schemaCount": 7,
+      "codeCount": 3,
+      "matchedCount": 3,
+      "missingInCode": [
+        {
+          "type": "image",
+          "id": "image-5",
+          "role": "media"
+        },
+        {
+          "type": "container",
+          "id": "container-4",
+          "role": "section"
+        },
+        {
+          "type": "container",
+          "id": "container-6",
+          "role": null
+        },
+        {
+          "type": "container",
+          "id": "container-7",
+          "role": "footer"
+        }
+      ],
+      "extraInCode": [],
+      "structuralAccuracy": 0.42857142857142855,
+      "generatedNodeCoverage": 0.42857142857142855,
+      "majorRegionCoverage": 0,
+      "missingMajorRoles": [
+        "main",
+        "gallery",
+        "product-detail",
+        "related-products"
+      ],
+      "isValid": false
+    },
+    "autoFixed": [
+      {
+        "schemaId": "image-5",
+        "insertedTag": "img"
+      },
+      {
+        "schemaId": "container-4",
+        "insertedTag": "div"
+      },
+      {
+        "schemaId": "container-6",
+        "insertedTag": "div"
+      },
+      {
+        "schemaId": "container-7",
+        "insertedTag": "div"
+      }
+    ]
+  },
+  "fidelity": {
+    "score": 1,
+    "fullPage": true,
+    "majorRegionCount": 3,
+    "leafCount": 4,
+    "mediaCount": 1,
+    "buttonCount": 0,
+    "maxDepth": 4,
+    "passed": true,
+    "reasons": []
+  },
+  "overall": {
+    "schemaGatePassed": true,
+    "generatedOutputValid": true,
+    "schemaToCodeCoverage": 0.42857142857142855,
+    "legacyStructuralAccuracy": 0.42857142857142855,
+    "macroRegionCoverage": 0,
+    "repeatedGroupCoverage": 1,
+    "semanticTextCoverage": 1,
+    "semanticControlCoverage": 1,
+    "sourceStructureCoverage": 0,
+    "sourceVsRenderedScore": null,
+    "overallStatus": "needs-review",
+    "needsReview": true,
+    "reasons": [
+      "missing generated main",
+      "missing generated gallery",
+      "missing generated product-detail",
+      "missing generated related-products"
+    ]
+  }
+}

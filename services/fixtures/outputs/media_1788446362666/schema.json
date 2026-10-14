@@ -1,0 +1,3626 @@
+{
+  "type": "root",
+  "id": "root-0",
+  "role": "page-root",
+  "bbox": {
+    "x": 0,
+    "y": 0,
+    "width": 682,
+    "height": 1024
+  },
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "size": {
+    "width": 682,
+    "height": 1024
+  },
+  "layout": {
+    "direction": "column",
+    "columns": 1,
+    "gap": 0,
+    "align": "stretch",
+    "repeated": false
+  },
+  "children": [
+    {
+      "type": "container",
+      "id": "container-1",
+      "role": "page",
+      "confidence": 0.98,
+      "roleConfidence": 0.98,
+      "text": null,
+      "textConfidence": null,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 682,
+        "height": 1024
+      },
+      "bboxPx": {
+        "x": 0,
+        "y": 0,
+        "width": 682,
+        "height": 1024
+      },
+      "bboxNorm": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 682,
+        "height": 1024
+      },
+      "relativeBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "label": null,
+      "parentId": "root-0",
+      "parentRole": "page-root",
+      "readingOrder": 0,
+      "ocr": null,
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      },
+      "styleHints": {},
+      "repeatInfo": null,
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro page",
+        "vision": null
+      },
+      "uncertainty": 0.02,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "children": [
+        {
+          "type": "container",
+          "id": "container-2",
+          "role": "header",
+          "confidence": 0.9,
+          "roleConfidence": 0.9,
+          "text": null,
+          "textConfidence": null,
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 682,
+            "height": 133
+          },
+          "bboxPx": {
+            "x": 0,
+            "y": 0,
+            "width": 682,
+            "height": 133
+          },
+          "bboxNorm": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.1299
+          },
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 682,
+            "height": 133
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.1299
+          },
+          "label": null,
+          "parentId": "container-1",
+          "parentRole": "page",
+          "readingOrder": 0,
+          "ocr": null,
+          "layout": {
+            "direction": "row",
+            "columns": 1,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          },
+          "styleHints": {},
+          "repeatInfo": null,
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro header",
+            "vision": null
+          },
+          "uncertainty": 0.1,
+          "source": {
+            "cv": true,
+            "ocr": false,
+            "vision": false,
+            "merged": false
+          },
+          "children": [
+            {
+              "type": "region",
+              "id": "region-47",
+              "role": "nav-group",
+              "confidence": 0.72,
+              "roleConfidence": 0.72,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 70,
+                "y": 37.714285714285715,
+                "width": 426,
+                "height": 33.142857142857146
+              },
+              "bboxPx": {
+                "x": 70,
+                "y": 37.714285714285715,
+                "width": 426,
+                "height": 33.142857142857146
+              },
+              "bboxNorm": {
+                "x": 0.1026,
+                "y": 0.0368,
+                "width": 0.6246,
+                "height": 0.0324
+              },
+              "position": {
+                "x": 70,
+                "y": 37.714285714285715
+              },
+              "size": {
+                "width": 426,
+                "height": 33.142857142857146
+              },
+              "relativeBounds": {
+                "x": 0.1026,
+                "y": 0.0368,
+                "width": 0.6246,
+                "height": 0.0324
+              },
+              "label": null,
+              "parentId": "container-2",
+              "parentRole": "header",
+              "readingOrder": 0,
+              "ocr": null,
+              "layout": {
+                "direction": "row",
+                "columns": 1,
+                "gap": 12,
+                "align": "center",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro nav-group",
+                "vision": null
+              },
+              "uncertainty": 0.28,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-46",
+                  "role": "nav-link",
+                  "confidence": 0.4,
+                  "roleConfidence": 0.4,
+                  "text": "Loso",
+                  "textConfidence": 0.4,
+                  "bbox": {
+                    "x": 70,
+                    "y": 46,
+                    "width": 57,
+                    "height": 15
+                  },
+                  "bboxPx": {
+                    "x": 70,
+                    "y": 46,
+                    "width": 57,
+                    "height": 15
+                  },
+                  "bboxNorm": {
+                    "x": 0.1026,
+                    "y": 0.0449,
+                    "width": 0.0836,
+                    "height": 0.0146
+                  },
+                  "position": {
+                    "x": 70,
+                    "y": 46
+                  },
+                  "size": {
+                    "width": 57,
+                    "height": 15
+                  },
+                  "relativeBounds": {
+                    "x": 0.1026,
+                    "y": 0.0449,
+                    "width": 0.0836,
+                    "height": 0.0146
+                  },
+                  "label": "Loso",
+                  "parentId": "region-47",
+                  "parentRole": "nav-group",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.6,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-42",
+                  "role": "nav-link",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "ABOUT",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 312,
+                    "y": 46.285714285714285,
+                    "width": 36,
+                    "height": 16.571428571428573
+                  },
+                  "bboxPx": {
+                    "x": 312,
+                    "y": 46.285714285714285,
+                    "width": 36,
+                    "height": 16.571428571428573
+                  },
+                  "bboxNorm": {
+                    "x": 0.4575,
+                    "y": 0.0452,
+                    "width": 0.0528,
+                    "height": 0.0162
+                  },
+                  "position": {
+                    "x": 312,
+                    "y": 46.285714285714285
+                  },
+                  "size": {
+                    "width": 36,
+                    "height": 16.571428571428573
+                  },
+                  "relativeBounds": {
+                    "x": 0.4575,
+                    "y": 0.0452,
+                    "width": 0.0528,
+                    "height": 0.0162
+                  },
+                  "label": "ABOUT",
+                  "parentId": "region-47",
+                  "parentRole": "nav-group",
+                  "readingOrder": 1,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-43",
+                  "role": "nav-link",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "SERVICES",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 373.7142857142857,
+                    "y": 46.285714285714285,
+                    "width": 47.42857142857143,
+                    "height": 16.571428571428573
+                  },
+                  "bboxPx": {
+                    "x": 373.7142857142857,
+                    "y": 46.285714285714285,
+                    "width": 47.42857142857143,
+                    "height": 16.571428571428573
+                  },
+                  "bboxNorm": {
+                    "x": 0.548,
+                    "y": 0.0452,
+                    "width": 0.0695,
+                    "height": 0.0162
+                  },
+                  "position": {
+                    "x": 373.7142857142857,
+                    "y": 46.285714285714285
+                  },
+                  "size": {
+                    "width": 47.42857142857143,
+                    "height": 16.571428571428573
+                  },
+                  "relativeBounds": {
+                    "x": 0.548,
+                    "y": 0.0452,
+                    "width": 0.0695,
+                    "height": 0.0162
+                  },
+                  "label": "SERVICES",
+                  "parentId": "region-47",
+                  "parentRole": "nav-group",
+                  "readingOrder": 2,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-44",
+                  "role": "nav-link",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "CONTACT",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 446.2857142857143,
+                    "y": 48.57142857142857,
+                    "width": 49.142857142857146,
+                    "height": 8.571428571428571
+                  },
+                  "bboxPx": {
+                    "x": 446.2857142857143,
+                    "y": 48.57142857142857,
+                    "width": 49.142857142857146,
+                    "height": 8.571428571428571
+                  },
+                  "bboxNorm": {
+                    "x": 0.6544,
+                    "y": 0.0474,
+                    "width": 0.0721,
+                    "height": 0.0084
+                  },
+                  "position": {
+                    "x": 446.2857142857143,
+                    "y": 48.57142857142857
+                  },
+                  "size": {
+                    "width": 49.142857142857146,
+                    "height": 8.571428571428571
+                  },
+                  "relativeBounds": {
+                    "x": 0.6544,
+                    "y": 0.0474,
+                    "width": 0.0721,
+                    "height": 0.0084
+                  },
+                  "label": "CONTACT",
+                  "parentId": "region-47",
+                  "parentRole": "nav-group",
+                  "readingOrder": 3,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-45",
+                  "role": "nav-link",
+                  "confidence": 0.5,
+                  "roleConfidence": 0.5,
+                  "text": "commer",
+                  "textConfidence": 0.5,
+                  "bbox": {
+                    "x": 446,
+                    "y": 49,
+                    "width": 50,
+                    "height": 8
+                  },
+                  "bboxPx": {
+                    "x": 446,
+                    "y": 49,
+                    "width": 50,
+                    "height": 8
+                  },
+                  "bboxNorm": {
+                    "x": 0.654,
+                    "y": 0.0479,
+                    "width": 0.0733,
+                    "height": 0.0078
+                  },
+                  "position": {
+                    "x": 446,
+                    "y": 49
+                  },
+                  "size": {
+                    "width": 50,
+                    "height": 8
+                  },
+                  "relativeBounds": {
+                    "x": 0.654,
+                    "y": 0.0479,
+                    "width": 0.0733,
+                    "height": 0.0078
+                  },
+                  "label": "commer",
+                  "parentId": "region-47",
+                  "parentRole": "nav-group",
+                  "readingOrder": 4,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.5,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "text-32",
+              "role": "logo",
+              "confidence": 0.96,
+              "roleConfidence": 0.96,
+              "text": "LOGO",
+              "textConfidence": 0.96,
+              "bbox": {
+                "x": 70.28571428571429,
+                "y": 45.714285714285715,
+                "width": 56.57142857142857,
+                "height": 15.42857142857143
+              },
+              "bboxPx": {
+                "x": 70.28571428571429,
+                "y": 45.714285714285715,
+                "width": 56.57142857142857,
+                "height": 15.42857142857143
+              },
+              "bboxNorm": {
+                "x": 0.1031,
+                "y": 0.0446,
+                "width": 0.0829,
+                "height": 0.0151
+              },
+              "position": {
+                "x": 70.28571428571429,
+                "y": 45.714285714285715
+              },
+              "size": {
+                "width": 56.57142857142857,
+                "height": 15.42857142857143
+              },
+              "relativeBounds": {
+                "x": 0.1031,
+                "y": 0.0446,
+                "width": 0.0829,
+                "height": 0.0151
+              },
+              "label": "LOGO",
+              "parentId": "container-2",
+              "parentRole": "header",
+              "readingOrder": 1,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro nav-link",
+                "vision": null
+              },
+              "uncertainty": 0.04,
+              "source": {
+                "cv": true,
+                "ocr": true,
+                "vision": false,
+                "merged": false
+              },
+              "children": []
+            },
+            {
+              "type": "button",
+              "id": "button-33",
+              "role": "action",
+              "confidence": 0.96,
+              "roleConfidence": 0.96,
+              "text": "ABOUT SERVICES CONTACT",
+              "textConfidence": 0.96,
+              "bbox": {
+                "x": 312,
+                "y": 46.285714285714285,
+                "width": 183.42857142857144,
+                "height": 16.571428571428577
+              },
+              "bboxPx": {
+                "x": 312,
+                "y": 46.285714285714285,
+                "width": 183.42857142857144,
+                "height": 16.571428571428577
+              },
+              "bboxNorm": {
+                "x": 0.4575,
+                "y": 0.0452,
+                "width": 0.269,
+                "height": 0.0162
+              },
+              "position": {
+                "x": 312,
+                "y": 46.285714285714285
+              },
+              "size": {
+                "width": 183.42857142857144,
+                "height": 16.571428571428577
+              },
+              "relativeBounds": {
+                "x": 0.4575,
+                "y": 0.0452,
+                "width": 0.269,
+                "height": 0.0162
+              },
+              "label": "ABOUT SERVICES CONTACT",
+              "parentId": "container-2",
+              "parentRole": "header",
+              "readingOrder": 2,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro action",
+                "vision": null
+              },
+              "uncertainty": 0.04,
+              "source": {
+                "cv": true,
+                "ocr": true,
+                "vision": false,
+                "merged": false
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "container-6",
+          "role": "main",
+          "confidence": 0.94,
+          "roleConfidence": 0.94,
+          "text": null,
+          "textConfidence": null,
+          "bbox": {
+            "x": 0,
+            "y": 133,
+            "width": 682,
+            "height": 747
+          },
+          "bboxPx": {
+            "x": 0,
+            "y": 133,
+            "width": 682,
+            "height": 747
+          },
+          "bboxNorm": {
+            "x": 0,
+            "y": 0.1299,
+            "width": 1,
+            "height": 0.7295
+          },
+          "position": {
+            "x": 0,
+            "y": 133
+          },
+          "size": {
+            "width": 682,
+            "height": 747
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0.1299,
+            "width": 1,
+            "height": 0.7295
+          },
+          "label": null,
+          "parentId": "container-1",
+          "parentRole": "page",
+          "readingOrder": 1,
+          "ocr": null,
+          "layout": {
+            "direction": "column",
+            "columns": 1,
+            "gap": 12,
+            "align": "stretch",
+            "repeated": false
+          },
+          "styleHints": {},
+          "repeatInfo": null,
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro main",
+            "vision": null
+          },
+          "uncertainty": 0.06,
+          "source": {
+            "cv": true,
+            "ocr": false,
+            "vision": false,
+            "merged": false
+          },
+          "children": [
+            {
+              "type": "region",
+              "id": "region-55",
+              "role": "hero-section",
+              "confidence": 0.7,
+              "roleConfidence": 0.7,
+              "text": null,
+              "label": null,
+              "bbox": {
+                "x": 0,
+                "y": 133,
+                "width": 682,
+                "height": 204.8
+              },
+              "bboxPx": {
+                "x": 0,
+                "y": 133,
+                "width": 682,
+                "height": 204.8
+              },
+              "bboxNorm": {
+                "x": 0,
+                "y": 0.1299,
+                "width": 1,
+                "height": 0.7295
+              },
+              "position": {
+                "x": 0,
+                "y": 133
+              },
+              "size": {
+                "width": 682,
+                "height": 204.8
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0,
+                "width": 1,
+                "height": 1
+              },
+              "parentId": "container-6",
+              "parentRole": "main",
+              "readingOrder": 0,
+              "layout": {
+                "direction": "column",
+                "columns": 1,
+                "gap": 12,
+                "align": "stretch",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "canonical-section-reconstruction",
+                "grouping": "hero heading anchor",
+                "vision": null
+              },
+              "uncertainty": 0.3,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-37",
+                  "role": "hero-heading",
+                  "confidence": 0.95,
+                  "roleConfidence": 0.95,
+                  "text": "HEADLINE",
+                  "textConfidence": 0.95,
+                  "bbox": {
+                    "x": 211.42857142857142,
+                    "y": 156,
+                    "width": 261.71428571428567,
+                    "height": 39.428571428571445
+                  },
+                  "bboxPx": {
+                    "x": 211.42857142857142,
+                    "y": 156,
+                    "width": 261.71428571428567,
+                    "height": 39.428571428571445
+                  },
+                  "bboxNorm": {
+                    "x": 0.31,
+                    "y": 0.1523,
+                    "width": 0.3837,
+                    "height": 0.0385
+                  },
+                  "position": {
+                    "x": 211.42857142857142,
+                    "y": 156
+                  },
+                  "size": {
+                    "width": 261.71428571428567,
+                    "height": 39.428571428571445
+                  },
+                  "relativeBounds": {
+                    "x": 0.31,
+                    "y": 0.1523,
+                    "width": 0.3837,
+                    "height": 0.0385
+                  },
+                  "label": "HEADLINE",
+                  "parentId": "region-55",
+                  "parentRole": "hero-section",
+                  "readingOrder": 4,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro hero-heading",
+                    "vision": null
+                  },
+                  "uncertainty": 0.05,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-34",
+                  "role": "copy",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "dolor sit adipiscing",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 272,
+                    "y": 219.42857142857142,
+                    "width": 223.4285714285714,
+                    "height": 12.571428571428584
+                  },
+                  "bboxPx": {
+                    "x": 272,
+                    "y": 219.42857142857142,
+                    "width": 223.4285714285714,
+                    "height": 12.571428571428584
+                  },
+                  "bboxNorm": {
+                    "x": 0.3988,
+                    "y": 0.2143,
+                    "width": 0.3276,
+                    "height": 0.0123
+                  },
+                  "position": {
+                    "x": 272,
+                    "y": 219.42857142857142
+                  },
+                  "size": {
+                    "width": 223.4285714285714,
+                    "height": 12.571428571428584
+                  },
+                  "relativeBounds": {
+                    "x": 0.3988,
+                    "y": 0.2143,
+                    "width": 0.3276,
+                    "height": 0.0123
+                  },
+                  "label": "dolor sit adipiscing",
+                  "parentId": "region-55",
+                  "parentRole": "hero-section",
+                  "readingOrder": 5,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro copy",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-30",
+                  "role": "copy",
+                  "confidence": 0.9425,
+                  "roleConfidence": 0.9425,
+                  "text": "Lorem ipsum amet, consectuer",
+                  "textConfidence": 0.9425,
+                  "bbox": {
+                    "x": 190,
+                    "y": 220,
+                    "width": 240,
+                    "height": 12
+                  },
+                  "bboxPx": {
+                    "x": 190,
+                    "y": 220,
+                    "width": 240,
+                    "height": 12
+                  },
+                  "bboxNorm": {
+                    "x": 0.2786,
+                    "y": 0.2148,
+                    "width": 0.3519,
+                    "height": 0.0117
+                  },
+                  "position": {
+                    "x": 190,
+                    "y": 220
+                  },
+                  "size": {
+                    "width": 240,
+                    "height": 12
+                  },
+                  "relativeBounds": {
+                    "x": 0.2786,
+                    "y": 0.2148,
+                    "width": 0.3519,
+                    "height": 0.0117
+                  },
+                  "label": "Lorem ipsum amet, consectuer",
+                  "parentId": "region-55",
+                  "parentRole": "hero-section",
+                  "readingOrder": 6,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro copy",
+                    "vision": null
+                  },
+                  "uncertainty": 0.06,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "button",
+                  "id": "button-38",
+                  "role": "action",
+                  "confidence": 0.8725,
+                  "roleConfidence": 0.8725,
+                  "text": "[ GET STARTED ]",
+                  "textConfidence": 0.8725,
+                  "bbox": {
+                    "x": 275,
+                    "y": 253,
+                    "width": 134,
+                    "height": 33
+                  },
+                  "bboxPx": {
+                    "x": 275,
+                    "y": 253,
+                    "width": 134,
+                    "height": 33
+                  },
+                  "bboxNorm": {
+                    "x": 0.4032,
+                    "y": 0.2471,
+                    "width": 0.1965,
+                    "height": 0.0322
+                  },
+                  "position": {
+                    "x": 275,
+                    "y": 253
+                  },
+                  "size": {
+                    "width": 134,
+                    "height": 33
+                  },
+                  "relativeBounds": {
+                    "x": 0.4032,
+                    "y": 0.2471,
+                    "width": 0.1965,
+                    "height": 0.0322
+                  },
+                  "label": "[ GET STARTED ]",
+                  "parentId": "region-55",
+                  "parentRole": "hero-section",
+                  "readingOrder": 7,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro action",
+                    "vision": null
+                  },
+                  "uncertainty": 0.13,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "region",
+              "id": "region-48",
+              "role": "services-section",
+              "confidence": 0.66,
+              "roleConfidence": 0.66,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 0,
+                "y": 364,
+                "width": 682,
+                "height": 516
+              },
+              "bboxPx": {
+                "x": 0,
+                "y": 364,
+                "width": 682,
+                "height": 516
+              },
+              "bboxNorm": {
+                "x": 0,
+                "y": 0.3555,
+                "width": 1,
+                "height": 0.5039
+              },
+              "position": {
+                "x": 0,
+                "y": 364
+              },
+              "size": {
+                "width": 682,
+                "height": 516
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0.3555,
+                "width": 1,
+                "height": 0.5039
+              },
+              "label": null,
+              "parentId": "container-6",
+              "parentRole": "main",
+              "readingOrder": 2,
+              "ocr": null,
+              "layout": {
+                "direction": "row",
+                "columns": 1,
+                "gap": 12,
+                "align": "center",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro services-section",
+                "vision": null
+              },
+              "uncertainty": 0.34,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-31",
+                  "role": "section-heading",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "OUR SERVICES",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 263,
+                    "y": 364,
+                    "width": 159,
+                    "height": 17
+                  },
+                  "bboxPx": {
+                    "x": 263,
+                    "y": 364,
+                    "width": 159,
+                    "height": 17
+                  },
+                  "bboxNorm": {
+                    "x": 0.3856,
+                    "y": 0.3555,
+                    "width": 0.2331,
+                    "height": 0.0166
+                  },
+                  "position": {
+                    "x": 263,
+                    "y": 364
+                  },
+                  "size": {
+                    "width": 159,
+                    "height": 17
+                  },
+                  "relativeBounds": {
+                    "x": 0.3856,
+                    "y": 0.3555,
+                    "width": 0.2331,
+                    "height": 0.0166
+                  },
+                  "label": "OUR SERVICES",
+                  "parentId": "region-48",
+                  "parentRole": "services-section",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro section-heading",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "region",
+                  "id": "region-49",
+                  "role": "feature-card-grid",
+                  "confidence": 0.66,
+                  "roleConfidence": 0.66,
+                  "text": null,
+                  "textConfidence": null,
+                  "bbox": {
+                    "x": 0,
+                    "y": 398,
+                    "width": 682,
+                    "height": 482
+                  },
+                  "bboxPx": {
+                    "x": 0,
+                    "y": 398,
+                    "width": 682,
+                    "height": 482
+                  },
+                  "bboxNorm": {
+                    "x": 0,
+                    "y": 0.3887,
+                    "width": 1,
+                    "height": 0.4707
+                  },
+                  "position": {
+                    "x": 0,
+                    "y": 398
+                  },
+                  "size": {
+                    "width": 682,
+                    "height": 482
+                  },
+                  "relativeBounds": {
+                    "x": 0,
+                    "y": 0.3887,
+                    "width": 1,
+                    "height": 0.4707
+                  },
+                  "label": null,
+                  "parentId": "region-48",
+                  "parentRole": "services-section",
+                  "readingOrder": 1,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "grid",
+                    "columns": 3,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": true
+                  },
+                  "styleHints": {},
+                  "repeatInfo": {
+                    "count": 3,
+                    "axis": "grid"
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro feature-card-grid",
+                    "vision": null
+                  },
+                  "uncertainty": 0.34,
+                  "source": {
+                    "cv": true,
+                    "ocr": false,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": [
+                    {
+                      "type": "image",
+                      "id": "image-10",
+                      "role": "feature-card",
+                      "confidence": 0.75,
+                      "roleConfidence": 0.75,
+                      "text": null,
+                      "textConfidence": null,
+                      "bbox": {
+                        "x": 86,
+                        "y": 398,
+                        "width": 158,
+                        "height": 110
+                      },
+                      "bboxPx": {
+                        "x": 86,
+                        "y": 398,
+                        "width": 158,
+                        "height": 110
+                      },
+                      "bboxNorm": {
+                        "x": 0.1261,
+                        "y": 0.3887,
+                        "width": 0.2317,
+                        "height": 0.1074
+                      },
+                      "position": {
+                        "x": 86,
+                        "y": 398
+                      },
+                      "size": {
+                        "width": 158,
+                        "height": 110
+                      },
+                      "relativeBounds": {
+                        "x": 0.1261,
+                        "y": 0.3887,
+                        "width": 0.2317,
+                        "height": 0.1074
+                      },
+                      "label": null,
+                      "parentId": "region-49",
+                      "parentRole": "feature-card-grid",
+                      "readingOrder": 0,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "component-pass",
+                        "grouping": "contour/OCR candidate",
+                        "vision": null
+                      },
+                      "uncertainty": 0.25,
+                      "source": {
+                        "cv": true,
+                        "ocr": false,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "image",
+                      "id": "image-11",
+                      "role": "feature-card",
+                      "confidence": 0.75,
+                      "roleConfidence": 0.75,
+                      "text": "| i} !",
+                      "textConfidence": null,
+                      "bbox": {
+                        "x": 263,
+                        "y": 398,
+                        "width": 159,
+                        "height": 110
+                      },
+                      "bboxPx": {
+                        "x": 263,
+                        "y": 398,
+                        "width": 159,
+                        "height": 110
+                      },
+                      "bboxNorm": {
+                        "x": 0.3856,
+                        "y": 0.3887,
+                        "width": 0.2331,
+                        "height": 0.1074
+                      },
+                      "position": {
+                        "x": 263,
+                        "y": 398
+                      },
+                      "size": {
+                        "width": 159,
+                        "height": 110
+                      },
+                      "relativeBounds": {
+                        "x": 0.3856,
+                        "y": 0.3887,
+                        "width": 0.2331,
+                        "height": 0.1074
+                      },
+                      "label": "| i} !",
+                      "parentId": "region-49",
+                      "parentRole": "feature-card-grid",
+                      "readingOrder": 1,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "component-pass",
+                        "grouping": "contour/OCR candidate",
+                        "vision": null
+                      },
+                      "uncertainty": 0.25,
+                      "source": {
+                        "cv": true,
+                        "ocr": false,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "image",
+                      "id": "image-12",
+                      "role": "feature-card",
+                      "confidence": 0.75,
+                      "roleConfidence": 0.75,
+                      "text": null,
+                      "textConfidence": null,
+                      "bbox": {
+                        "x": 439,
+                        "y": 398,
+                        "width": 159,
+                        "height": 110
+                      },
+                      "bboxPx": {
+                        "x": 439,
+                        "y": 398,
+                        "width": 159,
+                        "height": 110
+                      },
+                      "bboxNorm": {
+                        "x": 0.6437,
+                        "y": 0.3887,
+                        "width": 0.2331,
+                        "height": 0.1074
+                      },
+                      "position": {
+                        "x": 439,
+                        "y": 398
+                      },
+                      "size": {
+                        "width": 159,
+                        "height": 110
+                      },
+                      "relativeBounds": {
+                        "x": 0.6437,
+                        "y": 0.3887,
+                        "width": 0.2331,
+                        "height": 0.1074
+                      },
+                      "label": null,
+                      "parentId": "region-49",
+                      "parentRole": "feature-card-grid",
+                      "readingOrder": 2,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "component-pass",
+                        "grouping": "contour/OCR candidate",
+                        "vision": null
+                      },
+                      "uncertainty": 0.25,
+                      "source": {
+                        "cv": true,
+                        "ocr": false,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "text-40",
+                  "role": "copy",
+                  "confidence": 0.56,
+                  "roleConfidence": 0.56,
+                  "text": "i}",
+                  "textConfidence": 0.56,
+                  "bbox": {
+                    "x": 416,
+                    "y": 428,
+                    "width": 1,
+                    "height": 12
+                  },
+                  "bboxPx": {
+                    "x": 416,
+                    "y": 428,
+                    "width": 1,
+                    "height": 12
+                  },
+                  "bboxNorm": {
+                    "x": 0.61,
+                    "y": 0.418,
+                    "width": 0.0015,
+                    "height": 0.0117
+                  },
+                  "position": {
+                    "x": 416,
+                    "y": 428
+                  },
+                  "size": {
+                    "width": 1,
+                    "height": 12
+                  },
+                  "relativeBounds": {
+                    "x": 0.61,
+                    "y": 0.418,
+                    "width": 0.0015,
+                    "height": 0.0117
+                  },
+                  "label": "i}",
+                  "parentId": "region-48",
+                  "parentRole": "services-section",
+                  "readingOrder": 6,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro copy",
+                    "vision": null
+                  },
+                  "uncertainty": 0.44,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "image",
+                  "id": "image-19",
+                  "role": "region",
+                  "confidence": 0.75,
+                  "roleConfidence": 0.75,
+                  "text": null,
+                  "textConfidence": null,
+                  "bbox": {
+                    "x": 86,
+                    "y": 586,
+                    "width": 109,
+                    "height": 92
+                  },
+                  "bboxPx": {
+                    "x": 86,
+                    "y": 586,
+                    "width": 109,
+                    "height": 92
+                  },
+                  "bboxNorm": {
+                    "x": 0.1261,
+                    "y": 0.5723,
+                    "width": 0.1598,
+                    "height": 0.0898
+                  },
+                  "position": {
+                    "x": 86,
+                    "y": 586
+                  },
+                  "size": {
+                    "width": 109,
+                    "height": 92
+                  },
+                  "relativeBounds": {
+                    "x": 0.1261,
+                    "y": 0.5723,
+                    "width": 0.1598,
+                    "height": 0.0898
+                  },
+                  "label": null,
+                  "parentId": "region-48",
+                  "parentRole": "services-section",
+                  "readingOrder": 9,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "component-pass",
+                    "grouping": "contour/OCR candidate",
+                    "vision": null
+                  },
+                  "uncertainty": 0.25,
+                  "source": {
+                    "cv": true,
+                    "ocr": false,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "region",
+              "id": "region-56",
+              "role": "about-section",
+              "confidence": 0.7,
+              "roleConfidence": 0.7,
+              "text": null,
+              "label": null,
+              "bbox": {
+                "x": 0,
+                "y": 614.4,
+                "width": 682,
+                "height": 184.32
+              },
+              "bboxPx": {
+                "x": 0,
+                "y": 614.4,
+                "width": 682,
+                "height": 184.32
+              },
+              "bboxNorm": {
+                "x": 0,
+                "y": 0.1299,
+                "width": 1,
+                "height": 0.7295
+              },
+              "position": {
+                "x": 0,
+                "y": 614.4
+              },
+              "size": {
+                "width": 682,
+                "height": 184.32
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0,
+                "width": 1,
+                "height": 1
+              },
+              "parentId": "container-6",
+              "parentRole": "main",
+              "readingOrder": 3,
+              "layout": {
+                "direction": "column",
+                "columns": 1,
+                "gap": 12,
+                "align": "stretch",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "canonical-section-reconstruction",
+                "grouping": "about heading anchor",
+                "vision": null
+              },
+              "uncertainty": 0.3,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "image",
+                  "id": "image-24",
+                  "role": "region",
+                  "confidence": 0.72,
+                  "roleConfidence": 0.72,
+                  "text": null,
+                  "textConfidence": null,
+                  "bbox": {
+                    "x": 360,
+                    "y": 712,
+                    "width": 120,
+                    "height": 106
+                  },
+                  "bboxPx": {
+                    "x": 360,
+                    "y": 712,
+                    "width": 120,
+                    "height": 106
+                  },
+                  "bboxNorm": {
+                    "x": 0.5279,
+                    "y": 0.6953,
+                    "width": 0.176,
+                    "height": 0.1035
+                  },
+                  "position": {
+                    "x": 360,
+                    "y": 712
+                  },
+                  "size": {
+                    "width": 120,
+                    "height": 106
+                  },
+                  "relativeBounds": {
+                    "x": 0.5279,
+                    "y": 0.6953,
+                    "width": 0.176,
+                    "height": 0.1035
+                  },
+                  "label": null,
+                  "parentId": "region-56",
+                  "parentRole": "about-section",
+                  "readingOrder": 3,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "component-pass",
+                    "grouping": "contour/OCR candidate",
+                    "vision": null
+                  },
+                  "uncertainty": 0.28,
+                  "source": {
+                    "cv": true,
+                    "ocr": false,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "image",
+                  "id": "image-25",
+                  "role": "region",
+                  "confidence": 0.72,
+                  "roleConfidence": 0.72,
+                  "text": null,
+                  "textConfidence": null,
+                  "bbox": {
+                    "x": 498,
+                    "y": 712,
+                    "width": 126,
+                    "height": 106
+                  },
+                  "bboxPx": {
+                    "x": 498,
+                    "y": 712,
+                    "width": 126,
+                    "height": 106
+                  },
+                  "bboxNorm": {
+                    "x": 0.7302,
+                    "y": 0.6953,
+                    "width": 0.1848,
+                    "height": 0.1035
+                  },
+                  "position": {
+                    "x": 498,
+                    "y": 712
+                  },
+                  "size": {
+                    "width": 126,
+                    "height": 106
+                  },
+                  "relativeBounds": {
+                    "x": 0.7302,
+                    "y": 0.6953,
+                    "width": 0.1848,
+                    "height": 0.1035
+                  },
+                  "label": null,
+                  "parentId": "region-56",
+                  "parentRole": "about-section",
+                  "readingOrder": 4,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "component-pass",
+                    "grouping": "contour/OCR candidate",
+                    "vision": null
+                  },
+                  "uncertainty": 0.28,
+                  "source": {
+                    "cv": true,
+                    "ocr": false,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-35",
+                  "role": "heading",
+                  "confidence": 0.8567,
+                  "roleConfidence": 0.8567,
+                  "text": "ABOUT US ©",
+                  "textConfidence": 0.8567,
+                  "bbox": {
+                    "x": 88,
+                    "y": 721,
+                    "width": 417,
+                    "height": 65
+                  },
+                  "bboxPx": {
+                    "x": 88,
+                    "y": 721,
+                    "width": 417,
+                    "height": 65
+                  },
+                  "bboxNorm": {
+                    "x": 0.129,
+                    "y": 0.7041,
+                    "width": 0.6114,
+                    "height": 0.0635
+                  },
+                  "position": {
+                    "x": 88,
+                    "y": 721
+                  },
+                  "size": {
+                    "width": 417,
+                    "height": 65
+                  },
+                  "relativeBounds": {
+                    "x": 0.129,
+                    "y": 0.7041,
+                    "width": 0.6114,
+                    "height": 0.0635
+                  },
+                  "label": "ABOUT US ©",
+                  "parentId": "region-56",
+                  "parentRole": "about-section",
+                  "readingOrder": 5,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro heading",
+                    "vision": null
+                  },
+                  "uncertainty": 0.14,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "region",
+              "id": "region-50",
+              "role": "contact-section",
+              "confidence": 0.66,
+              "roleConfidence": 0.66,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 232,
+                "y": 858,
+                "width": 200,
+                "height": 67
+              },
+              "bboxPx": {
+                "x": 232,
+                "y": 858,
+                "width": 200,
+                "height": 67
+              },
+              "bboxNorm": {
+                "x": 0.3402,
+                "y": 0.8379,
+                "width": 0.2933,
+                "height": 0.0654
+              },
+              "position": {
+                "x": 232,
+                "y": 858
+              },
+              "size": {
+                "width": 200,
+                "height": 67
+              },
+              "relativeBounds": {
+                "x": 0.3402,
+                "y": 0.8379,
+                "width": 0.2933,
+                "height": 0.0654
+              },
+              "label": null,
+              "parentId": "container-6",
+              "parentRole": "main",
+              "readingOrder": 5,
+              "ocr": null,
+              "layout": {
+                "direction": "row",
+                "columns": 1,
+                "gap": 12,
+                "align": "center",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro contact-section",
+                "vision": null
+              },
+              "uncertainty": 0.34,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "button-39",
+                  "role": "section-heading",
+                  "confidence": 0.94,
+                  "roleConfidence": 0.94,
+                  "text": "CONTACT US",
+                  "textConfidence": 0.94,
+                  "bbox": {
+                    "x": 271,
+                    "y": 858,
+                    "width": 141,
+                    "height": 17
+                  },
+                  "bboxPx": {
+                    "x": 271,
+                    "y": 858,
+                    "width": 141,
+                    "height": 17
+                  },
+                  "bboxNorm": {
+                    "x": 0.3974,
+                    "y": 0.8379,
+                    "width": 0.2067,
+                    "height": 0.0166
+                  },
+                  "position": {
+                    "x": 271,
+                    "y": 858
+                  },
+                  "size": {
+                    "width": 141,
+                    "height": 17
+                  },
+                  "relativeBounds": {
+                    "x": 0.3974,
+                    "y": 0.8379,
+                    "width": 0.2067,
+                    "height": 0.0166
+                  },
+                  "label": "CONTACT US",
+                  "parentId": "region-50",
+                  "parentRole": "contact-section",
+                  "readingOrder": 1,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro action",
+                    "vision": null
+                  },
+                  "uncertainty": 0.06,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "image",
+                  "id": "image-29",
+                  "role": "submit-action",
+                  "confidence": 0.72,
+                  "roleConfidence": 0.72,
+                  "text": "SEND",
+                  "textConfidence": null,
+                  "bbox": {
+                    "x": 378,
+                    "y": 890,
+                    "width": 76,
+                    "height": 49
+                  },
+                  "bboxPx": {
+                    "x": 378,
+                    "y": 890,
+                    "width": 76,
+                    "height": 49
+                  },
+                  "bboxNorm": {
+                    "x": 0.5543,
+                    "y": 0.8691,
+                    "width": 0.1114,
+                    "height": 0.0479
+                  },
+                  "position": {
+                    "x": 378,
+                    "y": 890
+                  },
+                  "size": {
+                    "width": 76,
+                    "height": 49
+                  },
+                  "relativeBounds": {
+                    "x": 0.5543,
+                    "y": 0.8691,
+                    "width": 0.1114,
+                    "height": 0.0479
+                  },
+                  "label": "SEND",
+                  "parentId": "region-50",
+                  "parentRole": "contact-section",
+                  "readingOrder": 2,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "component-pass",
+                    "grouping": "contour/OCR candidate",
+                    "vision": null
+                  },
+                  "uncertainty": 0.28,
+                  "source": {
+                    "cv": true,
+                    "ocr": false,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "button",
+                  "id": "button-36",
+                  "role": "submit-action",
+                  "confidence": 0.865,
+                  "roleConfidence": 0.865,
+                  "text": "[ SEND",
+                  "textConfidence": 0.865,
+                  "bbox": {
+                    "x": 232,
+                    "y": 893,
+                    "width": 200,
+                    "height": 32
+                  },
+                  "bboxPx": {
+                    "x": 232,
+                    "y": 893,
+                    "width": 200,
+                    "height": 32
+                  },
+                  "bboxNorm": {
+                    "x": 0.3402,
+                    "y": 0.8721,
+                    "width": 0.2933,
+                    "height": 0.0313
+                  },
+                  "position": {
+                    "x": 232,
+                    "y": 893
+                  },
+                  "size": {
+                    "width": 200,
+                    "height": 32
+                  },
+                  "relativeBounds": {
+                    "x": 0.3402,
+                    "y": 0.8721,
+                    "width": 0.2933,
+                    "height": 0.0313
+                  },
+                  "label": "[ SEND",
+                  "parentId": "region-50",
+                  "parentRole": "contact-section",
+                  "readingOrder": 3,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro action",
+                    "vision": null
+                  },
+                  "uncertainty": 0.14,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "schemaSource": "local-cv-ocr-fallback",
+    "visionMajorNodes": 0,
+    "canonicalRepair": [
+      {
+        "nodeId": "container-7",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "demoted oversized multi-band media candidate",
+        "evidence": [
+          "crosses-section-bands"
+        ]
+      },
+      {
+        "nodeId": "container-1",
+        "oldParentId": null,
+        "newParentId": "root-0",
+        "reason": "single page root",
+        "evidence": [
+          "page"
+        ]
+      },
+      {
+        "nodeId": "container-2",
+        "oldParentId": null,
+        "newParentId": "container-1",
+        "reason": "top page band",
+        "evidence": [
+          "header"
+        ]
+      },
+      {
+        "nodeId": "container-6",
+        "oldParentId": null,
+        "newParentId": "container-1",
+        "reason": "main page band",
+        "evidence": [
+          "main"
+        ]
+      },
+      {
+        "nodeId": "container-28",
+        "oldParentId": null,
+        "newParentId": "container-1",
+        "reason": "bottom page band",
+        "evidence": [
+          "footer"
+        ]
+      },
+      {
+        "nodeId": "region-55",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "hero-section"
+        ]
+      },
+      {
+        "nodeId": "region-48",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "services-section"
+        ]
+      },
+      {
+        "nodeId": "region-56",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "about-section"
+        ]
+      },
+      {
+        "nodeId": "region-50",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "contact-section"
+        ]
+      },
+      {
+        "nodeId": "region-47",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "single header navigation",
+        "evidence": [
+          "nav-group"
+        ]
+      },
+      {
+        "nodeId": "container-3",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "input-4",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region",
+          "Loso commer | |"
+        ]
+      },
+      {
+        "nodeId": "container-5",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-7",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-8",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "section"
+        ]
+      },
+      {
+        "nodeId": "container-9",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-10",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-11",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region",
+          "| i} !"
+        ]
+      },
+      {
+        "nodeId": "image-12",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-13",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-14",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-15",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-16",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-17",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-18",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-19",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-20",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-21",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "repeated-region"
+        ]
+      },
+      {
+        "nodeId": "container-22",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-23",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-24",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-25",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-26",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-27",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-29",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region",
+          "SEND"
+        ]
+      },
+      {
+        "nodeId": "text-30",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "copy",
+          "Lorem ipsum amet, consectuer"
+        ]
+      },
+      {
+        "nodeId": "text-31",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "section-heading",
+          "OUR SERVICES"
+        ]
+      },
+      {
+        "nodeId": "text-32",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "LOGO"
+        ]
+      },
+      {
+        "nodeId": "button-33",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "ABOUT SERVICES CONTACT"
+        ]
+      },
+      {
+        "nodeId": "text-34",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "copy",
+          "dolor sit adipiscing"
+        ]
+      },
+      {
+        "nodeId": "text-35",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "heading",
+          "ABOUT US ©"
+        ]
+      },
+      {
+        "nodeId": "button-36",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "[ SEND"
+        ]
+      },
+      {
+        "nodeId": "text-37",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "hero-heading",
+          "HEADLINE"
+        ]
+      },
+      {
+        "nodeId": "button-38",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "[ GET STARTED ]"
+        ]
+      },
+      {
+        "nodeId": "button-39",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "CONTACT US"
+        ]
+      },
+      {
+        "nodeId": "text-40",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "copy",
+          "i}"
+        ]
+      },
+      {
+        "nodeId": "text-41",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "LOGO"
+        ]
+      },
+      {
+        "nodeId": "text-42",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "ABOUT"
+        ]
+      },
+      {
+        "nodeId": "text-43",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "SERVICES"
+        ]
+      },
+      {
+        "nodeId": "text-44",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "CONTACT"
+        ]
+      },
+      {
+        "nodeId": "text-45",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "commer"
+        ]
+      },
+      {
+        "nodeId": "text-46",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "Loso"
+        ]
+      },
+      {
+        "nodeId": "region-49",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "feature-card-grid"
+        ]
+      },
+      {
+        "nodeId": "region-51",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "form"
+        ]
+      },
+      {
+        "nodeId": "region-52",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "media-thumbnail-strip"
+        ]
+      },
+      {
+        "nodeId": "image-53",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "thumbnail-image"
+        ]
+      },
+      {
+        "nodeId": "image-54",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "thumbnail-image"
+        ]
+      },
+      {
+        "nodeId": "text-41",
+        "oldParentId": "container-2",
+        "newParentId": null,
+        "reason": "duplicate logo OCR candidate",
+        "evidence": [
+          "same header band",
+          "same label"
+        ]
+      },
+      {
+        "nodeId": "region-52",
+        "oldParentId": "region-48",
+        "newParentId": null,
+        "reason": "unsupported local thumbnail role on landing",
+        "evidence": [
+          "landing category filter"
+        ]
+      },
+      {
+        "nodeId": "image-53",
+        "oldParentId": "region-48",
+        "newParentId": null,
+        "reason": "unsupported local thumbnail role on landing",
+        "evidence": [
+          "landing category filter"
+        ]
+      },
+      {
+        "nodeId": "image-54",
+        "oldParentId": "region-48",
+        "newParentId": null,
+        "reason": "unsupported local thumbnail role on landing",
+        "evidence": [
+          "landing category filter"
+        ]
+      },
+      {
+        "nodeId": "image-10",
+        "oldParentId": "region-48",
+        "newParentId": "region-49",
+        "reason": "repeated-card geometry",
+        "evidence": [
+          "feature-card"
+        ]
+      },
+      {
+        "nodeId": "image-11",
+        "oldParentId": "region-48",
+        "newParentId": "region-49",
+        "reason": "repeated-card geometry",
+        "evidence": [
+          "feature-card",
+          "| i} !"
+        ]
+      },
+      {
+        "nodeId": "image-12",
+        "oldParentId": "region-48",
+        "newParentId": "region-49",
+        "reason": "repeated-card geometry",
+        "evidence": [
+          "feature-card"
+        ]
+      }
+    ]
+  },
+  "layoutPlan": {
+    "pageCategory": "landing",
+    "majorZones": [
+      {
+        "role": "page",
+        "id": "container-1",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "header",
+        "id": "container-2",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 0.1299
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "nav-group",
+        "id": "region-47",
+        "bounds": {
+          "x": 0.1026,
+          "y": 0.0368,
+          "width": 0.6246,
+          "height": 0.0324
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "main",
+        "id": "container-6",
+        "bounds": {
+          "x": 0,
+          "y": 0.1299,
+          "width": 1,
+          "height": 0.7295
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "hero-section",
+        "id": "region-55",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "services-section",
+        "id": "region-48",
+        "bounds": {
+          "x": 0,
+          "y": 0.3555,
+          "width": 1,
+          "height": 0.5039
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "feature-card-grid",
+        "id": "region-49",
+        "bounds": {
+          "x": 0,
+          "y": 0.3887,
+          "width": 1,
+          "height": 0.4707
+        },
+        "layout": {
+          "direction": "grid",
+          "columns": 3,
+          "gap": 0,
+          "align": "start",
+          "repeated": true
+        }
+      },
+      {
+        "role": "feature-card",
+        "id": "image-10",
+        "bounds": {
+          "x": 0.1261,
+          "y": 0.3887,
+          "width": 0.2317,
+          "height": 0.1074
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "feature-card",
+        "id": "image-11",
+        "bounds": {
+          "x": 0.3856,
+          "y": 0.3887,
+          "width": 0.2331,
+          "height": 0.1074
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "feature-card",
+        "id": "image-12",
+        "bounds": {
+          "x": 0.6437,
+          "y": 0.3887,
+          "width": 0.2331,
+          "height": 0.1074
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "about-section",
+        "id": "region-56",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "contact-section",
+        "id": "region-50",
+        "bounds": {
+          "x": 0.3402,
+          "y": 0.8379,
+          "width": 0.2933,
+          "height": 0.0654
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      }
+    ],
+    "regionCount": 32,
+    "canonicalRepair": [
+      {
+        "nodeId": "container-7",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "demoted oversized multi-band media candidate",
+        "evidence": [
+          "crosses-section-bands"
+        ]
+      },
+      {
+        "nodeId": "container-1",
+        "oldParentId": null,
+        "newParentId": "root-0",
+        "reason": "single page root",
+        "evidence": [
+          "page"
+        ]
+      },
+      {
+        "nodeId": "container-2",
+        "oldParentId": null,
+        "newParentId": "container-1",
+        "reason": "top page band",
+        "evidence": [
+          "header"
+        ]
+      },
+      {
+        "nodeId": "container-6",
+        "oldParentId": null,
+        "newParentId": "container-1",
+        "reason": "main page band",
+        "evidence": [
+          "main"
+        ]
+      },
+      {
+        "nodeId": "container-28",
+        "oldParentId": null,
+        "newParentId": "container-1",
+        "reason": "bottom page band",
+        "evidence": [
+          "footer"
+        ]
+      },
+      {
+        "nodeId": "region-55",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "hero-section"
+        ]
+      },
+      {
+        "nodeId": "region-48",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "services-section"
+        ]
+      },
+      {
+        "nodeId": "region-56",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "about-section"
+        ]
+      },
+      {
+        "nodeId": "region-50",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "canonical macro band",
+        "evidence": [
+          "contact-section"
+        ]
+      },
+      {
+        "nodeId": "region-47",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "single header navigation",
+        "evidence": [
+          "nav-group"
+        ]
+      },
+      {
+        "nodeId": "container-3",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "input-4",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region",
+          "Loso commer | |"
+        ]
+      },
+      {
+        "nodeId": "container-5",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-7",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-8",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "section"
+        ]
+      },
+      {
+        "nodeId": "container-9",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-10",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-11",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region",
+          "| i} !"
+        ]
+      },
+      {
+        "nodeId": "image-12",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-13",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-14",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-15",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-16",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-17",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-18",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-19",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-20",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-21",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "repeated-region"
+        ]
+      },
+      {
+        "nodeId": "container-22",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-23",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-24",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-25",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-26",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "container-27",
+        "oldParentId": null,
+        "newParentId": "container-6",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region"
+        ]
+      },
+      {
+        "nodeId": "image-29",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "region",
+          "SEND"
+        ]
+      },
+      {
+        "nodeId": "text-30",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "copy",
+          "Lorem ipsum amet, consectuer"
+        ]
+      },
+      {
+        "nodeId": "text-31",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "section-heading",
+          "OUR SERVICES"
+        ]
+      },
+      {
+        "nodeId": "text-32",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "LOGO"
+        ]
+      },
+      {
+        "nodeId": "button-33",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "ABOUT SERVICES CONTACT"
+        ]
+      },
+      {
+        "nodeId": "text-34",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "copy",
+          "dolor sit adipiscing"
+        ]
+      },
+      {
+        "nodeId": "text-35",
+        "oldParentId": null,
+        "newParentId": "region-56",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "heading",
+          "ABOUT US ©"
+        ]
+      },
+      {
+        "nodeId": "button-36",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "[ SEND"
+        ]
+      },
+      {
+        "nodeId": "text-37",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "hero-heading",
+          "HEADLINE"
+        ]
+      },
+      {
+        "nodeId": "button-38",
+        "oldParentId": null,
+        "newParentId": "region-55",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "[ GET STARTED ]"
+        ]
+      },
+      {
+        "nodeId": "button-39",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "action",
+          "CONTACT US"
+        ]
+      },
+      {
+        "nodeId": "text-40",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "copy",
+          "i}"
+        ]
+      },
+      {
+        "nodeId": "text-41",
+        "oldParentId": null,
+        "newParentId": "container-2",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "LOGO"
+        ]
+      },
+      {
+        "nodeId": "text-42",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "ABOUT"
+        ]
+      },
+      {
+        "nodeId": "text-43",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "SERVICES"
+        ]
+      },
+      {
+        "nodeId": "text-44",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "CONTACT"
+        ]
+      },
+      {
+        "nodeId": "text-45",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "commer"
+        ]
+      },
+      {
+        "nodeId": "text-46",
+        "oldParentId": null,
+        "newParentId": "region-47",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "nav-link",
+          "Loso"
+        ]
+      },
+      {
+        "nodeId": "region-49",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "feature-card-grid"
+        ]
+      },
+      {
+        "nodeId": "region-51",
+        "oldParentId": null,
+        "newParentId": "region-50",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "form"
+        ]
+      },
+      {
+        "nodeId": "region-52",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "media-thumbnail-strip"
+        ]
+      },
+      {
+        "nodeId": "image-53",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "thumbnail-image"
+        ]
+      },
+      {
+        "nodeId": "image-54",
+        "oldParentId": null,
+        "newParentId": "region-48",
+        "reason": "geometry, heading anchor, role compatibility",
+        "evidence": [
+          "thumbnail-image"
+        ]
+      },
+      {
+        "nodeId": "text-41",
+        "oldParentId": "container-2",
+        "newParentId": null,
+        "reason": "duplicate logo OCR candidate",
+        "evidence": [
+          "same header band",
+          "same label"
+        ]
+      },
+      {
+        "nodeId": "region-52",
+        "oldParentId": "region-48",
+        "newParentId": null,
+        "reason": "unsupported local thumbnail role on landing",
+        "evidence": [
+          "landing category filter"
+        ]
+      },
+      {
+        "nodeId": "image-53",
+        "oldParentId": "region-48",
+        "newParentId": null,
+        "reason": "unsupported local thumbnail role on landing",
+        "evidence": [
+          "landing category filter"
+        ]
+      },
+      {
+        "nodeId": "image-54",
+        "oldParentId": "region-48",
+        "newParentId": null,
+        "reason": "unsupported local thumbnail role on landing",
+        "evidence": [
+          "landing category filter"
+        ]
+      },
+      {
+        "nodeId": "image-10",
+        "oldParentId": "region-48",
+        "newParentId": "region-49",
+        "reason": "repeated-card geometry",
+        "evidence": [
+          "feature-card"
+        ]
+      },
+      {
+        "nodeId": "image-11",
+        "oldParentId": "region-48",
+        "newParentId": "region-49",
+        "reason": "repeated-card geometry",
+        "evidence": [
+          "feature-card",
+          "| i} !"
+        ]
+      },
+      {
+        "nodeId": "image-12",
+        "oldParentId": "region-48",
+        "newParentId": "region-49",
+        "reason": "repeated-card geometry",
+        "evidence": [
+          "feature-card"
+        ]
+      }
+    ]
+  }
+}

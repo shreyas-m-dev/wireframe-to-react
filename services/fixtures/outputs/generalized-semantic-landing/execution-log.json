@@ -1,0 +1,80 @@
+{
+  "startedAt": "2026-09-03T05:33:42.898258+00:00",
+  "input": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\uploads\\landing-wireframe.jpeg",
+  "output": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing",
+  "stages": [
+    "preprocessing",
+    "ocr",
+    "detection",
+    "schema",
+    "semantic-ui-plan",
+    "read-only-rag",
+    "generation",
+    "validation"
+  ],
+  "nodeStages": [
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "schema",
+        "--elements",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\detections-elements.json",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\schema.json",
+        "--tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\schema-tree.txt"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "semantic",
+        "--schema",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\schema.json",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\semantic-ui-plan.json",
+        "--codegen-schema-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\codegen-schema.json",
+        "--raw-evidence-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\raw-evidence.json",
+        "--normalized-evidence-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\normalized-evidence.json",
+        "--semantic-candidates-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\semantic-candidates.json",
+        "--selected-component-tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\selected-component-tree.json",
+        "--interaction-graph-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\interaction-graph.json",
+        "--codegen-tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\codegen-tree.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "validate",
+        "--schema",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\codegen-schema.json",
+        "--code",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\generated.jsx",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\validation.json",
+        "--fidelity-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\generalized-semantic-landing\\fidelity.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "finishedAt": "2026-09-03T05:33:52.870486+00:00"
+}

@@ -1,0 +1,113 @@
+{
+  "elements": [
+    {
+      "type": "container",
+      "confidence": 0.98,
+      "x": 0,
+      "y": 0,
+      "width": 1024.0,
+      "height": 1024.0,
+      "role": "page",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.9,
+      "x": 0,
+      "y": 0,
+      "width": 1024.0,
+      "height": 133.0,
+      "role": "header",
+      "label": null
+    },
+    {
+      "type": "button",
+      "confidence": 0.65,
+      "x": 771.0,
+      "y": 30.0,
+      "width": 98.0,
+      "height": 45.0,
+      "role": null,
+      "label": null
+    },
+    {
+      "type": "button",
+      "confidence": 0.65,
+      "x": 891.0,
+      "y": 30.0,
+      "width": 106.0,
+      "height": 45.0,
+      "role": null,
+      "label": null
+    },
+    {
+      "type": "button",
+      "confidence": 0.65,
+      "x": 26.0,
+      "y": 34.0,
+      "width": 71.0,
+      "height": 35.0,
+      "role": null,
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.94,
+      "x": 0,
+      "y": 133.0,
+      "width": 1024.0,
+      "height": 747.0,
+      "role": "main",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.84,
+      "x": 0,
+      "y": 133.0,
+      "width": 532.48,
+      "height": 747.0,
+      "role": "gallery",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.84,
+      "x": 532.48,
+      "y": 133.0,
+      "width": 491.52,
+      "height": 747.0,
+      "role": "product-detail",
+      "label": null
+    },
+    {
+      "type": "image",
+      "confidence": 0.7,
+      "x": 21.299200000000003,
+      "y": 170.35,
+      "width": 489.88160000000005,
+      "height": 672.3,
+      "role": "media",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.7,
+      "x": 46.0,
+      "y": 196.0,
+      "width": 934.0,
+      "height": 314.0,
+      "role": null,
+      "label": null
+    }
+  ],
+  "meta": {
+    "canvas": {
+      "width": 1024,
+      "height": 1024
+    },
+    "warnings": [
+      "Aspect ratio 1.50 differs notably from target 1.00; resize will distort proportions. Consider pad-to-square upstream if this matters."
+    ]
+  }
+}

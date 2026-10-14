@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "coordinateSystem": "normalized-0-1",
+  "image": null,
+  "items": [
+    {
+      "evidenceId": "container-1",
+      "sourceNodeId": "container-1",
+      "type": "container",
+      "canonicalRole": "page",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "confidence": 0.98,
+      "provenance": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "parentEvidenceId": "root-0"
+    },
+    {
+      "evidenceId": "container-3",
+      "sourceNodeId": "container-3",
+      "type": "container",
+      "canonicalRole": "main",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.13,
+        "width": 1,
+        "height": 0.73
+      },
+      "confidence": 0.94,
+      "provenance": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "parentEvidenceId": "container-1"
+    },
+    {
+      "evidenceId": "container-4",
+      "sourceNodeId": "container-4",
+      "type": "container",
+      "canonicalRole": "media-region",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.13,
+        "width": 0.52,
+        "height": 0.73
+      },
+      "confidence": 0.84,
+      "provenance": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "parentEvidenceId": "container-3"
+    },
+    {
+      "evidenceId": "image-6",
+      "sourceNodeId": "image-6",
+      "type": "image",
+      "canonicalRole": "media",
+      "text": null,
+      "bounds": {
+        "x": 0.0208,
+        "y": 0.1665,
+        "width": 0.4784,
+        "height": 0.657
+      },
+      "confidence": 0.7,
+      "provenance": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "parentEvidenceId": "container-4"
+    },
+    {
+      "evidenceId": "text-8",
+      "sourceNodeId": "text-8",
+      "type": "text",
+      "canonicalRole": "heading",
+      "text": "O",
+      "bounds": {
+        "x": 0.118,
+        "y": 0.3986,
+        "width": 0.066,
+        "height": 0.0471
+      },
+      "confidence": 0.72,
+      "provenance": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      },
+      "parentEvidenceId": "image-6"
+    },
+    {
+      "evidenceId": "image-7",
+      "sourceNodeId": "image-7",
+      "type": "image",
+      "canonicalRole": "region",
+      "text": null,
+      "bounds": {
+        "x": 0.116,
+        "y": 0.4829,
+        "width": 0.77,
+        "height": 0.0929
+      },
+      "confidence": 0.6,
+      "provenance": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "parentEvidenceId": "container-3"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "pageCategory": "commerce-product",
+  "majorZones": [
+    {
+      "role": "page",
+      "id": "container-1",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "header",
+      "id": "region-27",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.2217
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "nav-group",
+      "id": "region-28",
+      "bounds": {
+        "x": 0.2829,
+        "y": 0.1459,
+        "width": 0.4001,
+        "height": 0.0346
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "main",
+      "id": "container-2",
+      "bounds": {
+        "x": 0,
+        "y": 0.1299,
+        "width": 1,
+        "height": 0.7295
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 2,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "gallery",
+      "id": "container-3",
+      "bounds": {
+        "x": 0,
+        "y": 0.1299,
+        "width": 0.52,
+        "height": 0.5098
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "thumbnail-gallery",
+      "id": "region-31",
+      "bounds": {
+        "x": 0.2158,
+        "y": 0.6074,
+        "width": 0.1328,
+        "height": 0.0322
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": true
+      }
+    },
+    {
+      "role": "product-detail",
+      "id": "container-4",
+      "bounds": {
+        "x": 0.52,
+        "y": 0.1299,
+        "width": 0.48,
+        "height": 0.5098
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "product-area",
+      "id": "region-29",
+      "bounds": {
+        "x": 0,
+        "y": 0.2217,
+        "width": 1,
+        "height": 0.418
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "related-products",
+      "id": "container-11",
+      "bounds": {
+        "x": 0,
+        "y": 0.6396,
+        "width": 1,
+        "height": 0.2197
+      },
+      "layout": {
+        "direction": "grid",
+        "columns": 2,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": true
+      }
+    },
+    {
+      "role": "product-card-grid",
+      "id": "region-30",
+      "bounds": {
+        "x": 0,
+        "y": 0.7012,
+        "width": 1,
+        "height": 0.1582
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "product-card-grid",
+      "id": "region-35",
+      "bounds": {
+        "x": 0.207,
+        "y": 0.8486,
+        "width": 0.5859,
+        "height": 0.0107
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": true
+      }
+    },
+    {
+      "role": "footer",
+      "id": "container-12",
+      "bounds": {
+        "x": 0,
+        "y": 0.8594,
+        "width": 1,
+        "height": 0.1406
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    }
+  ],
+  "regionCount": 38
+}

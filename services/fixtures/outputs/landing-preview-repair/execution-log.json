@@ -1,0 +1,51 @@
+{
+  "startedAt": "2026-09-01T19:39:49.053612+00:00",
+  "input": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\preprocessing\\fixtures\\landing_layout.png",
+  "output": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair",
+  "stages": [
+    "preprocessing",
+    "ocr",
+    "detection",
+    "schema",
+    "read-only-rag",
+    "generation",
+    "validation"
+  ],
+  "nodeStages": [
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "schema",
+        "--elements",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair\\detections-elements.json",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair\\schema.json",
+        "--tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair\\schema-tree.txt"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "validate",
+        "--schema",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair\\schema.json",
+        "--code",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair\\generated.jsx",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair\\validation.json",
+        "--fidelity-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-preview-repair\\fidelity.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "finishedAt": "2026-09-01T19:39:57.497844+00:00"
+}

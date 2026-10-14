@@ -1,0 +1,993 @@
+{
+  "status": {
+    "enabled": true,
+    "executablePath": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "version": "5.5.3.20260724",
+    "reason": null
+  },
+  "originalDimensions": {
+    "width": 682,
+    "height": 1024
+  },
+  "normalizedDimensions": {
+    "width": 682,
+    "height": 1024
+  },
+  "passes": [
+    {
+      "name": "normalized-psm6",
+      "config": "--psm 6",
+      "wordsFound": 27
+    },
+    {
+      "name": "upscaled-psm11",
+      "config": "--psm 11",
+      "wordsFound": 15
+    }
+  ],
+  "words": [
+    {
+      "text": "Lorem",
+      "confidence": 96.0,
+      "x": 190.0,
+      "y": 220.0,
+      "width": 37.0,
+      "height": 10.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 2,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.2786,
+        "y": 0.2148,
+        "width": 0.0543,
+        "height": 0.0098
+      }
+    },
+    {
+      "text": "ipsum",
+      "confidence": 96.0,
+      "x": 232.0,
+      "y": 222.0,
+      "width": 35.0,
+      "height": 10.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 2,
+      "word": 2,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.3402,
+        "y": 0.2168,
+        "width": 0.0513,
+        "height": 0.0098
+      }
+    },
+    {
+      "text": "OUR",
+      "confidence": 96.0,
+      "x": 263.0,
+      "y": 364.0,
+      "width": 46.0,
+      "height": 17.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 3,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.3856,
+        "y": 0.3555,
+        "width": 0.0674,
+        "height": 0.0166
+      }
+    },
+    {
+      "text": "SERVICES",
+      "confidence": 96.0,
+      "x": 316.0,
+      "y": 364.0,
+      "width": 106.0,
+      "height": 17.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 3,
+      "line": 1,
+      "word": 2,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.4633,
+        "y": 0.3555,
+        "width": 0.1554,
+        "height": 0.0166
+      }
+    },
+    {
+      "text": "LOGO",
+      "confidence": 96.0,
+      "x": 70.28571428571429,
+      "y": 45.714285714285715,
+      "width": 56.57142857142857,
+      "height": 15.428571428571429,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 1,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.1031,
+        "y": 0.0446,
+        "width": 0.0829,
+        "height": 0.0151
+      }
+    },
+    {
+      "text": "ABOUT",
+      "confidence": 96.0,
+      "x": 312.0,
+      "y": 46.285714285714285,
+      "width": 36.0,
+      "height": 16.571428571428573,
+      "page": 1,
+      "block": 2,
+      "paragraph": 1,
+      "line": 1,
+      "word": 1,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.4575,
+        "y": 0.0452,
+        "width": 0.0528,
+        "height": 0.0162
+      }
+    },
+    {
+      "text": "SERVICES",
+      "confidence": 96.0,
+      "x": 373.7142857142857,
+      "y": 46.285714285714285,
+      "width": 47.42857142857143,
+      "height": 16.571428571428573,
+      "page": 1,
+      "block": 2,
+      "paragraph": 1,
+      "line": 1,
+      "word": 2,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.548,
+        "y": 0.0452,
+        "width": 0.0695,
+        "height": 0.0162
+      }
+    },
+    {
+      "text": "CONTACT",
+      "confidence": 96.0,
+      "x": 446.2857142857143,
+      "y": 48.57142857142857,
+      "width": 49.142857142857146,
+      "height": 8.571428571428571,
+      "page": 1,
+      "block": 2,
+      "paragraph": 1,
+      "line": 1,
+      "word": 3,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.6544,
+        "y": 0.0474,
+        "width": 0.0721,
+        "height": 0.0084
+      }
+    },
+    {
+      "text": "dolor",
+      "confidence": 96.0,
+      "x": 272.0,
+      "y": 220.0,
+      "width": 30.285714285714285,
+      "height": 9.714285714285714,
+      "page": 1,
+      "block": 4,
+      "paragraph": 1,
+      "line": 1,
+      "word": 3,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.3988,
+        "y": 0.2148,
+        "width": 0.0444,
+        "height": 0.0095
+      }
+    },
+    {
+      "text": "sit",
+      "confidence": 96.0,
+      "x": 306.85714285714283,
+      "y": 219.42857142857142,
+      "width": 13.714285714285714,
+      "height": 10.285714285714286,
+      "page": 1,
+      "block": 4,
+      "paragraph": 1,
+      "line": 1,
+      "word": 4,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.4499,
+        "y": 0.2143,
+        "width": 0.0201,
+        "height": 0.01
+      }
+    },
+    {
+      "text": "adipiscing",
+      "confidence": 96.0,
+      "x": 434.85714285714283,
+      "y": 219.42857142857142,
+      "width": 60.57142857142857,
+      "height": 12.571428571428571,
+      "page": 1,
+      "block": 4,
+      "paragraph": 1,
+      "line": 1,
+      "word": 7,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.6376,
+        "y": 0.2143,
+        "width": 0.0888,
+        "height": 0.0123
+      }
+    },
+    {
+      "text": "ABOUT",
+      "confidence": 95.0,
+      "x": 88.0,
+      "y": 721.0,
+      "width": 78.0,
+      "height": 17.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 7,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.129,
+        "y": 0.7041,
+        "width": 0.1144,
+        "height": 0.0166
+      }
+    },
+    {
+      "text": "US",
+      "confidence": 95.0,
+      "x": 173.0,
+      "y": 721.0,
+      "width": 28.0,
+      "height": 17.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 7,
+      "line": 1,
+      "word": 2,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.2537,
+        "y": 0.7041,
+        "width": 0.0411,
+        "height": 0.0166
+      }
+    },
+    {
+      "text": "SEND",
+      "confidence": 95.0,
+      "x": 399.0,
+      "y": 905.0,
+      "width": 33.0,
+      "height": 20.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 7,
+      "line": 3,
+      "word": 3,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.585,
+        "y": 0.8838,
+        "width": 0.0484,
+        "height": 0.0195
+      }
+    },
+    {
+      "text": "HEADLINE",
+      "confidence": 95.0,
+      "x": 211.42857142857142,
+      "y": 156.0,
+      "width": 261.7142857142857,
+      "height": 39.42857142857143,
+      "page": 1,
+      "block": 3,
+      "paragraph": 1,
+      "line": 1,
+      "word": 1,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.31,
+        "y": 0.1523,
+        "width": 0.3837,
+        "height": 0.0385
+      }
+    },
+    {
+      "text": "GET",
+      "confidence": 94.0,
+      "x": 295.0,
+      "y": 260.0,
+      "width": 26.0,
+      "height": 21.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 2,
+      "line": 1,
+      "word": 2,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.4326,
+        "y": 0.2539,
+        "width": 0.0381,
+        "height": 0.0205
+      }
+    },
+    {
+      "text": "STARTED",
+      "confidence": 94.0,
+      "x": 327.0,
+      "y": 264.0,
+      "width": 61.0,
+      "height": 11.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 2,
+      "line": 1,
+      "word": 3,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.4795,
+        "y": 0.2578,
+        "width": 0.0894,
+        "height": 0.0107
+      }
+    },
+    {
+      "text": "CONTACT",
+      "confidence": 94.0,
+      "x": 271.0,
+      "y": 858.0,
+      "width": 106.0,
+      "height": 17.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 7,
+      "line": 2,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.3974,
+        "y": 0.8379,
+        "width": 0.1554,
+        "height": 0.0166
+      }
+    },
+    {
+      "text": "US",
+      "confidence": 94.0,
+      "x": 384.0,
+      "y": 858.0,
+      "width": 28.0,
+      "height": 17.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 7,
+      "line": 2,
+      "word": 2,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.563,
+        "y": 0.8379,
+        "width": 0.0411,
+        "height": 0.0166
+      }
+    },
+    {
+      "text": "amet,",
+      "confidence": 93.0,
+      "x": 325.0,
+      "y": 220.0,
+      "width": 33.0,
+      "height": 12.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 2,
+      "word": 5,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.4765,
+        "y": 0.2148,
+        "width": 0.0484,
+        "height": 0.0117
+      }
+    },
+    {
+      "text": "consectuer",
+      "confidence": 92.0,
+      "x": 363.0,
+      "y": 220.0,
+      "width": 67.0,
+      "height": 10.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 2,
+      "word": 6,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.5323,
+        "y": 0.2148,
+        "width": 0.0982,
+        "height": 0.0098
+      }
+    },
+    {
+      "text": "|",
+      "confidence": 92.0,
+      "x": 416.0,
+      "y": 409.0,
+      "width": 1.0,
+      "height": 15.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 4,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.61,
+        "y": 0.3994,
+        "width": 0.0015,
+        "height": 0.0146
+      }
+    },
+    {
+      "text": "]",
+      "confidence": 85.0,
+      "x": 405.0,
+      "y": 255.0,
+      "width": 4.0,
+      "height": 29.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 2,
+      "line": 1,
+      "word": 4,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.5938,
+        "y": 0.249,
+        "width": 0.0059,
+        "height": 0.0283
+      }
+    },
+    {
+      "text": "|",
+      "confidence": 84.0,
+      "x": 621.0,
+      "y": 41.0,
+      "width": 2.0,
+      "height": 24.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 8,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.9106,
+        "y": 0.04,
+        "width": 0.0029,
+        "height": 0.0234
+      }
+    },
+    {
+      "text": "[",
+      "confidence": 78.0,
+      "x": 232.0,
+      "y": 893.0,
+      "width": 4.0,
+      "height": 26.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 7,
+      "line": 3,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.3402,
+        "y": 0.8721,
+        "width": 0.0059,
+        "height": 0.0254
+      }
+    },
+    {
+      "text": "[",
+      "confidence": 76.0,
+      "x": 275.0,
+      "y": 253.0,
+      "width": 4.0,
+      "height": 33.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 2,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.4032,
+        "y": 0.2471,
+        "width": 0.0059,
+        "height": 0.0322
+      }
+    },
+    {
+      "text": "=",
+      "confidence": 68.0,
+      "x": 89.71428571428571,
+      "y": 592.0,
+      "width": 111.42857142857143,
+      "height": 145.71428571428572,
+      "page": 1,
+      "block": 7,
+      "paragraph": 1,
+      "line": 1,
+      "word": 1,
+      "pass": "upscaled-psm11",
+      "normalizedBounds": {
+        "x": 0.1315,
+        "y": 0.5781,
+        "width": 0.1634,
+        "height": 0.1423
+      }
+    },
+    {
+      "text": "\u00a9",
+      "confidence": 67.0,
+      "x": 475.0,
+      "y": 744.0,
+      "width": 30.0,
+      "height": 42.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 7,
+      "line": 1,
+      "word": 3,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.6965,
+        "y": 0.7266,
+        "width": 0.044,
+        "height": 0.041
+      }
+    },
+    {
+      "text": "!",
+      "confidence": 58.0,
+      "x": 416.0,
+      "y": 448.0,
+      "width": 1.0,
+      "height": 8.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 6,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.61,
+        "y": 0.4375,
+        "width": 0.0015,
+        "height": 0.0078
+      }
+    },
+    {
+      "text": "i}",
+      "confidence": 56.0,
+      "x": 416.0,
+      "y": 428.0,
+      "width": 1.0,
+      "height": 12.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 5,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.61,
+        "y": 0.418,
+        "width": 0.0015,
+        "height": 0.0117
+      }
+    },
+    {
+      "text": "commer",
+      "confidence": 50.0,
+      "x": 446.0,
+      "y": 49.0,
+      "width": 50.0,
+      "height": 8.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 5,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.654,
+        "y": 0.0479,
+        "width": 0.0733,
+        "height": 0.0078
+      }
+    },
+    {
+      "text": "|",
+      "confidence": 50.0,
+      "x": 531.0,
+      "y": 39.0,
+      "width": 2.0,
+      "height": 28.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 6,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.7786,
+        "y": 0.0381,
+        "width": 0.0029,
+        "height": 0.0273
+      }
+    },
+    {
+      "text": "Loso",
+      "confidence": 40.0,
+      "x": 70.0,
+      "y": 46.0,
+      "width": 57.0,
+      "height": 15.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 2,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.1026,
+        "y": 0.0449,
+        "width": 0.0836,
+        "height": 0.0146
+      }
+    }
+  ],
+  "lines": [
+    {
+      "text": "Lorem ipsum amet, consectuer",
+      "confidence": 94.25,
+      "x": 190.0,
+      "y": 220.0,
+      "width": 240.0,
+      "height": 12.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "text": "OUR SERVICES",
+      "confidence": 96.0,
+      "x": 263.0,
+      "y": 364.0,
+      "width": 159.0,
+      "height": 17.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "LOGO",
+      "confidence": 96.0,
+      "x": 70.28571428571429,
+      "y": 45.714285714285715,
+      "width": 56.57142857142857,
+      "height": 15.42857142857143,
+      "pass": "upscaled-psm11",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "text": "ABOUT SERVICES CONTACT",
+      "confidence": 96.0,
+      "x": 312.0,
+      "y": 46.285714285714285,
+      "width": 183.42857142857144,
+      "height": 16.571428571428577,
+      "pass": "upscaled-psm11",
+      "evidence": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "text": "dolor sit adipiscing",
+      "confidence": 96.0,
+      "x": 272.0,
+      "y": 219.42857142857142,
+      "width": 223.4285714285714,
+      "height": 12.571428571428584,
+      "pass": "upscaled-psm11",
+      "evidence": [
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "text": "ABOUT US \u00a9",
+      "confidence": 85.67,
+      "x": 88.0,
+      "y": 721.0,
+      "width": 417.0,
+      "height": 65.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "text": "[ SEND",
+      "confidence": 86.5,
+      "x": 232.0,
+      "y": 893.0,
+      "width": 200.0,
+      "height": 32.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1,
+        3
+      ]
+    },
+    {
+      "text": "HEADLINE",
+      "confidence": 95.0,
+      "x": 211.42857142857142,
+      "y": 156.0,
+      "width": 261.71428571428567,
+      "height": 39.428571428571445,
+      "pass": "upscaled-psm11",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "text": "[ GET STARTED ]",
+      "confidence": 87.25,
+      "x": 275.0,
+      "y": 253.0,
+      "width": 134.0,
+      "height": 33.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "text": "CONTACT US",
+      "confidence": 94.0,
+      "x": 271.0,
+      "y": 858.0,
+      "width": 141.0,
+      "height": 17.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "|",
+      "confidence": 92.0,
+      "x": 416.0,
+      "y": 409.0,
+      "width": 1.0,
+      "height": 15.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "text": "Loso commer | |",
+      "confidence": 56.0,
+      "x": 70.0,
+      "y": 39.0,
+      "width": 553.0,
+      "height": 28.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        2,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "text": "=",
+      "confidence": 68.0,
+      "x": 89.71428571428571,
+      "y": 592.0,
+      "width": 111.42857142857143,
+      "height": 145.71428571428578,
+      "pass": "upscaled-psm11",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "text": "!",
+      "confidence": 58.0,
+      "x": 416.0,
+      "y": 448.0,
+      "width": 1.0,
+      "height": 8.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1
+      ]
+    },
+    {
+      "text": "i}",
+      "confidence": 56.0,
+      "x": 416.0,
+      "y": 428.0,
+      "width": 1.0,
+      "height": 12.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "text": "Lorem ipsum amet, consectuer [ GET STARTED ]",
+      "confidence": 90.75,
+      "x": 190.0,
+      "y": 220.0,
+      "width": 240.0,
+      "height": 66.0,
+      "pass": "normalized-psm6",
+      "lineCount": 2
+    },
+    {
+      "text": "OUR SERVICES",
+      "confidence": 96.0,
+      "x": 263.0,
+      "y": 364.0,
+      "width": 159.0,
+      "height": 17.0,
+      "pass": "normalized-psm6",
+      "lineCount": 1
+    },
+    {
+      "text": "LOGO",
+      "confidence": 96.0,
+      "x": 70.28571428571429,
+      "y": 45.714285714285715,
+      "width": 56.57142857142857,
+      "height": 15.42857142857143,
+      "pass": "upscaled-psm11",
+      "lineCount": 1
+    },
+    {
+      "text": "ABOUT SERVICES CONTACT",
+      "confidence": 96.0,
+      "x": 312.0,
+      "y": 46.285714285714285,
+      "width": 183.42857142857144,
+      "height": 16.571428571428577,
+      "pass": "upscaled-psm11",
+      "lineCount": 1
+    },
+    {
+      "text": "HEADLINE dolor sit adipiscing",
+      "confidence": 95.5,
+      "x": 211.42857142857142,
+      "y": 156.0,
+      "width": 284.0,
+      "height": 76.0,
+      "pass": "upscaled-psm11",
+      "lineCount": 2
+    },
+    {
+      "text": "ABOUT US \u00a9",
+      "confidence": 85.67,
+      "x": 88.0,
+      "y": 721.0,
+      "width": 417.0,
+      "height": 65.0,
+      "pass": "normalized-psm6",
+      "lineCount": 1
+    },
+    {
+      "text": "CONTACT US [ SEND",
+      "confidence": 90.25,
+      "x": 232.0,
+      "y": 858.0,
+      "width": 200.0,
+      "height": 67.0,
+      "pass": "normalized-psm6",
+      "lineCount": 2
+    },
+    {
+      "text": "| i} !",
+      "confidence": 68.67,
+      "x": 416.0,
+      "y": 409.0,
+      "width": 1.0,
+      "height": 47.0,
+      "pass": "normalized-psm6",
+      "lineCount": 3
+    },
+    {
+      "text": "Loso commer | |",
+      "confidence": 56.0,
+      "x": 70.0,
+      "y": 39.0,
+      "width": 553.0,
+      "height": 28.0,
+      "pass": "normalized-psm6",
+      "lineCount": 1
+    },
+    {
+      "text": "=",
+      "confidence": 68.0,
+      "x": 89.71428571428571,
+      "y": 592.0,
+      "width": 111.42857142857143,
+      "height": 145.71428571428578,
+      "pass": "upscaled-psm11",
+      "lineCount": 1
+    }
+  ],
+  "warnings": []
+}

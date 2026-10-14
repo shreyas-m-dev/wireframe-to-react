@@ -1,0 +1,5 @@
+{
+  "executed": false,
+  "status": "not-run",
+  "reason": "browser runtime harness is not configured in this fixture runner"
+}

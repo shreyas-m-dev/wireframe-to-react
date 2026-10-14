@@ -1,0 +1,11 @@
+root-0: page-root
+  container-1: page
+    container-2: header
+      button-3: nav-action
+      button-4: nav-action
+      button-5: nav-action
+    container-6: main
+      container-7: gallery
+        image-9: media
+      container-8: product-detail
+      container-10: container

@@ -1,0 +1,17 @@
+{
+  "name": "wireframe-to-react-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=../.env server.js",
+    "dev": "node --env-file=../.env --watch server.js",
+    "test:transport": "node subprocess_transport.test.js",
+    "test:e2e-transport": "node e2e_transport.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5"
+  }
+}

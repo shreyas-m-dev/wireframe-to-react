@@ -1,0 +1,28 @@
+{
+  "score": 1,
+  "fullPage": true,
+  "majorRegionCount": 3,
+  "leafCount": 4,
+  "mediaCount": 1,
+  "buttonCount": 0,
+  "maxDepth": 4,
+  "passed": true,
+  "reasons": [
+    "missing generated main",
+    "missing generated gallery",
+    "missing generated product-detail",
+    "missing generated related-products"
+  ],
+  "schemaGatePassed": true,
+  "generatedOutputValid": true,
+  "schemaToCodeCoverage": 0.25,
+  "legacyStructuralAccuracy": 0.25,
+  "macroRegionCoverage": 0,
+  "repeatedGroupCoverage": 1,
+  "semanticTextCoverage": 1,
+  "semanticControlCoverage": 1,
+  "sourceStructureCoverage": 0,
+  "sourceVsRenderedScore": null,
+  "overallStatus": "needs-review",
+  "needsReview": true
+}

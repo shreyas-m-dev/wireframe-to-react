@@ -1,0 +1,614 @@
+{
+  "version": 1,
+  "schemaSource": "local-cv-ocr-fallback",
+  "nodes": [
+    {
+      "id": "container-1",
+      "type": "container",
+      "role": "page",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "confidence": 0.98,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "container-2",
+      "type": "container",
+      "role": "header",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.1299
+      },
+      "confidence": 0.9,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-47",
+      "type": "region",
+      "role": "nav-group",
+      "text": null,
+      "bounds": {
+        "x": 0.1026,
+        "y": 0.0368,
+        "width": 0.6246,
+        "height": 0.0324
+      },
+      "confidence": 0.72,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-46",
+      "type": "text",
+      "role": "nav-link",
+      "text": "Loso",
+      "bounds": {
+        "x": 0.1026,
+        "y": 0.0449,
+        "width": 0.0836,
+        "height": 0.0146
+      },
+      "confidence": 0.4,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-42",
+      "type": "text",
+      "role": "nav-link",
+      "text": "ABOUT",
+      "bounds": {
+        "x": 0.4575,
+        "y": 0.0452,
+        "width": 0.0528,
+        "height": 0.0162
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-43",
+      "type": "text",
+      "role": "nav-link",
+      "text": "SERVICES",
+      "bounds": {
+        "x": 0.548,
+        "y": 0.0452,
+        "width": 0.0695,
+        "height": 0.0162
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-44",
+      "type": "text",
+      "role": "nav-link",
+      "text": "CONTACT",
+      "bounds": {
+        "x": 0.6544,
+        "y": 0.0474,
+        "width": 0.0721,
+        "height": 0.0084
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-45",
+      "type": "text",
+      "role": "nav-link",
+      "text": "commer",
+      "bounds": {
+        "x": 0.654,
+        "y": 0.0479,
+        "width": 0.0733,
+        "height": 0.0078
+      },
+      "confidence": 0.5,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-32",
+      "type": "text",
+      "role": "logo",
+      "text": "LOGO",
+      "bounds": {
+        "x": 0.1031,
+        "y": 0.0446,
+        "width": 0.0829,
+        "height": 0.0151
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "button-33",
+      "type": "button",
+      "role": "action",
+      "text": "ABOUT SERVICES CONTACT",
+      "bounds": {
+        "x": 0.4575,
+        "y": 0.0452,
+        "width": 0.269,
+        "height": 0.0162
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "container-6",
+      "type": "container",
+      "role": "main",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.1299,
+        "width": 1,
+        "height": 0.7295
+      },
+      "confidence": 0.94,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-55",
+      "type": "region",
+      "role": "hero-section",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "confidence": 0.7,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-37",
+      "type": "text",
+      "role": "hero-heading",
+      "text": "HEADLINE",
+      "bounds": {
+        "x": 0.31,
+        "y": 0.1523,
+        "width": 0.3837,
+        "height": 0.0385
+      },
+      "confidence": 0.95,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-34",
+      "type": "text",
+      "role": "copy",
+      "text": "dolor sit adipiscing",
+      "bounds": {
+        "x": 0.3988,
+        "y": 0.2143,
+        "width": 0.3276,
+        "height": 0.0123
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-30",
+      "type": "text",
+      "role": "copy",
+      "text": "Lorem ipsum amet, consectuer",
+      "bounds": {
+        "x": 0.2786,
+        "y": 0.2148,
+        "width": 0.3519,
+        "height": 0.0117
+      },
+      "confidence": 0.9425,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "button-38",
+      "type": "button",
+      "role": "action",
+      "text": "[ GET STARTED ]",
+      "bounds": {
+        "x": 0.4032,
+        "y": 0.2471,
+        "width": 0.1965,
+        "height": 0.0322
+      },
+      "confidence": 0.8725,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-48",
+      "type": "region",
+      "role": "services-section",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.3555,
+        "width": 1,
+        "height": 0.5039
+      },
+      "confidence": 0.66,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-31",
+      "type": "text",
+      "role": "section-heading",
+      "text": "OUR SERVICES",
+      "bounds": {
+        "x": 0.3856,
+        "y": 0.3555,
+        "width": 0.2331,
+        "height": 0.0166
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-49",
+      "type": "region",
+      "role": "feature-card-grid",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.3887,
+        "width": 1,
+        "height": 0.4707
+      },
+      "confidence": 0.66,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-10",
+      "type": "image",
+      "role": "feature-card",
+      "text": null,
+      "bounds": {
+        "x": 0.1261,
+        "y": 0.3887,
+        "width": 0.2317,
+        "height": 0.1074
+      },
+      "confidence": 0.75,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-11",
+      "type": "image",
+      "role": "feature-card",
+      "text": "| i} !",
+      "bounds": {
+        "x": 0.3856,
+        "y": 0.3887,
+        "width": 0.2331,
+        "height": 0.1074
+      },
+      "confidence": 0.75,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-12",
+      "type": "image",
+      "role": "feature-card",
+      "text": null,
+      "bounds": {
+        "x": 0.6437,
+        "y": 0.3887,
+        "width": 0.2331,
+        "height": 0.1074
+      },
+      "confidence": 0.75,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-40",
+      "type": "text",
+      "role": "copy",
+      "text": "i}",
+      "bounds": {
+        "x": 0.61,
+        "y": 0.418,
+        "width": 0.0015,
+        "height": 0.0117
+      },
+      "confidence": 0.56,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-19",
+      "type": "image",
+      "role": "region",
+      "text": null,
+      "bounds": {
+        "x": 0.1261,
+        "y": 0.5723,
+        "width": 0.1598,
+        "height": 0.0898
+      },
+      "confidence": 0.75,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-56",
+      "type": "region",
+      "role": "about-section",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "confidence": 0.7,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-24",
+      "type": "image",
+      "role": "region",
+      "text": null,
+      "bounds": {
+        "x": 0.5279,
+        "y": 0.6953,
+        "width": 0.176,
+        "height": 0.1035
+      },
+      "confidence": 0.72,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-25",
+      "type": "image",
+      "role": "region",
+      "text": null,
+      "bounds": {
+        "x": 0.7302,
+        "y": 0.6953,
+        "width": 0.1848,
+        "height": 0.1035
+      },
+      "confidence": 0.72,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-35",
+      "type": "text",
+      "role": "heading",
+      "text": "ABOUT US ©",
+      "bounds": {
+        "x": 0.129,
+        "y": 0.7041,
+        "width": 0.6114,
+        "height": 0.0635
+      },
+      "confidence": 0.8567,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-50",
+      "type": "region",
+      "role": "contact-section",
+      "text": null,
+      "bounds": {
+        "x": 0.3402,
+        "y": 0.8379,
+        "width": 0.2933,
+        "height": 0.0654
+      },
+      "confidence": 0.66,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "button-39",
+      "type": "text",
+      "role": "section-heading",
+      "text": "CONTACT US",
+      "bounds": {
+        "x": 0.3974,
+        "y": 0.8379,
+        "width": 0.2067,
+        "height": 0.0166
+      },
+      "confidence": 0.94,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-29",
+      "type": "image",
+      "role": "submit-action",
+      "text": "SEND",
+      "bounds": {
+        "x": 0.5543,
+        "y": 0.8691,
+        "width": 0.1114,
+        "height": 0.0479
+      },
+      "confidence": 0.72,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "button-36",
+      "type": "button",
+      "role": "submit-action",
+      "text": "[ SEND",
+      "bounds": {
+        "x": 0.3402,
+        "y": 0.8721,
+        "width": 0.2933,
+        "height": 0.0313
+      },
+      "confidence": 0.865,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    }
+  ]
+}

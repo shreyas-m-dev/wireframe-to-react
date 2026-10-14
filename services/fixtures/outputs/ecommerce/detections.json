@@ -1,0 +1,3362 @@
+{
+  "elements": [
+    {
+      "type": "container",
+      "confidence": 0.98,
+      "x": 0,
+      "y": 0,
+      "width": 1024.0,
+      "height": 1024.0,
+      "role": "page",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.94,
+      "x": 0,
+      "y": 133.0,
+      "width": 1024.0,
+      "height": 747.0,
+      "role": "main",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.84,
+      "x": 0,
+      "y": 133.0,
+      "width": 532.48,
+      "height": 522.0,
+      "role": "gallery",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.84,
+      "x": 532.48,
+      "y": 133.0,
+      "width": 491.52,
+      "height": 522.0,
+      "role": "product-detail",
+      "label": null
+    },
+    {
+      "type": "region",
+      "confidence": 0.65,
+      "x": 734.0,
+      "y": 148.0,
+      "width": 79.0,
+      "height": 39.0,
+      "role": "control-region",
+      "label": null,
+      "uncertainty": "unlabeled-contour"
+    },
+    {
+      "type": "image",
+      "confidence": 0.7,
+      "x": 21.299200000000003,
+      "y": 159.1,
+      "width": 489.88160000000005,
+      "height": 469.79999999999995,
+      "role": "media",
+      "label": null
+    },
+    {
+      "type": "icon",
+      "confidence": 0.68,
+      "x": 681.0,
+      "y": 160.0,
+      "width": 21.0,
+      "height": 18.0,
+      "role": null,
+      "label": null
+    },
+    {
+      "type": "region",
+      "confidence": 0.65,
+      "x": 660.0,
+      "y": 419.0,
+      "width": 134.0,
+      "height": 37.0,
+      "role": "control-region",
+      "label": null,
+      "uncertainty": "unlabeled-contour"
+    },
+    {
+      "type": "region",
+      "confidence": 0.65,
+      "x": 563.0,
+      "y": 424.0,
+      "width": 56.0,
+      "height": 27.0,
+      "role": "control-region",
+      "label": null,
+      "uncertainty": "unlabeled-contour"
+    },
+    {
+      "type": "region",
+      "confidence": 0.65,
+      "x": 548.0,
+      "y": 618.0,
+      "width": 110.0,
+      "height": 45.0,
+      "role": "control-region",
+      "label": null,
+      "uncertainty": "unlabeled-contour"
+    },
+    {
+      "type": "container",
+      "confidence": 0.78,
+      "x": 0,
+      "y": 655.0,
+      "width": 1024.0,
+      "height": 225.0,
+      "role": "related-products",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.82,
+      "x": 0,
+      "y": 880.0,
+      "width": 1024.0,
+      "height": 144.0,
+      "role": "footer",
+      "label": null
+    },
+    {
+      "type": "text",
+      "confidence": 0.96,
+      "x": 492.0,
+      "y": 162.85714285714286,
+      "width": 21.14285714285711,
+      "height": 9.714285714285722,
+      "label": "Home",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 96.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.935,
+      "x": 550.2857142857143,
+      "y": 519.4285714285714,
+      "width": 224.0,
+      "height": 18.85714285714289,
+      "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+      "role": "description",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 93.5
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.8908,
+      "x": 549.7142857142857,
+      "y": 542.8571428571429,
+      "width": 253.71428571428578,
+      "height": 17.714285714285666,
+      "label": "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      "role": "description",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 89.08
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.96,
+      "x": 444.0,
+      "y": 798.8571428571429,
+      "width": 136.0,
+      "height": 33.714285714285666,
+      "label": "Similar Products",
+      "role": "section-heading",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 96.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.95,
+      "x": 618.8571428571429,
+      "y": 161.71428571428572,
+      "width": 18.285714285714334,
+      "height": 13.142857142857139,
+      "label": "Shop",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 95.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.935,
+      "x": 765.1428571428571,
+      "y": 162.85714285714286,
+      "width": 31.428571428571445,
+      "height": 9.142857142857139,
+      "label": "Your Cart",
+      "role": "cart-action",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 93.5
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.9070999999999999,
+      "x": 549.7142857142857,
+      "y": 568.5714285714286,
+      "width": 201.14285714285722,
+      "height": 12.571428571428555,
+      "label": "veniam, quis nostrud exercitation laboris nisi ut",
+      "role": "description",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 90.71
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.93,
+      "x": 554.2857142857143,
+      "y": 161.71428571428572,
+      "width": 21.14285714285711,
+      "height": 10.857142857142861,
+      "label": "About",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 93.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.91,
+      "x": 682.8571428571429,
+      "y": 161.71428571428572,
+      "width": 16.571428571428555,
+      "height": 13.142857142857139,
+      "label": "Help",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 91.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.88,
+      "x": 549.7142857142857,
+      "y": 421.14285714285717,
+      "width": 66.28571428571433,
+      "height": 30.857142857142833,
+      "label": "$123.00",
+      "role": "price",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 88.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.83,
+      "x": 289.7142857142857,
+      "y": 159.42857142857142,
+      "width": 12.571428571428555,
+      "height": 15.428571428571416,
+      "label": "(Q",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 83.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.82,
+      "x": 644.0,
+      "y": 341.7142857142857,
+      "width": 34.85714285714289,
+      "height": 10.285714285714278,
+      "label": "4 Reviews",
+      "role": "rating",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 82.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.54,
+      "x": 222.85714285714286,
+      "y": 622.8571428571429,
+      "width": 130.85714285714286,
+      "height": 66.28571428571433,
+      "label": "la",
+      "role": "heading",
+      "ocrEvidence": {
+        "pass": "upscaled-psm11",
+        "confidence": 54.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.94,
+      "x": 551.0,
+      "y": 288.0,
+      "width": 102.0,
+      "height": 26.0,
+      "label": "Product title",
+      "role": "product-title",
+      "ocrEvidence": {
+        "pass": "normalized-psm6",
+        "confidence": 94.0
+      }
+    },
+    {
+      "type": "region",
+      "role": "header",
+      "confidence": 0.78,
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 227.0,
+      "label": null,
+      "evidence": [
+        "OCR-aligned header text"
+      ],
+      "uncertainty": null
+    },
+    {
+      "type": "region",
+      "role": "nav-group",
+      "confidence": 0.72,
+      "x": 289.7142857142857,
+      "y": 149.42857142857142,
+      "width": 409.7142857142857,
+      "height": 35.428571428571445,
+      "label": null,
+      "evidence": [
+        "horizontally aligned OCR nav labels"
+      ],
+      "uncertainty": null
+    },
+    {
+      "type": "region",
+      "role": "product-area",
+      "confidence": 0.84,
+      "x": 0,
+      "y": 227.0,
+      "width": 1024,
+      "height": 428.0,
+      "label": null,
+      "evidence": [
+        "gallery/detail macro union"
+      ],
+      "uncertainty": null
+    },
+    {
+      "type": "region",
+      "role": "product-card-grid",
+      "confidence": 0.38,
+      "x": 0,
+      "y": 718.0,
+      "width": 1024.0,
+      "height": 162.0,
+      "label": null,
+      "evidence": [
+        "related-products macro + OCR section heading"
+      ],
+      "uncertainty": "card boxes not confidently recovered"
+    },
+    {
+      "type": "region",
+      "role": "thumbnail-gallery",
+      "confidence": 0.65,
+      "x": 221.0,
+      "y": 622.0,
+      "width": 136.0,
+      "height": 33.0,
+      "label": null,
+      "recovery": {
+        "orientation": "horizontal",
+        "rowCount": 1,
+        "columnCount": 3,
+        "itemCount": 3,
+        "averageItemBounds": {
+          "width": 41.666666666666664,
+          "height": 33.0
+        },
+        "averageGap": 5.333333333333336,
+        "acceptedItems": [
+          {
+            "x": 221.0,
+            "y": 622.0,
+            "width": 41.0,
+            "height": 33.0,
+            "localBounds": {
+              "x": 221.0,
+              "y": 489.0,
+              "width": 41.0,
+              "height": 33.0
+            },
+            "parentRegionId": null,
+            "recoveryStrategy": "roi-canny-contours",
+            "confidence": 0.55,
+            "evidence": [
+              "local rectangular contour"
+            ],
+            "uncertainty": null,
+            "clipped": true
+          },
+          {
+            "x": 268.0,
+            "y": 622.0,
+            "width": 42.0,
+            "height": 33.0,
+            "localBounds": {
+              "x": 268.0,
+              "y": 489.0,
+              "width": 42.0,
+              "height": 33.0
+            },
+            "parentRegionId": null,
+            "recoveryStrategy": "roi-canny-contours",
+            "confidence": 0.55,
+            "evidence": [
+              "local rectangular contour"
+            ],
+            "uncertainty": null,
+            "clipped": true
+          },
+          {
+            "x": 315.0,
+            "y": 622.0,
+            "width": 42.0,
+            "height": 33.0,
+            "localBounds": {
+              "x": 315.0,
+              "y": 489.0,
+              "width": 42.0,
+              "height": 33.0
+            },
+            "parentRegionId": null,
+            "recoveryStrategy": "roi-canny-contours",
+            "confidence": 0.55,
+            "evidence": [
+              "local rectangular contour"
+            ],
+            "uncertainty": null,
+            "clipped": true
+          }
+        ],
+        "rejectedCandidates": [],
+        "confidence": 0.65,
+        "evidence": [
+          "similar ROI-local rectangles",
+          "alignment and size consistency"
+        ],
+        "clippedItems": [
+          {
+            "x": 221.0,
+            "y": 622.0,
+            "width": 41.0,
+            "height": 33.0,
+            "localBounds": {
+              "x": 221.0,
+              "y": 489.0,
+              "width": 41.0,
+              "height": 33.0
+            },
+            "parentRegionId": null,
+            "recoveryStrategy": "roi-canny-contours",
+            "confidence": 0.55,
+            "evidence": [
+              "local rectangular contour"
+            ],
+            "uncertainty": null,
+            "clipped": true
+          },
+          {
+            "x": 268.0,
+            "y": 622.0,
+            "width": 42.0,
+            "height": 33.0,
+            "localBounds": {
+              "x": 268.0,
+              "y": 489.0,
+              "width": 42.0,
+              "height": 33.0
+            },
+            "parentRegionId": null,
+            "recoveryStrategy": "roi-canny-contours",
+            "confidence": 0.55,
+            "evidence": [
+              "local rectangular contour"
+            ],
+            "uncertainty": null,
+            "clipped": true
+          },
+          {
+            "x": 315.0,
+            "y": 622.0,
+            "width": 42.0,
+            "height": 33.0,
+            "localBounds": {
+              "x": 315.0,
+              "y": 489.0,
+              "width": 42.0,
+              "height": 33.0
+            },
+            "parentRegionId": null,
+            "recoveryStrategy": "roi-canny-contours",
+            "confidence": 0.55,
+            "evidence": [
+              "local rectangular contour"
+            ],
+            "uncertainty": null,
+            "clipped": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "role": "thumbnail-image",
+      "confidence": 0.55,
+      "x": 315.0,
+      "y": 622.0,
+      "width": 42.0,
+      "height": 33.0,
+      "label": null,
+      "recovery": {
+        "x": 315.0,
+        "y": 622.0,
+        "width": 42.0,
+        "height": 33.0,
+        "localBounds": {
+          "x": 315.0,
+          "y": 489.0,
+          "width": 42.0,
+          "height": 33.0
+        },
+        "parentRegionId": null,
+        "recoveryStrategy": "roi-canny-contours",
+        "confidence": 0.55,
+        "evidence": [
+          "local rectangular contour"
+        ],
+        "uncertainty": null,
+        "clipped": true
+      }
+    },
+    {
+      "type": "image",
+      "role": "thumbnail-image",
+      "confidence": 0.55,
+      "x": 268.0,
+      "y": 622.0,
+      "width": 42.0,
+      "height": 33.0,
+      "label": null,
+      "recovery": {
+        "x": 268.0,
+        "y": 622.0,
+        "width": 42.0,
+        "height": 33.0,
+        "localBounds": {
+          "x": 268.0,
+          "y": 489.0,
+          "width": 42.0,
+          "height": 33.0
+        },
+        "parentRegionId": null,
+        "recoveryStrategy": "roi-canny-contours",
+        "confidence": 0.55,
+        "evidence": [
+          "local rectangular contour"
+        ],
+        "uncertainty": null,
+        "clipped": true
+      }
+    },
+    {
+      "type": "image",
+      "role": "thumbnail-image",
+      "confidence": 0.55,
+      "x": 221.0,
+      "y": 622.0,
+      "width": 41.0,
+      "height": 33.0,
+      "label": null,
+      "recovery": {
+        "x": 221.0,
+        "y": 622.0,
+        "width": 41.0,
+        "height": 33.0,
+        "localBounds": {
+          "x": 221.0,
+          "y": 489.0,
+          "width": 41.0,
+          "height": 33.0
+        },
+        "parentRegionId": null,
+        "recoveryStrategy": "roi-canny-contours",
+        "confidence": 0.55,
+        "evidence": [
+          "local rectangular contour"
+        ],
+        "uncertainty": null,
+        "clipped": true
+      }
+    },
+    {
+      "type": "region",
+      "role": "product-card-grid",
+      "confidence": 0.9,
+      "x": 212.0,
+      "y": 869.0,
+      "width": 600.0,
+      "height": 11.0,
+      "label": null,
+      "recovery": {
+        "orientation": "horizontal",
+        "rowCount": 1,
+        "columnCount": 5,
+        "itemCount": 5,
+        "averageItemBounds": {
+          "width": 105.8,
+          "height": 11.0
+        },
+        "averageGap": 17.700000000000003,
+        "acceptedItems": [
+          {
+            "x": 212.0,
+            "y": 869.0,
+            "width": 105.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 212.0,
+              "y": 37.0,
+              "width": 105.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.545454545454545,
+              "top": 869,
+              "edgeDensity": 0.3930735930735931
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 335.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 335.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.395368782161235
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 459.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 459.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.39365351629502576
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 582.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 582.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.3945111492281304
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 706.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 706.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.39365351629502576
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          }
+        ],
+        "rejectedCandidates": [],
+        "confidence": 0.9,
+        "evidence": [
+          "similar ROI-local rectangles",
+          "alignment and size consistency",
+          "multi-pass contour consensus",
+          "projection alignment available"
+        ],
+        "clippedItems": [
+          {
+            "x": 212.0,
+            "y": 869.0,
+            "width": 105.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 212.0,
+              "y": 37.0,
+              "width": 105.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.545454545454545,
+              "top": 869,
+              "edgeDensity": 0.3930735930735931
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 335.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 335.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.395368782161235
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 459.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 459.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.39365351629502576
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 582.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 582.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.3945111492281304
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          },
+          {
+            "x": 706.0,
+            "y": 869.0,
+            "width": 106.0,
+            "height": 11.0,
+            "localBounds": {
+              "x": 706.0,
+              "y": 37.0,
+              "width": 106.0,
+              "height": 11.0
+            },
+            "sourcePasses": [
+              "pass-a-edges",
+              "pass-b-adaptive"
+            ],
+            "clipped": true,
+            "features": {
+              "aspect": 9.636363636363637,
+              "top": 869,
+              "edgeDensity": 0.39365351629502576
+            },
+            "candidateScore": 0.63,
+            "confidence": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "type": "region",
+      "role": "product-card",
+      "confidence": 0.55,
+      "x": 212.0,
+      "y": 869.0,
+      "width": 105.0,
+      "height": 11.0,
+      "label": null,
+      "recovery": {
+        "x": 212.0,
+        "y": 869.0,
+        "width": 105.0,
+        "height": 11.0,
+        "localBounds": {
+          "x": 212.0,
+          "y": 37.0,
+          "width": 105.0,
+          "height": 11.0
+        },
+        "sourcePasses": [
+          "pass-a-edges",
+          "pass-b-adaptive"
+        ],
+        "clipped": true,
+        "features": {
+          "aspect": 9.545454545454545,
+          "top": 869,
+          "edgeDensity": 0.3930735930735931
+        },
+        "candidateScore": 0.63,
+        "confidence": 0.55
+      }
+    },
+    {
+      "type": "region",
+      "role": "product-card",
+      "confidence": 0.55,
+      "x": 335.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "label": null,
+      "recovery": {
+        "x": 335.0,
+        "y": 869.0,
+        "width": 106.0,
+        "height": 11.0,
+        "localBounds": {
+          "x": 335.0,
+          "y": 37.0,
+          "width": 106.0,
+          "height": 11.0
+        },
+        "sourcePasses": [
+          "pass-a-edges",
+          "pass-b-adaptive"
+        ],
+        "clipped": true,
+        "features": {
+          "aspect": 9.636363636363637,
+          "top": 869,
+          "edgeDensity": 0.395368782161235
+        },
+        "candidateScore": 0.63,
+        "confidence": 0.55
+      }
+    },
+    {
+      "type": "region",
+      "role": "product-card",
+      "confidence": 0.55,
+      "x": 459.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "label": null,
+      "recovery": {
+        "x": 459.0,
+        "y": 869.0,
+        "width": 106.0,
+        "height": 11.0,
+        "localBounds": {
+          "x": 459.0,
+          "y": 37.0,
+          "width": 106.0,
+          "height": 11.0
+        },
+        "sourcePasses": [
+          "pass-a-edges",
+          "pass-b-adaptive"
+        ],
+        "clipped": true,
+        "features": {
+          "aspect": 9.636363636363637,
+          "top": 869,
+          "edgeDensity": 0.39365351629502576
+        },
+        "candidateScore": 0.63,
+        "confidence": 0.55
+      }
+    },
+    {
+      "type": "region",
+      "role": "product-card",
+      "confidence": 0.55,
+      "x": 582.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "label": null,
+      "recovery": {
+        "x": 582.0,
+        "y": 869.0,
+        "width": 106.0,
+        "height": 11.0,
+        "localBounds": {
+          "x": 582.0,
+          "y": 37.0,
+          "width": 106.0,
+          "height": 11.0
+        },
+        "sourcePasses": [
+          "pass-a-edges",
+          "pass-b-adaptive"
+        ],
+        "clipped": true,
+        "features": {
+          "aspect": 9.636363636363637,
+          "top": 869,
+          "edgeDensity": 0.3945111492281304
+        },
+        "candidateScore": 0.63,
+        "confidence": 0.55
+      }
+    },
+    {
+      "type": "region",
+      "role": "product-card",
+      "confidence": 0.55,
+      "x": 706.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "label": null,
+      "recovery": {
+        "x": 706.0,
+        "y": 869.0,
+        "width": 106.0,
+        "height": 11.0,
+        "localBounds": {
+          "x": 706.0,
+          "y": 37.0,
+          "width": 106.0,
+          "height": 11.0
+        },
+        "sourcePasses": [
+          "pass-a-edges",
+          "pass-b-adaptive"
+        ],
+        "clipped": true,
+        "features": {
+          "aspect": 9.636363636363637,
+          "top": 869,
+          "edgeDensity": 0.39365351629502576
+        },
+        "candidateScore": 0.63,
+        "confidence": 0.55
+      }
+    }
+  ],
+  "meta": {
+    "canvas": {
+      "width": 1024,
+      "height": 1024
+    },
+    "warnings": [
+      "Aspect ratio 1.78 differs notably from target 1.00; resize will distort proportions. Consider pad-to-square upstream if this matters."
+    ],
+    "ocr": {
+      "enabled": true,
+      "executablePath": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+      "version": "5.5.3.20260724",
+      "reason": null
+    },
+    "roiRecovery": {
+      "regions": [
+        {
+          "parentRole": "main",
+          "roiBounds": {
+            "x": 0.0,
+            "y": 133.0,
+            "width": 1024.0,
+            "height": 747.0
+          },
+          "candidatesBeforeSuppression": [
+            {
+              "x": 507.0,
+              "y": 801.0,
+              "width": 39.0,
+              "height": 27.0,
+              "localBounds": {
+                "x": 507.0,
+                "y": 668.0,
+                "width": 39.0,
+                "height": 27.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 315.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 70.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 70.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 268.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 70.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 70.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 221.0,
+              "y": 622.0,
+              "width": 41.0,
+              "height": 70.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 489.0,
+                "width": 41.0,
+                "height": 70.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 550.0,
+              "y": 620.0,
+              "width": 106.0,
+              "height": 42.0,
+              "localBounds": {
+                "x": 550.0,
+                "y": 487.0,
+                "width": 106.0,
+                "height": 42.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 549.0,
+              "y": 619.0,
+              "width": 108.0,
+              "height": 44.0,
+              "localBounds": {
+                "x": 549.0,
+                "y": 486.0,
+                "width": 108.0,
+                "height": 44.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 659.0,
+              "y": 419.0,
+              "width": 136.0,
+              "height": 38.0,
+              "localBounds": {
+                "x": 659.0,
+                "y": 286.0,
+                "width": 136.0,
+                "height": 38.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 656.0,
+              "y": 415.0,
+              "width": 156.0,
+              "height": 46.0,
+              "localBounds": {
+                "x": 656.0,
+                "y": 282.0,
+                "width": 156.0,
+                "height": 46.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 550.0,
+              "y": 288.0,
+              "width": 67.0,
+              "height": 27.0,
+              "localBounds": {
+                "x": 550.0,
+                "y": 155.0,
+                "width": 67.0,
+                "height": 27.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 215.0,
+              "y": 257.0,
+              "width": 296.0,
+              "height": 446.0,
+              "localBounds": {
+                "x": 215.0,
+                "y": 124.0,
+                "width": 296.0,
+                "height": 446.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 211.0,
+              "y": 254.0,
+              "width": 303.0,
+              "height": 452.0,
+              "localBounds": {
+                "x": 211.0,
+                "y": 121.0,
+                "width": 303.0,
+                "height": 452.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 293.0,
+              "y": 152.0,
+              "width": 143.0,
+              "height": 32.0,
+              "localBounds": {
+                "x": 293.0,
+                "y": 19.0,
+                "width": 143.0,
+                "height": 32.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 736.0,
+              "y": 150.0,
+              "width": 75.0,
+              "height": 35.0,
+              "localBounds": {
+                "x": 736.0,
+                "y": 17.0,
+                "width": 75.0,
+                "height": 35.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 735.0,
+              "y": 149.0,
+              "width": 77.0,
+              "height": 37.0,
+              "localBounds": {
+                "x": 735.0,
+                "y": 16.0,
+                "width": 77.0,
+                "height": 37.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 289.0,
+              "y": 148.0,
+              "width": 151.0,
+              "height": 39.0,
+              "localBounds": {
+                "x": 289.0,
+                "y": 15.0,
+                "width": 151.0,
+                "height": 39.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            }
+          ],
+          "accepted": [
+            {
+              "x": 211.0,
+              "y": 254.0,
+              "width": 303.0,
+              "height": 452.0,
+              "localBounds": {
+                "x": 211.0,
+                "y": 121.0,
+                "width": 303.0,
+                "height": 452.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 656.0,
+              "y": 415.0,
+              "width": 156.0,
+              "height": 46.0,
+              "localBounds": {
+                "x": 656.0,
+                "y": 282.0,
+                "width": 156.0,
+                "height": 46.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 289.0,
+              "y": 148.0,
+              "width": 151.0,
+              "height": 39.0,
+              "localBounds": {
+                "x": 289.0,
+                "y": 15.0,
+                "width": 151.0,
+                "height": 39.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 315.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 70.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 70.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 268.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 70.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 70.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 221.0,
+              "y": 622.0,
+              "width": 41.0,
+              "height": 70.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 489.0,
+                "width": 41.0,
+                "height": 70.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 550.0,
+              "y": 288.0,
+              "width": 67.0,
+              "height": 27.0,
+              "localBounds": {
+                "x": 550.0,
+                "y": 155.0,
+                "width": 67.0,
+                "height": 27.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 507.0,
+              "y": 801.0,
+              "width": 39.0,
+              "height": 27.0,
+              "localBounds": {
+                "x": 507.0,
+                "y": 668.0,
+                "width": 39.0,
+                "height": 27.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            }
+          ],
+          "rejected": [
+            {
+              "bounds": {
+                "x": 215.0,
+                "y": 257.0,
+                "width": 296.0,
+                "height": 446.0
+              },
+              "reason": "roi-duplicate"
+            },
+            {
+              "bounds": {
+                "x": 659.0,
+                "y": 419.0,
+                "width": 136.0,
+                "height": 38.0
+              },
+              "reason": "global-duplicate"
+            },
+            {
+              "bounds": {
+                "x": 549.0,
+                "y": 619.0,
+                "width": 108.0,
+                "height": 44.0
+              },
+              "reason": "global-duplicate"
+            },
+            {
+              "bounds": {
+                "x": 293.0,
+                "y": 152.0,
+                "width": 143.0,
+                "height": 32.0
+              },
+              "reason": "roi-duplicate"
+            },
+            {
+              "bounds": {
+                "x": 550.0,
+                "y": 620.0,
+                "width": 106.0,
+                "height": 42.0
+              },
+              "reason": "global-duplicate"
+            },
+            {
+              "bounds": {
+                "x": 735.0,
+                "y": 149.0,
+                "width": 77.0,
+                "height": 37.0
+              },
+              "reason": "global-duplicate"
+            },
+            {
+              "bounds": {
+                "x": 736.0,
+                "y": 150.0,
+                "width": 75.0,
+                "height": 35.0
+              },
+              "reason": "global-duplicate"
+            }
+          ]
+        },
+        {
+          "parentRole": "gallery",
+          "roiBounds": {
+            "x": 0.0,
+            "y": 133.0,
+            "width": 532.0,
+            "height": 522.0
+          },
+          "candidatesBeforeSuppression": [
+            {
+              "x": 315.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 268.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 221.0,
+              "y": 622.0,
+              "width": 41.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 489.0,
+                "width": 41.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 211.0,
+              "y": 254.0,
+              "width": 303.0,
+              "height": 401.0,
+              "localBounds": {
+                "x": 211.0,
+                "y": 121.0,
+                "width": 303.0,
+                "height": 401.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 234.0,
+              "y": 155.0,
+              "width": 21.0,
+              "height": 25.0,
+              "localBounds": {
+                "x": 234.0,
+                "y": 22.0,
+                "width": 21.0,
+                "height": 25.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 293.0,
+              "y": 152.0,
+              "width": 143.0,
+              "height": 32.0,
+              "localBounds": {
+                "x": 293.0,
+                "y": 19.0,
+                "width": 143.0,
+                "height": 32.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 289.0,
+              "y": 148.0,
+              "width": 151.0,
+              "height": 39.0,
+              "localBounds": {
+                "x": 289.0,
+                "y": 15.0,
+                "width": 151.0,
+                "height": 39.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            }
+          ],
+          "accepted": [
+            {
+              "x": 211.0,
+              "y": 254.0,
+              "width": 303.0,
+              "height": 401.0,
+              "localBounds": {
+                "x": 211.0,
+                "y": 121.0,
+                "width": 303.0,
+                "height": 401.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 289.0,
+              "y": 148.0,
+              "width": 151.0,
+              "height": 39.0,
+              "localBounds": {
+                "x": 289.0,
+                "y": 15.0,
+                "width": 151.0,
+                "height": 39.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 315.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 268.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 221.0,
+              "y": 622.0,
+              "width": 41.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 489.0,
+                "width": 41.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 234.0,
+              "y": 155.0,
+              "width": 21.0,
+              "height": 25.0,
+              "localBounds": {
+                "x": 234.0,
+                "y": 22.0,
+                "width": 21.0,
+                "height": 25.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            }
+          ],
+          "rejected": [
+            {
+              "bounds": {
+                "x": 293.0,
+                "y": 152.0,
+                "width": 143.0,
+                "height": 32.0
+              },
+              "reason": "roi-duplicate"
+            }
+          ]
+        },
+        {
+          "parentRole": "related-products",
+          "roiBounds": {
+            "x": 0.0,
+            "y": 655.0,
+            "width": 1024.0,
+            "height": 225.0
+          },
+          "candidatesBeforeSuppression": [
+            {
+              "x": 507.0,
+              "y": 801.0,
+              "width": 39.0,
+              "height": 27.0,
+              "localBounds": {
+                "x": 507.0,
+                "y": 146.0,
+                "width": 39.0,
+                "height": 27.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 315.0,
+              "y": 655.0,
+              "width": 42.0,
+              "height": 37.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 0.0,
+                "width": 42.0,
+                "height": 37.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 268.0,
+              "y": 655.0,
+              "width": 42.0,
+              "height": 37.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 0.0,
+                "width": 42.0,
+                "height": 37.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 221.0,
+              "y": 655.0,
+              "width": 41.0,
+              "height": 37.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 0.0,
+                "width": 41.0,
+                "height": 37.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 211.0,
+              "y": 655.0,
+              "width": 303.0,
+              "height": 51.0,
+              "localBounds": {
+                "x": 211.0,
+                "y": 0.0,
+                "width": 303.0,
+                "height": 51.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            }
+          ],
+          "accepted": [
+            {
+              "x": 211.0,
+              "y": 655.0,
+              "width": 303.0,
+              "height": 51.0,
+              "localBounds": {
+                "x": 211.0,
+                "y": 0.0,
+                "width": 303.0,
+                "height": 51.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 315.0,
+              "y": 655.0,
+              "width": 42.0,
+              "height": 37.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 0.0,
+                "width": 42.0,
+                "height": 37.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 268.0,
+              "y": 655.0,
+              "width": 42.0,
+              "height": 37.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 0.0,
+                "width": 42.0,
+                "height": 37.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 221.0,
+              "y": 655.0,
+              "width": 41.0,
+              "height": 37.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 0.0,
+                "width": 41.0,
+                "height": 37.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 507.0,
+              "y": 801.0,
+              "width": 39.0,
+              "height": 27.0,
+              "localBounds": {
+                "x": 507.0,
+                "y": 146.0,
+                "width": 39.0,
+                "height": 27.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            }
+          ],
+          "rejected": []
+        }
+      ],
+      "repeatedGroups": [
+        {
+          "parentRole": "gallery",
+          "semanticRole": "thumbnail-gallery",
+          "orientation": "horizontal",
+          "rowCount": 1,
+          "columnCount": 3,
+          "itemCount": 3,
+          "averageItemBounds": {
+            "width": 41.666666666666664,
+            "height": 33.0
+          },
+          "averageGap": 5.333333333333336,
+          "acceptedItems": [
+            {
+              "x": 221.0,
+              "y": 622.0,
+              "width": 41.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 489.0,
+                "width": 41.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 268.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 315.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            }
+          ],
+          "rejectedCandidates": [],
+          "confidence": 0.65,
+          "evidence": [
+            "similar ROI-local rectangles",
+            "alignment and size consistency"
+          ],
+          "clippedItems": [
+            {
+              "x": 221.0,
+              "y": 622.0,
+              "width": 41.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 221.0,
+                "y": 489.0,
+                "width": 41.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 268.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 268.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            },
+            {
+              "x": 315.0,
+              "y": 622.0,
+              "width": 42.0,
+              "height": 33.0,
+              "localBounds": {
+                "x": 315.0,
+                "y": 489.0,
+                "width": 42.0,
+                "height": 33.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            }
+          ]
+        },
+        {
+          "parentRole": "related-products",
+          "semanticRole": "product-card-grid",
+          "orientation": "horizontal",
+          "rowCount": 1,
+          "columnCount": 5,
+          "itemCount": 5,
+          "averageItemBounds": {
+            "width": 105.8,
+            "height": 11.0
+          },
+          "averageGap": 17.700000000000003,
+          "acceptedItems": [
+            {
+              "x": 212.0,
+              "y": 869.0,
+              "width": 105.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 212.0,
+                "y": 37.0,
+                "width": 105.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.545454545454545,
+                "top": 869,
+                "edgeDensity": 0.3930735930735931
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 335.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 335.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.395368782161235
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 459.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 459.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.39365351629502576
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 582.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 582.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.3945111492281304
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 706.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 706.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.39365351629502576
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            }
+          ],
+          "rejectedCandidates": [],
+          "confidence": 0.9,
+          "evidence": [
+            "similar ROI-local rectangles",
+            "alignment and size consistency",
+            "multi-pass contour consensus",
+            "projection alignment available"
+          ],
+          "clippedItems": [
+            {
+              "x": 212.0,
+              "y": 869.0,
+              "width": 105.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 212.0,
+                "y": 37.0,
+                "width": 105.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.545454545454545,
+                "top": 869,
+                "edgeDensity": 0.3930735930735931
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 335.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 335.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.395368782161235
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 459.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 459.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.39365351629502576
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 582.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 582.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.3945111492281304
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 706.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 706.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.39365351629502576
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            }
+          ]
+        }
+      ],
+      "cardDiagnostics": [
+        {
+          "roi": {
+            "x": 0.0,
+            "y": 832.0,
+            "width": 1024.0,
+            "height": 48.0
+          },
+          "sourceRegionParent": "related-products",
+          "headingEvidence": {
+            "type": "text",
+            "confidence": 0.96,
+            "x": 444.0,
+            "y": 798.8571428571429,
+            "width": 136.0,
+            "height": 33.714285714285666,
+            "label": "Similar Products",
+            "role": "section-heading",
+            "ocrEvidence": {
+              "pass": "upscaled-psm11",
+              "confidence": 96.0
+            }
+          },
+          "passConfigurations": [
+            {
+              "name": "pass-a-edges",
+              "strategy": "CLAHE/bilateral + contour"
+            },
+            {
+              "name": "pass-b-adaptive",
+              "strategy": "CLAHE/bilateral + contour"
+            }
+          ],
+          "rawCandidates": [
+            {
+              "x": 706.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 706.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.39365351629502576
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 582.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 582.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.3945111492281304
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 459.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 459.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.39365351629502576
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 335.0,
+              "y": 869.0,
+              "width": 106.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 335.0,
+                "y": 37.0,
+                "width": 106.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.636363636363637,
+                "top": 869,
+                "edgeDensity": 0.395368782161235
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 212.0,
+              "y": 869.0,
+              "width": 105.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 212.0,
+                "y": 37.0,
+                "width": 105.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.545454545454545,
+                "top": 869,
+                "edgeDensity": 0.3930735930735931
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 707.0,
+              "y": 869.0,
+              "width": 104.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 707.0,
+                "y": 37.0,
+                "width": 104.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.454545454545455,
+                "top": 869,
+                "edgeDensity": 0.2980769230769231
+              },
+              "candidateScore": 0.55,
+              "confidence": 0.55
+            },
+            {
+              "x": 583.0,
+              "y": 869.0,
+              "width": 105.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 583.0,
+                "y": 37.0,
+                "width": 105.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.545454545454545,
+                "top": 869,
+                "edgeDensity": 0.29523809523809524
+              },
+              "candidateScore": 0.55,
+              "confidence": 0.55
+            },
+            {
+              "x": 460.0,
+              "y": 869.0,
+              "width": 104.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 460.0,
+                "y": 37.0,
+                "width": 104.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.454545454545455,
+                "top": 869,
+                "edgeDensity": 0.2980769230769231
+              },
+              "candidateScore": 0.55,
+              "confidence": 0.55
+            },
+            {
+              "x": 336.0,
+              "y": 869.0,
+              "width": 105.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 336.0,
+                "y": 37.0,
+                "width": 105.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.545454545454545,
+                "top": 869,
+                "edgeDensity": 0.29610389610389615
+              },
+              "candidateScore": 0.55,
+              "confidence": 0.55
+            },
+            {
+              "x": 212.0,
+              "y": 869.0,
+              "width": 105.0,
+              "height": 11.0,
+              "localBounds": {
+                "x": 212.0,
+                "y": 37.0,
+                "width": 105.0,
+                "height": 11.0
+              },
+              "sourcePasses": [
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 9.545454545454545,
+                "top": 869,
+                "edgeDensity": 0.29610389610389615
+              },
+              "candidateScore": 0.55,
+              "confidence": 0.55
+            }
+          ],
+          "groupClusters": [
+            {
+              "orientation": "horizontal",
+              "rowCount": 1,
+              "columnCount": 5,
+              "itemCount": 5,
+              "averageItemBounds": {
+                "width": 105.8,
+                "height": 11.0
+              },
+              "averageGap": 17.700000000000003,
+              "acceptedItems": [
+                {
+                  "x": 212.0,
+                  "y": 869.0,
+                  "width": 105.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 212.0,
+                    "y": 37.0,
+                    "width": 105.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.545454545454545,
+                    "top": 869,
+                    "edgeDensity": 0.3930735930735931
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 335.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 335.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.395368782161235
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 459.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 459.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.39365351629502576
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 582.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 582.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.3945111492281304
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 706.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 706.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.39365351629502576
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                }
+              ],
+              "rejectedCandidates": [],
+              "confidence": 0.9,
+              "evidence": [
+                "similar ROI-local rectangles",
+                "alignment and size consistency",
+                "multi-pass contour consensus",
+                "projection alignment available"
+              ],
+              "clippedItems": [
+                {
+                  "x": 212.0,
+                  "y": 869.0,
+                  "width": 105.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 212.0,
+                    "y": 37.0,
+                    "width": 105.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.545454545454545,
+                    "top": 869,
+                    "edgeDensity": 0.3930735930735931
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 335.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 335.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.395368782161235
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 459.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 459.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.39365351629502576
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 582.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 582.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.3945111492281304
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                },
+                {
+                  "x": 706.0,
+                  "y": 869.0,
+                  "width": 106.0,
+                  "height": 11.0,
+                  "localBounds": {
+                    "x": 706.0,
+                    "y": 37.0,
+                    "width": 106.0,
+                    "height": 11.0
+                  },
+                  "sourcePasses": [
+                    "pass-a-edges",
+                    "pass-b-adaptive"
+                  ],
+                  "clipped": true,
+                  "features": {
+                    "aspect": 9.636363636363637,
+                    "top": 869,
+                    "edgeDensity": 0.39365351629502576
+                  },
+                  "candidateScore": 0.63,
+                  "confidence": 0.55
+                }
+              ]
+            }
+          ],
+          "acceptedGroup": {
+            "orientation": "horizontal",
+            "rowCount": 1,
+            "columnCount": 5,
+            "itemCount": 5,
+            "averageItemBounds": {
+              "width": 105.8,
+              "height": 11.0
+            },
+            "averageGap": 17.700000000000003,
+            "acceptedItems": [
+              {
+                "x": 212.0,
+                "y": 869.0,
+                "width": 105.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 212.0,
+                  "y": 37.0,
+                  "width": 105.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.545454545454545,
+                  "top": 869,
+                  "edgeDensity": 0.3930735930735931
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 335.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 335.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.395368782161235
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 459.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 459.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.39365351629502576
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 582.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 582.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.3945111492281304
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 706.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 706.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.39365351629502576
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              }
+            ],
+            "rejectedCandidates": [],
+            "confidence": 0.9,
+            "evidence": [
+              "similar ROI-local rectangles",
+              "alignment and size consistency",
+              "multi-pass contour consensus",
+              "projection alignment available"
+            ],
+            "clippedItems": [
+              {
+                "x": 212.0,
+                "y": 869.0,
+                "width": 105.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 212.0,
+                  "y": 37.0,
+                  "width": 105.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.545454545454545,
+                  "top": 869,
+                  "edgeDensity": 0.3930735930735931
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 335.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 335.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.395368782161235
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 459.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 459.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.39365351629502576
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 582.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 582.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.3945111492281304
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              },
+              {
+                "x": 706.0,
+                "y": 869.0,
+                "width": 106.0,
+                "height": 11.0,
+                "localBounds": {
+                  "x": 706.0,
+                  "y": 37.0,
+                  "width": 106.0,
+                  "height": 11.0
+                },
+                "sourcePasses": [
+                  "pass-a-edges",
+                  "pass-b-adaptive"
+                ],
+                "clipped": true,
+                "features": {
+                  "aspect": 9.636363636363637,
+                  "top": 869,
+                  "edgeDensity": 0.39365351629502576
+                },
+                "candidateScore": 0.63,
+                "confidence": 0.55
+              }
+            ]
+          },
+          "acceptedCardCount": 5,
+          "rejectedCandidates": [],
+          "uncertainty": null,
+          "projectionPeaks": [
+            212,
+            214,
+            314,
+            316,
+            335,
+            336,
+            338,
+            438,
+            440,
+            459,
+            460,
+            461,
+            462,
+            561,
+            562,
+            564,
+            582,
+            583,
+            585,
+            685,
+            687,
+            706,
+            707,
+            708,
+            709,
+            808,
+            809,
+            811
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "finalJsx": "import React from \"react\";\r\n\r\nexport default function GeneratedComponent() {\r\n  return (\n<div data-wireframe-id=\"root-0\" data-semantic-component-id=\"semantic-root-0\" data-wireframe-provenance=\"local\" data-wireframe-type=\"root\" data-wireframe-role=\"page-root\" data-wireframe-bounds=\"0,0,0,0\" className=\"relative\">\n  <div id=\"top\" data-wireframe-id=\"container-1\" data-semantic-component-id=\"semantic-container-1\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"page\" data-wireframe-bounds=\"0,0,1,1\" className=\"flex flex-col gap-3 p-3 min-h-screen bg-white text-gray-900 p-6 space-y-8\"></div>\n</div>\r\n  );\r\n}\r\n",
+  "valid": true,
+  "attempts": 0,
+  "log": [
+    {
+      "attempt": 0,
+      "structuralAccuracy": 0.16666666666666666,
+      "missingInCode": [
+        "container",
+        "container",
+        "image",
+        "text",
+        "image"
+      ],
+      "extraInCode": [],
+      "autoFixed": [
+        "div",
+        "div",
+        "img",
+        "p",
+        "img"
+      ],
+      "result": "auto-corrected"
+    }
+  ],
+  "diff": {
+    "schemaCount": 6,
+    "codeCount": 1,
+    "matchedCount": 1,
+    "missingInCode": [
+      {
+        "type": "container",
+        "id": "container-3",
+        "role": "main"
+      },
+      {
+        "type": "container",
+        "id": "container-4",
+        "role": "media-region"
+      },
+      {
+        "type": "image",
+        "id": "image-6",
+        "role": "media"
+      },
+      {
+        "type": "text",
+        "id": "text-8",
+        "role": "heading"
+      },
+      {
+        "type": "image",
+        "id": "image-7",
+        "role": "region"
+      }
+    ],
+    "extraInCode": [],
+    "structuralAccuracy": 0.16666666666666666,
+    "generatedNodeCoverage": 0.16666666666666666,
+    "majorRegionCoverage": 0.5,
+    "missingMajorRoles": [
+      "main"
+    ],
+    "isValid": false
+  },
+  "autoFixed": [
+    {
+      "schemaId": "container-3",
+      "insertedTag": "div"
+    },
+    {
+      "schemaId": "container-4",
+      "insertedTag": "div"
+    },
+    {
+      "schemaId": "image-6",
+      "insertedTag": "img"
+    },
+    {
+      "schemaId": "text-8",
+      "insertedTag": "p"
+    },
+    {
+      "schemaId": "image-7",
+      "insertedTag": "img"
+    }
+  ]
+}

@@ -1,0 +1,1062 @@
+[
+  {
+    "type": "container",
+    "confidence": 0.98,
+    "x": 0,
+    "y": 0,
+    "width": 1024.0,
+    "height": 1024.0,
+    "role": "page",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.94,
+    "x": 0,
+    "y": 133.0,
+    "width": 1024.0,
+    "height": 747.0,
+    "role": "main",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 0,
+    "y": 133.0,
+    "width": 532.48,
+    "height": 522.0,
+    "role": "gallery",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 532.48,
+    "y": 133.0,
+    "width": 491.52,
+    "height": 522.0,
+    "role": "product-detail",
+    "label": null
+  },
+  {
+    "type": "region",
+    "confidence": 0.65,
+    "x": 734.0,
+    "y": 148.0,
+    "width": 79.0,
+    "height": 39.0,
+    "role": "control-region",
+    "label": null,
+    "uncertainty": "unlabeled-contour"
+  },
+  {
+    "type": "image",
+    "confidence": 0.7,
+    "x": 21.299200000000003,
+    "y": 159.1,
+    "width": 489.88160000000005,
+    "height": 469.79999999999995,
+    "role": "media",
+    "label": null
+  },
+  {
+    "type": "icon",
+    "confidence": 0.68,
+    "x": 681.0,
+    "y": 160.0,
+    "width": 21.0,
+    "height": 18.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "region",
+    "confidence": 0.65,
+    "x": 660.0,
+    "y": 419.0,
+    "width": 134.0,
+    "height": 37.0,
+    "role": "control-region",
+    "label": null,
+    "uncertainty": "unlabeled-contour"
+  },
+  {
+    "type": "region",
+    "confidence": 0.65,
+    "x": 563.0,
+    "y": 424.0,
+    "width": 56.0,
+    "height": 27.0,
+    "role": "control-region",
+    "label": null,
+    "uncertainty": "unlabeled-contour"
+  },
+  {
+    "type": "region",
+    "confidence": 0.65,
+    "x": 548.0,
+    "y": 618.0,
+    "width": 110.0,
+    "height": 45.0,
+    "role": "control-region",
+    "label": null,
+    "uncertainty": "unlabeled-contour"
+  },
+  {
+    "type": "container",
+    "confidence": 0.78,
+    "x": 0,
+    "y": 655.0,
+    "width": 1024.0,
+    "height": 225.0,
+    "role": "related-products",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.82,
+    "x": 0,
+    "y": 880.0,
+    "width": 1024.0,
+    "height": 144.0,
+    "role": "footer",
+    "label": null
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 492.0,
+    "y": 162.85714285714286,
+    "width": 21.14285714285711,
+    "height": 9.714285714285722,
+    "label": "Home",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.935,
+    "x": 550.2857142857143,
+    "y": 519.4285714285714,
+    "width": 224.0,
+    "height": 18.85714285714289,
+    "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+    "role": "description",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 93.5
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.8908,
+    "x": 549.7142857142857,
+    "y": 542.8571428571429,
+    "width": 253.71428571428578,
+    "height": 17.714285714285666,
+    "label": "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+    "role": "description",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 89.08
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 444.0,
+    "y": 798.8571428571429,
+    "width": 136.0,
+    "height": 33.714285714285666,
+    "label": "Similar Products",
+    "role": "section-heading",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.95,
+    "x": 618.8571428571429,
+    "y": 161.71428571428572,
+    "width": 18.285714285714334,
+    "height": 13.142857142857139,
+    "label": "Shop",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 95.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.935,
+    "x": 765.1428571428571,
+    "y": 162.85714285714286,
+    "width": 31.428571428571445,
+    "height": 9.142857142857139,
+    "label": "Your Cart",
+    "role": "cart-action",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 93.5
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.9070999999999999,
+    "x": 549.7142857142857,
+    "y": 568.5714285714286,
+    "width": 201.14285714285722,
+    "height": 12.571428571428555,
+    "label": "veniam, quis nostrud exercitation laboris nisi ut",
+    "role": "description",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 90.71
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.93,
+    "x": 554.2857142857143,
+    "y": 161.71428571428572,
+    "width": 21.14285714285711,
+    "height": 10.857142857142861,
+    "label": "About",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 93.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.91,
+    "x": 682.8571428571429,
+    "y": 161.71428571428572,
+    "width": 16.571428571428555,
+    "height": 13.142857142857139,
+    "label": "Help",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 91.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.88,
+    "x": 549.7142857142857,
+    "y": 421.14285714285717,
+    "width": 66.28571428571433,
+    "height": 30.857142857142833,
+    "label": "$123.00",
+    "role": "price",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 88.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.83,
+    "x": 289.7142857142857,
+    "y": 159.42857142857142,
+    "width": 12.571428571428555,
+    "height": 15.428571428571416,
+    "label": "(Q",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 83.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.82,
+    "x": 644.0,
+    "y": 341.7142857142857,
+    "width": 34.85714285714289,
+    "height": 10.285714285714278,
+    "label": "4 Reviews",
+    "role": "rating",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 82.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.54,
+    "x": 222.85714285714286,
+    "y": 622.8571428571429,
+    "width": 130.85714285714286,
+    "height": 66.28571428571433,
+    "label": "la",
+    "role": "heading",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 54.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.94,
+    "x": 551.0,
+    "y": 288.0,
+    "width": 102.0,
+    "height": 26.0,
+    "label": "Product title",
+    "role": "product-title",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 94.0
+    }
+  },
+  {
+    "type": "region",
+    "role": "header",
+    "confidence": 0.78,
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 227.0,
+    "label": null,
+    "evidence": [
+      "OCR-aligned header text"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "nav-group",
+    "confidence": 0.72,
+    "x": 289.7142857142857,
+    "y": 149.42857142857142,
+    "width": 409.7142857142857,
+    "height": 35.428571428571445,
+    "label": null,
+    "evidence": [
+      "horizontally aligned OCR nav labels"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "product-area",
+    "confidence": 0.84,
+    "x": 0,
+    "y": 227.0,
+    "width": 1024,
+    "height": 428.0,
+    "label": null,
+    "evidence": [
+      "gallery/detail macro union"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "product-card-grid",
+    "confidence": 0.38,
+    "x": 0,
+    "y": 718.0,
+    "width": 1024.0,
+    "height": 162.0,
+    "label": null,
+    "evidence": [
+      "related-products macro + OCR section heading"
+    ],
+    "uncertainty": "card boxes not confidently recovered"
+  },
+  {
+    "type": "region",
+    "role": "thumbnail-gallery",
+    "confidence": 0.65,
+    "x": 221.0,
+    "y": 622.0,
+    "width": 136.0,
+    "height": 33.0,
+    "label": null,
+    "recovery": {
+      "orientation": "horizontal",
+      "rowCount": 1,
+      "columnCount": 3,
+      "itemCount": 3,
+      "averageItemBounds": {
+        "width": 41.666666666666664,
+        "height": 33.0
+      },
+      "averageGap": 5.333333333333336,
+      "acceptedItems": [
+        {
+          "x": 221.0,
+          "y": 622.0,
+          "width": 41.0,
+          "height": 33.0,
+          "localBounds": {
+            "x": 221.0,
+            "y": 489.0,
+            "width": 41.0,
+            "height": 33.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 268.0,
+          "y": 622.0,
+          "width": 42.0,
+          "height": 33.0,
+          "localBounds": {
+            "x": 268.0,
+            "y": 489.0,
+            "width": 42.0,
+            "height": 33.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 315.0,
+          "y": 622.0,
+          "width": 42.0,
+          "height": 33.0,
+          "localBounds": {
+            "x": 315.0,
+            "y": 489.0,
+            "width": 42.0,
+            "height": 33.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "rejectedCandidates": [],
+      "confidence": 0.65,
+      "evidence": [
+        "similar ROI-local rectangles",
+        "alignment and size consistency"
+      ],
+      "clippedItems": [
+        {
+          "x": 221.0,
+          "y": 622.0,
+          "width": 41.0,
+          "height": 33.0,
+          "localBounds": {
+            "x": 221.0,
+            "y": 489.0,
+            "width": 41.0,
+            "height": 33.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 268.0,
+          "y": 622.0,
+          "width": 42.0,
+          "height": 33.0,
+          "localBounds": {
+            "x": 268.0,
+            "y": 489.0,
+            "width": 42.0,
+            "height": 33.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 315.0,
+          "y": 622.0,
+          "width": 42.0,
+          "height": 33.0,
+          "localBounds": {
+            "x": 315.0,
+            "y": 489.0,
+            "width": 42.0,
+            "height": 33.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "image",
+    "role": "thumbnail-image",
+    "confidence": 0.55,
+    "x": 315.0,
+    "y": 622.0,
+    "width": 42.0,
+    "height": 33.0,
+    "label": null,
+    "recovery": {
+      "x": 315.0,
+      "y": 622.0,
+      "width": 42.0,
+      "height": 33.0,
+      "localBounds": {
+        "x": 315.0,
+        "y": 489.0,
+        "width": 42.0,
+        "height": 33.0
+      },
+      "parentRegionId": null,
+      "recoveryStrategy": "roi-canny-contours",
+      "confidence": 0.55,
+      "evidence": [
+        "local rectangular contour"
+      ],
+      "uncertainty": null,
+      "clipped": true
+    }
+  },
+  {
+    "type": "image",
+    "role": "thumbnail-image",
+    "confidence": 0.55,
+    "x": 268.0,
+    "y": 622.0,
+    "width": 42.0,
+    "height": 33.0,
+    "label": null,
+    "recovery": {
+      "x": 268.0,
+      "y": 622.0,
+      "width": 42.0,
+      "height": 33.0,
+      "localBounds": {
+        "x": 268.0,
+        "y": 489.0,
+        "width": 42.0,
+        "height": 33.0
+      },
+      "parentRegionId": null,
+      "recoveryStrategy": "roi-canny-contours",
+      "confidence": 0.55,
+      "evidence": [
+        "local rectangular contour"
+      ],
+      "uncertainty": null,
+      "clipped": true
+    }
+  },
+  {
+    "type": "image",
+    "role": "thumbnail-image",
+    "confidence": 0.55,
+    "x": 221.0,
+    "y": 622.0,
+    "width": 41.0,
+    "height": 33.0,
+    "label": null,
+    "recovery": {
+      "x": 221.0,
+      "y": 622.0,
+      "width": 41.0,
+      "height": 33.0,
+      "localBounds": {
+        "x": 221.0,
+        "y": 489.0,
+        "width": 41.0,
+        "height": 33.0
+      },
+      "parentRegionId": null,
+      "recoveryStrategy": "roi-canny-contours",
+      "confidence": 0.55,
+      "evidence": [
+        "local rectangular contour"
+      ],
+      "uncertainty": null,
+      "clipped": true
+    }
+  },
+  {
+    "type": "region",
+    "role": "product-card-grid",
+    "confidence": 0.9,
+    "x": 212.0,
+    "y": 869.0,
+    "width": 600.0,
+    "height": 11.0,
+    "label": null,
+    "recovery": {
+      "orientation": "horizontal",
+      "rowCount": 1,
+      "columnCount": 5,
+      "itemCount": 5,
+      "averageItemBounds": {
+        "width": 105.8,
+        "height": 11.0
+      },
+      "averageGap": 17.700000000000003,
+      "acceptedItems": [
+        {
+          "x": 212.0,
+          "y": 869.0,
+          "width": 105.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 212.0,
+            "y": 37.0,
+            "width": 105.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.545454545454545,
+            "top": 869,
+            "edgeDensity": 0.3930735930735931
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 335.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 335.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.395368782161235
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 459.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 459.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.39365351629502576
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 582.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 582.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.3945111492281304
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 706.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 706.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.39365351629502576
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        }
+      ],
+      "rejectedCandidates": [],
+      "confidence": 0.9,
+      "evidence": [
+        "similar ROI-local rectangles",
+        "alignment and size consistency",
+        "multi-pass contour consensus",
+        "projection alignment available"
+      ],
+      "clippedItems": [
+        {
+          "x": 212.0,
+          "y": 869.0,
+          "width": 105.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 212.0,
+            "y": 37.0,
+            "width": 105.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.545454545454545,
+            "top": 869,
+            "edgeDensity": 0.3930735930735931
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 335.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 335.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.395368782161235
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 459.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 459.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.39365351629502576
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 582.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 582.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.3945111492281304
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 706.0,
+          "y": 869.0,
+          "width": 106.0,
+          "height": 11.0,
+          "localBounds": {
+            "x": 706.0,
+            "y": 37.0,
+            "width": 106.0,
+            "height": 11.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 9.636363636363637,
+            "top": 869,
+            "edgeDensity": 0.39365351629502576
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "type": "region",
+    "role": "product-card",
+    "confidence": 0.55,
+    "x": 212.0,
+    "y": 869.0,
+    "width": 105.0,
+    "height": 11.0,
+    "label": null,
+    "recovery": {
+      "x": 212.0,
+      "y": 869.0,
+      "width": 105.0,
+      "height": 11.0,
+      "localBounds": {
+        "x": 212.0,
+        "y": 37.0,
+        "width": 105.0,
+        "height": 11.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": true,
+      "features": {
+        "aspect": 9.545454545454545,
+        "top": 869,
+        "edgeDensity": 0.3930735930735931
+      },
+      "candidateScore": 0.63,
+      "confidence": 0.55
+    }
+  },
+  {
+    "type": "region",
+    "role": "product-card",
+    "confidence": 0.55,
+    "x": 335.0,
+    "y": 869.0,
+    "width": 106.0,
+    "height": 11.0,
+    "label": null,
+    "recovery": {
+      "x": 335.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "localBounds": {
+        "x": 335.0,
+        "y": 37.0,
+        "width": 106.0,
+        "height": 11.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": true,
+      "features": {
+        "aspect": 9.636363636363637,
+        "top": 869,
+        "edgeDensity": 0.395368782161235
+      },
+      "candidateScore": 0.63,
+      "confidence": 0.55
+    }
+  },
+  {
+    "type": "region",
+    "role": "product-card",
+    "confidence": 0.55,
+    "x": 459.0,
+    "y": 869.0,
+    "width": 106.0,
+    "height": 11.0,
+    "label": null,
+    "recovery": {
+      "x": 459.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "localBounds": {
+        "x": 459.0,
+        "y": 37.0,
+        "width": 106.0,
+        "height": 11.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": true,
+      "features": {
+        "aspect": 9.636363636363637,
+        "top": 869,
+        "edgeDensity": 0.39365351629502576
+      },
+      "candidateScore": 0.63,
+      "confidence": 0.55
+    }
+  },
+  {
+    "type": "region",
+    "role": "product-card",
+    "confidence": 0.55,
+    "x": 582.0,
+    "y": 869.0,
+    "width": 106.0,
+    "height": 11.0,
+    "label": null,
+    "recovery": {
+      "x": 582.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "localBounds": {
+        "x": 582.0,
+        "y": 37.0,
+        "width": 106.0,
+        "height": 11.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": true,
+      "features": {
+        "aspect": 9.636363636363637,
+        "top": 869,
+        "edgeDensity": 0.3945111492281304
+      },
+      "candidateScore": 0.63,
+      "confidence": 0.55
+    }
+  },
+  {
+    "type": "region",
+    "role": "product-card",
+    "confidence": 0.55,
+    "x": 706.0,
+    "y": 869.0,
+    "width": 106.0,
+    "height": 11.0,
+    "label": null,
+    "recovery": {
+      "x": 706.0,
+      "y": 869.0,
+      "width": 106.0,
+      "height": 11.0,
+      "localBounds": {
+        "x": 706.0,
+        "y": 37.0,
+        "width": 106.0,
+        "height": 11.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": true,
+      "features": {
+        "aspect": 9.636363636363637,
+        "top": 869,
+        "edgeDensity": 0.39365351629502576
+      },
+      "candidateScore": 0.63,
+      "confidence": 0.55
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "type": "container",
+    "confidence": 0.98,
+    "x": 0,
+    "y": 0,
+    "width": 1024.0,
+    "height": 1024.0,
+    "role": "page",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.94,
+    "x": 0,
+    "y": 133.0,
+    "width": 1024.0,
+    "height": 747.0,
+    "role": "main",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 0,
+    "y": 133.0,
+    "width": 532.48,
+    "height": 747.0,
+    "role": "media-region",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 532.48,
+    "y": 133.0,
+    "width": 491.52,
+    "height": 747.0,
+    "role": "section",
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.7,
+    "x": 21.299200000000003,
+    "y": 170.35,
+    "width": 489.88160000000005,
+    "height": 672.3,
+    "role": "media",
+    "label": null
+  },
+  {
+    "type": "region",
+    "confidence": 0.65,
+    "x": 128.0,
+    "y": 414.0,
+    "width": 54.0,
+    "height": 38.0,
+    "role": "control-region",
+    "label": null,
+    "uncertainty": "unlabeled-contour"
+  },
+  {
+    "type": "image",
+    "confidence": 0.6,
+    "x": 133.0,
+    "y": 508.0,
+    "width": 762.0,
+    "height": 70.0,
+    "role": null,
+    "label": null
+  }
+]

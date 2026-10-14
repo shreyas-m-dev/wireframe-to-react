@@ -1,0 +1,17 @@
+{
+  "originalShape": {
+    "height": 700,
+    "width": 500
+  },
+  "processedShape": {
+    "height": 1024,
+    "width": 1024
+  },
+  "scaleFactor": {
+    "x": 2.048,
+    "y": 1.4628571428571429
+  },
+  "warnings": [
+    "Aspect ratio 0.71 differs notably from target 1.00; resize will distort proportions. Consider pad-to-square upstream if this matters."
+  ]
+}

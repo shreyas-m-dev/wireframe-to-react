@@ -1,0 +1,726 @@
+{
+  "groups": [],
+  "diagnostics": [
+    {
+      "roi": {
+        "x": 532.0,
+        "y": 199.0,
+        "width": 491.0,
+        "height": 784.0
+      },
+      "sourceRegionParent": "section",
+      "headingEvidence": null,
+      "passConfigurations": [
+        {
+          "name": "pass-a-edges",
+          "strategy": "CLAHE/bilateral + contour"
+        },
+        {
+          "name": "pass-b-adaptive",
+          "strategy": "CLAHE/bilateral + contour"
+        }
+      ],
+      "rawCandidates": [
+        {
+          "x": 783.0,
+          "y": 607.0,
+          "width": 108.0,
+          "height": 144.0,
+          "localBounds": {
+            "x": 251.0,
+            "y": 408.0,
+            "width": 108.0,
+            "height": 144.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 0.75,
+            "top": 607,
+            "edgeDensity": 0.0889917695473251
+          },
+          "candidateScore": 0.73,
+          "confidence": 0.55
+        },
+        {
+          "x": 665.0,
+          "y": 607.0,
+          "width": 107.0,
+          "height": 143.0,
+          "localBounds": {
+            "x": 133.0,
+            "y": 408.0,
+            "width": 107.0,
+            "height": 143.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 0.7482517482517482,
+            "top": 607,
+            "edgeDensity": 0.09005947323704333
+          },
+          "candidateScore": 0.73,
+          "confidence": 0.55
+        },
+        {
+          "x": 661.0,
+          "y": 599.0,
+          "width": 226.0,
+          "height": 160.0,
+          "localBounds": {
+            "x": 129.0,
+            "y": 400.0,
+            "width": 226.0,
+            "height": 160.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.4125,
+            "top": 599,
+            "edgeDensity": 0.11736725663716814
+          },
+          "candidateScore": 0.8099999999999999,
+          "confidence": 0.55
+        },
+        {
+          "x": 661.0,
+          "y": 599.0,
+          "width": 233.0,
+          "height": 160.0,
+          "localBounds": {
+            "x": 129.0,
+            "y": 400.0,
+            "width": 233.0,
+            "height": 160.0
+          },
+          "sourcePasses": [
+            "pass-a-edges"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.45625,
+            "top": 599,
+            "edgeDensity": 0.13047210300429185
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 599.0,
+          "width": 97.0,
+          "height": 160.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 400.0,
+            "width": 97.0,
+            "height": 160.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.60625,
+            "top": 599,
+            "edgeDensity": 0.1348582474226804
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 199.0,
+          "width": 435.0,
+          "height": 784.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 435.0,
+            "height": 784.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.5548469387755102,
+            "top": 199,
+            "edgeDensity": 0.06044452263664086
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 782.0,
+          "y": 606.0,
+          "width": 109.0,
+          "height": 146.0,
+          "localBounds": {
+            "x": 250.0,
+            "y": 407.0,
+            "width": 109.0,
+            "height": 146.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 0.7465753424657534,
+            "top": 606,
+            "edgeDensity": 0.06912152821415106
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 664.0,
+          "y": 606.0,
+          "width": 109.0,
+          "height": 146.0,
+          "localBounds": {
+            "x": 132.0,
+            "y": 407.0,
+            "width": 109.0,
+            "height": 146.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 0.7465753424657534,
+            "top": 606,
+            "edgeDensity": 0.07766746261153701
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 662.0,
+          "y": 600.0,
+          "width": 232.0,
+          "height": 158.0,
+          "localBounds": {
+            "x": 130.0,
+            "y": 401.0,
+            "width": 232.0,
+            "height": 158.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.4683544303797469,
+            "top": 600,
+            "edgeDensity": 0.13263858577040594
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 600.0,
+          "width": 96.0,
+          "height": 158.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 401.0,
+            "width": 96.0,
+            "height": 158.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.6075949367088608,
+            "top": 600,
+            "edgeDensity": 0.13554852320675106
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 199.0,
+          "width": 434.0,
+          "height": 784.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 434.0,
+            "height": 784.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.5535714285714286,
+            "top": 199,
+            "edgeDensity": 0.07616324179441362
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        }
+      ],
+      "groupClusters": [],
+      "acceptedGroup": null,
+      "acceptedCardCount": 0,
+      "rejectedCandidates": [
+        {
+          "bounds": {
+            "x": 783.0,
+            "y": 607.0,
+            "width": 108.0,
+            "height": 144.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 665.0,
+            "y": 607.0,
+            "width": 107.0,
+            "height": 143.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 661.0,
+            "y": 599.0,
+            "width": 226.0,
+            "height": 160.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 599.0,
+            "width": 97.0,
+            "height": 160.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 199.0,
+            "width": 435.0,
+            "height": 784.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        }
+      ],
+      "uncertainty": "low-contrast candidates did not form a multi-signal repeated-card consensus",
+      "projectionPeaks": [
+        2,
+        11,
+        18,
+        23,
+        24,
+        29,
+        34,
+        37,
+        42,
+        43,
+        44,
+        46,
+        47,
+        48,
+        49,
+        56,
+        63,
+        68,
+        77,
+        79,
+        81,
+        90,
+        92,
+        96,
+        116,
+        127,
+        129,
+        133,
+        138,
+        150,
+        159,
+        161,
+        283,
+        286,
+        358,
+        361,
+        430,
+        433
+      ]
+    },
+    {
+      "roi": {
+        "x": 0.0,
+        "y": 1106.0,
+        "width": 1024.0,
+        "height": 214.0
+      },
+      "sourceRegionParent": "repeated-region",
+      "headingEvidence": {
+        "type": "text",
+        "confidence": 0.96,
+        "x": 132.0,
+        "y": 1081.0,
+        "width": 170.0,
+        "height": 25.0,
+        "label": "ABOUT US",
+        "role": "section-heading",
+        "ocrEvidence": {
+          "pass": "normalized-psm6",
+          "confidence": 96.0
+        }
+      },
+      "passConfigurations": [
+        {
+          "name": "pass-a-edges",
+          "strategy": "CLAHE/bilateral + contour"
+        },
+        {
+          "name": "pass-b-adaptive",
+          "strategy": "CLAHE/bilateral + contour"
+        }
+      ],
+      "rawCandidates": [
+        {
+          "x": 557.0,
+          "y": 1159.0,
+          "width": 165.0,
+          "height": 65.0,
+          "localBounds": {
+            "x": 557.0,
+            "y": 53.0,
+            "width": 165.0,
+            "height": 65.0
+          },
+          "sourcePasses": [
+            "pass-a-edges"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 2.5384615384615383,
+            "top": 1159,
+            "edgeDensity": 0.09538461538461537
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 687.0,
+          "y": 1132.0,
+          "width": 150.0,
+          "height": 92.0,
+          "localBounds": {
+            "x": 687.0,
+            "y": 26.0,
+            "width": 150.0,
+            "height": 92.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.6304347826086956,
+            "top": 1132,
+            "edgeDensity": 0.0922463768115942
+          },
+          "candidateScore": 0.73,
+          "confidence": 0.55
+        },
+        {
+          "x": 542.0,
+          "y": 1115.0,
+          "width": 85.0,
+          "height": 109.0,
+          "localBounds": {
+            "x": 542.0,
+            "y": 9.0,
+            "width": 85.0,
+            "height": 109.0
+          },
+          "sourcePasses": [
+            "pass-a-edges"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 0.7798165137614679,
+            "top": 1115,
+            "edgeDensity": 0.07835941716135995
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 542.0,
+          "y": 1106.0,
+          "width": 391.0,
+          "height": 118.0,
+          "localBounds": {
+            "x": 542.0,
+            "y": 0.0,
+            "width": 391.0,
+            "height": 118.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 3.3135593220338984,
+            "top": 1106,
+            "edgeDensity": 0.08983917811782045
+          },
+          "candidateScore": 0.73,
+          "confidence": 0.55
+        },
+        {
+          "x": 58.0,
+          "y": 1106.0,
+          "width": 908.0,
+          "height": 214.0,
+          "localBounds": {
+            "x": 58.0,
+            "y": 0.0,
+            "width": 908.0,
+            "height": 214.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 4.242990654205608,
+            "top": 1106,
+            "edgeDensity": 0.053887562270986865
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 686.0,
+          "y": 1129.0,
+          "width": 152.0,
+          "height": 94.0,
+          "localBounds": {
+            "x": 686.0,
+            "y": 23.0,
+            "width": 152.0,
+            "height": 94.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.6170212765957446,
+            "top": 1129,
+            "edgeDensity": 0.17140257558790592
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 542.0,
+          "y": 1106.0,
+          "width": 391.0,
+          "height": 118.0,
+          "localBounds": {
+            "x": 542.0,
+            "y": 0.0,
+            "width": 391.0,
+            "height": 118.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 3.3135593220338984,
+            "top": 1106,
+            "edgeDensity": 0.1619922840175127
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 59.0,
+          "y": 1106.0,
+          "width": 907.0,
+          "height": 214.0,
+          "localBounds": {
+            "x": 59.0,
+            "y": 0.0,
+            "width": 907.0,
+            "height": 214.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 4.238317757009346,
+            "top": 1106,
+            "edgeDensity": 0.0829014209316943
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        }
+      ],
+      "groupClusters": [],
+      "acceptedGroup": null,
+      "acceptedCardCount": 0,
+      "rejectedCandidates": [
+        {
+          "bounds": {
+            "x": 557.0,
+            "y": 1159.0,
+            "width": 165.0,
+            "height": 65.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 687.0,
+            "y": 1132.0,
+            "width": 150.0,
+            "height": 92.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 542.0,
+            "y": 1115.0,
+            "width": 85.0,
+            "height": 109.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 542.0,
+            "y": 1106.0,
+            "width": 391.0,
+            "height": 118.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 58.0,
+            "y": 1106.0,
+            "width": 908.0,
+            "height": 214.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        }
+      ],
+      "uncertainty": "low-contrast candidates did not form a multi-signal repeated-card consensus",
+      "projectionPeaks": [
+        58,
+        59,
+        62,
+        457,
+        462,
+        472,
+        476,
+        487,
+        492,
+        511,
+        514,
+        519,
+        542,
+        543,
+        552,
+        557,
+        575,
+        576,
+        580,
+        590,
+        594,
+        595,
+        597,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        687,
+        712,
+        716,
+        717,
+        719,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        737,
+        738,
+        741,
+        742,
+        746,
+        749,
+        751,
+        752,
+        756,
+        811,
+        822,
+        826,
+        828,
+        829,
+        833,
+        852,
+        864,
+        872,
+        932,
+        962,
+        965
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "selected": "landing",
+  "confidence": 0.69,
+  "hypotheses": [
+    {
+      "family": "landing",
+      "score": 0.69,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    },
+    {
+      "family": "generic",
+      "score": 0.15,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    },
+    {
+      "family": "ecommerce-product",
+      "score": 0,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    },
+    {
+      "family": "ecommerce-catalog",
+      "score": 0,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    },
+    {
+      "family": "authentication",
+      "score": 0,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    },
+    {
+      "family": "dashboard",
+      "score": 0,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    },
+    {
+      "family": "article",
+      "score": 0,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    },
+    {
+      "family": "profile",
+      "score": 0,
+      "evidence": "text vocabulary, field/media geometry and selected macro roles"
+    }
+  ]
+}

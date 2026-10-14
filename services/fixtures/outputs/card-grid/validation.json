@@ -1,0 +1,145 @@
+{
+  "cgda": {
+    "stripped": [
+      {
+        "tag": "main",
+        "attrs": "data-wireframe-id=\"container-3\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" className=\"flex flex-col gap-3 p-3 w-full\""
+      }
+    ],
+    "kept": 3
+  },
+  "validation": {
+    "finalJsx": "import React from \"react\";\r\n\r\nexport default function GeneratedComponent() {\r\n  return (\n<div data-wireframe-id=\"root-0\" data-wireframe-type=\"root\" data-wireframe-role=\"page-root\" className=\"border rounded p-3\">\n  <div data-wireframe-id=\"container-1\" data-wireframe-type=\"container\" data-wireframe-role=\"page\" className=\"flex flex-col gap-3 p-3 min-h-screen bg-white text-gray-900 p-6 space-y-8\">\n    <header data-wireframe-id=\"container-2\" data-wireframe-type=\"container\" data-wireframe-role=\"header\" className=\"flex items-center justify-between gap-3 p-3 w-full flex items-center justify-between gap-5 border-b pb-4\"></header>\n  </div>\n</div>\r\n  );\r\n}\r\n",
+    "valid": true,
+    "attempts": 0,
+    "log": [
+      {
+        "attempt": 0,
+        "structuralAccuracy": 0.25,
+        "missingInCode": [
+          "container",
+          "container",
+          "image",
+          "container",
+          "container",
+          "container"
+        ],
+        "extraInCode": [],
+        "autoFixed": [
+          "div",
+          "div",
+          "img",
+          "div",
+          "div",
+          "div"
+        ],
+        "result": "auto-corrected"
+      }
+    ],
+    "diff": {
+      "schemaCount": 8,
+      "codeCount": 2,
+      "matchedCount": 2,
+      "missingInCode": [
+        {
+          "type": "container",
+          "id": "container-3",
+          "role": "main"
+        },
+        {
+          "type": "container",
+          "id": "container-4",
+          "role": "media-region"
+        },
+        {
+          "type": "image",
+          "id": "image-6",
+          "role": "media"
+        },
+        {
+          "type": "container",
+          "id": "container-5",
+          "role": "section"
+        },
+        {
+          "type": "container",
+          "id": "container-7",
+          "role": "repeated-region"
+        },
+        {
+          "type": "container",
+          "id": "container-8",
+          "role": null
+        }
+      ],
+      "extraInCode": [],
+      "structuralAccuracy": 0.25,
+      "generatedNodeCoverage": 0.25,
+      "majorRegionCoverage": 0,
+      "missingMajorRoles": [
+        "main",
+        "gallery",
+        "product-detail",
+        "related-products"
+      ],
+      "isValid": false
+    },
+    "autoFixed": [
+      {
+        "schemaId": "container-3",
+        "insertedTag": "div"
+      },
+      {
+        "schemaId": "container-4",
+        "insertedTag": "div"
+      },
+      {
+        "schemaId": "image-6",
+        "insertedTag": "img"
+      },
+      {
+        "schemaId": "container-5",
+        "insertedTag": "div"
+      },
+      {
+        "schemaId": "container-7",
+        "insertedTag": "div"
+      },
+      {
+        "schemaId": "container-8",
+        "insertedTag": "div"
+      }
+    ]
+  },
+  "fidelity": {
+    "score": 1,
+    "fullPage": true,
+    "majorRegionCount": 3,
+    "leafCount": 4,
+    "mediaCount": 1,
+    "buttonCount": 0,
+    "maxDepth": 4,
+    "passed": true,
+    "reasons": []
+  },
+  "overall": {
+    "schemaGatePassed": true,
+    "generatedOutputValid": true,
+    "schemaToCodeCoverage": 0.25,
+    "legacyStructuralAccuracy": 0.25,
+    "macroRegionCoverage": 0,
+    "repeatedGroupCoverage": 1,
+    "semanticTextCoverage": 1,
+    "semanticControlCoverage": 1,
+    "sourceStructureCoverage": 0,
+    "sourceVsRenderedScore": null,
+    "overallStatus": "needs-review",
+    "needsReview": true,
+    "reasons": [
+      "missing generated main",
+      "missing generated gallery",
+      "missing generated product-detail",
+      "missing generated related-products"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "startedAt": "2026-09-02T14:43:11.645496+00:00",
+  "input": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\uploads\\landing-wireframe.jpeg",
+  "output": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired",
+  "stages": [
+    "preprocessing",
+    "ocr",
+    "detection",
+    "schema",
+    "read-only-rag",
+    "generation",
+    "validation"
+  ],
+  "nodeStages": [
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "schema",
+        "--elements",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired\\detections-elements.json",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired\\schema.json",
+        "--tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired\\schema-tree.txt"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "validate",
+        "--schema",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired\\schema.json",
+        "--code",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired\\generated.jsx",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired\\validation.json",
+        "--fidelity-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\landing-codex-repaired\\fidelity.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "finishedAt": "2026-09-02T14:43:32.002131+00:00"
+}

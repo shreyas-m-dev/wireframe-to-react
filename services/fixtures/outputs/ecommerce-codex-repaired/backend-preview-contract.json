@@ -1,0 +1,13 @@
+{
+  "artifactId": "2d4f8f297d0af87b",
+  "generatedAt": "2026-09-02T14:44:07.036864+00:00",
+  "finalJsxSha256": "2d4f8f297d0af87b331affca9cde0b9fa70587c4523b5e40bbd24d0c552f3ea9",
+  "finalJsxByteLength": 6553,
+  "generationResultStatus": "validated",
+  "expectedPreviewSource": "generated-jsx",
+  "staticValidationPassed": true,
+  "unsupportedImportsOrComponents": false,
+  "remoteUrls": [],
+  "containsRemoteUrl": false,
+  "knownLimitations": "Backend cannot prove browser execution without an opt-in browser test."
+}

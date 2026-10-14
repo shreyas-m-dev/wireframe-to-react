@@ -1,0 +1,38 @@
+[
+  {
+    "sourceComponentId": "text-22",
+    "type": "scroll",
+    "target": "about",
+    "state": null,
+    "local": true,
+    "accessibility": [
+      "keyboard-focus"
+    ],
+    "confidence": 0.88,
+    "fallback": "no-op if target absent"
+  },
+  {
+    "sourceComponentId": "text-23",
+    "type": "scroll",
+    "target": "services",
+    "state": null,
+    "local": true,
+    "accessibility": [
+      "keyboard-focus"
+    ],
+    "confidence": 0.49,
+    "fallback": "no-op if target absent"
+  },
+  {
+    "sourceComponentId": "text-21",
+    "type": "scroll",
+    "target": "contact",
+    "state": null,
+    "local": true,
+    "accessibility": [
+      "keyboard-focus"
+    ],
+    "confidence": 0.92,
+    "fallback": "no-op if target absent"
+  }
+]

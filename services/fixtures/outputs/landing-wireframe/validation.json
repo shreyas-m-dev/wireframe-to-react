@@ -1,0 +1,241 @@
+{
+  "cgda": {
+    "kept": 0,
+    "stripped": []
+  },
+  "validation": {
+    "finalJsx": "import React from 'react';\r\n\r\nexport default function GeneratedComponent() {\r\n  return (\r\n    <div data-wireframe-id=\"root-0\" data-semantic-component-id=\"semantic-root-0\" data-wireframe-provenance=\"local\" data-wireframe-type=\"root\" data-wireframe-role=\"page-root\" data-wireframe-bounds=\"0,0,0,0\" className=\"relative\">\r\n      <div data-wireframe-id=\"container-1\" data-semantic-component-id=\"semantic-container-1\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"page\" data-wireframe-bounds=\"0,0,1,1\" className=\"flex flex-col gap-3 p-3 min-h-screen bg-white text-gray-900 p-6 md:p-12 space-y-16 max-w-7xl mx-auto\" id=\"top\" style={{\"--wf-background\": \"#fefefe\", \"--wf-surface\": \"#f8fafc\", \"--wf-text\": \"#1f2937\", \"--wf-mutedText\": \"#64748b\", \"--wf-primary\": \"#2573db\", \"--wf-primaryContrast\": \"#ffffff\", \"--wf-border\": \"#d1d5db\"}}>\r\n        <header data-wireframe-id=\"container-2\" data-semantic-component-id=\"semantic-container-2\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"header\" data-wireframe-bounds=\"0,0,1,0.1296\" className=\"flex items-center justify-between gap-3 p-3 w-full flex items-center justify-between gap-5 border-b pb-6\">\r\n          <nav data-wireframe-id=\"region-24\" data-semantic-component-id=\"semantic-region-24\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"nav-group\" data-wireframe-bounds=\"0.1032,0.0394,0.514,0.0257\" className=\"flex items-center justify-between gap-3 p-3\">\r\n            <button data-wireframe-id=\"text-22\" data-semantic-component-id=\"semantic-text-22\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-link\" data-wireframe-bounds=\"0.457,0.0475,0.0527,0.0085\" className=\"text-[var(--wf-primary)] hover:underline\" type=\"button\" onClick={() => document.getElementById(\"about\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n              ABOUT\r\n            </button>\r\n            <button data-wireframe-id=\"text-23\" data-semantic-component-id=\"semantic-text-23\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-link\" data-wireframe-bounds=\"0.5469,0.0475,0.0703,0.0085\" className=\"text-[var(--wf-primary)] hover:underline\" type=\"button\" onClick={() => document.getElementById(\"services\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n              SERVICES\r\n            </button>\r\n            <button data-wireframe-id=\"text-21\" data-semantic-component-id=\"semantic-text-21\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-link\" data-wireframe-bounds=\"0.6543,0.0475,0.0723,0.0085\" className=\"text-[var(--wf-primary)] hover:underline\" type=\"button\" onClick={() => document.getElementById(\"contact\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n              CONTACT\r\n            </button>\r\n          </nav>\r\n          <span data-wireframe-id=\"text-14\" data-semantic-component-id=\"semantic-text-14\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"brand\" data-wireframe-bounds=\"0.1032,0.0446,0.0826,0.0153\" className=\"inline-flex items-center font-bold tracking-wide text-[var(--wf-primary)]\" role=\"img\" aria-label=\"Brand mark\">\r\n            LOGO\r\n          </span>\r\n          <button data-wireframe-id=\"button-19\" data-semantic-component-id=\"semantic-button-19\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"button\" data-wireframe-role=\"action\" data-wireframe-bounds=\"0.8027,0.0469,0.085,0.0091\" className=\"px-4 py-2 rounded border border-[var(--wf-primary)] text-[var(--wf-primary)] hover:bg-[var(--wf-surface)] transition-colors\" type=\"button\" onClick={() => document.getElementById(\"contact\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n            CONTACT\r\n          </button>\r\n        </header>\r\n        <main data-wireframe-id=\"container-4\" data-semantic-component-id=\"semantic-container-4\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" data-wireframe-bounds=\"0,0.1296,1,0.7298\" className=\"flex flex-col gap-3 p-3 w-full flex flex-col gap-16 md:gap-24\">\r\n          <section data-wireframe-id=\"region-25\" data-semantic-component-id=\"semantic-region-25\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"hero-section\" data-wireframe-bounds=\"0.3092,0.1522,0.3834,0.1161\" className=\"grid grid-cols-1 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] gap-6 items-start p-3 min-w-0 self-center w-full\" id=\"hero\">\r\n            <div className=\"flex flex-col gap-4\">\r\n              <div data-wireframe-id=\"image-7\" data-semantic-component-id=\"semantic-image-7\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"media\" data-wireframe-bounds=\"0.0208,0.1551,0.4784,0.4594\" role=\"img\" aria-label=\"Detected visual region\" className=\"w-full bg-[var(--wf-surface)] border border-[var(--wf-border)] flex items-center justify-center text-[var(--wf-mutedText)] overflow-hidden rounded\" style={{\"aspectRatio\": \"1.041\"}}>\r\n                <svg className=\"w-12 h-12 opacity-50\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\" />\r\n                </svg>\r\n              </div>\r\n            </div>\r\n            <div className=\"flex flex-col gap-4\">\r\n              <h1 data-wireframe-id=\"text-15\" data-semantic-component-id=\"semantic-text-15\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"hero-heading\" data-wireframe-bounds=\"0.3092,0.1522,0.3834,0.0387\" className=\"text-4xl md:text-5xl font-extrabold tracking-tight text-[var(--wf-text)] mb-2\">\r\n                HEADLINE\r\n              </h1>\r\n              <p data-wireframe-id=\"text-10\" data-semantic-component-id=\"semantic-text-10\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"copy\" data-wireframe-bounds=\"0.3984,0.2142,0.3262,0.0124\" className=\"text-lg text-[var(--wf-mutedText)] leading-relaxed\">\r\n                dolor sit amet, adipiscing\r\n              </p>\r\n              <button data-wireframe-id=\"button-11\" data-semantic-component-id=\"semantic-button-11\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"button\" data-wireframe-role=\"action\" data-wireframe-bounds=\"0.4326,0.2578,0.1357,0.0104\" className=\"px-4 py-2 rounded border border-[var(--wf-primary)] text-[var(--wf-primary)] hover:bg-[var(--wf-surface)] transition-colors\" type=\"button\" onClick={() => document.getElementById(\"contact\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n                GET STARTED\r\n              </button>\r\n            </div>\r\n          </section>\r\n          <section data-wireframe-id=\"region-26\" data-semantic-component-id=\"semantic-region-26\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"services-section\" data-wireframe-bounds=\"0,0.3553,1,0.5041\" className=\"flex flex-col gap-3 p-3 col-span-full w-full\" id=\"services\">\r\n            <h2 data-wireframe-id=\"text-17\" data-semantic-component-id=\"semantic-text-17\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"section-heading\" data-wireframe-bounds=\"0.3845,0.3553,0.2327,0.0164\" className=\"text-2xl font-bold tracking-tight text-[var(--wf-text)] mb-4\">\r\n              OUR SERVICES\r\n            </h2>\r\n          </section>\r\n          <section data-wireframe-id=\"region-27\" data-semantic-component-id=\"semantic-region-27\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"about-section\" data-wireframe-bounds=\"0.1289,0.7038,0.166,0.0163\" className=\"flex flex-col gap-3 p-3 col-span-full w-full\" id=\"about\">\r\n            <h2 data-wireframe-id=\"text-12\" data-semantic-component-id=\"semantic-text-12\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"section-heading\" data-wireframe-bounds=\"0.1289,0.7038,0.166,0.0163\" className=\"text-2xl font-bold tracking-tight text-[var(--wf-text)] mb-4\">\r\n              ABOUT US\r\n            </h2>\r\n          </section>\r\n          <section data-wireframe-id=\"region-28\" data-semantic-component-id=\"semantic-region-28\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"contact-section\" data-wireframe-bounds=\"0.3398,0.8379,0.293,0.0658\" className=\"grid grid-cols-1 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] gap-6 items-start p-3 col-span-full w-full\" id=\"contact\">\r\n            <h2 data-wireframe-id=\"button-13\" data-semantic-component-id=\"semantic-button-13\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"section-heading\" data-wireframe-bounds=\"0.3975,0.8379,0.2061,0.0163\" className=\"text-2xl font-bold tracking-tight text-[var(--wf-text)] mb-4\">\r\n              CONTACT US\r\n            </h2>\r\n            <button data-wireframe-id=\"button-18\" data-semantic-component-id=\"semantic-button-18\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"button\" data-wireframe-role=\"action\" data-wireframe-bounds=\"0.3398,0.8717,0.293,0.0319\" className=\"px-4 py-2 rounded border border-[var(--wf-primary)] text-[var(--wf-primary)] hover:bg-[var(--wf-surface)] transition-colors\" type=\"button\">\r\n              SEND\r\n            </button>\r\n          </section>\r\n        </main>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n",
+    "valid": false,
+    "attempts": 0,
+    "log": [
+      {
+        "attempt": 0,
+        "structuralAccuracy": 0,
+        "missingInCode": [
+          "container",
+          "container",
+          "region",
+          "text",
+          "text",
+          "text",
+          "text",
+          "button",
+          "container",
+          "region",
+          "text",
+          "image",
+          "text",
+          "button",
+          "region",
+          "text",
+          "region",
+          "text",
+          "region",
+          "text",
+          "button"
+        ],
+        "extraInCode": [],
+        "autoFixed": [],
+        "result": "needs-retry"
+      }
+    ],
+    "diff": {
+      "schemaCount": 21,
+      "codeCount": 0,
+      "matchedCount": 0,
+      "missingInCode": [
+        {
+          "type": "container",
+          "id": "container-1",
+          "role": "page"
+        },
+        {
+          "type": "container",
+          "id": "container-2",
+          "role": "header"
+        },
+        {
+          "type": "region",
+          "id": "region-24",
+          "role": "nav-group"
+        },
+        {
+          "type": "text",
+          "id": "text-22",
+          "role": "nav-link"
+        },
+        {
+          "type": "text",
+          "id": "text-23",
+          "role": "nav-link"
+        },
+        {
+          "type": "text",
+          "id": "text-21",
+          "role": "nav-link"
+        },
+        {
+          "type": "text",
+          "id": "text-14",
+          "role": "brand"
+        },
+        {
+          "type": "button",
+          "id": "button-19",
+          "role": "action"
+        },
+        {
+          "type": "container",
+          "id": "container-4",
+          "role": "main"
+        },
+        {
+          "type": "region",
+          "id": "region-25",
+          "role": "hero-section"
+        },
+        {
+          "type": "text",
+          "id": "text-15",
+          "role": "hero-heading"
+        },
+        {
+          "type": "image",
+          "id": "image-7",
+          "role": "media"
+        },
+        {
+          "type": "text",
+          "id": "text-10",
+          "role": "copy"
+        },
+        {
+          "type": "button",
+          "id": "button-11",
+          "role": "action"
+        },
+        {
+          "type": "region",
+          "id": "region-26",
+          "role": "services-section"
+        },
+        {
+          "type": "text",
+          "id": "text-17",
+          "role": "section-heading"
+        },
+        {
+          "type": "region",
+          "id": "region-27",
+          "role": "about-section"
+        },
+        {
+          "type": "text",
+          "id": "text-12",
+          "role": "section-heading"
+        },
+        {
+          "type": "region",
+          "id": "region-28",
+          "role": "contact-section"
+        },
+        {
+          "type": "text",
+          "id": "button-13",
+          "role": "section-heading"
+        },
+        {
+          "type": "button",
+          "id": "button-18",
+          "role": "action"
+        }
+      ],
+      "extraInCode": [],
+      "structuralAccuracy": 0,
+      "generatedNodeCoverage": 0,
+      "majorRegionCoverage": 0,
+      "missingMajorRoles": [
+        "page",
+        "header",
+        "main",
+        "hero-section",
+        "services-section",
+        "about-section",
+        "contact-section"
+      ],
+      "isValid": false
+    }
+  },
+  "fidelity": {
+    "score": 0.99,
+    "structuralAccuracy": 0.99,
+    "fullPage": true,
+    "majorRegionCount": 6,
+    "leafCount": 13,
+    "mediaCount": 1,
+    "buttonCount": 3,
+    "maxDepth": 4,
+    "schemaToCodeCoverage": 1,
+    "canonicalNodeCoverage": 1,
+    "canonicalTreeValidity": true,
+    "duplicateNodeRate": 0,
+    "macroRoleDuplicateRate": 0,
+    "orphanCount": 0,
+    "emptySemanticParents": 0,
+    "emptyHeadingCount": 0,
+    "unsupportedLabelCount": 0,
+    "logoInsideNavCount": 0,
+    "looseHeroLeafCount": 0,
+    "looseContactControlCount": 0,
+    "sourceStructureCoverage": 1,
+    "layoutBoundsCoverage": null,
+    "styleCueCoverage": null,
+    "repeatedGroupCoverage": null,
+    "semanticTextCoverage": 0.69,
+    "semanticControlCoverage": 0.23,
+    "sourceVsRenderedScore": null,
+    "visualComparisonPending": true,
+    "fallbackSource": true,
+    "passed": false,
+    "overallStatus": "needs-review",
+    "reasons": [
+      "Source-vs-rendered visual comparison is pending; result cannot be marked ready.",
+      "Schema was produced by local-cv-ocr-fallback; review the reconstruction before export."
+    ]
+  },
+  "overall": {
+    "schemaGatePassed": false,
+    "generatedOutputValid": false,
+    "generatedJsxStaticValid": false,
+    "generatedJsxExecutability": null,
+    "previewSourceMatch": null,
+    "previewRenderSuccess": null,
+    "schemaToCodeCoverage": 0,
+    "legacyStructuralAccuracy": 0,
+    "macroRegionCoverage": 0,
+    "OCRTextCoverage": 1,
+    "textGroupCoverage": 1,
+    "repeatedGroupCoverage": 1,
+    "semanticTextCoverage": 1,
+    "semanticControlCoverage": 1,
+    "sourceStructureCoverage": 0,
+    "sourceVsRenderedScore": null,
+    "overallStatus": "needs-review",
+    "needsReview": true,
+    "reasons": [
+      "Source-vs-rendered visual comparison is pending; result cannot be marked ready.",
+      "Schema was produced by local-cv-ocr-fallback; review the reconstruction before export.",
+      "missing generated page",
+      "missing generated header",
+      "missing generated main",
+      "missing generated hero-section",
+      "missing generated services-section",
+      "missing generated about-section",
+      "missing generated contact-section",
+      "missing detected feature-card-grid",
+      "missing detected split-content-section",
+      "missing detected map-region",
+      "missing detected form"
+    ]
+  }
+}

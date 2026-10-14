@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe → React</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--
+      Babel standalone, loaded from CDN: lets the browser transpile the
+      generated JSX client-side so the "Preview" tab can actually render
+      it live, without needing a build step or npm install for this one
+      feature. See frontend/src/LivePreview.jsx.
+    -->
+    <script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

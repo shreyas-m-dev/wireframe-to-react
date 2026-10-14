@@ -1,0 +1,276 @@
+{
+  "regions": [
+    {
+      "parentRole": "main",
+      "roiBounds": {
+        "x": 0.0,
+        "y": 88.0,
+        "width": 1024.0,
+        "height": 499.0
+      },
+      "candidatesBeforeSuppression": [
+        {
+          "x": 45.0,
+          "y": 130.0,
+          "width": 936.0,
+          "height": 211.0,
+          "localBounds": {
+            "x": 45.0,
+            "y": 42.0,
+            "width": 936.0,
+            "height": 211.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 41.0,
+          "y": 127.0,
+          "width": 944.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 41.0,
+            "y": 39.0,
+            "width": 944.0,
+            "height": 218.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        }
+      ],
+      "accepted": [],
+      "rejected": [
+        {
+          "bounds": {
+            "x": 41.0,
+            "y": 127.0,
+            "width": 944.0,
+            "height": 218.0
+          },
+          "reason": "global-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 45.0,
+            "y": 130.0,
+            "width": 936.0,
+            "height": 211.0
+          },
+          "reason": "global-duplicate"
+        }
+      ]
+    },
+    {
+      "parentRole": "media-region",
+      "roiBounds": {
+        "x": 0.0,
+        "y": 88.0,
+        "width": 532.0,
+        "height": 499.0
+      },
+      "candidatesBeforeSuppression": [
+        {
+          "x": 41.0,
+          "y": 127.0,
+          "width": 491.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 41.0,
+            "y": 39.0,
+            "width": 491.0,
+            "height": 218.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "accepted": [
+        {
+          "x": 41.0,
+          "y": 127.0,
+          "width": 491.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 41.0,
+            "y": 39.0,
+            "width": 491.0,
+            "height": 218.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "parentRole": "section",
+      "roiBounds": {
+        "x": 532.0,
+        "y": 88.0,
+        "width": 491.0,
+        "height": 499.0
+      },
+      "candidatesBeforeSuppression": [
+        {
+          "x": 532.0,
+          "y": 127.0,
+          "width": 453.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 39.0,
+            "width": 453.0,
+            "height": 218.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "accepted": [
+        {
+          "x": 532.0,
+          "y": 127.0,
+          "width": 453.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 39.0,
+            "width": 453.0,
+            "height": 218.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "rejected": []
+    }
+  ],
+  "repeatedGroups": [],
+  "cardDiagnostics": [
+    {
+      "roi": {
+        "x": 532.0,
+        "y": 88.0,
+        "width": 491.0,
+        "height": 499.0
+      },
+      "sourceRegionParent": "section",
+      "headingEvidence": null,
+      "passConfigurations": [
+        {
+          "name": "pass-a-edges",
+          "strategy": "CLAHE/bilateral + contour"
+        },
+        {
+          "name": "pass-b-adaptive",
+          "strategy": "CLAHE/bilateral + contour"
+        }
+      ],
+      "rawCandidates": [
+        {
+          "x": 532.0,
+          "y": 127.0,
+          "width": 452.0,
+          "height": 217.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 39.0,
+            "width": 452.0,
+            "height": 217.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 2.0829493087557602,
+            "top": 127,
+            "edgeDensity": 0.15296072753965986
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 127.0,
+          "width": 451.0,
+          "height": 216.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 39.0,
+            "width": 451.0,
+            "height": 216.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 2.087962962962963,
+            "top": 127,
+            "edgeDensity": 0.12223864662889053
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        }
+      ],
+      "groupClusters": [],
+      "acceptedGroup": null,
+      "acceptedCardCount": 0,
+      "rejectedCandidates": [
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 127.0,
+            "width": 452.0,
+            "height": 217.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        }
+      ],
+      "uncertainty": "low-contrast candidates did not form a multi-signal repeated-card consensus",
+      "projectionPeaks": [
+        407,
+        448,
+        451
+      ]
+    }
+  ]
+}

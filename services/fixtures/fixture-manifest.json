@@ -1,0 +1,10 @@
+{
+  "policy": {"regression": "known failures used while tuning", "validation": "used while tuning but not copied into filename rules", "heldOut": "evaluated only after changes"},
+  "fixtures": [
+    {"name":"ecommerce-wireframe","path":"uploads/ecommerce-wireframe.png","kind":"regression","sourceType":"wireframe","pageCategory":"ecommerce-product","expectedMajorRegions":["header","main","gallery","product-detail","related-products"],"expectedRepeatedStructures":["thumbnail-strip","card-row"],"knownQualityIssues":["OCR noise","low-contrast card boxes"]},
+    {"name":"card-grid","path":"preprocessing/fixtures/card_grid.png","kind":"validation","sourceType":"synthetic-wireframe","pageCategory":"generic-card-grid","expectedCoverage":"limited/synthetic"},
+    {"name":"login-form","path":"preprocessing/fixtures/login_form.png","kind":"validation","sourceType":"synthetic-wireframe","pageCategory":"form","expectedCoverage":"limited/synthetic"},
+    {"name":"dashboard","path":"preprocessing/fixtures/dashboard_layout.png","kind":"validation","sourceType":"synthetic-wireframe","pageCategory":"dashboard","expectedCoverage":"limited/synthetic"},
+    {"name":"landing","path":"preprocessing/fixtures/landing_layout.png","kind":"validation","sourceType":"synthetic-wireframe","pageCategory":"landing","expectedCoverage":"limited/synthetic"}
+  ]
+}

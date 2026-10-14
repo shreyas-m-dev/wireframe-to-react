@@ -1,0 +1,159 @@
+{
+  "pageCategory": "landing",
+  "majorZones": [
+    {
+      "role": "page",
+      "id": "container-1",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "header",
+      "id": "container-2",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.1296
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "nav-group",
+      "id": "region-24",
+      "bounds": {
+        "x": 0.1032,
+        "y": 0.0394,
+        "width": 0.514,
+        "height": 0.0257
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "main",
+      "id": "container-4",
+      "bounds": {
+        "x": 0,
+        "y": 0.1296,
+        "width": 1,
+        "height": 0.7298
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "media-region",
+      "id": "container-5",
+      "bounds": {
+        "x": 0,
+        "y": 0.1296,
+        "width": 0.52,
+        "height": 0.5104
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "hero-section",
+      "id": "region-25",
+      "bounds": {
+        "x": 0.3092,
+        "y": 0.1522,
+        "width": 0.3834,
+        "height": 0.1161
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "services-section",
+      "id": "region-26",
+      "bounds": {
+        "x": 0,
+        "y": 0.3553,
+        "width": 1,
+        "height": 0.5041
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "repeated-region",
+      "id": "container-8",
+      "bounds": {
+        "x": 0,
+        "y": 0.64,
+        "width": 1,
+        "height": 0.2194
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "contact-section",
+      "id": "region-28",
+      "bounds": {
+        "x": 0.3398,
+        "y": 0.8379,
+        "width": 0.293,
+        "height": 0.0658
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    }
+  ],
+  "regionCount": 25
+}

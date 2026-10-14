@@ -1,0 +1,438 @@
+{
+  "pageCategory": "landing",
+  "majorZones": [
+    {
+      "role": "page",
+      "id": "container-1",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "header",
+      "id": "container-2",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.1296
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "nav-group",
+      "id": "region-24",
+      "bounds": {
+        "x": 0.1032,
+        "y": 0.0394,
+        "width": 0.514,
+        "height": 0.0257
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "main",
+      "id": "container-4",
+      "bounds": {
+        "x": 0,
+        "y": 0.1296,
+        "width": 1,
+        "height": 0.7298
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "hero-section",
+      "id": "region-25",
+      "bounds": {
+        "x": 0.3092,
+        "y": 0.1522,
+        "width": 0.3834,
+        "height": 0.1161
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "services-section",
+      "id": "region-26",
+      "bounds": {
+        "x": 0,
+        "y": 0.3553,
+        "width": 1,
+        "height": 0.5041
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "contact-section",
+      "id": "region-28",
+      "bounds": {
+        "x": 0.3398,
+        "y": 0.8379,
+        "width": 0.293,
+        "height": 0.0658
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    }
+  ],
+  "regionCount": 24,
+  "canonicalRepair": [
+    {
+      "nodeId": "container-5",
+      "oldParentId": null,
+      "newParentId": "container-4",
+      "reason": "demoted oversized multi-band media candidate",
+      "evidence": [
+        "crosses-section-bands"
+      ]
+    },
+    {
+      "nodeId": "container-1",
+      "oldParentId": null,
+      "newParentId": "root-0",
+      "reason": "single page root",
+      "evidence": [
+        "page"
+      ]
+    },
+    {
+      "nodeId": "container-2",
+      "oldParentId": null,
+      "newParentId": "container-1",
+      "reason": "top page band",
+      "evidence": [
+        "header"
+      ]
+    },
+    {
+      "nodeId": "container-4",
+      "oldParentId": null,
+      "newParentId": "container-1",
+      "reason": "main page band",
+      "evidence": [
+        "main"
+      ]
+    },
+    {
+      "nodeId": "container-9",
+      "oldParentId": null,
+      "newParentId": "container-1",
+      "reason": "bottom page band",
+      "evidence": [
+        "footer"
+      ]
+    },
+    {
+      "nodeId": "region-25",
+      "oldParentId": null,
+      "newParentId": "container-4",
+      "reason": "canonical macro band",
+      "evidence": [
+        "hero-section"
+      ]
+    },
+    {
+      "nodeId": "region-26",
+      "oldParentId": null,
+      "newParentId": "container-4",
+      "reason": "canonical macro band",
+      "evidence": [
+        "services-section"
+      ]
+    },
+    {
+      "nodeId": "region-27",
+      "oldParentId": null,
+      "newParentId": "container-4",
+      "reason": "canonical macro band",
+      "evidence": [
+        "about-section"
+      ]
+    },
+    {
+      "nodeId": "region-28",
+      "oldParentId": null,
+      "newParentId": "container-4",
+      "reason": "canonical macro band",
+      "evidence": [
+        "contact-section"
+      ]
+    },
+    {
+      "nodeId": "region-24",
+      "oldParentId": null,
+      "newParentId": "container-2",
+      "reason": "single header navigation",
+      "evidence": [
+        "nav-group"
+      ]
+    },
+    {
+      "nodeId": "container-3",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "region"
+      ]
+    },
+    {
+      "nodeId": "container-5",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "region"
+      ]
+    },
+    {
+      "nodeId": "container-6",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "section"
+      ]
+    },
+    {
+      "nodeId": "image-7",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "media"
+      ]
+    },
+    {
+      "nodeId": "container-8",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "repeated-region"
+      ]
+    },
+    {
+      "nodeId": "text-10",
+      "oldParentId": null,
+      "newParentId": "region-25",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "copy",
+        "dolor sit amet, adipiscing"
+      ]
+    },
+    {
+      "nodeId": "button-11",
+      "oldParentId": null,
+      "newParentId": "region-25",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "action",
+        "GET STARTED"
+      ]
+    },
+    {
+      "nodeId": "text-12",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "section-heading",
+        "ABOUT US"
+      ]
+    },
+    {
+      "nodeId": "button-13",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "action",
+        "CONTACT US"
+      ]
+    },
+    {
+      "nodeId": "text-14",
+      "oldParentId": null,
+      "newParentId": "container-2",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "nav-link",
+        "LOGO"
+      ]
+    },
+    {
+      "nodeId": "text-15",
+      "oldParentId": null,
+      "newParentId": "region-25",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "hero-heading",
+        "HEADLINE"
+      ]
+    },
+    {
+      "nodeId": "text-16",
+      "oldParentId": null,
+      "newParentId": "region-25",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "copy",
+        "Lorem ipsum consectuer"
+      ]
+    },
+    {
+      "nodeId": "text-17",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "section-heading",
+        "OUR SERVICES"
+      ]
+    },
+    {
+      "nodeId": "button-18",
+      "oldParentId": null,
+      "newParentId": "region-28",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "action",
+        "[ ] SEND"
+      ]
+    },
+    {
+      "nodeId": "button-19",
+      "oldParentId": null,
+      "newParentId": "container-2",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "action",
+        "CONTACT"
+      ]
+    },
+    {
+      "nodeId": "text-20",
+      "oldParentId": null,
+      "newParentId": "container-2",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "nav-link",
+        "LOGO"
+      ]
+    },
+    {
+      "nodeId": "text-21",
+      "oldParentId": null,
+      "newParentId": "region-24",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "nav-link",
+        "CONTACT"
+      ]
+    },
+    {
+      "nodeId": "text-22",
+      "oldParentId": null,
+      "newParentId": "region-24",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "nav-link",
+        "ABOUT"
+      ]
+    },
+    {
+      "nodeId": "text-23",
+      "oldParentId": null,
+      "newParentId": "region-24",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "nav-link",
+        "SERVICES"
+      ]
+    },
+    {
+      "nodeId": "region-29",
+      "oldParentId": null,
+      "newParentId": "region-28",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "form"
+      ]
+    },
+    {
+      "nodeId": "region-30",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "media-thumbnail-strip"
+      ]
+    },
+    {
+      "nodeId": "image-31",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "thumbnail-image"
+      ]
+    },
+    {
+      "nodeId": "image-32",
+      "oldParentId": null,
+      "newParentId": "region-26",
+      "reason": "geometry, heading anchor, role compatibility",
+      "evidence": [
+        "thumbnail-image"
+      ]
+    }
+  ]
+}

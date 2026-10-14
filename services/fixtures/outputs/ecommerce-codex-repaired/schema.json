@@ -1,0 +1,2255 @@
+{
+  "type": "root",
+  "id": "root-0",
+  "role": "page-root",
+  "bbox": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 576
+  },
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "size": {
+    "width": 1024,
+    "height": 576
+  },
+  "layout": {
+    "direction": "column",
+    "columns": 1,
+    "gap": 0,
+    "align": "stretch",
+    "repeated": false
+  },
+  "children": [
+    {
+      "type": "container",
+      "id": "container-1",
+      "role": "page",
+      "confidence": 0.98,
+      "roleConfidence": 0.98,
+      "text": null,
+      "textConfidence": null,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 576
+      },
+      "bboxPx": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 576
+      },
+      "bboxNorm": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1024,
+        "height": 576
+      },
+      "relativeBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "label": null,
+      "parentId": "root-0",
+      "parentRole": "page-root",
+      "readingOrder": 0,
+      "ocr": null,
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      },
+      "styleHints": {},
+      "repeatInfo": null,
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro page",
+        "vision": null
+      },
+      "uncertainty": 0.02,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "children": [
+        {
+          "type": "container",
+          "id": "container-2",
+          "role": "main",
+          "confidence": 0.94,
+          "roleConfidence": 0.94,
+          "text": null,
+          "textConfidence": null,
+          "bbox": {
+            "x": 0,
+            "y": 74,
+            "width": 1024,
+            "height": 421
+          },
+          "bboxPx": {
+            "x": 0,
+            "y": 74,
+            "width": 1024,
+            "height": 421
+          },
+          "bboxNorm": {
+            "x": 0,
+            "y": 0.1285,
+            "width": 1,
+            "height": 0.7309
+          },
+          "position": {
+            "x": 0,
+            "y": 74
+          },
+          "size": {
+            "width": 1024,
+            "height": 421
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0.1285,
+            "width": 1,
+            "height": 0.7309
+          },
+          "label": null,
+          "parentId": "container-1",
+          "parentRole": "page",
+          "readingOrder": 0,
+          "ocr": null,
+          "layout": {
+            "direction": "row",
+            "columns": 2,
+            "gap": 12,
+            "align": "stretch",
+            "repeated": false
+          },
+          "styleHints": {},
+          "repeatInfo": null,
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro main",
+            "vision": null
+          },
+          "uncertainty": 0.06,
+          "source": {
+            "cv": true,
+            "ocr": false,
+            "vision": false,
+            "merged": false
+          },
+          "children": [
+            {
+              "type": "container",
+              "id": "container-3",
+              "role": "gallery",
+              "confidence": 0.84,
+              "roleConfidence": 0.84,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 0,
+                "y": 74,
+                "width": 532.48,
+                "height": 421
+              },
+              "bboxPx": {
+                "x": 0,
+                "y": 74,
+                "width": 532.48,
+                "height": 421
+              },
+              "bboxNorm": {
+                "x": 0,
+                "y": 0.1285,
+                "width": 0.52,
+                "height": 0.7309
+              },
+              "position": {
+                "x": 0,
+                "y": 74
+              },
+              "size": {
+                "width": 532.48,
+                "height": 421
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0.1285,
+                "width": 0.52,
+                "height": 0.7309
+              },
+              "label": null,
+              "parentId": "container-2",
+              "parentRole": "main",
+              "readingOrder": 0,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro gallery",
+                "vision": null
+              },
+              "uncertainty": 0.16,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "image",
+                  "id": "image-6",
+                  "role": "media",
+                  "confidence": 0.7,
+                  "roleConfidence": 0.7,
+                  "text": null,
+                  "textConfidence": null,
+                  "bbox": {
+                    "x": 21.299200000000003,
+                    "y": 95.05,
+                    "width": 489.88160000000005,
+                    "height": 378.9
+                  },
+                  "bboxPx": {
+                    "x": 21.299200000000003,
+                    "y": 95.05,
+                    "width": 489.88160000000005,
+                    "height": 378.9
+                  },
+                  "bboxNorm": {
+                    "x": 0.0208,
+                    "y": 0.165,
+                    "width": 0.4784,
+                    "height": 0.6578
+                  },
+                  "position": {
+                    "x": 21.299200000000003,
+                    "y": 95.05
+                  },
+                  "size": {
+                    "width": 489.88160000000005,
+                    "height": 378.9
+                  },
+                  "relativeBounds": {
+                    "x": 0.0208,
+                    "y": 0.165,
+                    "width": 0.4784,
+                    "height": 0.6578
+                  },
+                  "label": null,
+                  "parentId": "container-3",
+                  "parentRole": "gallery",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro media",
+                    "vision": null
+                  },
+                  "uncertainty": 0.3,
+                  "source": {
+                    "cv": true,
+                    "ocr": false,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "id": "container-4",
+              "role": "product-detail",
+              "confidence": 0.84,
+              "roleConfidence": 0.84,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 532.48,
+                "y": 74,
+                "width": 491.52,
+                "height": 421
+              },
+              "bboxPx": {
+                "x": 532.48,
+                "y": 74,
+                "width": 491.52,
+                "height": 421
+              },
+              "bboxNorm": {
+                "x": 0.52,
+                "y": 0.1285,
+                "width": 0.48,
+                "height": 0.7309
+              },
+              "position": {
+                "x": 532.48,
+                "y": 74
+              },
+              "size": {
+                "width": 491.52,
+                "height": 421
+              },
+              "relativeBounds": {
+                "x": 0.52,
+                "y": 0.1285,
+                "width": 0.48,
+                "height": 0.7309
+              },
+              "label": null,
+              "parentId": "container-2",
+              "parentRole": "main",
+              "readingOrder": 1,
+              "ocr": null,
+              "layout": {
+                "direction": "grid",
+                "columns": 3,
+                "gap": 12,
+                "align": "stretch",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro product-detail",
+                "vision": null
+              },
+              "uncertainty": 0.16,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-18",
+                  "role": "nav-link",
+                  "confidence": 0.91,
+                  "roleConfidence": 0.91,
+                  "text": "Help",
+                  "textConfidence": 0.91,
+                  "bbox": {
+                    "x": 682.8571428571429,
+                    "y": 90.85714285714286,
+                    "width": 16.571428571428555,
+                    "height": 7.428571428571431
+                  },
+                  "bboxPx": {
+                    "x": 682.8571428571429,
+                    "y": 90.85714285714286,
+                    "width": 16.571428571428555,
+                    "height": 7.428571428571431
+                  },
+                  "bboxNorm": {
+                    "x": 0.6669,
+                    "y": 0.1577,
+                    "width": 0.0162,
+                    "height": 0.0129
+                  },
+                  "position": {
+                    "x": 682.8571428571429,
+                    "y": 90.85714285714286
+                  },
+                  "size": {
+                    "width": 16.571428571428555,
+                    "height": 7.428571428571431
+                  },
+                  "relativeBounds": {
+                    "x": 0.6669,
+                    "y": 0.1577,
+                    "width": 0.0162,
+                    "height": 0.0129
+                  },
+                  "label": "Help",
+                  "parentId": "container-4",
+                  "parentRole": "product-detail",
+                  "readingOrder": 1,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.09,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-13",
+                  "role": "product-title",
+                  "confidence": 0.95,
+                  "roleConfidence": 0.95,
+                  "text": "Product title",
+                  "textConfidence": 0.95,
+                  "bbox": {
+                    "x": 550.8571428571429,
+                    "y": 162.28571428571428,
+                    "width": 101.71428571428567,
+                    "height": 14.285714285714278
+                  },
+                  "bboxPx": {
+                    "x": 550.8571428571429,
+                    "y": 162.28571428571428,
+                    "width": 101.71428571428567,
+                    "height": 14.285714285714278
+                  },
+                  "bboxNorm": {
+                    "x": 0.5379,
+                    "y": 0.2817,
+                    "width": 0.0993,
+                    "height": 0.0248
+                  },
+                  "position": {
+                    "x": 550.8571428571429,
+                    "y": 162.28571428571428
+                  },
+                  "size": {
+                    "width": 101.71428571428567,
+                    "height": 14.285714285714278
+                  },
+                  "relativeBounds": {
+                    "x": 0.5379,
+                    "y": 0.2817,
+                    "width": 0.0993,
+                    "height": 0.0248
+                  },
+                  "label": "Product title",
+                  "parentId": "container-4",
+                  "parentRole": "product-detail",
+                  "readingOrder": 2,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro product-title",
+                    "vision": null
+                  },
+                  "uncertainty": 0.05,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-23",
+                  "role": "rating",
+                  "confidence": 0.57,
+                  "roleConfidence": 0.57,
+                  "text": "keke Reviews",
+                  "textConfidence": 0.57,
+                  "bbox": {
+                    "x": 550,
+                    "y": 189,
+                    "width": 129,
+                    "height": 10
+                  },
+                  "bboxPx": {
+                    "x": 550,
+                    "y": 189,
+                    "width": 129,
+                    "height": 10
+                  },
+                  "bboxNorm": {
+                    "x": 0.5371,
+                    "y": 0.3281,
+                    "width": 0.126,
+                    "height": 0.0174
+                  },
+                  "position": {
+                    "x": 550,
+                    "y": 189
+                  },
+                  "size": {
+                    "width": 129,
+                    "height": 10
+                  },
+                  "relativeBounds": {
+                    "x": 0.5371,
+                    "y": 0.3281,
+                    "width": 0.126,
+                    "height": 0.0174
+                  },
+                  "label": "keke Reviews",
+                  "parentId": "container-4",
+                  "parentRole": "product-detail",
+                  "readingOrder": 3,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro rating",
+                    "vision": null
+                  },
+                  "uncertainty": 0.43,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "text-24",
+                      "role": "copy",
+                      "confidence": 0.73,
+                      "roleConfidence": 0.73,
+                      "text": "4",
+                      "textConfidence": 0.73,
+                      "bbox": {
+                        "x": 645.7142857142857,
+                        "y": 192.57142857142858,
+                        "width": 1.7142857142856656,
+                        "height": 5.142857142857139
+                      },
+                      "bboxPx": {
+                        "x": 645.7142857142857,
+                        "y": 192.57142857142858,
+                        "width": 1.7142857142856656,
+                        "height": 5.142857142857139
+                      },
+                      "bboxNorm": {
+                        "x": 0.6306,
+                        "y": 0.3343,
+                        "width": 0.0017,
+                        "height": 0.0089
+                      },
+                      "position": {
+                        "x": 645.7142857142857,
+                        "y": 192.57142857142858
+                      },
+                      "size": {
+                        "width": 1.7142857142856656,
+                        "height": 5.142857142857139
+                      },
+                      "relativeBounds": {
+                        "x": 0.6306,
+                        "y": 0.3343,
+                        "width": 0.0017,
+                        "height": 0.0089
+                      },
+                      "label": "4",
+                      "parentId": "text-23",
+                      "parentRole": "rating",
+                      "readingOrder": 0,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro copy",
+                        "vision": null
+                      },
+                      "uncertainty": 0.27,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "text-26",
+                  "role": "price",
+                  "confidence": 0.48,
+                  "roleConfidence": 0.48,
+                  "text": "$123.00 be |",
+                  "textConfidence": 0.48,
+                  "bbox": {
+                    "x": 549,
+                    "y": 235,
+                    "width": 261,
+                    "height": 22
+                  },
+                  "bboxPx": {
+                    "x": 549,
+                    "y": 235,
+                    "width": 261,
+                    "height": 22
+                  },
+                  "bboxNorm": {
+                    "x": 0.5361,
+                    "y": 0.408,
+                    "width": 0.2549,
+                    "height": 0.0382
+                  },
+                  "position": {
+                    "x": 549,
+                    "y": 235
+                  },
+                  "size": {
+                    "width": 261,
+                    "height": 22
+                  },
+                  "relativeBounds": {
+                    "x": 0.5361,
+                    "y": 0.408,
+                    "width": 0.2549,
+                    "height": 0.0382
+                  },
+                  "label": "$123.00 be |",
+                  "parentId": "container-4",
+                  "parentRole": "product-detail",
+                  "readingOrder": 4,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro price",
+                    "vision": null
+                  },
+                  "uncertainty": 0.52,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "text-10",
+                      "role": "price",
+                      "confidence": 0.935,
+                      "roleConfidence": 0.935,
+                      "text": "$ 123.00",
+                      "textConfidence": 0.935,
+                      "bbox": {
+                        "x": 549.7142857142857,
+                        "y": 237.14285714285714,
+                        "width": 66.28571428571433,
+                        "height": 17.14285714285714
+                      },
+                      "bboxPx": {
+                        "x": 549.7142857142857,
+                        "y": 237.14285714285714,
+                        "width": 66.28571428571433,
+                        "height": 17.14285714285714
+                      },
+                      "bboxNorm": {
+                        "x": 0.5368,
+                        "y": 0.4117,
+                        "width": 0.0647,
+                        "height": 0.0298
+                      },
+                      "position": {
+                        "x": 549.7142857142857,
+                        "y": 237.14285714285714
+                      },
+                      "size": {
+                        "width": 66.28571428571433,
+                        "height": 17.14285714285714
+                      },
+                      "relativeBounds": {
+                        "x": 0.5368,
+                        "y": 0.4117,
+                        "width": 0.0647,
+                        "height": 0.0298
+                      },
+                      "label": "$ 123.00",
+                      "parentId": "text-26",
+                      "parentRole": "price",
+                      "readingOrder": 0,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro price",
+                        "vision": null
+                      },
+                      "uncertainty": 0.06,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "text-27",
+                  "role": "heading",
+                  "confidence": 0.53,
+                  "roleConfidence": 0.53,
+                  "text": "amet conactr",
+                  "textConfidence": 0.53,
+                  "bbox": {
+                    "x": 626,
+                    "y": 280,
+                    "width": 70,
+                    "height": 30
+                  },
+                  "bboxPx": {
+                    "x": 626,
+                    "y": 280,
+                    "width": 70,
+                    "height": 30
+                  },
+                  "bboxNorm": {
+                    "x": 0.6113,
+                    "y": 0.4861,
+                    "width": 0.0684,
+                    "height": 0.0521
+                  },
+                  "position": {
+                    "x": 626,
+                    "y": 280
+                  },
+                  "size": {
+                    "width": 70,
+                    "height": 30
+                  },
+                  "relativeBounds": {
+                    "x": 0.6113,
+                    "y": 0.4861,
+                    "width": 0.0684,
+                    "height": 0.0521
+                  },
+                  "label": "amet conactr",
+                  "parentId": "container-4",
+                  "parentRole": "product-detail",
+                  "readingOrder": 5,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro heading",
+                    "vision": null
+                  },
+                  "uncertainty": 0.47,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-12",
+                  "role": "description",
+                  "confidence": 0.865,
+                  "roleConfidence": 0.865,
+                  "text": "tetur adipiscing elit, sed do eiusmod",
+                  "textConfidence": 0.865,
+                  "bbox": {
+                    "x": 678.8571428571429,
+                    "y": 288,
+                    "width": 130.28571428571433,
+                    "height": 17.714285714285722
+                  },
+                  "bboxPx": {
+                    "x": 678.8571428571429,
+                    "y": 288,
+                    "width": 130.28571428571433,
+                    "height": 17.714285714285722
+                  },
+                  "bboxNorm": {
+                    "x": 0.6629,
+                    "y": 0.5,
+                    "width": 0.1272,
+                    "height": 0.0308
+                  },
+                  "position": {
+                    "x": 678.8571428571429,
+                    "y": 288
+                  },
+                  "size": {
+                    "width": 130.28571428571433,
+                    "height": 17.714285714285722
+                  },
+                  "relativeBounds": {
+                    "x": 0.6629,
+                    "y": 0.5,
+                    "width": 0.1272,
+                    "height": 0.0308
+                  },
+                  "label": "tetur adipiscing elit, sed do eiusmod",
+                  "parentId": "container-4",
+                  "parentRole": "product-detail",
+                  "readingOrder": 6,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro description",
+                    "vision": null
+                  },
+                  "uncertainty": 0.14,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-28",
+                  "role": "heading",
+                  "confidence": 0.52,
+                  "roleConfidence": 0.52,
+                  "text": "tempor bere ahaa nnn",
+                  "textConfidence": 0.52,
+                  "bbox": {
+                    "x": 550,
+                    "y": 293,
+                    "width": 254,
+                    "height": 30
+                  },
+                  "bboxPx": {
+                    "x": 550,
+                    "y": 293,
+                    "width": 254,
+                    "height": 30
+                  },
+                  "bboxNorm": {
+                    "x": 0.5371,
+                    "y": 0.5087,
+                    "width": 0.248,
+                    "height": 0.0521
+                  },
+                  "position": {
+                    "x": 550,
+                    "y": 293
+                  },
+                  "size": {
+                    "width": 254,
+                    "height": 30
+                  },
+                  "relativeBounds": {
+                    "x": 0.5371,
+                    "y": 0.5087,
+                    "width": 0.248,
+                    "height": 0.0521
+                  },
+                  "label": "tempor bere ahaa nnn",
+                  "parentId": "container-4",
+                  "parentRole": "product-detail",
+                  "readingOrder": 7,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "grid",
+                    "columns": 2,
+                    "gap": 12,
+                    "align": "stretch",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro heading",
+                    "vision": null
+                  },
+                  "uncertainty": 0.48,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "text-11",
+                      "role": "copy",
+                      "confidence": 0.95,
+                      "roleConfidence": 0.95,
+                      "text": "ipsum dolor sit amet,",
+                      "textConfidence": 0.95,
+                      "bbox": {
+                        "x": 577.1428571428571,
+                        "y": 293.7142857142857,
+                        "width": 71.42857142857144,
+                        "height": 6.85714285714289
+                      },
+                      "bboxPx": {
+                        "x": 577.1428571428571,
+                        "y": 293.7142857142857,
+                        "width": 71.42857142857144,
+                        "height": 6.85714285714289
+                      },
+                      "bboxNorm": {
+                        "x": 0.5636,
+                        "y": 0.5099,
+                        "width": 0.0698,
+                        "height": 0.0119
+                      },
+                      "position": {
+                        "x": 577.1428571428571,
+                        "y": 293.7142857142857
+                      },
+                      "size": {
+                        "width": 71.42857142857144,
+                        "height": 6.85714285714289
+                      },
+                      "relativeBounds": {
+                        "x": 0.5636,
+                        "y": 0.5099,
+                        "width": 0.0698,
+                        "height": 0.0119
+                      },
+                      "label": "ipsum dolor sit amet,",
+                      "parentId": "text-28",
+                      "parentRole": "heading",
+                      "readingOrder": 0,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro copy",
+                        "vision": null
+                      },
+                      "uncertainty": 0.05,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "id": "text-14",
+                      "role": "copy",
+                      "confidence": 0.95,
+                      "roleConfidence": 0.95,
+                      "text": "Lore",
+                      "textConfidence": 0.95,
+                      "bbox": {
+                        "x": 550.2857142857143,
+                        "y": 294.2857142857143,
+                        "width": 13.714285714285666,
+                        "height": 5.714285714285722
+                      },
+                      "bboxPx": {
+                        "x": 550.2857142857143,
+                        "y": 294.2857142857143,
+                        "width": 13.714285714285666,
+                        "height": 5.714285714285722
+                      },
+                      "bboxNorm": {
+                        "x": 0.5374,
+                        "y": 0.5109,
+                        "width": 0.0134,
+                        "height": 0.0099
+                      },
+                      "position": {
+                        "x": 550.2857142857143,
+                        "y": 294.2857142857143
+                      },
+                      "size": {
+                        "width": 13.714285714285666,
+                        "height": 5.714285714285722
+                      },
+                      "relativeBounds": {
+                        "x": 0.5374,
+                        "y": 0.5109,
+                        "width": 0.0134,
+                        "height": 0.0099
+                      },
+                      "label": "Lore",
+                      "parentId": "text-28",
+                      "parentRole": "heading",
+                      "readingOrder": 1,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro copy",
+                        "vision": null
+                      },
+                      "uncertainty": 0.05,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "id": "text-20",
+                      "role": "copy",
+                      "confidence": 0.645,
+                      "roleConfidence": 0.645,
+                      "text": "unt ut",
+                      "textConfidence": 0.645,
+                      "bbox": {
+                        "x": 604,
+                        "y": 301.7142857142857,
+                        "width": 19.42857142857133,
+                        "height": 16
+                      },
+                      "bboxPx": {
+                        "x": 604,
+                        "y": 301.7142857142857,
+                        "width": 19.42857142857133,
+                        "height": 16
+                      },
+                      "bboxNorm": {
+                        "x": 0.5898,
+                        "y": 0.5238,
+                        "width": 0.019,
+                        "height": 0.0278
+                      },
+                      "position": {
+                        "x": 604,
+                        "y": 301.7142857142857
+                      },
+                      "size": {
+                        "width": 19.42857142857133,
+                        "height": 16
+                      },
+                      "relativeBounds": {
+                        "x": 0.5898,
+                        "y": 0.5238,
+                        "width": 0.019,
+                        "height": 0.0278
+                      },
+                      "label": "unt ut",
+                      "parentId": "text-28",
+                      "parentRole": "heading",
+                      "readingOrder": 2,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro copy",
+                        "vision": null
+                      },
+                      "uncertainty": 0.36,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "id": "text-15",
+                      "role": "description",
+                      "confidence": 0.825,
+                      "roleConfidence": 0.825,
+                      "text": "nagna aliqua. Ut enim ad minim",
+                      "textConfidence": 0.825,
+                      "bbox": {
+                        "x": 690.8571428571429,
+                        "y": 302.2857142857143,
+                        "width": 110.28571428571433,
+                        "height": 16
+                      },
+                      "bboxPx": {
+                        "x": 690.8571428571429,
+                        "y": 302.2857142857143,
+                        "width": 110.28571428571433,
+                        "height": 16
+                      },
+                      "bboxNorm": {
+                        "x": 0.6747,
+                        "y": 0.5248,
+                        "width": 0.1077,
+                        "height": 0.0278
+                      },
+                      "position": {
+                        "x": 690.8571428571429,
+                        "y": 302.2857142857143
+                      },
+                      "size": {
+                        "width": 110.28571428571433,
+                        "height": 16
+                      },
+                      "relativeBounds": {
+                        "x": 0.6747,
+                        "y": 0.5248,
+                        "width": 0.1077,
+                        "height": 0.0278
+                      },
+                      "label": "nagna aliqua. Ut enim ad minim",
+                      "parentId": "text-28",
+                      "parentRole": "heading",
+                      "readingOrder": 3,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro description",
+                        "vision": null
+                      },
+                      "uncertainty": 0.18,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "id": "text-22",
+                      "role": "copy",
+                      "confidence": 0.8133,
+                      "roleConfidence": 0.8133,
+                      "text": "laboris nisi ut",
+                      "textConfidence": 0.8133,
+                      "bbox": {
+                        "x": 705.7142857142857,
+                        "y": 320.57142857142856,
+                        "width": 45.142857142857224,
+                        "height": 5.142857142857167
+                      },
+                      "bboxPx": {
+                        "x": 705.7142857142857,
+                        "y": 320.57142857142856,
+                        "width": 45.142857142857224,
+                        "height": 5.142857142857167
+                      },
+                      "bboxNorm": {
+                        "x": 0.6892,
+                        "y": 0.5565,
+                        "width": 0.0441,
+                        "height": 0.0089
+                      },
+                      "position": {
+                        "x": 705.7142857142857,
+                        "y": 320.57142857142856
+                      },
+                      "size": {
+                        "width": 45.142857142857224,
+                        "height": 5.142857142857167
+                      },
+                      "relativeBounds": {
+                        "x": 0.6892,
+                        "y": 0.5565,
+                        "width": 0.0441,
+                        "height": 0.0089
+                      },
+                      "label": "laboris nisi ut",
+                      "parentId": "text-28",
+                      "parentRole": "heading",
+                      "readingOrder": 4,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro copy",
+                        "vision": null
+                      },
+                      "uncertainty": 0.19,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "text",
+                      "id": "text-29",
+                      "role": "copy",
+                      "confidence": 0.51,
+                      "roleConfidence": 0.51,
+                      "text": "is",
+                      "textConfidence": 0.51,
+                      "bbox": {
+                        "x": 592.5714285714286,
+                        "y": 321.7142857142857,
+                        "width": 6.285714285714334,
+                        "height": 4
+                      },
+                      "bboxPx": {
+                        "x": 592.5714285714286,
+                        "y": 321.7142857142857,
+                        "width": 6.285714285714334,
+                        "height": 4
+                      },
+                      "bboxNorm": {
+                        "x": 0.5787,
+                        "y": 0.5585,
+                        "width": 0.0061,
+                        "height": 0.0069
+                      },
+                      "position": {
+                        "x": 592.5714285714286,
+                        "y": 321.7142857142857
+                      },
+                      "size": {
+                        "width": 6.285714285714334,
+                        "height": 4
+                      },
+                      "relativeBounds": {
+                        "x": 0.5787,
+                        "y": 0.5585,
+                        "width": 0.0061,
+                        "height": 0.0069
+                      },
+                      "label": "is",
+                      "parentId": "text-28",
+                      "parentRole": "heading",
+                      "readingOrder": 5,
+                      "ocr": null,
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "styleHints": {},
+                      "repeatInfo": null,
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro copy",
+                        "vision": null
+                      },
+                      "uncertainty": 0.49,
+                      "source": {
+                        "cv": true,
+                        "ocr": true,
+                        "vision": false,
+                        "merged": false
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "text-25",
+              "role": "nav-link",
+              "confidence": 0.5033,
+              "roleConfidence": 0.5033,
+              "text": "2 most Ss",
+              "textConfidence": 0.5033,
+              "bbox": {
+                "x": 234,
+                "y": 87,
+                "width": 403,
+                "height": 13
+              },
+              "bboxPx": {
+                "x": 234,
+                "y": 87,
+                "width": 403,
+                "height": 13
+              },
+              "bboxNorm": {
+                "x": 0.2285,
+                "y": 0.151,
+                "width": 0.3936,
+                "height": 0.0226
+              },
+              "position": {
+                "x": 234,
+                "y": 87
+              },
+              "size": {
+                "width": 403,
+                "height": 13
+              },
+              "relativeBounds": {
+                "x": 0.2285,
+                "y": 0.151,
+                "width": 0.3936,
+                "height": 0.0226
+              },
+              "label": "2 most Ss",
+              "parentId": "container-2",
+              "parentRole": "main",
+              "readingOrder": 2,
+              "ocr": null,
+              "layout": {
+                "direction": "row",
+                "columns": 1,
+                "gap": 12,
+                "align": "center",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro nav-link",
+                "vision": null
+              },
+              "uncertainty": 0.5,
+              "source": {
+                "cv": true,
+                "ocr": true,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-19",
+                  "role": "nav-link",
+                  "confidence": 0.9,
+                  "roleConfidence": 0.9,
+                  "text": "(Q",
+                  "textConfidence": 0.9,
+                  "bbox": {
+                    "x": 290.2857142857143,
+                    "y": 89.71428571428571,
+                    "width": 12,
+                    "height": 8.57142857142857
+                  },
+                  "bboxPx": {
+                    "x": 290.2857142857143,
+                    "y": 89.71428571428571,
+                    "width": 12,
+                    "height": 8.57142857142857
+                  },
+                  "bboxNorm": {
+                    "x": 0.2835,
+                    "y": 0.1558,
+                    "width": 0.0117,
+                    "height": 0.0149
+                  },
+                  "position": {
+                    "x": 290.2857142857143,
+                    "y": 89.71428571428571
+                  },
+                  "size": {
+                    "width": 12,
+                    "height": 8.57142857142857
+                  },
+                  "relativeBounds": {
+                    "x": 0.2835,
+                    "y": 0.1558,
+                    "width": 0.0117,
+                    "height": 0.0149
+                  },
+                  "label": "(Q",
+                  "parentId": "text-25",
+                  "parentRole": "nav-link",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.1,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-17",
+                  "role": "nav-link",
+                  "confidence": 0.94,
+                  "roleConfidence": 0.94,
+                  "text": "Shop",
+                  "textConfidence": 0.94,
+                  "bbox": {
+                    "x": 618.8571428571429,
+                    "y": 90.85714285714286,
+                    "width": 18.285714285714334,
+                    "height": 7.428571428571431
+                  },
+                  "bboxPx": {
+                    "x": 618.8571428571429,
+                    "y": 90.85714285714286,
+                    "width": 18.285714285714334,
+                    "height": 7.428571428571431
+                  },
+                  "bboxNorm": {
+                    "x": 0.6044,
+                    "y": 0.1577,
+                    "width": 0.0179,
+                    "height": 0.0129
+                  },
+                  "position": {
+                    "x": 618.8571428571429,
+                    "y": 90.85714285714286
+                  },
+                  "size": {
+                    "width": 18.285714285714334,
+                    "height": 7.428571428571431
+                  },
+                  "relativeBounds": {
+                    "x": 0.6044,
+                    "y": 0.1577,
+                    "width": 0.0179,
+                    "height": 0.0129
+                  },
+                  "label": "Shop",
+                  "parentId": "text-25",
+                  "parentRole": "nav-link",
+                  "readingOrder": 1,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.06,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-9",
+                  "role": "nav-link",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "Home",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 492,
+                    "y": 91.42857142857143,
+                    "width": 21.14285714285711,
+                    "height": 5.714285714285708
+                  },
+                  "bboxPx": {
+                    "x": 492,
+                    "y": 91.42857142857143,
+                    "width": 21.14285714285711,
+                    "height": 5.714285714285708
+                  },
+                  "bboxNorm": {
+                    "x": 0.4805,
+                    "y": 0.1587,
+                    "width": 0.0206,
+                    "height": 0.0099
+                  },
+                  "position": {
+                    "x": 492,
+                    "y": 91.42857142857143
+                  },
+                  "size": {
+                    "width": 21.14285714285711,
+                    "height": 5.714285714285708
+                  },
+                  "relativeBounds": {
+                    "x": 0.4805,
+                    "y": 0.1587,
+                    "width": 0.0206,
+                    "height": 0.0099
+                  },
+                  "label": "Home",
+                  "parentId": "text-25",
+                  "parentRole": "nav-link",
+                  "readingOrder": 2,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-21",
+                  "role": "nav-link",
+                  "confidence": 0.88,
+                  "roleConfidence": 0.88,
+                  "text": "About",
+                  "textConfidence": 0.88,
+                  "bbox": {
+                    "x": 554.2857142857143,
+                    "y": 91.42857142857143,
+                    "width": 21.14285714285711,
+                    "height": 5.714285714285708
+                  },
+                  "bboxPx": {
+                    "x": 554.2857142857143,
+                    "y": 91.42857142857143,
+                    "width": 21.14285714285711,
+                    "height": 5.714285714285708
+                  },
+                  "bboxNorm": {
+                    "x": 0.5413,
+                    "y": 0.1587,
+                    "width": 0.0206,
+                    "height": 0.0099
+                  },
+                  "position": {
+                    "x": 554.2857142857143,
+                    "y": 91.42857142857143
+                  },
+                  "size": {
+                    "width": 21.14285714285711,
+                    "height": 5.714285714285708
+                  },
+                  "relativeBounds": {
+                    "x": 0.5413,
+                    "y": 0.1587,
+                    "width": 0.0206,
+                    "height": 0.0099
+                  },
+                  "label": "About",
+                  "parentId": "text-25",
+                  "parentRole": "nav-link",
+                  "readingOrder": 3,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.12,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "text-30",
+              "role": "heading",
+              "confidence": 0.45,
+              "roleConfidence": 0.45,
+              "text": "ai ms",
+              "textConfidence": 0.45,
+              "bbox": {
+                "x": 222,
+                "y": 348,
+                "width": 457,
+                "height": 40
+              },
+              "bboxPx": {
+                "x": 222,
+                "y": 348,
+                "width": 457,
+                "height": 40
+              },
+              "bboxNorm": {
+                "x": 0.2168,
+                "y": 0.6042,
+                "width": 0.4463,
+                "height": 0.0694
+              },
+              "position": {
+                "x": 222,
+                "y": 348
+              },
+              "size": {
+                "width": 457,
+                "height": 40
+              },
+              "relativeBounds": {
+                "x": 0.2168,
+                "y": 0.6042,
+                "width": 0.4463,
+                "height": 0.0694
+              },
+              "label": "ai ms",
+              "parentId": "container-2",
+              "parentRole": "main",
+              "readingOrder": 3,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro heading",
+                "vision": null
+              },
+              "uncertainty": 0.55,
+              "source": {
+                "cv": true,
+                "ocr": true,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-31",
+                  "role": "copy",
+                  "confidence": 0.4,
+                  "roleConfidence": 0.4,
+                  "text": "(eee)",
+                  "textConfidence": 0.4,
+                  "bbox": {
+                    "x": 549.7142857142857,
+                    "y": 348.57142857142856,
+                    "width": 129.1428571428571,
+                    "height": 23.428571428571445
+                  },
+                  "bboxPx": {
+                    "x": 549.7142857142857,
+                    "y": 348.57142857142856,
+                    "width": 129.1428571428571,
+                    "height": 23.428571428571445
+                  },
+                  "bboxNorm": {
+                    "x": 0.5368,
+                    "y": 0.6052,
+                    "width": 0.1261,
+                    "height": 0.0407
+                  },
+                  "position": {
+                    "x": 549.7142857142857,
+                    "y": 348.57142857142856
+                  },
+                  "size": {
+                    "width": 129.1428571428571,
+                    "height": 23.428571428571445
+                  },
+                  "relativeBounds": {
+                    "x": 0.5368,
+                    "y": 0.6052,
+                    "width": 0.1261,
+                    "height": 0.0407
+                  },
+                  "label": "(eee)",
+                  "parentId": "text-30",
+                  "parentRole": "heading",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro copy",
+                    "vision": null
+                  },
+                  "uncertainty": 0.6,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "text-16",
+              "role": "copy",
+              "confidence": 0.95,
+              "roleConfidence": 0.95,
+              "text": "Products",
+              "textConfidence": 0.95,
+              "bbox": {
+                "x": 507.42857142857144,
+                "y": 450.85714285714283,
+                "width": 72.57142857142856,
+                "height": 14.285714285714278
+              },
+              "bboxPx": {
+                "x": 507.42857142857144,
+                "y": 450.85714285714283,
+                "width": 72.57142857142856,
+                "height": 14.285714285714278
+              },
+              "bboxNorm": {
+                "x": 0.4955,
+                "y": 0.7827,
+                "width": 0.0709,
+                "height": 0.0248
+              },
+              "position": {
+                "x": 507.42857142857144,
+                "y": 450.85714285714283
+              },
+              "size": {
+                "width": 72.57142857142856,
+                "height": 14.285714285714278
+              },
+              "relativeBounds": {
+                "x": 0.4955,
+                "y": 0.7827,
+                "width": 0.0709,
+                "height": 0.0248
+              },
+              "label": "Products",
+              "parentId": "container-2",
+              "parentRole": "main",
+              "readingOrder": 4,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro copy",
+                "vision": null
+              },
+              "uncertainty": 0.05,
+              "source": {
+                "cv": true,
+                "ocr": true,
+                "vision": false,
+                "merged": false
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "region",
+          "id": "region-32",
+          "role": "about-section",
+          "confidence": 0.66,
+          "roleConfidence": 0.66,
+          "text": null,
+          "textConfidence": null,
+          "bbox": {
+            "x": 0,
+            "y": 91.42857142857143,
+            "width": 1024,
+            "height": 484.57142857142856
+          },
+          "bboxPx": {
+            "x": 0,
+            "y": 91.42857142857143,
+            "width": 1024,
+            "height": 484.57142857142856
+          },
+          "bboxNorm": {
+            "x": 0,
+            "y": 0.1587,
+            "width": 1,
+            "height": 0.8413
+          },
+          "position": {
+            "x": 0,
+            "y": 91.42857142857143
+          },
+          "size": {
+            "width": 1024,
+            "height": 484.57142857142856
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0.1587,
+            "width": 1,
+            "height": 0.8413
+          },
+          "label": null,
+          "parentId": "container-1",
+          "parentRole": "page",
+          "readingOrder": 2,
+          "ocr": null,
+          "layout": {
+            "direction": "auto",
+            "columns": 1,
+            "gap": 0,
+            "align": "start",
+            "repeated": false
+          },
+          "styleHints": {},
+          "repeatInfo": null,
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro about-section",
+            "vision": null
+          },
+          "uncertainty": 0.34,
+          "source": {
+            "cv": true,
+            "ocr": false,
+            "vision": false,
+            "merged": false
+          },
+          "children": [
+            {
+              "type": "region",
+              "id": "region-33",
+              "role": "map-region",
+              "confidence": 0.66,
+              "roleConfidence": 0.66,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 21.299200000000003,
+                "y": 95.05,
+                "width": 489.88160000000005,
+                "height": 378.9
+              },
+              "bboxPx": {
+                "x": 21.299200000000003,
+                "y": 95.05,
+                "width": 489.88160000000005,
+                "height": 378.9
+              },
+              "bboxNorm": {
+                "x": 0.0208,
+                "y": 0.165,
+                "width": 0.4784,
+                "height": 0.6578
+              },
+              "position": {
+                "x": 21.299200000000003,
+                "y": 95.05
+              },
+              "size": {
+                "width": 489.88160000000005,
+                "height": 378.9
+              },
+              "relativeBounds": {
+                "x": 0.0208,
+                "y": 0.165,
+                "width": 0.4784,
+                "height": 0.6578
+              },
+              "label": null,
+              "parentId": "region-32",
+              "parentRole": "about-section",
+              "readingOrder": 0,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro map-region",
+                "vision": null
+              },
+              "uncertainty": 0.34,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-8",
+                  "role": "copy",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "Similar",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 444,
+                    "y": 451,
+                    "width": 58,
+                    "height": 14
+                  },
+                  "bboxPx": {
+                    "x": 444,
+                    "y": 451,
+                    "width": 58,
+                    "height": 14
+                  },
+                  "bboxNorm": {
+                    "x": 0.4336,
+                    "y": 0.783,
+                    "width": 0.0566,
+                    "height": 0.0243
+                  },
+                  "position": {
+                    "x": 444,
+                    "y": 451
+                  },
+                  "size": {
+                    "width": 58,
+                    "height": 14
+                  },
+                  "relativeBounds": {
+                    "x": 0.4336,
+                    "y": 0.783,
+                    "width": 0.0566,
+                    "height": 0.0243
+                  },
+                  "label": "Similar",
+                  "parentId": "region-33",
+                  "parentRole": "map-region",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro copy",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layoutPlan": {
+    "pageCategory": "commerce-product",
+    "majorZones": [
+      {
+        "role": "page",
+        "id": "container-1",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "main",
+        "id": "container-2",
+        "bounds": {
+          "x": 0,
+          "y": 0.1285,
+          "width": 1,
+          "height": 0.7309
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 2,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "gallery",
+        "id": "container-3",
+        "bounds": {
+          "x": 0,
+          "y": 0.1285,
+          "width": 0.52,
+          "height": 0.7309
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "product-detail",
+        "id": "container-4",
+        "bounds": {
+          "x": 0.52,
+          "y": 0.1285,
+          "width": 0.48,
+          "height": 0.7309
+        },
+        "layout": {
+          "direction": "grid",
+          "columns": 3,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "about-section",
+        "id": "region-32",
+        "bounds": {
+          "x": 0,
+          "y": 0.1587,
+          "width": 1,
+          "height": 0.8413
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "map-region",
+        "id": "region-33",
+        "bounds": {
+          "x": 0.0208,
+          "y": 0.165,
+          "width": 0.4784,
+          "height": 0.6578
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      }
+    ],
+    "regionCount": 31
+  }
+}

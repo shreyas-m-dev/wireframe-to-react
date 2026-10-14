@@ -1,0 +1,453 @@
+{
+  "elements": [
+    {
+      "type": "container",
+      "confidence": 0.98,
+      "x": 0,
+      "y": 0,
+      "width": 1024.0,
+      "height": 683.0,
+      "role": "page",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.9,
+      "x": 0,
+      "y": 0,
+      "width": 1024.0,
+      "height": 88.0,
+      "role": "header",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.94,
+      "x": 0,
+      "y": 88.0,
+      "width": 1024.0,
+      "height": 499.0,
+      "role": "main",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.84,
+      "x": 0,
+      "y": 88.0,
+      "width": 532.48,
+      "height": 499.0,
+      "role": "media-region",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.84,
+      "x": 532.48,
+      "y": 88.0,
+      "width": 491.52,
+      "height": 499.0,
+      "role": "section",
+      "label": null
+    },
+    {
+      "type": "image",
+      "confidence": 0.7,
+      "x": 21.299200000000003,
+      "y": 112.95,
+      "width": 489.88160000000005,
+      "height": 449.09999999999997,
+      "role": "media",
+      "label": null
+    },
+    {
+      "type": "container",
+      "confidence": 0.7,
+      "x": 46.0,
+      "y": 131.0,
+      "width": 934.0,
+      "height": 209.0,
+      "role": null,
+      "label": null
+    },
+    {
+      "type": "text",
+      "confidence": 0.96,
+      "x": 28.0,
+      "y": 24.0,
+      "width": 67.0,
+      "height": 21.0,
+      "label": "LOGO",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "normalized-psm6-header-word",
+        "confidence": 96.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.95,
+      "x": 902.0,
+      "y": 29.0,
+      "width": 31.0,
+      "height": 16.0,
+      "label": "sign",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "normalized-psm6-header-word",
+        "confidence": 95.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.61,
+      "x": 944.0,
+      "y": 29.0,
+      "width": 19.0,
+      "height": 16.0,
+      "label": "Up",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "normalized-psm6-header-word",
+        "confidence": 61.0
+      }
+    },
+    {
+      "type": "text",
+      "confidence": 0.58,
+      "x": 791.0,
+      "y": 29.0,
+      "width": 40.0,
+      "height": 16.0,
+      "label": "Login",
+      "role": "nav-link",
+      "ocrEvidence": {
+        "pass": "normalized-psm6-header-word",
+        "confidence": 58.0
+      }
+    },
+    {
+      "type": "region",
+      "role": "nav-group",
+      "confidence": 0.72,
+      "x": 28.0,
+      "y": 16.0,
+      "width": 935.0,
+      "height": 37.0,
+      "label": null,
+      "evidence": [
+        "header OCR word alignment"
+      ],
+      "uncertainty": null
+    }
+  ],
+  "meta": {
+    "canvas": {
+      "width": 1024,
+      "height": 683
+    },
+    "warnings": [],
+    "ocr": {
+      "enabled": true,
+      "executablePath": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+      "version": "5.5.3.20260724",
+      "reason": null
+    },
+    "roiRecovery": {
+      "regions": [
+        {
+          "parentRole": "main",
+          "roiBounds": {
+            "x": 0.0,
+            "y": 88.0,
+            "width": 1024.0,
+            "height": 499.0
+          },
+          "candidatesBeforeSuppression": [
+            {
+              "x": 45.0,
+              "y": 130.0,
+              "width": 936.0,
+              "height": 211.0,
+              "localBounds": {
+                "x": 45.0,
+                "y": 42.0,
+                "width": 936.0,
+                "height": 211.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            },
+            {
+              "x": 41.0,
+              "y": 127.0,
+              "width": 944.0,
+              "height": 218.0,
+              "localBounds": {
+                "x": 41.0,
+                "y": 39.0,
+                "width": 944.0,
+                "height": 218.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": false
+            }
+          ],
+          "accepted": [],
+          "rejected": [
+            {
+              "bounds": {
+                "x": 41.0,
+                "y": 127.0,
+                "width": 944.0,
+                "height": 218.0
+              },
+              "reason": "global-duplicate"
+            },
+            {
+              "bounds": {
+                "x": 45.0,
+                "y": 130.0,
+                "width": 936.0,
+                "height": 211.0
+              },
+              "reason": "global-duplicate"
+            }
+          ]
+        },
+        {
+          "parentRole": "media-region",
+          "roiBounds": {
+            "x": 0.0,
+            "y": 88.0,
+            "width": 532.0,
+            "height": 499.0
+          },
+          "candidatesBeforeSuppression": [
+            {
+              "x": 41.0,
+              "y": 127.0,
+              "width": 491.0,
+              "height": 218.0,
+              "localBounds": {
+                "x": 41.0,
+                "y": 39.0,
+                "width": 491.0,
+                "height": 218.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            }
+          ],
+          "accepted": [
+            {
+              "x": 41.0,
+              "y": 127.0,
+              "width": 491.0,
+              "height": 218.0,
+              "localBounds": {
+                "x": 41.0,
+                "y": 39.0,
+                "width": 491.0,
+                "height": 218.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            }
+          ],
+          "rejected": []
+        },
+        {
+          "parentRole": "section",
+          "roiBounds": {
+            "x": 532.0,
+            "y": 88.0,
+            "width": 491.0,
+            "height": 499.0
+          },
+          "candidatesBeforeSuppression": [
+            {
+              "x": 532.0,
+              "y": 127.0,
+              "width": 453.0,
+              "height": 218.0,
+              "localBounds": {
+                "x": 0.0,
+                "y": 39.0,
+                "width": 453.0,
+                "height": 218.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            }
+          ],
+          "accepted": [
+            {
+              "x": 532.0,
+              "y": 127.0,
+              "width": 453.0,
+              "height": 218.0,
+              "localBounds": {
+                "x": 0.0,
+                "y": 39.0,
+                "width": 453.0,
+                "height": 218.0
+              },
+              "parentRegionId": null,
+              "recoveryStrategy": "roi-canny-contours",
+              "confidence": 0.55,
+              "evidence": [
+                "local rectangular contour"
+              ],
+              "uncertainty": null,
+              "clipped": true
+            }
+          ],
+          "rejected": []
+        }
+      ],
+      "repeatedGroups": [],
+      "cardDiagnostics": [
+        {
+          "roi": {
+            "x": 532.0,
+            "y": 88.0,
+            "width": 491.0,
+            "height": 499.0
+          },
+          "sourceRegionParent": "section",
+          "headingEvidence": null,
+          "passConfigurations": [
+            {
+              "name": "pass-a-edges",
+              "strategy": "CLAHE/bilateral + contour"
+            },
+            {
+              "name": "pass-b-adaptive",
+              "strategy": "CLAHE/bilateral + contour"
+            }
+          ],
+          "rawCandidates": [
+            {
+              "x": 532.0,
+              "y": 127.0,
+              "width": 452.0,
+              "height": 217.0,
+              "localBounds": {
+                "x": 0.0,
+                "y": 39.0,
+                "width": 452.0,
+                "height": 217.0
+              },
+              "sourcePasses": [
+                "pass-a-edges",
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 2.0829493087557602,
+                "top": 127,
+                "edgeDensity": 0.15296072753965986
+              },
+              "candidateScore": 0.63,
+              "confidence": 0.55
+            },
+            {
+              "x": 532.0,
+              "y": 127.0,
+              "width": 451.0,
+              "height": 216.0,
+              "localBounds": {
+                "x": 0.0,
+                "y": 39.0,
+                "width": 451.0,
+                "height": 216.0
+              },
+              "sourcePasses": [
+                "pass-b-adaptive"
+              ],
+              "clipped": true,
+              "features": {
+                "aspect": 2.087962962962963,
+                "top": 127,
+                "edgeDensity": 0.12223864662889053
+              },
+              "candidateScore": 0.55,
+              "confidence": 0.55
+            }
+          ],
+          "groupClusters": [],
+          "acceptedGroup": null,
+          "acceptedCardCount": 0,
+          "rejectedCandidates": [
+            {
+              "bounds": {
+                "x": 532.0,
+                "y": 127.0,
+                "width": 452.0,
+                "height": 217.0
+              },
+              "reason": "no 3-item size/alignment consensus"
+            }
+          ],
+          "uncertainty": "low-contrast candidates did not form a multi-signal repeated-card consensus",
+          "projectionPeaks": [
+            407,
+            448,
+            451
+          ]
+        }
+      ]
+    },
+    "vision": {
+      "used": false,
+      "schema": null,
+      "reason": "VISION_ENABLED is false; local CV/OCR used",
+      "status": {
+        "provider": "disabled",
+        "enabled": false,
+        "configured": false,
+        "model": null,
+        "timeoutSeconds": 20,
+        "maxImageDimension": 1600,
+        "keyPresent": false
+      }
+    },
+    "visionMerge": {
+      "used": false,
+      "added": [],
+      "matched": [],
+      "rejected": []
+    }
+  }
+}

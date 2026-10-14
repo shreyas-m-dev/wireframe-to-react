@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "executablePath": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "version": "5.5.3.20260724",
+  "reason": null,
+  "passesAttempted": [
+    {
+      "name": "normalized-psm6",
+      "config": "--psm 6",
+      "wordsFound": 26
+    },
+    {
+      "name": "upscaled-psm11",
+      "config": "--psm 11",
+      "wordsFound": 12
+    }
+  ],
+  "totalWordsFound": 28,
+  "totalLinesFound": 11,
+  "totalTextGroupsFound": 10,
+  "warnings": []
+}

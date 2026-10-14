@@ -1,0 +1,11 @@
+{
+  "score": 1,
+  "fullPage": true,
+  "majorRegionCount": 5,
+  "leafCount": 6,
+  "mediaCount": 2,
+  "buttonCount": 3,
+  "maxDepth": 4,
+  "passed": true,
+  "reasons": []
+}

@@ -1,0 +1,9 @@
+{
+  "stripped": [
+    {
+      "tag": "main",
+      "attrs": "data-wireframe-id=\"container-3\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" className=\"flex flex-col gap-3 p-3 w-full\""
+    }
+  ],
+  "kept": 3
+}

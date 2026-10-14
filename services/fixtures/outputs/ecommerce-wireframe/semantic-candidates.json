@@ -1,0 +1,735 @@
+[
+  {
+    "candidateId": "candidate-container-1",
+    "sourceEvidenceIds": [
+      "container-1"
+    ],
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "possibleRoles": [
+      {
+        "role": "page",
+        "score": 0.9364,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-root-0",
+    "confidence": 0.98,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-container-2",
+    "sourceEvidenceIds": [
+      "container-2"
+    ],
+    "bounds": {
+      "x": 0,
+      "y": 0.1285,
+      "width": 1,
+      "height": 0.7309
+    },
+    "possibleRoles": [
+      {
+        "role": "main",
+        "score": 0.9292,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-1",
+    "confidence": 0.94,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-container-3",
+    "sourceEvidenceIds": [
+      "container-3"
+    ],
+    "bounds": {
+      "x": 0,
+      "y": 0.1285,
+      "width": 0.52,
+      "height": 0.7309
+    },
+    "possibleRoles": [
+      {
+        "role": "gallery",
+        "score": 0.9112,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-2",
+    "confidence": 0.84,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-image-6",
+    "sourceEvidenceIds": [
+      "image-6"
+    ],
+    "bounds": {
+      "x": 0.0208,
+      "y": 0.165,
+      "width": 0.4784,
+      "height": 0.6578
+    },
+    "possibleRoles": [
+      {
+        "role": "media",
+        "score": 0.886,
+        "why": "canonical role evidence"
+      },
+      {
+        "role": "media",
+        "score": 0.79,
+        "why": "media rectangle evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-3",
+    "confidence": 0.7,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-container-4",
+    "sourceEvidenceIds": [
+      "container-4"
+    ],
+    "bounds": {
+      "x": 0.52,
+      "y": 0.1285,
+      "width": 0.48,
+      "height": 0.7309
+    },
+    "possibleRoles": [
+      {
+        "role": "product-detail",
+        "score": 0.95,
+        "why": "product region evidence"
+      },
+      {
+        "role": "product-detail",
+        "score": 0.9112,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-2",
+    "confidence": 0.84,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-18",
+    "sourceEvidenceIds": [
+      "text-18"
+    ],
+    "bounds": {
+      "x": 0.6669,
+      "y": 0.1577,
+      "width": 0.0162,
+      "height": 0.0129
+    },
+    "possibleRoles": [
+      {
+        "role": "nav-link",
+        "score": 0.9238,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-4",
+    "confidence": 0.91,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-13",
+    "sourceEvidenceIds": [
+      "text-13"
+    ],
+    "bounds": {
+      "x": 0.5379,
+      "y": 0.2817,
+      "width": 0.0993,
+      "height": 0.0248
+    },
+    "possibleRoles": [
+      {
+        "role": "product-title",
+        "score": 0.931,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-4",
+    "confidence": 0.95,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-23",
+    "sourceEvidenceIds": [
+      "text-23"
+    ],
+    "bounds": {
+      "x": 0.5371,
+      "y": 0.3281,
+      "width": 0.126,
+      "height": 0.0174
+    },
+    "possibleRoles": [
+      {
+        "role": "rating",
+        "score": 0.8626,
+        "why": "canonical role evidence"
+      },
+      {
+        "role": "rating",
+        "score": 0.83,
+        "why": "rating vocabulary"
+      }
+    ],
+    "parentCandidateId": "candidate-container-4",
+    "confidence": 0.57,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-24",
+    "sourceEvidenceIds": [
+      "text-24"
+    ],
+    "bounds": {
+      "x": 0.6306,
+      "y": 0.3343,
+      "width": 0.0017,
+      "height": 0.0089
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.8914,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-23",
+    "confidence": 0.73,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-26",
+    "sourceEvidenceIds": [
+      "text-26"
+    ],
+    "bounds": {
+      "x": 0.5361,
+      "y": 0.408,
+      "width": 0.2549,
+      "height": 0.0382
+    },
+    "possibleRoles": [
+      {
+        "role": "price",
+        "score": 0.8464,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-4",
+    "confidence": 0.48,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-10",
+    "sourceEvidenceIds": [
+      "text-10"
+    ],
+    "bounds": {
+      "x": 0.5368,
+      "y": 0.4117,
+      "width": 0.0647,
+      "height": 0.0298
+    },
+    "possibleRoles": [
+      {
+        "role": "price",
+        "score": 0.9283,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-26",
+    "confidence": 0.935,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-27",
+    "sourceEvidenceIds": [
+      "text-27"
+    ],
+    "bounds": {
+      "x": 0.6113,
+      "y": 0.4861,
+      "width": 0.0684,
+      "height": 0.0521
+    },
+    "possibleRoles": [
+      {
+        "role": "heading",
+        "score": 0.8554,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-4",
+    "confidence": 0.53,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-12",
+    "sourceEvidenceIds": [
+      "text-12"
+    ],
+    "bounds": {
+      "x": 0.6629,
+      "y": 0.5,
+      "width": 0.1272,
+      "height": 0.0308
+    },
+    "possibleRoles": [
+      {
+        "role": "description",
+        "score": 0.9157,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-4",
+    "confidence": 0.865,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-28",
+    "sourceEvidenceIds": [
+      "text-28"
+    ],
+    "bounds": {
+      "x": 0.5371,
+      "y": 0.5087,
+      "width": 0.248,
+      "height": 0.0521
+    },
+    "possibleRoles": [
+      {
+        "role": "heading",
+        "score": 0.8536,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-4",
+    "confidence": 0.52,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-11",
+    "sourceEvidenceIds": [
+      "text-11"
+    ],
+    "bounds": {
+      "x": 0.5636,
+      "y": 0.5099,
+      "width": 0.0698,
+      "height": 0.0119
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.931,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-28",
+    "confidence": 0.95,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-14",
+    "sourceEvidenceIds": [
+      "text-14"
+    ],
+    "bounds": {
+      "x": 0.5374,
+      "y": 0.5109,
+      "width": 0.0134,
+      "height": 0.0099
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.931,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-28",
+    "confidence": 0.95,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-20",
+    "sourceEvidenceIds": [
+      "text-20"
+    ],
+    "bounds": {
+      "x": 0.5898,
+      "y": 0.5238,
+      "width": 0.019,
+      "height": 0.0278
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.8761,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-28",
+    "confidence": 0.645,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-15",
+    "sourceEvidenceIds": [
+      "text-15"
+    ],
+    "bounds": {
+      "x": 0.6747,
+      "y": 0.5248,
+      "width": 0.1077,
+      "height": 0.0278
+    },
+    "possibleRoles": [
+      {
+        "role": "description",
+        "score": 0.9085,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-28",
+    "confidence": 0.825,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-22",
+    "sourceEvidenceIds": [
+      "text-22"
+    ],
+    "bounds": {
+      "x": 0.6892,
+      "y": 0.5565,
+      "width": 0.0441,
+      "height": 0.0089
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.906394,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-28",
+    "confidence": 0.8133,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-29",
+    "sourceEvidenceIds": [
+      "text-29"
+    ],
+    "bounds": {
+      "x": 0.5787,
+      "y": 0.5585,
+      "width": 0.0061,
+      "height": 0.0069
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.8518,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-28",
+    "confidence": 0.51,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-25",
+    "sourceEvidenceIds": [
+      "text-25"
+    ],
+    "bounds": {
+      "x": 0.2285,
+      "y": 0.151,
+      "width": 0.3936,
+      "height": 0.0226
+    },
+    "possibleRoles": [
+      {
+        "role": "nav-link",
+        "score": 0.850594,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-2",
+    "confidence": 0.5033,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-19",
+    "sourceEvidenceIds": [
+      "text-19"
+    ],
+    "bounds": {
+      "x": 0.2835,
+      "y": 0.1558,
+      "width": 0.0117,
+      "height": 0.0149
+    },
+    "possibleRoles": [
+      {
+        "role": "nav-link",
+        "score": 0.922,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-25",
+    "confidence": 0.9,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-17",
+    "sourceEvidenceIds": [
+      "text-17"
+    ],
+    "bounds": {
+      "x": 0.6044,
+      "y": 0.1577,
+      "width": 0.0179,
+      "height": 0.0129
+    },
+    "possibleRoles": [
+      {
+        "role": "nav-link",
+        "score": 0.9292,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-25",
+    "confidence": 0.94,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-9",
+    "sourceEvidenceIds": [
+      "text-9"
+    ],
+    "bounds": {
+      "x": 0.4805,
+      "y": 0.1587,
+      "width": 0.0206,
+      "height": 0.0099
+    },
+    "possibleRoles": [
+      {
+        "role": "nav-link",
+        "score": 0.9328,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-25",
+    "confidence": 0.96,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-21",
+    "sourceEvidenceIds": [
+      "text-21"
+    ],
+    "bounds": {
+      "x": 0.5413,
+      "y": 0.1587,
+      "width": 0.0206,
+      "height": 0.0099
+    },
+    "possibleRoles": [
+      {
+        "role": "nav-link",
+        "score": 0.9184,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-25",
+    "confidence": 0.88,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-30",
+    "sourceEvidenceIds": [
+      "text-30"
+    ],
+    "bounds": {
+      "x": 0.2168,
+      "y": 0.6042,
+      "width": 0.4463,
+      "height": 0.0694
+    },
+    "possibleRoles": [
+      {
+        "role": "heading",
+        "score": 0.841,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-2",
+    "confidence": 0.45,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-31",
+    "sourceEvidenceIds": [
+      "text-31"
+    ],
+    "bounds": {
+      "x": 0.5368,
+      "y": 0.6052,
+      "width": 0.1261,
+      "height": 0.0407
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.832,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-text-30",
+    "confidence": 0.4,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-16",
+    "sourceEvidenceIds": [
+      "text-16"
+    ],
+    "bounds": {
+      "x": 0.4955,
+      "y": 0.7827,
+      "width": 0.0709,
+      "height": 0.0248
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.931,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-2",
+    "confidence": 0.95,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-region-32",
+    "sourceEvidenceIds": [
+      "region-32"
+    ],
+    "bounds": {
+      "x": 0,
+      "y": 0.1587,
+      "width": 1,
+      "height": 0.8413
+    },
+    "possibleRoles": [
+      {
+        "role": "about-section",
+        "score": 0.8788,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-container-1",
+    "confidence": 0.66,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-region-33",
+    "sourceEvidenceIds": [
+      "region-33"
+    ],
+    "bounds": {
+      "x": 0.0208,
+      "y": 0.165,
+      "width": 0.4784,
+      "height": 0.6578
+    },
+    "possibleRoles": [
+      {
+        "role": "map-region",
+        "score": 0.9,
+        "why": "large lower location region"
+      },
+      {
+        "role": "map-region",
+        "score": 0.8788,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-region-32",
+    "confidence": 0.66,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  },
+  {
+    "candidateId": "candidate-text-8",
+    "sourceEvidenceIds": [
+      "text-8"
+    ],
+    "bounds": {
+      "x": 0.4336,
+      "y": 0.783,
+      "width": 0.0566,
+      "height": 0.0243
+    },
+    "possibleRoles": [
+      {
+        "role": "copy",
+        "score": 0.9328,
+        "why": "canonical role evidence"
+      }
+    ],
+    "parentCandidateId": "candidate-region-33",
+    "confidence": 0.96,
+    "conflicts": [],
+    "explanation": "geometry, text quality, role and parent-context scoring"
+  }
+]

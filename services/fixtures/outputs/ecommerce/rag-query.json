@@ -1,0 +1,6 @@
+{
+  "mode": "legacy-read-only",
+  "query": "page-root auto with page structure cart-action control-region description footer gallery header heading main media nav-group nav-link page price product-area product-card product-card-grid product-detail product-title rating related-products section-heading thumbnail-gallery thumbnail-image",
+  "database": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\rag\\vectors.sqlite3",
+  "recordCount": 23
+}

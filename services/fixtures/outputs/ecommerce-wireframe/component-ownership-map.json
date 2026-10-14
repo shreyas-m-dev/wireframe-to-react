@@ -1,0 +1,103 @@
+{
+  "valid": true,
+  "assignments": [
+    {
+      "sourceNodeId": "container-1",
+      "selectedComponentId": "semantic-container-1",
+      "ownerComponentId": "container-1",
+      "role": "page",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "container-2",
+      "selectedComponentId": "semantic-container-2",
+      "ownerComponentId": "container-2",
+      "role": "main",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "container-3",
+      "selectedComponentId": "semantic-container-3",
+      "ownerComponentId": "container-3",
+      "role": "gallery",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "image-6",
+      "selectedComponentId": "semantic-image-6",
+      "ownerComponentId": "container-3",
+      "role": "media",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "container-4",
+      "selectedComponentId": "semantic-container-4",
+      "ownerComponentId": "container-4",
+      "role": "product-detail",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-18",
+      "selectedComponentId": "semantic-text-18",
+      "ownerComponentId": "container-4",
+      "role": "nav-text",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-13",
+      "selectedComponentId": "semantic-text-13",
+      "ownerComponentId": "container-4",
+      "role": "product-title",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-26",
+      "selectedComponentId": "semantic-text-26",
+      "ownerComponentId": "container-4",
+      "role": "price",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-10",
+      "selectedComponentId": "semantic-text-10",
+      "ownerComponentId": "container-4",
+      "role": "price",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-12",
+      "selectedComponentId": "semantic-text-12",
+      "ownerComponentId": "container-4",
+      "role": "description",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-16",
+      "selectedComponentId": "semantic-text-16",
+      "ownerComponentId": "text-16",
+      "role": "copy",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "region-32",
+      "selectedComponentId": "semantic-region-32",
+      "ownerComponentId": "region-32",
+      "role": "about-section",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "region-33",
+      "selectedComponentId": "semantic-region-33",
+      "ownerComponentId": "region-32",
+      "role": "map-region",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-8",
+      "selectedComponentId": "semantic-text-8",
+      "ownerComponentId": "region-32",
+      "role": "copy",
+      "dropped": false
+    }
+  ]
+}

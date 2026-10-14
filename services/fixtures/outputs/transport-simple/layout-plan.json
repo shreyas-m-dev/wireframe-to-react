@@ -1,0 +1,108 @@
+{
+  "pageCategory": "generic",
+  "majorZones": [
+    {
+      "role": "page",
+      "id": "container-1",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "header",
+      "id": "container-2",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.1288
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "nav-group",
+      "id": "region-12",
+      "bounds": {
+        "x": 0.0273,
+        "y": 0.0234,
+        "width": 0.9131,
+        "height": 0.0542
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "main",
+      "id": "container-3",
+      "bounds": {
+        "x": 0,
+        "y": 0.1288,
+        "width": 1,
+        "height": 0.7306
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "media-region",
+      "id": "container-4",
+      "bounds": {
+        "x": 0,
+        "y": 0.1288,
+        "width": 0.52,
+        "height": 0.7306
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "section",
+      "id": "container-5",
+      "bounds": {
+        "x": 0.52,
+        "y": 0.1288,
+        "width": 0.48,
+        "height": 0.7306
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    }
+  ],
+  "regionCount": 12
+}

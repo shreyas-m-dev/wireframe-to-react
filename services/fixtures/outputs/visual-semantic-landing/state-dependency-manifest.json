@@ -1,0 +1,10 @@
+{
+  "hooks": [],
+  "state": [],
+  "handlers": [],
+  "targets": [
+    "about",
+    "services",
+    "contact"
+  ]
+}

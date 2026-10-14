@@ -1,0 +1,2959 @@
+{
+  "version": 1,
+  "sourceSchemaId": "root-0",
+  "components": [
+    {
+      "id": "semantic-container-1",
+      "component": "AppShell",
+      "sourceNodeIds": [
+        "container-1"
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro page",
+        "vision": null
+      },
+      "confidence": 0.98,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-container-2",
+      "component": "Header",
+      "sourceNodeIds": [
+        "container-2"
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 0.1296
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro header",
+        "vision": null
+      },
+      "confidence": 0.9,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-region-24",
+      "component": "Nav",
+      "sourceNodeIds": [
+        "region-24"
+      ],
+      "bounds": {
+        "x": 0.1032,
+        "y": 0.0394,
+        "width": 0.514,
+        "height": 0.0257
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro nav-group",
+        "vision": null
+      },
+      "confidence": 0.72,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-22",
+      "component": "NavItem",
+      "sourceNodeIds": [
+        "text-22"
+      ],
+      "bounds": {
+        "x": 0.457,
+        "y": 0.0475,
+        "width": 0.0527,
+        "height": 0.0085
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro nav-link",
+        "vision": null
+      },
+      "confidence": 0.88,
+      "accessibility": {
+        "label": "ABOUT"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-23",
+      "component": "NavItem",
+      "sourceNodeIds": [
+        "text-23"
+      ],
+      "bounds": {
+        "x": 0.5469,
+        "y": 0.0475,
+        "width": 0.0703,
+        "height": 0.0085
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro nav-link",
+        "vision": null
+      },
+      "confidence": 0.49,
+      "accessibility": {
+        "label": "SERVICES"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-21",
+      "component": "NavItem",
+      "sourceNodeIds": [
+        "text-21"
+      ],
+      "bounds": {
+        "x": 0.6543,
+        "y": 0.0475,
+        "width": 0.0723,
+        "height": 0.0085
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro nav-link",
+        "vision": null
+      },
+      "confidence": 0.92,
+      "accessibility": {
+        "label": "CONTACT"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-14",
+      "component": "Brand",
+      "sourceNodeIds": [
+        "text-14"
+      ],
+      "bounds": {
+        "x": 0.1032,
+        "y": 0.0446,
+        "width": 0.0826,
+        "height": 0.0153
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro nav-link",
+        "vision": null
+      },
+      "confidence": 0.96,
+      "accessibility": {
+        "label": "LOGO"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-button-19",
+      "component": "HeaderAction",
+      "sourceNodeIds": [
+        "button-19"
+      ],
+      "bounds": {
+        "x": 0.8027,
+        "y": 0.0469,
+        "width": 0.085,
+        "height": 0.0091
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro action",
+        "vision": null
+      },
+      "confidence": 0.96,
+      "accessibility": {
+        "label": "CONTACT"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-container-4",
+      "component": "Main",
+      "sourceNodeIds": [
+        "container-4"
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0.1296,
+        "width": 1,
+        "height": 0.7298
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro main",
+        "vision": null
+      },
+      "confidence": 0.94,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-region-25",
+      "component": "Hero",
+      "sourceNodeIds": [
+        "region-25"
+      ],
+      "bounds": {
+        "x": 0.3092,
+        "y": 0.1522,
+        "width": 0.3834,
+        "height": 0.1161
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro hero-section",
+        "vision": null
+      },
+      "confidence": 0.66,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-15",
+      "component": "Heading",
+      "sourceNodeIds": [
+        "text-15"
+      ],
+      "bounds": {
+        "x": 0.3092,
+        "y": 0.1522,
+        "width": 0.3834,
+        "height": 0.0387
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro hero-heading",
+        "vision": null
+      },
+      "confidence": 0.96,
+      "accessibility": {
+        "label": "HEADLINE"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-10",
+      "component": "Paragraph",
+      "sourceNodeIds": [
+        "text-10"
+      ],
+      "bounds": {
+        "x": 0.3984,
+        "y": 0.2142,
+        "width": 0.3262,
+        "height": 0.0124
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro copy",
+        "vision": null
+      },
+      "confidence": 0.9525,
+      "accessibility": {
+        "label": "dolor sit amet, adipiscing"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-16",
+      "component": "Paragraph",
+      "sourceNodeIds": [
+        "text-16"
+      ],
+      "bounds": {
+        "x": 0.279,
+        "y": 0.2147,
+        "width": 0.351,
+        "height": 0.0119
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro copy",
+        "vision": null
+      },
+      "confidence": 0.9467,
+      "accessibility": {
+        "label": "Lorem ipsum consectuer"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-button-11",
+      "component": "PrimaryAction",
+      "sourceNodeIds": [
+        "button-11"
+      ],
+      "bounds": {
+        "x": 0.4326,
+        "y": 0.2578,
+        "width": 0.1357,
+        "height": 0.0104
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro action",
+        "vision": null
+      },
+      "confidence": 0.955,
+      "accessibility": {
+        "label": "GET STARTED"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-region-26",
+      "component": "Section",
+      "sourceNodeIds": [
+        "region-26"
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0.3553,
+        "width": 1,
+        "height": 0.5041
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro services-section",
+        "vision": null
+      },
+      "confidence": 0.66,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-image-7",
+      "component": "MediaPlaceholder",
+      "sourceNodeIds": [
+        "image-7"
+      ],
+      "bounds": {
+        "x": 0.0208,
+        "y": 0.1551,
+        "width": 0.4784,
+        "height": 0.4594
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro media",
+        "vision": null
+      },
+      "confidence": 0.7,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-17",
+      "component": "Heading",
+      "sourceNodeIds": [
+        "text-17"
+      ],
+      "bounds": {
+        "x": 0.3845,
+        "y": 0.3553,
+        "width": 0.2327,
+        "height": 0.0164
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro section-heading",
+        "vision": null
+      },
+      "confidence": 0.96,
+      "accessibility": {
+        "label": "OUR SERVICES"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-region-27",
+      "component": "AboutSection",
+      "sourceNodeIds": [
+        "region-27"
+      ],
+      "bounds": {
+        "x": 0.1289,
+        "y": 0.7038,
+        "width": 0.166,
+        "height": 0.0163
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro about-section",
+        "vision": null
+      },
+      "confidence": 0.66,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-text-12",
+      "component": "Heading",
+      "sourceNodeIds": [
+        "text-12"
+      ],
+      "bounds": {
+        "x": 0.1289,
+        "y": 0.7038,
+        "width": 0.166,
+        "height": 0.0163
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro section-heading",
+        "vision": null
+      },
+      "confidence": 0.96,
+      "accessibility": {
+        "label": "ABOUT US"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-region-28",
+      "component": "ContactSection",
+      "sourceNodeIds": [
+        "region-28"
+      ],
+      "bounds": {
+        "x": 0.3398,
+        "y": 0.8379,
+        "width": 0.293,
+        "height": 0.0658
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro contact-section",
+        "vision": null
+      },
+      "confidence": 0.66,
+      "accessibility": {
+        "label": null
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-button-13",
+      "component": "Heading",
+      "sourceNodeIds": [
+        "button-13"
+      ],
+      "bounds": {
+        "x": 0.3975,
+        "y": 0.8379,
+        "width": 0.2061,
+        "height": 0.0163
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro action",
+        "vision": null
+      },
+      "confidence": 0.96,
+      "accessibility": {
+        "label": "CONTACT US"
+      },
+      "fallbackReason": null
+    },
+    {
+      "id": "semantic-button-18",
+      "component": "PrimaryAction",
+      "sourceNodeIds": [
+        "button-18"
+      ],
+      "bounds": {
+        "x": 0.3398,
+        "y": 0.8717,
+        "width": 0.293,
+        "height": 0.0319
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro action",
+        "vision": null
+      },
+      "confidence": 0.88,
+      "accessibility": {
+        "label": "[ ] SEND"
+      },
+      "fallbackReason": null
+    }
+  ],
+  "interactionPlan": [
+    {
+      "sourceNodeIds": [
+        "text-22"
+      ],
+      "action": "scroll",
+      "target": "about",
+      "confidence": 0.88,
+      "accessibility": [
+        "keyboard-focus",
+        "visible-focus"
+      ]
+    },
+    {
+      "sourceNodeIds": [
+        "text-23"
+      ],
+      "action": "scroll",
+      "target": "services",
+      "confidence": 0.49,
+      "accessibility": [
+        "keyboard-focus",
+        "visible-focus"
+      ]
+    },
+    {
+      "sourceNodeIds": [
+        "text-21"
+      ],
+      "action": "scroll",
+      "target": "contact",
+      "confidence": 0.92,
+      "accessibility": [
+        "keyboard-focus",
+        "visible-focus"
+      ]
+    },
+    {
+      "sourceNodeIds": [
+        "button-19"
+      ],
+      "action": "scroll",
+      "target": "contact",
+      "confidence": 0.96,
+      "accessibility": [
+        "keyboard-focus",
+        "visible-focus"
+      ]
+    },
+    {
+      "sourceNodeIds": [
+        "button-11"
+      ],
+      "action": "scroll",
+      "target": "contact",
+      "confidence": 0.955,
+      "accessibility": [
+        "keyboard-focus",
+        "visible-focus"
+      ]
+    }
+  ],
+  "removedNodes": [],
+  "semanticDecisions": [
+    {
+      "nodeId": "button-18",
+      "reason": "submit-downgraded-no-form-evidence"
+    }
+  ],
+  "codegenSchema": {
+    "type": "root",
+    "id": "root-0",
+    "role": "page-root",
+    "bbox": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 1536
+    },
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 1024,
+      "height": 1536
+    },
+    "layout": {
+      "direction": "column",
+      "columns": 1,
+      "gap": 0,
+      "align": "stretch",
+      "repeated": false
+    },
+    "children": [
+      {
+        "type": "container",
+        "id": "container-1",
+        "role": "page",
+        "confidence": 0.98,
+        "roleConfidence": 0.98,
+        "text": null,
+        "textConfidence": null,
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1536
+        },
+        "bboxPx": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1536
+        },
+        "bboxNorm": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 1024,
+          "height": 1536
+        },
+        "relativeBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "label": null,
+        "parentId": "root-0",
+        "parentRole": "page-root",
+        "readingOrder": 0,
+        "ocr": null,
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        },
+        "styleHints": {},
+        "repeatInfo": null,
+        "evidence": {
+          "source": "macro-layout-pass",
+          "grouping": "macro page",
+          "vision": null
+        },
+        "uncertainty": 0.02,
+        "source": {
+          "cv": true,
+          "ocr": false,
+          "vision": false,
+          "merged": false
+        },
+        "children": [
+          {
+            "type": "container",
+            "id": "container-2",
+            "role": "header",
+            "confidence": 0.9,
+            "roleConfidence": 0.9,
+            "text": null,
+            "textConfidence": null,
+            "bbox": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 199
+            },
+            "bboxPx": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 199
+            },
+            "bboxNorm": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 0.1296
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 1024,
+              "height": 199
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 0.1296
+            },
+            "label": null,
+            "parentId": "container-1",
+            "parentRole": "page",
+            "readingOrder": 0,
+            "ocr": null,
+            "layout": {
+              "direction": "row",
+              "columns": 1,
+              "gap": 12,
+              "align": "center",
+              "repeated": false
+            },
+            "styleHints": {},
+            "repeatInfo": null,
+            "evidence": {
+              "source": "macro-layout-pass",
+              "grouping": "macro header",
+              "vision": null
+            },
+            "uncertainty": 0.1,
+            "source": {
+              "cv": true,
+              "ocr": false,
+              "vision": false,
+              "merged": false
+            },
+            "children": [
+              {
+                "type": "region",
+                "id": "region-24",
+                "role": "nav-group",
+                "confidence": 0.72,
+                "roleConfidence": 0.72,
+                "text": null,
+                "textConfidence": null,
+                "bbox": {
+                  "x": 105.71428571428571,
+                  "y": 60.57142857142857,
+                  "width": 526.2857142857143,
+                  "height": 39.42857142857143
+                },
+                "bboxPx": {
+                  "x": 105.71428571428571,
+                  "y": 60.57142857142857,
+                  "width": 526.2857142857143,
+                  "height": 39.42857142857143
+                },
+                "bboxNorm": {
+                  "x": 0.1032,
+                  "y": 0.0394,
+                  "width": 0.514,
+                  "height": 0.0257
+                },
+                "position": {
+                  "x": 105.71428571428571,
+                  "y": 60.57142857142857
+                },
+                "size": {
+                  "width": 526.2857142857143,
+                  "height": 39.42857142857143
+                },
+                "relativeBounds": {
+                  "x": 0.1032,
+                  "y": 0.0394,
+                  "width": 0.514,
+                  "height": 0.0257
+                },
+                "label": null,
+                "parentId": "container-2",
+                "parentRole": "header",
+                "readingOrder": 0,
+                "ocr": null,
+                "layout": {
+                  "direction": "row",
+                  "columns": 1,
+                  "gap": 12,
+                  "align": "center",
+                  "repeated": false
+                },
+                "styleHints": {},
+                "repeatInfo": null,
+                "evidence": {
+                  "source": "macro-layout-pass",
+                  "grouping": "macro nav-group",
+                  "vision": null
+                },
+                "uncertainty": 0.28,
+                "source": {
+                  "cv": true,
+                  "ocr": false,
+                  "vision": false,
+                  "merged": false
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "text-22",
+                    "role": "nav-link",
+                    "confidence": 0.88,
+                    "roleConfidence": 0.88,
+                    "text": "ABOUT",
+                    "textConfidence": 0.88,
+                    "bbox": {
+                      "x": 468,
+                      "y": 73,
+                      "width": 54,
+                      "height": 13
+                    },
+                    "bboxPx": {
+                      "x": 468,
+                      "y": 73,
+                      "width": 54,
+                      "height": 13
+                    },
+                    "bboxNorm": {
+                      "x": 0.457,
+                      "y": 0.0475,
+                      "width": 0.0527,
+                      "height": 0.0085
+                    },
+                    "position": {
+                      "x": 468,
+                      "y": 73
+                    },
+                    "size": {
+                      "width": 54,
+                      "height": 13
+                    },
+                    "relativeBounds": {
+                      "x": 0.457,
+                      "y": 0.0475,
+                      "width": 0.0527,
+                      "height": 0.0085
+                    },
+                    "label": "ABOUT",
+                    "parentId": "region-24",
+                    "parentRole": "nav-group",
+                    "readingOrder": 0,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro nav-link",
+                      "vision": null
+                    },
+                    "uncertainty": 0.12,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "text-23",
+                    "role": "nav-link",
+                    "confidence": 0.49,
+                    "roleConfidence": 0.49,
+                    "text": "SERVICES",
+                    "textConfidence": 0.49,
+                    "bbox": {
+                      "x": 560,
+                      "y": 73,
+                      "width": 72,
+                      "height": 13
+                    },
+                    "bboxPx": {
+                      "x": 560,
+                      "y": 73,
+                      "width": 72,
+                      "height": 13
+                    },
+                    "bboxNorm": {
+                      "x": 0.5469,
+                      "y": 0.0475,
+                      "width": 0.0703,
+                      "height": 0.0085
+                    },
+                    "position": {
+                      "x": 560,
+                      "y": 73
+                    },
+                    "size": {
+                      "width": 72,
+                      "height": 13
+                    },
+                    "relativeBounds": {
+                      "x": 0.5469,
+                      "y": 0.0475,
+                      "width": 0.0703,
+                      "height": 0.0085
+                    },
+                    "label": "SERVICES",
+                    "parentId": "region-24",
+                    "parentRole": "nav-group",
+                    "readingOrder": 1,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro nav-link",
+                      "vision": null
+                    },
+                    "uncertainty": 0.51,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "text-21",
+                    "role": "nav-link",
+                    "confidence": 0.92,
+                    "roleConfidence": 0.92,
+                    "text": "CONTACT",
+                    "textConfidence": 0.92,
+                    "bbox": {
+                      "x": 670,
+                      "y": 73,
+                      "width": 74,
+                      "height": 13
+                    },
+                    "bboxPx": {
+                      "x": 670,
+                      "y": 73,
+                      "width": 74,
+                      "height": 13
+                    },
+                    "bboxNorm": {
+                      "x": 0.6543,
+                      "y": 0.0475,
+                      "width": 0.0723,
+                      "height": 0.0085
+                    },
+                    "position": {
+                      "x": 670,
+                      "y": 73
+                    },
+                    "size": {
+                      "width": 74,
+                      "height": 13
+                    },
+                    "relativeBounds": {
+                      "x": 0.6543,
+                      "y": 0.0475,
+                      "width": 0.0723,
+                      "height": 0.0085
+                    },
+                    "label": "CONTACT",
+                    "parentId": "region-24",
+                    "parentRole": "nav-group",
+                    "readingOrder": 2,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro nav-link",
+                      "vision": null
+                    },
+                    "uncertainty": 0.08,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "text-14",
+                "role": "logo",
+                "confidence": 0.96,
+                "roleConfidence": 0.96,
+                "text": "LOGO",
+                "textConfidence": 0.96,
+                "bbox": {
+                  "x": 105.71428571428571,
+                  "y": 68.57142857142857,
+                  "width": 84.57142857142857,
+                  "height": 23.42857142857143
+                },
+                "bboxPx": {
+                  "x": 105.71428571428571,
+                  "y": 68.57142857142857,
+                  "width": 84.57142857142857,
+                  "height": 23.42857142857143
+                },
+                "bboxNorm": {
+                  "x": 0.1032,
+                  "y": 0.0446,
+                  "width": 0.0826,
+                  "height": 0.0153
+                },
+                "position": {
+                  "x": 105.71428571428571,
+                  "y": 68.57142857142857
+                },
+                "size": {
+                  "width": 84.57142857142857,
+                  "height": 23.42857142857143
+                },
+                "relativeBounds": {
+                  "x": 0.1032,
+                  "y": 0.0446,
+                  "width": 0.0826,
+                  "height": 0.0153
+                },
+                "label": "LOGO",
+                "parentId": "container-2",
+                "parentRole": "header",
+                "readingOrder": 1,
+                "ocr": null,
+                "layout": {
+                  "direction": "auto",
+                  "columns": 1,
+                  "gap": 0,
+                  "align": "start",
+                  "repeated": false
+                },
+                "styleHints": {},
+                "repeatInfo": null,
+                "evidence": {
+                  "source": "macro-layout-pass",
+                  "grouping": "macro nav-link",
+                  "vision": null
+                },
+                "uncertainty": 0.04,
+                "source": {
+                  "cv": true,
+                  "ocr": true,
+                  "vision": false,
+                  "merged": false
+                },
+                "children": []
+              },
+              {
+                "type": "button",
+                "id": "button-19",
+                "role": "action",
+                "confidence": 0.96,
+                "roleConfidence": 0.96,
+                "text": "CONTACT",
+                "textConfidence": 0.96,
+                "bbox": {
+                  "x": 822,
+                  "y": 72,
+                  "width": 87,
+                  "height": 14
+                },
+                "bboxPx": {
+                  "x": 822,
+                  "y": 72,
+                  "width": 87,
+                  "height": 14
+                },
+                "bboxNorm": {
+                  "x": 0.8027,
+                  "y": 0.0469,
+                  "width": 0.085,
+                  "height": 0.0091
+                },
+                "position": {
+                  "x": 822,
+                  "y": 72
+                },
+                "size": {
+                  "width": 87,
+                  "height": 14
+                },
+                "relativeBounds": {
+                  "x": 0.8027,
+                  "y": 0.0469,
+                  "width": 0.085,
+                  "height": 0.0091
+                },
+                "label": "CONTACT",
+                "parentId": "container-2",
+                "parentRole": "header",
+                "readingOrder": 2,
+                "ocr": null,
+                "layout": {
+                  "direction": "auto",
+                  "columns": 1,
+                  "gap": 0,
+                  "align": "start",
+                  "repeated": false
+                },
+                "styleHints": {},
+                "repeatInfo": null,
+                "evidence": {
+                  "source": "macro-layout-pass",
+                  "grouping": "macro action",
+                  "vision": null
+                },
+                "uncertainty": 0.04,
+                "source": {
+                  "cv": true,
+                  "ocr": true,
+                  "vision": false,
+                  "merged": false
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "container",
+            "id": "container-4",
+            "role": "main",
+            "confidence": 0.94,
+            "roleConfidence": 0.94,
+            "text": null,
+            "textConfidence": null,
+            "bbox": {
+              "x": 0,
+              "y": 199,
+              "width": 1024,
+              "height": 1121
+            },
+            "bboxPx": {
+              "x": 0,
+              "y": 199,
+              "width": 1024,
+              "height": 1121
+            },
+            "bboxNorm": {
+              "x": 0,
+              "y": 0.1296,
+              "width": 1,
+              "height": 0.7298
+            },
+            "position": {
+              "x": 0,
+              "y": 199
+            },
+            "size": {
+              "width": 1024,
+              "height": 1121
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0.1296,
+              "width": 1,
+              "height": 0.7298
+            },
+            "label": null,
+            "parentId": "container-1",
+            "parentRole": "page",
+            "readingOrder": 1,
+            "ocr": null,
+            "layout": {
+              "direction": "column",
+              "columns": 1,
+              "gap": 12,
+              "align": "stretch",
+              "repeated": false
+            },
+            "styleHints": {},
+            "repeatInfo": null,
+            "evidence": {
+              "source": "macro-layout-pass",
+              "grouping": "macro main",
+              "vision": null
+            },
+            "uncertainty": 0.06,
+            "source": {
+              "cv": true,
+              "ocr": false,
+              "vision": false,
+              "merged": false
+            },
+            "children": [
+              {
+                "type": "region",
+                "id": "region-25",
+                "role": "hero-section",
+                "confidence": 0.66,
+                "roleConfidence": 0.66,
+                "text": null,
+                "textConfidence": null,
+                "bbox": {
+                  "x": 316.57142857142856,
+                  "y": 233.71428571428572,
+                  "width": 392.57142857142856,
+                  "height": 178.28571428571428
+                },
+                "bboxPx": {
+                  "x": 316.57142857142856,
+                  "y": 233.71428571428572,
+                  "width": 392.57142857142856,
+                  "height": 178.28571428571428
+                },
+                "bboxNorm": {
+                  "x": 0.3092,
+                  "y": 0.1522,
+                  "width": 0.3834,
+                  "height": 0.1161
+                },
+                "position": {
+                  "x": 316.57142857142856,
+                  "y": 233.71428571428572
+                },
+                "size": {
+                  "width": 392.57142857142856,
+                  "height": 178.28571428571428
+                },
+                "relativeBounds": {
+                  "x": 0.3092,
+                  "y": 0.1522,
+                  "width": 0.3834,
+                  "height": 0.1161
+                },
+                "label": null,
+                "parentId": "container-4",
+                "parentRole": "main",
+                "readingOrder": 0,
+                "ocr": null,
+                "layout": {
+                  "direction": "column",
+                  "columns": 1,
+                  "gap": 12,
+                  "align": "stretch",
+                  "repeated": false
+                },
+                "styleHints": {},
+                "repeatInfo": null,
+                "evidence": {
+                  "source": "macro-layout-pass",
+                  "grouping": "macro hero-section",
+                  "vision": null
+                },
+                "uncertainty": 0.34,
+                "source": {
+                  "cv": true,
+                  "ocr": false,
+                  "vision": false,
+                  "merged": false
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "text-15",
+                    "role": "hero-heading",
+                    "confidence": 0.96,
+                    "roleConfidence": 0.96,
+                    "text": "HEADLINE",
+                    "textConfidence": 0.96,
+                    "bbox": {
+                      "x": 316.57142857142856,
+                      "y": 233.71428571428572,
+                      "width": 392.57142857142856,
+                      "height": 59.428571428571445
+                    },
+                    "bboxPx": {
+                      "x": 316.57142857142856,
+                      "y": 233.71428571428572,
+                      "width": 392.57142857142856,
+                      "height": 59.428571428571445
+                    },
+                    "bboxNorm": {
+                      "x": 0.3092,
+                      "y": 0.1522,
+                      "width": 0.3834,
+                      "height": 0.0387
+                    },
+                    "position": {
+                      "x": 316.57142857142856,
+                      "y": 233.71428571428572
+                    },
+                    "size": {
+                      "width": 392.57142857142856,
+                      "height": 59.428571428571445
+                    },
+                    "relativeBounds": {
+                      "x": 0.3092,
+                      "y": 0.1522,
+                      "width": 0.3834,
+                      "height": 0.0387
+                    },
+                    "label": "HEADLINE",
+                    "parentId": "region-25",
+                    "parentRole": "hero-section",
+                    "readingOrder": 0,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro hero-heading",
+                      "vision": null
+                    },
+                    "uncertainty": 0.04,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "text-10",
+                    "role": "copy",
+                    "confidence": 0.9525,
+                    "roleConfidence": 0.9525,
+                    "text": "dolor sit amet, adipiscing",
+                    "textConfidence": 0.9525,
+                    "bbox": {
+                      "x": 408,
+                      "y": 329,
+                      "width": 334,
+                      "height": 19
+                    },
+                    "bboxPx": {
+                      "x": 408,
+                      "y": 329,
+                      "width": 334,
+                      "height": 19
+                    },
+                    "bboxNorm": {
+                      "x": 0.3984,
+                      "y": 0.2142,
+                      "width": 0.3262,
+                      "height": 0.0124
+                    },
+                    "position": {
+                      "x": 408,
+                      "y": 329
+                    },
+                    "size": {
+                      "width": 334,
+                      "height": 19
+                    },
+                    "relativeBounds": {
+                      "x": 0.3984,
+                      "y": 0.2142,
+                      "width": 0.3262,
+                      "height": 0.0124
+                    },
+                    "label": "dolor sit amet, adipiscing",
+                    "parentId": "region-25",
+                    "parentRole": "hero-section",
+                    "readingOrder": 1,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro copy",
+                      "vision": null
+                    },
+                    "uncertainty": 0.05,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "text-16",
+                    "role": "copy",
+                    "confidence": 0.9467,
+                    "roleConfidence": 0.9467,
+                    "text": "Lorem ipsum consectuer",
+                    "textConfidence": 0.9467,
+                    "bbox": {
+                      "x": 285.7142857142857,
+                      "y": 329.7142857142857,
+                      "width": 359.4285714285714,
+                      "height": 18.285714285714278
+                    },
+                    "bboxPx": {
+                      "x": 285.7142857142857,
+                      "y": 329.7142857142857,
+                      "width": 359.4285714285714,
+                      "height": 18.285714285714278
+                    },
+                    "bboxNorm": {
+                      "x": 0.279,
+                      "y": 0.2147,
+                      "width": 0.351,
+                      "height": 0.0119
+                    },
+                    "position": {
+                      "x": 285.7142857142857,
+                      "y": 329.7142857142857
+                    },
+                    "size": {
+                      "width": 359.4285714285714,
+                      "height": 18.285714285714278
+                    },
+                    "relativeBounds": {
+                      "x": 0.279,
+                      "y": 0.2147,
+                      "width": 0.351,
+                      "height": 0.0119
+                    },
+                    "label": "Lorem ipsum consectuer",
+                    "parentId": "region-25",
+                    "parentRole": "hero-section",
+                    "readingOrder": 2,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro copy",
+                      "vision": null
+                    },
+                    "uncertainty": 0.05,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "button",
+                    "id": "button-11",
+                    "role": "action",
+                    "confidence": 0.955,
+                    "roleConfidence": 0.955,
+                    "text": "GET STARTED",
+                    "textConfidence": 0.955,
+                    "bbox": {
+                      "x": 443,
+                      "y": 396,
+                      "width": 139,
+                      "height": 16
+                    },
+                    "bboxPx": {
+                      "x": 443,
+                      "y": 396,
+                      "width": 139,
+                      "height": 16
+                    },
+                    "bboxNorm": {
+                      "x": 0.4326,
+                      "y": 0.2578,
+                      "width": 0.1357,
+                      "height": 0.0104
+                    },
+                    "position": {
+                      "x": 443,
+                      "y": 396
+                    },
+                    "size": {
+                      "width": 139,
+                      "height": 16
+                    },
+                    "relativeBounds": {
+                      "x": 0.4326,
+                      "y": 0.2578,
+                      "width": 0.1357,
+                      "height": 0.0104
+                    },
+                    "label": "GET STARTED",
+                    "parentId": "region-25",
+                    "parentRole": "hero-section",
+                    "readingOrder": 3,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro action",
+                      "vision": null
+                    },
+                    "uncertainty": 0.05,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "region",
+                "id": "region-26",
+                "role": "services-section",
+                "confidence": 0.66,
+                "roleConfidence": 0.66,
+                "text": null,
+                "textConfidence": null,
+                "bbox": {
+                  "x": 0,
+                  "y": 545.7142857142857,
+                  "width": 1024,
+                  "height": 774.2857142857143
+                },
+                "bboxPx": {
+                  "x": 0,
+                  "y": 545.7142857142857,
+                  "width": 1024,
+                  "height": 774.2857142857143
+                },
+                "bboxNorm": {
+                  "x": 0,
+                  "y": 0.3553,
+                  "width": 1,
+                  "height": 0.5041
+                },
+                "position": {
+                  "x": 0,
+                  "y": 545.7142857142857
+                },
+                "size": {
+                  "width": 1024,
+                  "height": 774.2857142857143
+                },
+                "relativeBounds": {
+                  "x": 0,
+                  "y": 0.3553,
+                  "width": 1,
+                  "height": 0.5041
+                },
+                "label": null,
+                "parentId": "container-4",
+                "parentRole": "main",
+                "readingOrder": 1,
+                "ocr": null,
+                "layout": {
+                  "direction": "column",
+                  "columns": 1,
+                  "gap": 12,
+                  "align": "stretch",
+                  "repeated": false
+                },
+                "styleHints": {},
+                "repeatInfo": null,
+                "evidence": {
+                  "source": "macro-layout-pass",
+                  "grouping": "macro services-section",
+                  "vision": null
+                },
+                "uncertainty": 0.34,
+                "source": {
+                  "cv": true,
+                  "ocr": false,
+                  "vision": false,
+                  "merged": false
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "image-7",
+                    "role": "media",
+                    "confidence": 0.7,
+                    "roleConfidence": 0.7,
+                    "text": null,
+                    "textConfidence": null,
+                    "bbox": {
+                      "x": 21.299200000000003,
+                      "y": 238.2,
+                      "width": 489.88160000000005,
+                      "height": 705.5999999999999
+                    },
+                    "bboxPx": {
+                      "x": 21.299200000000003,
+                      "y": 238.2,
+                      "width": 489.88160000000005,
+                      "height": 705.5999999999999
+                    },
+                    "bboxNorm": {
+                      "x": 0.0208,
+                      "y": 0.1551,
+                      "width": 0.4784,
+                      "height": 0.4594
+                    },
+                    "position": {
+                      "x": 21.299200000000003,
+                      "y": 238.2
+                    },
+                    "size": {
+                      "width": 489.88160000000005,
+                      "height": 705.5999999999999
+                    },
+                    "relativeBounds": {
+                      "x": 0.0208,
+                      "y": 0.1551,
+                      "width": 0.4784,
+                      "height": 0.4594
+                    },
+                    "label": null,
+                    "parentId": "region-26",
+                    "parentRole": "services-section",
+                    "readingOrder": 3,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro media",
+                      "vision": null
+                    },
+                    "uncertainty": 0.3,
+                    "source": {
+                      "cv": true,
+                      "ocr": false,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "text-17",
+                    "role": "section-heading",
+                    "confidence": 0.96,
+                    "roleConfidence": 0.96,
+                    "text": "OUR SERVICES",
+                    "textConfidence": 0.96,
+                    "bbox": {
+                      "x": 393.7142857142857,
+                      "y": 545.7142857142857,
+                      "width": 238.28571428571428,
+                      "height": 25.14285714285711
+                    },
+                    "bboxPx": {
+                      "x": 393.7142857142857,
+                      "y": 545.7142857142857,
+                      "width": 238.28571428571428,
+                      "height": 25.14285714285711
+                    },
+                    "bboxNorm": {
+                      "x": 0.3845,
+                      "y": 0.3553,
+                      "width": 0.2327,
+                      "height": 0.0164
+                    },
+                    "position": {
+                      "x": 393.7142857142857,
+                      "y": 545.7142857142857
+                    },
+                    "size": {
+                      "width": 238.28571428571428,
+                      "height": 25.14285714285711
+                    },
+                    "relativeBounds": {
+                      "x": 0.3845,
+                      "y": 0.3553,
+                      "width": 0.2327,
+                      "height": 0.0164
+                    },
+                    "label": "OUR SERVICES",
+                    "parentId": "region-26",
+                    "parentRole": "services-section",
+                    "readingOrder": 4,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro section-heading",
+                      "vision": null
+                    },
+                    "uncertainty": 0.04,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "region",
+                "id": "region-27",
+                "role": "about-section",
+                "confidence": 0.66,
+                "roleConfidence": 0.66,
+                "text": null,
+                "textConfidence": null,
+                "bbox": {
+                  "x": 132,
+                  "y": 1081,
+                  "width": 170,
+                  "height": 25
+                },
+                "bboxPx": {
+                  "x": 132,
+                  "y": 1081,
+                  "width": 170,
+                  "height": 25
+                },
+                "bboxNorm": {
+                  "x": 0.1289,
+                  "y": 0.7038,
+                  "width": 0.166,
+                  "height": 0.0163
+                },
+                "position": {
+                  "x": 132,
+                  "y": 1081
+                },
+                "size": {
+                  "width": 170,
+                  "height": 25
+                },
+                "relativeBounds": {
+                  "x": 0.1289,
+                  "y": 0.7038,
+                  "width": 0.166,
+                  "height": 0.0163
+                },
+                "label": null,
+                "parentId": "container-4",
+                "parentRole": "main",
+                "readingOrder": 2,
+                "ocr": null,
+                "layout": {
+                  "direction": "auto",
+                  "columns": 1,
+                  "gap": 0,
+                  "align": "start",
+                  "repeated": false
+                },
+                "styleHints": {},
+                "repeatInfo": null,
+                "evidence": {
+                  "source": "macro-layout-pass",
+                  "grouping": "macro about-section",
+                  "vision": null
+                },
+                "uncertainty": 0.34,
+                "source": {
+                  "cv": true,
+                  "ocr": false,
+                  "vision": false,
+                  "merged": false
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "text-12",
+                    "role": "section-heading",
+                    "confidence": 0.96,
+                    "roleConfidence": 0.96,
+                    "text": "ABOUT US",
+                    "textConfidence": 0.96,
+                    "bbox": {
+                      "x": 132,
+                      "y": 1081,
+                      "width": 170,
+                      "height": 25
+                    },
+                    "bboxPx": {
+                      "x": 132,
+                      "y": 1081,
+                      "width": 170,
+                      "height": 25
+                    },
+                    "bboxNorm": {
+                      "x": 0.1289,
+                      "y": 0.7038,
+                      "width": 0.166,
+                      "height": 0.0163
+                    },
+                    "position": {
+                      "x": 132,
+                      "y": 1081
+                    },
+                    "size": {
+                      "width": 170,
+                      "height": 25
+                    },
+                    "relativeBounds": {
+                      "x": 0.1289,
+                      "y": 0.7038,
+                      "width": 0.166,
+                      "height": 0.0163
+                    },
+                    "label": "ABOUT US",
+                    "parentId": "region-27",
+                    "parentRole": "about-section",
+                    "readingOrder": 0,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro section-heading",
+                      "vision": null
+                    },
+                    "uncertainty": 0.04,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "region",
+                "id": "region-28",
+                "role": "contact-section",
+                "confidence": 0.66,
+                "roleConfidence": 0.66,
+                "text": null,
+                "textConfidence": null,
+                "bbox": {
+                  "x": 348,
+                  "y": 1287,
+                  "width": 300,
+                  "height": 101
+                },
+                "bboxPx": {
+                  "x": 348,
+                  "y": 1287,
+                  "width": 300,
+                  "height": 101
+                },
+                "bboxNorm": {
+                  "x": 0.3398,
+                  "y": 0.8379,
+                  "width": 0.293,
+                  "height": 0.0658
+                },
+                "position": {
+                  "x": 348,
+                  "y": 1287
+                },
+                "size": {
+                  "width": 300,
+                  "height": 101
+                },
+                "relativeBounds": {
+                  "x": 0.3398,
+                  "y": 0.8379,
+                  "width": 0.293,
+                  "height": 0.0658
+                },
+                "label": null,
+                "parentId": "container-4",
+                "parentRole": "main",
+                "readingOrder": 3,
+                "ocr": null,
+                "layout": {
+                  "direction": "row",
+                  "columns": 1,
+                  "gap": 12,
+                  "align": "center",
+                  "repeated": false
+                },
+                "styleHints": {},
+                "repeatInfo": null,
+                "evidence": {
+                  "source": "macro-layout-pass",
+                  "grouping": "macro contact-section",
+                  "vision": null
+                },
+                "uncertainty": 0.34,
+                "source": {
+                  "cv": true,
+                  "ocr": false,
+                  "vision": false,
+                  "merged": false
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "button-13",
+                    "role": "section-heading",
+                    "confidence": 0.96,
+                    "roleConfidence": 0.96,
+                    "text": "CONTACT US",
+                    "textConfidence": 0.96,
+                    "bbox": {
+                      "x": 407,
+                      "y": 1287,
+                      "width": 211,
+                      "height": 25
+                    },
+                    "bboxPx": {
+                      "x": 407,
+                      "y": 1287,
+                      "width": 211,
+                      "height": 25
+                    },
+                    "bboxNorm": {
+                      "x": 0.3975,
+                      "y": 0.8379,
+                      "width": 0.2061,
+                      "height": 0.0163
+                    },
+                    "position": {
+                      "x": 407,
+                      "y": 1287
+                    },
+                    "size": {
+                      "width": 211,
+                      "height": 25
+                    },
+                    "relativeBounds": {
+                      "x": 0.3975,
+                      "y": 0.8379,
+                      "width": 0.2061,
+                      "height": 0.0163
+                    },
+                    "label": "CONTACT US",
+                    "parentId": "region-28",
+                    "parentRole": "contact-section",
+                    "readingOrder": 1,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro action",
+                      "vision": null
+                    },
+                    "uncertainty": 0.04,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "button",
+                    "id": "button-18",
+                    "role": "action",
+                    "confidence": 0.88,
+                    "roleConfidence": 0.88,
+                    "text": "[ ] SEND",
+                    "textConfidence": 0.88,
+                    "bbox": {
+                      "x": 348,
+                      "y": 1339,
+                      "width": 300,
+                      "height": 49
+                    },
+                    "bboxPx": {
+                      "x": 348,
+                      "y": 1339,
+                      "width": 300,
+                      "height": 49
+                    },
+                    "bboxNorm": {
+                      "x": 0.3398,
+                      "y": 0.8717,
+                      "width": 0.293,
+                      "height": 0.0319
+                    },
+                    "position": {
+                      "x": 348,
+                      "y": 1339
+                    },
+                    "size": {
+                      "width": 300,
+                      "height": 49
+                    },
+                    "relativeBounds": {
+                      "x": 0.3398,
+                      "y": 0.8717,
+                      "width": 0.293,
+                      "height": 0.0319
+                    },
+                    "label": "[ ] SEND",
+                    "parentId": "region-28",
+                    "parentRole": "contact-section",
+                    "readingOrder": 2,
+                    "ocr": null,
+                    "layout": {
+                      "direction": "auto",
+                      "columns": 1,
+                      "gap": 0,
+                      "align": "start",
+                      "repeated": false
+                    },
+                    "styleHints": {},
+                    "repeatInfo": null,
+                    "evidence": {
+                      "source": "macro-layout-pass",
+                      "grouping": "macro action",
+                      "vision": null
+                    },
+                    "uncertainty": 0.12,
+                    "source": {
+                      "cv": true,
+                      "ocr": true,
+                      "vision": false,
+                      "merged": false
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "schemaSource": "local-cv-ocr-fallback",
+      "visionMajorNodes": 0,
+      "canonicalRepair": [
+        {
+          "nodeId": "container-5",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "demoted oversized multi-band media candidate",
+          "evidence": [
+            "crosses-section-bands"
+          ]
+        },
+        {
+          "nodeId": "container-1",
+          "oldParentId": null,
+          "newParentId": "root-0",
+          "reason": "single page root",
+          "evidence": [
+            "page"
+          ]
+        },
+        {
+          "nodeId": "container-2",
+          "oldParentId": null,
+          "newParentId": "container-1",
+          "reason": "top page band",
+          "evidence": [
+            "header"
+          ]
+        },
+        {
+          "nodeId": "container-4",
+          "oldParentId": null,
+          "newParentId": "container-1",
+          "reason": "main page band",
+          "evidence": [
+            "main"
+          ]
+        },
+        {
+          "nodeId": "container-9",
+          "oldParentId": null,
+          "newParentId": "container-1",
+          "reason": "bottom page band",
+          "evidence": [
+            "footer"
+          ]
+        },
+        {
+          "nodeId": "region-25",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "hero-section"
+          ]
+        },
+        {
+          "nodeId": "region-26",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "services-section"
+          ]
+        },
+        {
+          "nodeId": "region-27",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "about-section"
+          ]
+        },
+        {
+          "nodeId": "region-28",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "contact-section"
+          ]
+        },
+        {
+          "nodeId": "region-24",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "single header navigation",
+          "evidence": [
+            "nav-group"
+          ]
+        },
+        {
+          "nodeId": "container-3",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "region"
+          ]
+        },
+        {
+          "nodeId": "container-5",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "region"
+          ]
+        },
+        {
+          "nodeId": "container-6",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "section"
+          ]
+        },
+        {
+          "nodeId": "image-7",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "media"
+          ]
+        },
+        {
+          "nodeId": "container-8",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "repeated-region"
+          ]
+        },
+        {
+          "nodeId": "text-10",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "copy",
+            "dolor sit amet, adipiscing"
+          ]
+        },
+        {
+          "nodeId": "button-11",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "GET STARTED"
+          ]
+        },
+        {
+          "nodeId": "text-12",
+          "oldParentId": null,
+          "newParentId": "region-27",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "section-heading",
+            "ABOUT US"
+          ]
+        },
+        {
+          "nodeId": "button-13",
+          "oldParentId": null,
+          "newParentId": "region-28",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "CONTACT US"
+          ]
+        },
+        {
+          "nodeId": "text-14",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "LOGO"
+          ]
+        },
+        {
+          "nodeId": "text-15",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "hero-heading",
+            "HEADLINE"
+          ]
+        },
+        {
+          "nodeId": "text-16",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "copy",
+            "Lorem ipsum consectuer"
+          ]
+        },
+        {
+          "nodeId": "text-17",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "section-heading",
+            "OUR SERVICES"
+          ]
+        },
+        {
+          "nodeId": "button-18",
+          "oldParentId": null,
+          "newParentId": "region-28",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "[ ] SEND"
+          ]
+        },
+        {
+          "nodeId": "button-19",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "CONTACT"
+          ]
+        },
+        {
+          "nodeId": "text-20",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "LOGO"
+          ]
+        },
+        {
+          "nodeId": "text-21",
+          "oldParentId": null,
+          "newParentId": "region-24",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "CONTACT"
+          ]
+        },
+        {
+          "nodeId": "text-22",
+          "oldParentId": null,
+          "newParentId": "region-24",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "ABOUT"
+          ]
+        },
+        {
+          "nodeId": "text-23",
+          "oldParentId": null,
+          "newParentId": "region-24",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "SERVICES"
+          ]
+        },
+        {
+          "nodeId": "region-29",
+          "oldParentId": null,
+          "newParentId": "region-28",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "form"
+          ]
+        },
+        {
+          "nodeId": "region-30",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "media-thumbnail-strip"
+          ]
+        },
+        {
+          "nodeId": "image-31",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "thumbnail-image"
+          ]
+        },
+        {
+          "nodeId": "image-32",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "thumbnail-image"
+          ]
+        },
+        {
+          "nodeId": "text-20",
+          "oldParentId": "container-2",
+          "newParentId": null,
+          "reason": "duplicate logo OCR candidate",
+          "evidence": [
+            "same header band",
+            "same label"
+          ]
+        },
+        {
+          "nodeId": "region-30",
+          "oldParentId": "region-26",
+          "newParentId": null,
+          "reason": "unsupported local thumbnail role on landing",
+          "evidence": [
+            "landing category filter"
+          ]
+        },
+        {
+          "nodeId": "image-31",
+          "oldParentId": "region-26",
+          "newParentId": null,
+          "reason": "unsupported local thumbnail role on landing",
+          "evidence": [
+            "landing category filter"
+          ]
+        },
+        {
+          "nodeId": "image-32",
+          "oldParentId": "region-26",
+          "newParentId": null,
+          "reason": "unsupported local thumbnail role on landing",
+          "evidence": [
+            "landing category filter"
+          ]
+        }
+      ]
+    },
+    "layoutPlan": {
+      "pageCategory": "landing",
+      "majorZones": [
+        {
+          "role": "page",
+          "id": "container-1",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "layout": {
+            "direction": "column",
+            "columns": 1,
+            "gap": 12,
+            "align": "stretch",
+            "repeated": false
+          }
+        },
+        {
+          "role": "header",
+          "id": "container-2",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.1296
+          },
+          "layout": {
+            "direction": "row",
+            "columns": 1,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          }
+        },
+        {
+          "role": "nav-group",
+          "id": "region-24",
+          "bounds": {
+            "x": 0.1032,
+            "y": 0.0394,
+            "width": 0.514,
+            "height": 0.0257
+          },
+          "layout": {
+            "direction": "row",
+            "columns": 1,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          }
+        },
+        {
+          "role": "main",
+          "id": "container-4",
+          "bounds": {
+            "x": 0,
+            "y": 0.1296,
+            "width": 1,
+            "height": 0.7298
+          },
+          "layout": {
+            "direction": "column",
+            "columns": 1,
+            "gap": 12,
+            "align": "stretch",
+            "repeated": false
+          }
+        },
+        {
+          "role": "hero-section",
+          "id": "region-25",
+          "bounds": {
+            "x": 0.3092,
+            "y": 0.1522,
+            "width": 0.3834,
+            "height": 0.1161
+          },
+          "layout": {
+            "direction": "column",
+            "columns": 1,
+            "gap": 12,
+            "align": "stretch",
+            "repeated": false
+          }
+        },
+        {
+          "role": "services-section",
+          "id": "region-26",
+          "bounds": {
+            "x": 0,
+            "y": 0.3553,
+            "width": 1,
+            "height": 0.5041
+          },
+          "layout": {
+            "direction": "column",
+            "columns": 1,
+            "gap": 12,
+            "align": "stretch",
+            "repeated": false
+          }
+        },
+        {
+          "role": "about-section",
+          "id": "region-27",
+          "bounds": {
+            "x": 0.1289,
+            "y": 0.7038,
+            "width": 0.166,
+            "height": 0.0163
+          },
+          "layout": {
+            "direction": "auto",
+            "columns": 1,
+            "gap": 0,
+            "align": "start",
+            "repeated": false
+          }
+        },
+        {
+          "role": "contact-section",
+          "id": "region-28",
+          "bounds": {
+            "x": 0.3398,
+            "y": 0.8379,
+            "width": 0.293,
+            "height": 0.0658
+          },
+          "layout": {
+            "direction": "row",
+            "columns": 1,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          }
+        }
+      ],
+      "regionCount": 22,
+      "canonicalRepair": [
+        {
+          "nodeId": "container-5",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "demoted oversized multi-band media candidate",
+          "evidence": [
+            "crosses-section-bands"
+          ]
+        },
+        {
+          "nodeId": "container-1",
+          "oldParentId": null,
+          "newParentId": "root-0",
+          "reason": "single page root",
+          "evidence": [
+            "page"
+          ]
+        },
+        {
+          "nodeId": "container-2",
+          "oldParentId": null,
+          "newParentId": "container-1",
+          "reason": "top page band",
+          "evidence": [
+            "header"
+          ]
+        },
+        {
+          "nodeId": "container-4",
+          "oldParentId": null,
+          "newParentId": "container-1",
+          "reason": "main page band",
+          "evidence": [
+            "main"
+          ]
+        },
+        {
+          "nodeId": "container-9",
+          "oldParentId": null,
+          "newParentId": "container-1",
+          "reason": "bottom page band",
+          "evidence": [
+            "footer"
+          ]
+        },
+        {
+          "nodeId": "region-25",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "hero-section"
+          ]
+        },
+        {
+          "nodeId": "region-26",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "services-section"
+          ]
+        },
+        {
+          "nodeId": "region-27",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "about-section"
+          ]
+        },
+        {
+          "nodeId": "region-28",
+          "oldParentId": null,
+          "newParentId": "container-4",
+          "reason": "canonical macro band",
+          "evidence": [
+            "contact-section"
+          ]
+        },
+        {
+          "nodeId": "region-24",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "single header navigation",
+          "evidence": [
+            "nav-group"
+          ]
+        },
+        {
+          "nodeId": "container-3",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "region"
+          ]
+        },
+        {
+          "nodeId": "container-5",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "region"
+          ]
+        },
+        {
+          "nodeId": "container-6",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "section"
+          ]
+        },
+        {
+          "nodeId": "image-7",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "media"
+          ]
+        },
+        {
+          "nodeId": "container-8",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "repeated-region"
+          ]
+        },
+        {
+          "nodeId": "text-10",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "copy",
+            "dolor sit amet, adipiscing"
+          ]
+        },
+        {
+          "nodeId": "button-11",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "GET STARTED"
+          ]
+        },
+        {
+          "nodeId": "text-12",
+          "oldParentId": null,
+          "newParentId": "region-27",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "section-heading",
+            "ABOUT US"
+          ]
+        },
+        {
+          "nodeId": "button-13",
+          "oldParentId": null,
+          "newParentId": "region-28",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "CONTACT US"
+          ]
+        },
+        {
+          "nodeId": "text-14",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "LOGO"
+          ]
+        },
+        {
+          "nodeId": "text-15",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "hero-heading",
+            "HEADLINE"
+          ]
+        },
+        {
+          "nodeId": "text-16",
+          "oldParentId": null,
+          "newParentId": "region-25",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "copy",
+            "Lorem ipsum consectuer"
+          ]
+        },
+        {
+          "nodeId": "text-17",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "section-heading",
+            "OUR SERVICES"
+          ]
+        },
+        {
+          "nodeId": "button-18",
+          "oldParentId": null,
+          "newParentId": "region-28",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "[ ] SEND"
+          ]
+        },
+        {
+          "nodeId": "button-19",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "action",
+            "CONTACT"
+          ]
+        },
+        {
+          "nodeId": "text-20",
+          "oldParentId": null,
+          "newParentId": "container-2",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "LOGO"
+          ]
+        },
+        {
+          "nodeId": "text-21",
+          "oldParentId": null,
+          "newParentId": "region-24",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "CONTACT"
+          ]
+        },
+        {
+          "nodeId": "text-22",
+          "oldParentId": null,
+          "newParentId": "region-24",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "ABOUT"
+          ]
+        },
+        {
+          "nodeId": "text-23",
+          "oldParentId": null,
+          "newParentId": "region-24",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "nav-link",
+            "SERVICES"
+          ]
+        },
+        {
+          "nodeId": "region-29",
+          "oldParentId": null,
+          "newParentId": "region-28",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "form"
+          ]
+        },
+        {
+          "nodeId": "region-30",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "media-thumbnail-strip"
+          ]
+        },
+        {
+          "nodeId": "image-31",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "thumbnail-image"
+          ]
+        },
+        {
+          "nodeId": "image-32",
+          "oldParentId": null,
+          "newParentId": "region-26",
+          "reason": "geometry, heading anchor, role compatibility",
+          "evidence": [
+            "thumbnail-image"
+          ]
+        },
+        {
+          "nodeId": "text-20",
+          "oldParentId": "container-2",
+          "newParentId": null,
+          "reason": "duplicate logo OCR candidate",
+          "evidence": [
+            "same header band",
+            "same label"
+          ]
+        },
+        {
+          "nodeId": "region-30",
+          "oldParentId": "region-26",
+          "newParentId": null,
+          "reason": "unsupported local thumbnail role on landing",
+          "evidence": [
+            "landing category filter"
+          ]
+        },
+        {
+          "nodeId": "image-31",
+          "oldParentId": "region-26",
+          "newParentId": null,
+          "reason": "unsupported local thumbnail role on landing",
+          "evidence": [
+            "landing category filter"
+          ]
+        },
+        {
+          "nodeId": "image-32",
+          "oldParentId": "region-26",
+          "newParentId": null,
+          "reason": "unsupported local thumbnail role on landing",
+          "evidence": [
+            "landing category filter"
+          ]
+        }
+      ]
+    }
+  }
+}

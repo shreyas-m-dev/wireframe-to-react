@@ -1,0 +1,523 @@
+{
+  "type": "root",
+  "id": "root-0",
+  "role": "page-root",
+  "bbox": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 1024
+  },
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "layout": {
+    "direction": "auto",
+    "columns": 1,
+    "gap": 0,
+    "align": "start",
+    "repeated": false
+  },
+  "children": [
+    {
+      "type": "container",
+      "id": "container-1",
+      "role": "page",
+      "confidence": 0.98,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1024
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "relativeBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "label": null,
+      "parentRole": "page-root",
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro page"
+      },
+      "children": [
+        {
+          "type": "container",
+          "id": "container-2",
+          "role": "header",
+          "confidence": 0.9,
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 133
+          },
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1024,
+            "height": 133
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.1299
+          },
+          "label": null,
+          "parentRole": "page",
+          "layout": {
+            "direction": "row",
+            "columns": 1,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          },
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro header"
+          },
+          "children": [
+            {
+              "type": "button",
+              "id": "button-3",
+              "role": "nav-action",
+              "confidence": 0.65,
+              "bbox": {
+                "x": 771,
+                "y": 30,
+                "width": 98,
+                "height": 45
+              },
+              "position": {
+                "x": 771,
+                "y": 30
+              },
+              "size": {
+                "width": 98,
+                "height": 45
+              },
+              "relativeBounds": {
+                "x": 0.7529,
+                "y": 0.0293,
+                "width": 0.0957,
+                "height": 0.0439
+              },
+              "label": null,
+              "parentRole": "header",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "component-pass",
+                "grouping": "contour/OCR candidate"
+              },
+              "children": []
+            },
+            {
+              "type": "button",
+              "id": "button-4",
+              "role": "nav-action",
+              "confidence": 0.65,
+              "bbox": {
+                "x": 891,
+                "y": 30,
+                "width": 106,
+                "height": 45
+              },
+              "position": {
+                "x": 891,
+                "y": 30
+              },
+              "size": {
+                "width": 106,
+                "height": 45
+              },
+              "relativeBounds": {
+                "x": 0.8701,
+                "y": 0.0293,
+                "width": 0.1035,
+                "height": 0.0439
+              },
+              "label": null,
+              "parentRole": "header",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "component-pass",
+                "grouping": "contour/OCR candidate"
+              },
+              "children": []
+            },
+            {
+              "type": "button",
+              "id": "button-5",
+              "role": "nav-action",
+              "confidence": 0.65,
+              "bbox": {
+                "x": 26,
+                "y": 34,
+                "width": 71,
+                "height": 35
+              },
+              "position": {
+                "x": 26,
+                "y": 34
+              },
+              "size": {
+                "width": 71,
+                "height": 35
+              },
+              "relativeBounds": {
+                "x": 0.0254,
+                "y": 0.0332,
+                "width": 0.0693,
+                "height": 0.0342
+              },
+              "label": null,
+              "parentRole": "header",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "component-pass",
+                "grouping": "contour/OCR candidate"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "container-6",
+          "role": "main",
+          "confidence": 0.94,
+          "bbox": {
+            "x": 0,
+            "y": 133,
+            "width": 1024,
+            "height": 747
+          },
+          "position": {
+            "x": 0,
+            "y": 133
+          },
+          "size": {
+            "width": 1024,
+            "height": 747
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0.1299,
+            "width": 1,
+            "height": 0.7295
+          },
+          "label": null,
+          "parentRole": "page",
+          "layout": {
+            "direction": "row",
+            "columns": 2,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          },
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro main"
+          },
+          "children": [
+            {
+              "type": "container",
+              "id": "container-7",
+              "role": "gallery",
+              "confidence": 0.84,
+              "bbox": {
+                "x": 0,
+                "y": 133,
+                "width": 532.48,
+                "height": 747
+              },
+              "position": {
+                "x": 0,
+                "y": 133
+              },
+              "size": {
+                "width": 532.48,
+                "height": 747
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0.1299,
+                "width": 0.52,
+                "height": 0.7295
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro gallery"
+              },
+              "children": [
+                {
+                  "type": "image",
+                  "id": "image-9",
+                  "role": "media",
+                  "confidence": 0.7,
+                  "bbox": {
+                    "x": 21.299200000000003,
+                    "y": 170.35,
+                    "width": 489.88160000000005,
+                    "height": 672.3
+                  },
+                  "position": {
+                    "x": 21.299200000000003,
+                    "y": 170.35
+                  },
+                  "size": {
+                    "width": 489.88160000000005,
+                    "height": 672.3
+                  },
+                  "relativeBounds": {
+                    "x": 0.0208,
+                    "y": 0.1664,
+                    "width": 0.4784,
+                    "height": 0.6565
+                  },
+                  "label": null,
+                  "parentRole": "gallery",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro media"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "id": "container-8",
+              "role": "product-detail",
+              "confidence": 0.84,
+              "bbox": {
+                "x": 532.48,
+                "y": 133,
+                "width": 491.52,
+                "height": 747
+              },
+              "position": {
+                "x": 532.48,
+                "y": 133
+              },
+              "size": {
+                "width": 491.52,
+                "height": 747
+              },
+              "relativeBounds": {
+                "x": 0.52,
+                "y": 0.1299,
+                "width": 0.48,
+                "height": 0.7295
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro product-detail"
+              },
+              "children": []
+            },
+            {
+              "type": "container",
+              "id": "container-10",
+              "role": null,
+              "confidence": 0.7,
+              "bbox": {
+                "x": 46,
+                "y": 196,
+                "width": 934,
+                "height": 314
+              },
+              "position": {
+                "x": 46,
+                "y": 196
+              },
+              "size": {
+                "width": 934,
+                "height": 314
+              },
+              "relativeBounds": {
+                "x": 0.0449,
+                "y": 0.1914,
+                "width": 0.9121,
+                "height": 0.3066
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "component-pass",
+                "grouping": "contour/OCR candidate"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layoutPlan": {
+    "pageCategory": "commerce-product",
+    "majorZones": [
+      {
+        "role": "page",
+        "id": "container-1",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "header",
+        "id": "container-2",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 0.1299
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "main",
+        "id": "container-6",
+        "bounds": {
+          "x": 0,
+          "y": 0.1299,
+          "width": 1,
+          "height": 0.7295
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 2,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "gallery",
+        "id": "container-7",
+        "bounds": {
+          "x": 0,
+          "y": 0.1299,
+          "width": 0.52,
+          "height": 0.7295
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "product-detail",
+        "id": "container-8",
+        "bounds": {
+          "x": 0.52,
+          "y": 0.1299,
+          "width": 0.48,
+          "height": 0.7295
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      }
+    ],
+    "regionCount": 9
+  }
+}

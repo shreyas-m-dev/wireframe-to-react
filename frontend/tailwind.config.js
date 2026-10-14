@@ -1,0 +1,45 @@
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  safelist: [
+    { pattern: /^(bg|text|border)-(slate|gray|zinc|neutral|stone|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose)-(50|100|200|300|400|500|600|700|800|900|950)$/ },
+    { pattern: /^(bg|text|border)-(white|black|transparent)$/ },
+    { pattern: /^grid-cols-(1|2|3|4|5|6|12)$/ },
+    { pattern: /^gap-(1|2|3|4|5|6|8|10|12|16|20|24)$/ },
+    { pattern: /^(p|px|py|m|mx|my)-(0|1|2|3|4|5|6|8|10|12|16|20|24)$/ },
+    { pattern: /^space-y-(0|1|2|3|4|5|6|8|10|12|16|20|24)$/ },
+    { pattern: /^rounded-(none|sm|md|lg|xl|2xl|3xl|full)$/ },
+    { pattern: /^max-w-(xs|sm|md|lg|xl|2xl|3xl|4xl|5xl|6xl|7xl|full|screen)$/ },
+    { pattern: /^min-h-(0|full|screen)$/ },
+    { pattern: /^text-(xs|sm|base|lg|xl|2xl|3xl|4xl|5xl|6xl|7xl|8xl|9xl)$/ },
+    { pattern: /^font-(thin|extralight|light|normal|medium|semibold|bold|extrabold|black)$/ },
+    { pattern: /^border(-[0-9])?$/ },
+    { pattern: /^shadow-(none|sm|md|lg|xl|2xl)$/ },
+    { pattern: /^w-(full|screen|auto|fit|12|10|8|6|5|4|3|2|1)$/ },
+    { pattern: /^h-(full|screen|auto|fit|44|40|36|32|28|24|20|16|12|10|8|6|5|4|3|2|1)$/ },
+    { pattern: /^(flex|grid|hidden|block|inline-block|inline-flex)$/ },
+    { pattern: /^(flex-col|flex-row|items-center|items-start|justify-center|justify-between)$/ }
+  ],
+  theme: {
+    extend: {
+      colors: {
+        bg: '#0B0D12',
+        panel: '#12151C',
+        'panel-2': '#171B24',
+        border: '#242A36',
+        text: '#E7EAF0',
+        'text-dim': '#8891A3',
+        'text-faint': '#5B6373',
+        accent: '#6C8EFF',
+        'accent-dim': '#4A5FCC',
+        mint: '#33D6B0',
+        amber: '#FFB454',
+        danger: '#FF6B6B',
+      },
+      fontFamily: {
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+        sans: ['"Inter"', 'ui-sans-serif', 'system-ui'],
+      },
+    },
+  },
+  plugins: [],
+};

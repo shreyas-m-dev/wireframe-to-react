@@ -1,0 +1,62 @@
+{
+  "interactions": [
+    {
+      "sourceComponentId": "text-42",
+      "type": "scroll",
+      "target": "about",
+      "state": null,
+      "local": true,
+      "accessibility": [
+        "keyboard-focus"
+      ],
+      "confidence": 0.96,
+      "fallback": "no-op if target absent"
+    },
+    {
+      "sourceComponentId": "text-43",
+      "type": "scroll",
+      "target": "services",
+      "state": null,
+      "local": true,
+      "accessibility": [
+        "keyboard-focus"
+      ],
+      "confidence": 0.96,
+      "fallback": "no-op if target absent"
+    },
+    {
+      "sourceComponentId": "text-44",
+      "type": "scroll",
+      "target": "contact",
+      "state": null,
+      "local": true,
+      "accessibility": [
+        "keyboard-focus"
+      ],
+      "confidence": 0.96,
+      "fallback": "no-op if target absent"
+    },
+    {
+      "sourceComponentId": "button-38",
+      "type": "scroll",
+      "target": "contact",
+      "state": null,
+      "local": true,
+      "accessibility": [
+        "keyboard-focus"
+      ],
+      "confidence": 0.8725,
+      "fallback": "no-op if target absent"
+    }
+  ],
+  "dependencyManifest": {
+    "hooks": [],
+    "state": [],
+    "handlers": [],
+    "targets": [
+      "about",
+      "services",
+      "contact"
+    ]
+  }
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "type": "container",
+    "confidence": 0.98,
+    "x": 0,
+    "y": 0,
+    "width": 1024.0,
+    "height": 1024.0,
+    "role": "page",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.94,
+    "x": 0,
+    "y": 133.0,
+    "width": 1024.0,
+    "height": 747.0,
+    "role": "main",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 0,
+    "y": 133.0,
+    "width": 532.48,
+    "height": 522.0,
+    "role": "media-region",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 532.48,
+    "y": 133.0,
+    "width": 491.52,
+    "height": 522.0,
+    "role": "section",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.7,
+    "x": 54.0,
+    "y": 158.0,
+    "width": 917.0,
+    "height": 339.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.7,
+    "x": 21.299200000000003,
+    "y": 159.1,
+    "width": 489.88160000000005,
+    "height": 469.79999999999995,
+    "role": "media",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.78,
+    "x": 0,
+    "y": 655.0,
+    "width": 1024.0,
+    "height": 225.0,
+    "role": "repeated-region",
+    "label": null
+  },
+  {
+    "type": "region",
+    "role": "repeated-card-grid",
+    "confidence": 0.9,
+    "x": 67.0,
+    "y": 655.0,
+    "width": 891.0,
+    "height": 218.0,
+    "label": null,
+    "recovery": {
+      "orientation": "horizontal",
+      "rowCount": 1,
+      "columnCount": 3,
+      "itemCount": 3,
+      "averageItemBounds": {
+        "width": 242.66666666666666,
+        "height": 218.0
+      },
+      "averageGap": 81.33333333333334,
+      "acceptedItems": [
+        {
+          "x": 67.0,
+          "y": 655.0,
+          "width": 242.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 67.0,
+            "y": 0.0,
+            "width": 242.0,
+            "height": 218.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.110091743119266,
+            "top": 655,
+            "edgeDensity": 0.04261126696489499
+          },
+          "candidateScore": 0.73,
+          "confidence": 0.55
+        },
+        {
+          "x": 391.0,
+          "y": 655.0,
+          "width": 243.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 391.0,
+            "y": 0.0,
+            "width": 243.0,
+            "height": 218.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.114678899082569,
+            "top": 655,
+            "edgeDensity": 0.05042096122626194
+          },
+          "candidateScore": 0.73,
+          "confidence": 0.55
+        },
+        {
+          "x": 715.0,
+          "y": 655.0,
+          "width": 243.0,
+          "height": 218.0,
+          "localBounds": {
+            "x": 715.0,
+            "y": 0.0,
+            "width": 243.0,
+            "height": 218.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.114678899082569,
+            "top": 655,
+            "edgeDensity": 0.05043983841129611
+          },
+          "candidateScore": 0.73,
+          "confidence": 0.55
+        }
+      ],
+      "rejectedCandidates": [],
+      "confidence": 0.9,
+      "evidence": [
+        "similar ROI-local rectangles",
+        "alignment and size consistency",
+        "multi-pass contour consensus",
+        "projection alignment available"
+      ],
+      "clippedItems": []
+    }
+  },
+  {
+    "type": "region",
+    "role": "card",
+    "confidence": 0.55,
+    "x": 67.0,
+    "y": 655.0,
+    "width": 242.0,
+    "height": 218.0,
+    "label": null,
+    "recovery": {
+      "x": 67.0,
+      "y": 655.0,
+      "width": 242.0,
+      "height": 218.0,
+      "localBounds": {
+        "x": 67.0,
+        "y": 0.0,
+        "width": 242.0,
+        "height": 218.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": false,
+      "features": {
+        "aspect": 1.110091743119266,
+        "top": 655,
+        "edgeDensity": 0.04261126696489499
+      },
+      "candidateScore": 0.73,
+      "confidence": 0.55
+    }
+  },
+  {
+    "type": "region",
+    "role": "card",
+    "confidence": 0.55,
+    "x": 391.0,
+    "y": 655.0,
+    "width": 243.0,
+    "height": 218.0,
+    "label": null,
+    "recovery": {
+      "x": 391.0,
+      "y": 655.0,
+      "width": 243.0,
+      "height": 218.0,
+      "localBounds": {
+        "x": 391.0,
+        "y": 0.0,
+        "width": 243.0,
+        "height": 218.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": false,
+      "features": {
+        "aspect": 1.114678899082569,
+        "top": 655,
+        "edgeDensity": 0.05042096122626194
+      },
+      "candidateScore": 0.73,
+      "confidence": 0.55
+    }
+  },
+  {
+    "type": "region",
+    "role": "card",
+    "confidence": 0.55,
+    "x": 715.0,
+    "y": 655.0,
+    "width": 243.0,
+    "height": 218.0,
+    "label": null,
+    "recovery": {
+      "x": 715.0,
+      "y": 655.0,
+      "width": 243.0,
+      "height": 218.0,
+      "localBounds": {
+        "x": 715.0,
+        "y": 0.0,
+        "width": 243.0,
+        "height": 218.0
+      },
+      "sourcePasses": [
+        "pass-a-edges",
+        "pass-b-adaptive"
+      ],
+      "clipped": false,
+      "features": {
+        "aspect": 1.114678899082569,
+        "top": 655,
+        "edgeDensity": 0.05043983841129611
+      },
+      "candidateScore": 0.73,
+      "confidence": 0.55
+    }
+  }
+]

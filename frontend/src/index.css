@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0B0D12;
+  font-family: 'Inter', ui-sans-serif, system-ui;
+}
+
+:focus-visible {
+  outline: 2px solid #6C8EFF;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #242A36; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #333B4A; }
+
+@keyframes pulse-accent {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(108, 142, 255, 0.5); }
+  50% { box-shadow: 0 0 0 5px rgba(108, 142, 255, 0); }
+}
+.node-active {
+  animation: pulse-accent 1.3s ease-in-out infinite;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+  animation: fade-in 0.25s ease-out;
+}
+
+@layer components {
+  .app-shell { @apply max-w-[1480px] mx-auto px-4 sm:px-6 py-5 sm:py-7; }
+  .app-header { @apply flex items-center justify-between mb-5; }
+  .app-header h1 { @apply text-2xl sm:text-3xl font-semibold tracking-tight; }
+  .eyebrow { @apply text-[11px] uppercase tracking-[.16em] text-text-faint font-medium; }
+  .status-pill { @apply text-xs px-3 py-1.5 rounded-full bg-accent/10 text-accent border border-accent/25; }
+  .control-card { @apply bg-panel border border-border rounded-2xl shadow-xl shadow-black/10 overflow-hidden; }
+  .upload-row { @apply flex flex-col md:flex-row gap-3 p-3; }
+  .upload-target { @apply flex flex-1 gap-3 items-center p-3 rounded-xl cursor-pointer bg-bg/60 border border-border hover:border-accent/60 transition-colors; }
+  .upload-target small { @apply block text-xs text-text-faint mt-1; }
+  .upload-icon { @apply h-9 w-9 rounded-lg flex items-center justify-center bg-accent/15 text-accent text-lg; }
+  .primary-button { @apply rounded-xl px-6 py-3 bg-accent text-white font-medium hover:bg-accent-dim disabled:opacity-40 disabled:cursor-not-allowed transition-colors; }
+  .control-footer { @apply flex flex-wrap items-center gap-4 px-4 py-3 border-t border-border text-xs text-text-dim; }
+  .control-footer textarea { @apply flex-1 min-w-[240px] bg-transparent outline-none resize-none placeholder:text-text-faint; }
+  .control-footer label { @apply flex gap-1.5 items-center cursor-pointer hover:text-text; }
+  .pipeline-strip { @apply grid grid-cols-3 md:grid-cols-6 gap-2 my-4; }
+  .stage, .stage-active, .stage-done { @apply flex items-center gap-2 rounded-lg px-2.5 py-2 text-xs border; }
+  .stage { @apply border-border text-text-faint; }
+  .stage-active { @apply border-accent/50 bg-accent/10 text-accent; }
+  .stage-done { @apply border-mint/35 text-mint; }
+  .stage span, .stage-active span, .stage-done span { @apply w-4 h-4 rounded-full text-[10px] flex items-center justify-center bg-panel-2; }
+  .workspace-grid { @apply grid grid-cols-1 md:grid-cols-2 gap-4 items-start; }
+  .workspace-panel { @apply min-w-0 bg-panel border border-border rounded-2xl p-4 shadow-xl shadow-black/10; }
+  .output-panel { @apply min-h-[540px]; }
+  .source-panel { @apply md:sticky md:top-4; }
+  .panel-header { @apply flex justify-between items-center pb-3 border-b border-border; }
+  .panel-button { @apply px-2.5 py-1.5 text-xs rounded-md border border-border text-text-dim hover:border-accent hover:text-accent transition-colors; }
+  .tab-bar { @apply flex flex-wrap gap-1 py-3 border-b border-border; }
+  .tab, .tab-active { @apply px-2.5 py-1.5 rounded-md text-xs transition-colors; }
+  .tab { @apply text-text-dim hover:bg-panel-2 hover:text-text; }
+  .tab-active { @apply bg-accent text-white; }
+  .panel-content { @apply pt-3 max-h-[62vh] overflow-auto; }
+  .empty-output { @apply min-h-[360px] flex flex-col items-center justify-center text-center text-text-dim px-8; }
+  .empty-output p { @apply text-sm text-text-faint mt-2 max-w-sm; }
+  .error-card { @apply mb-4 rounded-xl p-3 bg-danger/10 border border-danger/30 text-danger text-sm flex justify-between; }
+  .error-card button { @apply underline; }
+  .app-footer { @apply flex justify-between mt-4 text-xs text-text-faint; }
+  .app-footer button { @apply hover:text-accent disabled:opacity-40; }
+  .fullview-backdrop { @apply fixed inset-0 z-50 bg-black/80 p-3 sm:p-6 flex items-center justify-center; }
+  .fullview-dialog { @apply w-full h-full max-w-[1500px] max-h-[95vh] bg-panel border border-border rounded-2xl overflow-hidden flex flex-col; }
+  .fullview-toolbar { @apply shrink-0 flex flex-col sm:flex-row gap-3 justify-between items-start sm:items-center px-4 py-3 border-b border-border; }
+  .fullview-toolbar h2 { @apply font-semibold; }
+  .fullview-content { @apply flex-1 overflow-auto p-4 bg-[#080a0f] flex justify-center; }
+  .fullview-content > div { @apply w-full max-w-[1300px] transition-transform duration-150; }
+}

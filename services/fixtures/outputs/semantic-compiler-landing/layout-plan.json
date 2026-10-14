@@ -1,0 +1,63 @@
+{
+  "coordinateSystem": "normalized-0-1",
+  "bands": [
+    {
+      "componentId": "container-2",
+      "role": "header",
+      "yStart": 0,
+      "yEnd": 0.1296,
+      "xStart": 0,
+      "xEnd": 1,
+      "confidence": 0.9,
+      "headingAnchors": []
+    },
+    {
+      "componentId": "region-25",
+      "role": "hero-section",
+      "yStart": 0.1522,
+      "yEnd": 0.2683,
+      "xStart": 0.3092,
+      "xEnd": 0.6926,
+      "confidence": 0.66,
+      "headingAnchors": [
+        "text-15"
+      ]
+    },
+    {
+      "componentId": "region-26",
+      "role": "services-section",
+      "yStart": 0.3553,
+      "yEnd": 0.8593999999999999,
+      "xStart": 0,
+      "xEnd": 1,
+      "confidence": 0.66,
+      "headingAnchors": [
+        "text-17"
+      ]
+    },
+    {
+      "componentId": "region-27",
+      "role": "about-section",
+      "yStart": 0.7038,
+      "yEnd": 0.7201,
+      "xStart": 0.1289,
+      "xEnd": 0.2949,
+      "confidence": 0.66,
+      "headingAnchors": [
+        "text-12"
+      ]
+    },
+    {
+      "componentId": "region-28",
+      "role": "contact-section",
+      "yStart": 0.8379,
+      "yEnd": 0.9037,
+      "xStart": 0.3398,
+      "xEnd": 0.6328,
+      "confidence": 0.66,
+      "headingAnchors": [
+        "button-13"
+      ]
+    }
+  ]
+}

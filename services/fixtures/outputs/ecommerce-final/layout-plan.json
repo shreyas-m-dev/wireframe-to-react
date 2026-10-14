@@ -1,0 +1,142 @@
+{
+  "pageCategory": "commerce-product",
+  "majorZones": [
+    {
+      "role": "page",
+      "id": "container-1",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "main",
+      "id": "container-2",
+      "bounds": {
+        "x": 0,
+        "y": 0.1285,
+        "width": 1,
+        "height": 0.7309
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 2,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "gallery",
+      "id": "container-3",
+      "bounds": {
+        "x": 0,
+        "y": 0.1285,
+        "width": 0.52,
+        "height": 0.7309
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "product-detail",
+      "id": "container-4",
+      "bounds": {
+        "x": 0.52,
+        "y": 0.1285,
+        "width": 0.48,
+        "height": 0.7309
+      },
+      "layout": {
+        "direction": "grid",
+        "columns": 3,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "product-area",
+      "id": "region-34",
+      "bounds": {
+        "x": 0,
+        "y": 0.1285,
+        "width": 1,
+        "height": 0.7309
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "about-section",
+      "id": "region-32",
+      "bounds": {
+        "x": 0,
+        "y": 0.1587,
+        "width": 1,
+        "height": 0.8413
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "map-region",
+      "id": "region-33",
+      "bounds": {
+        "x": 0.0208,
+        "y": 0.165,
+        "width": 0.4784,
+        "height": 0.6578
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "footer",
+      "id": "container-7",
+      "bounds": {
+        "x": 0,
+        "y": 0.8594,
+        "width": 1,
+        "height": 0.1406
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    }
+  ],
+  "regionCount": 34
+}

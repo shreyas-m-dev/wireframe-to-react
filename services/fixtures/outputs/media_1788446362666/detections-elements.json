@@ -1,0 +1,751 @@
+[
+  {
+    "type": "container",
+    "confidence": 0.98,
+    "x": 0,
+    "y": 0,
+    "width": 682.0,
+    "height": 1024.0,
+    "role": "page",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.9,
+    "x": 0,
+    "y": 0,
+    "width": 682.0,
+    "height": 133.0,
+    "role": "header",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 37.0,
+    "y": 24.0,
+    "width": 610.0,
+    "height": 943.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "input",
+    "confidence": 0.7,
+    "x": 43.0,
+    "y": 30.0,
+    "width": 598.0,
+    "height": 48.0,
+    "role": null,
+    "label": "Loso commer | |"
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 43.0,
+    "y": 82.0,
+    "width": 598.0,
+    "height": 254.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.94,
+    "x": 0,
+    "y": 133.0,
+    "width": 682.0,
+    "height": 747.0,
+    "role": "main",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 0,
+    "y": 133.0,
+    "width": 354.64,
+    "height": 522.0,
+    "role": "media-region",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 354.64,
+    "y": 133.0,
+    "width": 327.36,
+    "height": 522.0,
+    "role": "section",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 43.0,
+    "y": 341.0,
+    "width": 598.0,
+    "height": 222.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.75,
+    "x": 86.0,
+    "y": 398.0,
+    "width": 158.0,
+    "height": 110.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.75,
+    "x": 263.0,
+    "y": 398.0,
+    "width": 159.0,
+    "height": 110.0,
+    "role": null,
+    "label": "| i} !"
+  },
+  {
+    "type": "image",
+    "confidence": 0.75,
+    "x": 439.0,
+    "y": 398.0,
+    "width": 159.0,
+    "height": 110.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.62,
+    "x": 172.0,
+    "y": 407.0,
+    "width": 67.0,
+    "height": 91.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.62,
+    "x": 268.0,
+    "y": 407.0,
+    "width": 68.0,
+    "height": 91.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.62,
+    "x": 445.0,
+    "y": 407.0,
+    "width": 68.0,
+    "height": 91.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.62,
+    "x": 525.0,
+    "y": 407.0,
+    "width": 68.0,
+    "height": 92.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 43.0,
+    "y": 567.0,
+    "width": 297.0,
+    "height": 124.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 344.0,
+    "y": 567.0,
+    "width": 297.0,
+    "height": 124.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.75,
+    "x": 86.0,
+    "y": 586.0,
+    "width": 109.0,
+    "height": 92.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.62,
+    "x": 542.0,
+    "y": 592.0,
+    "width": 56.0,
+    "height": 62.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.78,
+    "x": 0,
+    "y": 655.0,
+    "width": 682.0,
+    "height": 225.0,
+    "role": "repeated-region",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 43.0,
+    "y": 695.0,
+    "width": 297.0,
+    "height": 134.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 344.0,
+    "y": 695.0,
+    "width": 297.0,
+    "height": 134.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.72,
+    "x": 360.0,
+    "y": 712.0,
+    "width": 120.0,
+    "height": 106.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.72,
+    "x": 498.0,
+    "y": 712.0,
+    "width": 126.0,
+    "height": 106.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.62,
+    "x": 399.0,
+    "y": 733.0,
+    "width": 53.0,
+    "height": 60.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.75,
+    "x": 43.0,
+    "y": 833.0,
+    "width": 598.0,
+    "height": 128.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.82,
+    "x": 0,
+    "y": 880.0,
+    "width": 682.0,
+    "height": 144.0,
+    "role": "footer",
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.72,
+    "x": 378.0,
+    "y": 890.0,
+    "width": 76.0,
+    "height": 49.0,
+    "role": null,
+    "label": "SEND"
+  },
+  {
+    "type": "text",
+    "confidence": 0.9425,
+    "x": 190.0,
+    "y": 220.0,
+    "width": 240.0,
+    "height": 12.0,
+    "label": "Lorem ipsum amet, consectuer",
+    "role": "copy",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 94.25
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 263.0,
+    "y": 364.0,
+    "width": 159.0,
+    "height": 17.0,
+    "label": "OUR SERVICES",
+    "role": "section-heading",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 70.28571428571429,
+    "y": 45.714285714285715,
+    "width": 56.57142857142857,
+    "height": 15.42857142857143,
+    "label": "LOGO",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "button",
+    "confidence": 0.96,
+    "x": 312.0,
+    "y": 46.285714285714285,
+    "width": 183.42857142857144,
+    "height": 16.571428571428577,
+    "label": "ABOUT SERVICES CONTACT",
+    "role": "action",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 272.0,
+    "y": 219.42857142857142,
+    "width": 223.4285714285714,
+    "height": 12.571428571428584,
+    "label": "dolor sit adipiscing",
+    "role": "copy",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.8567,
+    "x": 88.0,
+    "y": 721.0,
+    "width": 417.0,
+    "height": 65.0,
+    "label": "ABOUT US \u00a9",
+    "role": "heading",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 85.67
+    }
+  },
+  {
+    "type": "button",
+    "confidence": 0.865,
+    "x": 232.0,
+    "y": 893.0,
+    "width": 200.0,
+    "height": 32.0,
+    "label": "[ SEND",
+    "role": "action",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 86.5
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.95,
+    "x": 211.42857142857142,
+    "y": 156.0,
+    "width": 261.71428571428567,
+    "height": 39.428571428571445,
+    "label": "HEADLINE",
+    "role": "hero-heading",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11",
+      "confidence": 95.0
+    }
+  },
+  {
+    "type": "button",
+    "confidence": 0.8725,
+    "x": 275.0,
+    "y": 253.0,
+    "width": 134.0,
+    "height": 33.0,
+    "label": "[ GET STARTED ]",
+    "role": "action",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 87.25
+    }
+  },
+  {
+    "type": "button",
+    "confidence": 0.94,
+    "x": 271.0,
+    "y": 858.0,
+    "width": 141.0,
+    "height": 17.0,
+    "label": "CONTACT US",
+    "role": "action",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 94.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.56,
+    "x": 416.0,
+    "y": 428.0,
+    "width": 1.0,
+    "height": 12.0,
+    "label": "i}",
+    "role": "copy",
+    "ocrEvidence": {
+      "pass": "normalized-psm6",
+      "confidence": 56.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 70.28571428571429,
+    "y": 45.714285714285715,
+    "width": 56.57142857142857,
+    "height": 15.428571428571429,
+    "label": "LOGO",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11-header-word",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 312.0,
+    "y": 46.285714285714285,
+    "width": 36.0,
+    "height": 16.571428571428573,
+    "label": "ABOUT",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11-header-word",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 373.7142857142857,
+    "y": 46.285714285714285,
+    "width": 47.42857142857143,
+    "height": 16.571428571428573,
+    "label": "SERVICES",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11-header-word",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.96,
+    "x": 446.2857142857143,
+    "y": 48.57142857142857,
+    "width": 49.142857142857146,
+    "height": 8.571428571428571,
+    "label": "CONTACT",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "upscaled-psm11-header-word",
+      "confidence": 96.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.5,
+    "x": 446.0,
+    "y": 49.0,
+    "width": 50.0,
+    "height": 8.0,
+    "label": "commer",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "normalized-psm6-header-word",
+      "confidence": 50.0
+    }
+  },
+  {
+    "type": "text",
+    "confidence": 0.4,
+    "x": 70.0,
+    "y": 46.0,
+    "width": 57.0,
+    "height": 15.0,
+    "label": "Loso",
+    "role": "nav-link",
+    "ocrEvidence": {
+      "pass": "normalized-psm6-header-word",
+      "confidence": 40.0
+    }
+  },
+  {
+    "type": "region",
+    "role": "nav-group",
+    "confidence": 0.72,
+    "x": 70.0,
+    "y": 37.714285714285715,
+    "width": 426.0,
+    "height": 33.142857142857146,
+    "label": null,
+    "evidence": [
+      "header OCR word alignment"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "services-section",
+    "confidence": 0.66,
+    "x": 0,
+    "y": 364.0,
+    "width": 682.0,
+    "height": 516.0,
+    "label": null,
+    "evidence": [
+      "services heading + local visual regions"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "feature-card-grid",
+    "confidence": 0.66,
+    "x": 0,
+    "y": 398.0,
+    "width": 682.0,
+    "height": 482.0,
+    "label": null,
+    "evidence": [
+      "three-or-more similarly scoped service visual regions"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "contact-section",
+    "confidence": 0.66,
+    "x": 232.0,
+    "y": 858.0,
+    "width": 200.0,
+    "height": 67.0,
+    "label": null,
+    "evidence": [
+      "contact heading + local controls"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "form",
+    "confidence": 0.66,
+    "x": 232.0,
+    "y": 858.0,
+    "width": 200.0,
+    "height": 67.0,
+    "label": null,
+    "evidence": [
+      "input/button geometry below contact heading"
+    ],
+    "uncertainty": null
+  },
+  {
+    "type": "region",
+    "role": "media-thumbnail-strip",
+    "confidence": 0.65,
+    "x": 90.0,
+    "y": 590.0,
+    "width": 102.0,
+    "height": 65.0,
+    "label": null,
+    "recovery": {
+      "orientation": "horizontal",
+      "rowCount": 1,
+      "columnCount": 2,
+      "itemCount": 2,
+      "averageItemBounds": {
+        "width": 96.0,
+        "height": 51.5
+      },
+      "averageGap": -90.0,
+      "acceptedItems": [
+        {
+          "x": 90.0,
+          "y": 590.0,
+          "width": 102.0,
+          "height": 65.0,
+          "localBounds": {
+            "x": 90.0,
+            "y": 457.0,
+            "width": 102.0,
+            "height": 65.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 96.0,
+          "y": 591.0,
+          "width": 90.0,
+          "height": 38.0,
+          "localBounds": {
+            "x": 96.0,
+            "y": 458.0,
+            "width": 90.0,
+            "height": 38.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        }
+      ],
+      "rejectedCandidates": [],
+      "confidence": 0.65,
+      "evidence": [
+        "similar ROI-local rectangles",
+        "alignment and size consistency"
+      ],
+      "clippedItems": [
+        {
+          "x": 90.0,
+          "y": 590.0,
+          "width": 102.0,
+          "height": 65.0,
+          "localBounds": {
+            "x": 90.0,
+            "y": 457.0,
+            "width": 102.0,
+            "height": 65.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "image",
+    "role": "thumbnail-image",
+    "confidence": 0.55,
+    "x": 90.0,
+    "y": 590.0,
+    "width": 102.0,
+    "height": 65.0,
+    "label": null,
+    "recovery": {
+      "x": 90.0,
+      "y": 590.0,
+      "width": 102.0,
+      "height": 65.0,
+      "localBounds": {
+        "x": 90.0,
+        "y": 457.0,
+        "width": 102.0,
+        "height": 65.0
+      },
+      "parentRegionId": null,
+      "recoveryStrategy": "roi-canny-contours",
+      "confidence": 0.55,
+      "evidence": [
+        "local rectangular contour"
+      ],
+      "uncertainty": null,
+      "clipped": true
+    }
+  },
+  {
+    "type": "image",
+    "role": "thumbnail-image",
+    "confidence": 0.55,
+    "x": 96.0,
+    "y": 591.0,
+    "width": 90.0,
+    "height": 38.0,
+    "label": null,
+    "recovery": {
+      "x": 96.0,
+      "y": 591.0,
+      "width": 90.0,
+      "height": 38.0,
+      "localBounds": {
+        "x": 96.0,
+        "y": 458.0,
+        "width": 90.0,
+        "height": 38.0
+      },
+      "parentRegionId": null,
+      "recoveryStrategy": "roi-canny-contours",
+      "confidence": 0.55,
+      "evidence": [
+        "local rectangular contour"
+      ],
+      "uncertainty": null,
+      "clipped": false
+    }
+  }
+]

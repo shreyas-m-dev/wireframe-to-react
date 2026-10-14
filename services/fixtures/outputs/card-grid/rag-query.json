@@ -1,0 +1,6 @@
+{
+  "mode": "legacy-read-only",
+  "query": "page-root auto with page structure container header main media media-region page repeated-region section",
+  "database": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\rag\\vectors.sqlite3",
+  "recordCount": 23
+}

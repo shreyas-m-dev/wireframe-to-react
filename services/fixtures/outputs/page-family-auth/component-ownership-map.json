@@ -1,0 +1,47 @@
+{
+  "valid": true,
+  "assignments": [
+    {
+      "sourceNodeId": "container-1",
+      "selectedComponentId": "semantic-container-1",
+      "ownerComponentId": "container-1",
+      "role": "page",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "container-3",
+      "selectedComponentId": "semantic-container-3",
+      "ownerComponentId": "container-3",
+      "role": "main",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "container-4",
+      "selectedComponentId": "semantic-container-4",
+      "ownerComponentId": "container-4",
+      "role": "media-region",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "image-6",
+      "selectedComponentId": "semantic-image-6",
+      "ownerComponentId": "image-6",
+      "role": "media",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-8",
+      "selectedComponentId": "semantic-text-8",
+      "ownerComponentId": "text-8",
+      "role": "heading",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "image-7",
+      "selectedComponentId": "semantic-image-7",
+      "ownerComponentId": "image-7",
+      "role": "region",
+      "dropped": false
+    }
+  ]
+}

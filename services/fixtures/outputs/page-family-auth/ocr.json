@@ -1,0 +1,77 @@
+{
+  "status": {
+    "enabled": true,
+    "executablePath": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "version": "5.5.3.20260724",
+    "reason": null
+  },
+  "originalDimensions": {
+    "width": 500,
+    "height": 700
+  },
+  "normalizedDimensions": {
+    "width": 500,
+    "height": 700
+  },
+  "passes": [
+    {
+      "name": "normalized-psm6",
+      "config": "--psm 6",
+      "wordsFound": 1
+    },
+    {
+      "name": "upscaled-psm11",
+      "config": "--psm 11",
+      "wordsFound": 0
+    }
+  ],
+  "words": [
+    {
+      "text": "O",
+      "confidence": 72.0,
+      "x": 59.0,
+      "y": 279.0,
+      "width": 33.0,
+      "height": 33.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.118,
+        "y": 0.3986,
+        "width": 0.066,
+        "height": 0.0471
+      }
+    }
+  ],
+  "lines": [
+    {
+      "text": "O",
+      "confidence": 72.0,
+      "x": 59.0,
+      "y": 279.0,
+      "width": 33.0,
+      "height": 33.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "text": "O",
+      "confidence": 72.0,
+      "x": 59.0,
+      "y": 279.0,
+      "width": 33.0,
+      "height": 33.0,
+      "pass": "normalized-psm6",
+      "lineCount": 1
+    }
+  ],
+  "warnings": []
+}

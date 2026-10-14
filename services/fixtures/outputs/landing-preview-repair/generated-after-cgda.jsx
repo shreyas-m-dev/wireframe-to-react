@@ -1,0 +1,24 @@
+import React from "react";
+
+export default function GeneratedComponent() {
+  return (
+<div data-wireframe-id="root-0" data-wireframe-type="root" data-wireframe-role="page-root" data-wireframe-bounds="0,0,0,0" className="border rounded p-3">
+  <div data-wireframe-id="container-1" data-wireframe-type="container" data-wireframe-role="page" data-wireframe-bounds="0,0,1,1" className="flex flex-col gap-3 p-3 min-h-screen bg-white text-gray-900 p-6 space-y-8">
+    <main data-wireframe-id="container-2" data-wireframe-type="container" data-wireframe-role="main" data-wireframe-bounds="0,0.1299,1,0.7295" className="flex flex-col gap-3 p-3 w-full">
+      <div data-wireframe-id="container-3" data-wireframe-type="container" data-wireframe-role="media-region" data-wireframe-bounds="0,0.1299,0.52,0.5098" className="border rounded p-3">
+        <div data-wireframe-id="image-6" data-wireframe-type="image" data-wireframe-role="media" data-wireframe-bounds="0.0208,0.1554,0.4784,0.4588" role="img" aria-label={"Media region"} className="w-full bg-gray-100 border border-gray-300 rounded flex items-center justify-center text-xs text-gray-500" style={{ aspectRatio: "1.043" }}>{"Media region"}</div>
+      </div>
+      <div data-wireframe-id="container-4" data-wireframe-type="container" data-wireframe-role="section" data-wireframe-bounds="0.52,0.1299,0.48,0.5098" className="border rounded p-3"></div>
+      <div data-wireframe-id="container-5" data-wireframe-type="container" data-wireframe-role="" data-wireframe-bounds="0.0527,0.1543,0.8955,0.3311" className="border rounded p-3"></div>
+      <div data-wireframe-id="container-7" data-wireframe-type="container" data-wireframe-role="repeated-region" data-wireframe-bounds="0,0.6396,1,0.2197" className="border rounded p-3">
+        <div data-wireframe-id="region-8" data-wireframe-type="region" data-wireframe-role="repeated-card-grid" data-wireframe-bounds="0.0654,0.6396,0.8701,0.2129" className="flex items-center justify-between gap-3 p-3">
+          <div data-wireframe-id="region-9" data-wireframe-type="region" data-wireframe-role="card" data-wireframe-bounds="0.0654,0.6396,0.2363,0.2129" className="border rounded p-3"></div>
+          <div data-wireframe-id="region-10" data-wireframe-type="region" data-wireframe-role="card" data-wireframe-bounds="0.3818,0.6396,0.2373,0.2129" className="border rounded p-3"></div>
+          <div data-wireframe-id="region-11" data-wireframe-type="region" data-wireframe-role="card" data-wireframe-bounds="0.6982,0.6396,0.2373,0.2129" className="border rounded p-3"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+  );
+}

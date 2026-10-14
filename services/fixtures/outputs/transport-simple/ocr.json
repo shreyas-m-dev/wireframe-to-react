@@ -1,0 +1,224 @@
+{
+  "status": {
+    "enabled": true,
+    "executablePath": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "version": "5.5.3.20260724",
+    "reason": null
+  },
+  "originalDimensions": {
+    "width": 1024,
+    "height": 683
+  },
+  "normalizedDimensions": {
+    "width": 1024,
+    "height": 683
+  },
+  "passes": [
+    {
+      "name": "normalized-psm6",
+      "config": "--psm 6",
+      "wordsFound": 8
+    },
+    {
+      "name": "upscaled-psm11",
+      "config": "--psm 11",
+      "wordsFound": 1
+    }
+  ],
+  "words": [
+    {
+      "text": "LOGO",
+      "confidence": 96.0,
+      "x": 28.0,
+      "y": 24.0,
+      "width": 67.0,
+      "height": 21.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 1,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.0273,
+        "y": 0.0351,
+        "width": 0.0654,
+        "height": 0.0307
+      }
+    },
+    {
+      "text": "sign",
+      "confidence": 95.0,
+      "x": 902.0,
+      "y": 29.0,
+      "width": 31.0,
+      "height": 16.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 6,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.8809,
+        "y": 0.0425,
+        "width": 0.0303,
+        "height": 0.0234
+      }
+    },
+    {
+      "text": "|",
+      "confidence": 86.0,
+      "x": 767.0,
+      "y": 16.0,
+      "width": 3.0,
+      "height": 37.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 2,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.749,
+        "y": 0.0234,
+        "width": 0.0029,
+        "height": 0.0542
+      }
+    },
+    {
+      "text": "|",
+      "confidence": 86.0,
+      "x": 886.0,
+      "y": 16.0,
+      "width": 3.0,
+      "height": 37.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 5,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.8652,
+        "y": 0.0234,
+        "width": 0.0029,
+        "height": 0.0542
+      }
+    },
+    {
+      "text": "|",
+      "confidence": 64.0,
+      "x": 869.0,
+      "y": 19.0,
+      "width": 3.0,
+      "height": 31.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 4,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.8486,
+        "y": 0.0278,
+        "width": 0.0029,
+        "height": 0.0454
+      }
+    },
+    {
+      "text": "Up",
+      "confidence": 61.0,
+      "x": 944.0,
+      "y": 29.0,
+      "width": 19.0,
+      "height": 16.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 7,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.9219,
+        "y": 0.0425,
+        "width": 0.0186,
+        "height": 0.0234
+      }
+    },
+    {
+      "text": "|",
+      "confidence": 61.0,
+      "x": 997.0,
+      "y": 19.0,
+      "width": 3.0,
+      "height": 31.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 8,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.9736,
+        "y": 0.0278,
+        "width": 0.0029,
+        "height": 0.0454
+      }
+    },
+    {
+      "text": "Login",
+      "confidence": 58.0,
+      "x": 791.0,
+      "y": 29.0,
+      "width": 40.0,
+      "height": 16.0,
+      "page": 1,
+      "block": 1,
+      "paragraph": 1,
+      "line": 1,
+      "word": 3,
+      "pass": "normalized-psm6",
+      "normalizedBounds": {
+        "x": 0.7725,
+        "y": 0.0425,
+        "width": 0.0391,
+        "height": 0.0234
+      }
+    }
+  ],
+  "lines": [
+    {
+      "text": "LOGO | Login | | sign Up |",
+      "confidence": 75.88,
+      "x": 28.0,
+      "y": 16.0,
+      "width": 972.0,
+      "height": 37.0,
+      "pass": "normalized-psm6",
+      "evidence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "text": "LOGO | Login | | sign Up |",
+      "confidence": 75.88,
+      "x": 28.0,
+      "y": 16.0,
+      "width": 972.0,
+      "height": 37.0,
+      "pass": "normalized-psm6",
+      "lineCount": 1
+    }
+  ],
+  "warnings": []
+}

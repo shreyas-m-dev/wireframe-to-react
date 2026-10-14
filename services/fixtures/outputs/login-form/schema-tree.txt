@@ -1,0 +1,8 @@
+root-0: page-root
+  container-1: page
+    container-2: main
+      container-3: media-region
+        image-5: media
+        region-6: control-region
+      container-4: section
+      image-7: media

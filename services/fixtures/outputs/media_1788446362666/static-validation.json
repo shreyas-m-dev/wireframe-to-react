@@ -1,0 +1,194 @@
+{
+  "finalJsx": "import React, { useState } from 'react';\r\n\r\nexport default function GeneratedComponent() {\r\n  const [formData, setFormData] = useState({ message: '' });\r\n  const [submitted, setSubmitted] = useState(false);\r\n  return (\r\n    <div data-wireframe-id=\"root-0\" data-semantic-component-id=\"semantic-root-0\" data-wireframe-provenance=\"local\" data-wireframe-type=\"root\" data-wireframe-role=\"page-root\" data-wireframe-bounds=\"0,0,0,0\" className=\"w-full min-h-screen bg-white text-slate-900\">\r\n      <div data-wireframe-id=\"container-1\" data-semantic-component-id=\"semantic-container-1\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"page\" data-wireframe-bounds=\"0,0,1,1\" className=\"relative bg-white text-slate-900 w-full min-h-screen min-h-screen p-6 md:p-12 space-y-16 max-w-7xl mx-auto\" id=\"top\" style={{\"--wf-background\": \"#fefefe\", \"--wf-surface\": \"#f8fafc\", \"--wf-text\": \"#1f2937\", \"--wf-mutedText\": \"#64748b\", \"--wf-primary\": \"#2573db\", \"--wf-primaryContrast\": \"#ffffff\", \"--wf-border\": \"#d1d5db\"}}>\r\n        <header data-wireframe-id=\"container-2\" data-semantic-component-id=\"semantic-container-2\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"header\" data-wireframe-bounds=\"0,0,1,0.1299\" className=\"flex items-center justify-between gap-3 p-3 text-slate-800 w-full flex items-center justify-between gap-5 border-b border-slate-200 dark:border-slate-800 pb-6\">\r\n          <nav data-wireframe-id=\"region-47\" data-semantic-component-id=\"semantic-region-47\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"nav-group\" data-wireframe-bounds=\"0.1026,0.0368,0.6246,0.0324\" className=\"flex items-center justify-between gap-3 p-3 text-slate-800\">\r\n            <button data-wireframe-id=\"text-42\" data-semantic-component-id=\"semantic-text-42\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-link\" data-wireframe-bounds=\"0.4575,0.0452,0.0528,0.0162\" className=\"text-slate-600 hover:text-blue-600 font-medium transition-colors\" type=\"button\" onClick={() => document.getElementById(\"about\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n              ABOUT\r\n            </button>\r\n            <button data-wireframe-id=\"text-43\" data-semantic-component-id=\"semantic-text-43\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-link\" data-wireframe-bounds=\"0.548,0.0452,0.0695,0.0162\" className=\"text-slate-600 hover:text-blue-600 font-medium transition-colors\" type=\"button\" onClick={() => document.getElementById(\"services\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n              SERVICES\r\n            </button>\r\n            <button data-wireframe-id=\"text-44\" data-semantic-component-id=\"semantic-text-44\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-link\" data-wireframe-bounds=\"0.6544,0.0474,0.0721,0.0084\" className=\"text-slate-600 hover:text-blue-600 font-medium transition-colors\" type=\"button\" onClick={() => document.getElementById(\"contact\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n              CONTACT\r\n            </button>\r\n          </nav>\r\n          <span data-wireframe-id=\"text-32\" data-semantic-component-id=\"semantic-text-32\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"brand\" data-wireframe-bounds=\"0.1031,0.0446,0.0829,0.0151\" className=\"inline-flex items-center font-bold tracking-tight text-xl text-blue-600\" role=\"img\" aria-label=\"Brand mark\">\r\n            LOGO\r\n          </span>\r\n        </header>\r\n        <main data-wireframe-id=\"container-6\" data-semantic-component-id=\"semantic-container-6\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" data-wireframe-bounds=\"0,0.1299,1,0.7295\" className=\"flex flex-col gap-4 p-3 text-slate-800 w-full flex flex-col gap-16 md:gap-24\">\r\n          <section data-wireframe-id=\"region-55\" data-semantic-component-id=\"semantic-region-55\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"hero-section\" data-wireframe-bounds=\"0,0,1,1\" className=\"flex flex-col gap-4 p-3 text-slate-800 min-w-0 self-center w-full text-center py-16 md:py-24\" id=\"hero\">\r\n            <h1 data-wireframe-id=\"text-37\" data-semantic-component-id=\"semantic-text-37\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"hero-heading\" data-wireframe-bounds=\"0.31,0.1523,0.3837,0.0385\" className=\"text-4xl md:text-5xl font-black tracking-tight text-slate-950 mb-3\">\r\n              HEADLINE\r\n            </h1>\r\n            <p data-wireframe-id=\"text-30\" data-semantic-component-id=\"semantic-text-30\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"copy\" data-wireframe-bounds=\"0.2786,0.2148,0.3519,0.0117\" className=\"text-lg font-medium text-slate-700 leading-relaxed\">\r\n              Lorem ipsum amet, consectuer\r\n            </p>\r\n            <button data-wireframe-id=\"button-38\" data-semantic-component-id=\"semantic-button-38\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"button\" data-wireframe-role=\"action\" data-wireframe-bounds=\"0.4032,0.2471,0.1965,0.0322\" className=\"px-4 py-2 rounded bg-blue-600 text-white font-semibold hover:bg-blue-700 shadow-sm transition-all\" type=\"button\" onClick={() => document.getElementById(\"contact\")?.scrollIntoView({ behavior: \"smooth\" })}>\r\n              [ GET STARTED ]\r\n            </button>\r\n          </section>\r\n          <section data-wireframe-id=\"region-48\" data-semantic-component-id=\"semantic-region-48\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"services-section\" data-wireframe-bounds=\"0,0.3555,1,0.5039\" className=\"flex flex-col gap-4 p-3 text-slate-800 col-span-full w-full py-12\" id=\"services\">\r\n            <h2 data-wireframe-id=\"text-31\" data-semantic-component-id=\"semantic-text-31\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"section-heading\" data-wireframe-bounds=\"0.3856,0.3555,0.2331,0.0166\" className=\"text-2xl md:text-3xl font-extrabold tracking-tight text-slate-950 mb-4\">\r\n              OUR SERVICES\r\n            </h2>\r\n            <section data-wireframe-id=\"region-49\" data-semantic-component-id=\"semantic-region-49\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"feature-card-grid\" data-wireframe-bounds=\"0,0.3887,1,0.4707\" className=\"grid grid-cols-3 gap-4 md:gap-6 p-3 text-slate-800\">\r\n              <article data-wireframe-id=\"image-10\" data-semantic-component-id=\"semantic-image-10\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"feature-card\" data-wireframe-bounds=\"0.1261,0.3887,0.2317,0.1074\" role=\"img\" aria-label=\"Detected visual region\" className=\"flex flex-col gap-3 p-5 rounded-2xl border bg-white border-2 border-slate-200 text-slate-950 shadow-sm hover:shadow-md transition-shadow\">\r\n                <div className=\"w-full h-36 bg-slate-100 border-slate-200 text-slate-500 border flex items-center justify-center rounded-xl overflow-hidden mb-1\" role=\"img\" aria-label=\"Detected visual region\">\r\n                  <svg className=\"w-10 h-10 opacity-60\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                    <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\" />\r\n                  </svg>\r\n                </div>\r\n                <h3 className=\"text-lg font-bold text-slate-950\">\r\n                  Service Feature\r\n                </h3>\r\n                <p className=\"text-sm font-medium text-slate-700 leading-relaxed\">\r\n                  Comprehensive solution tailored to meet your modern workflow needs.\r\n                </p>\r\n              </article>\r\n              <article data-wireframe-id=\"image-11\" data-semantic-component-id=\"semantic-image-11\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"feature-card\" data-wireframe-bounds=\"0.3856,0.3887,0.2331,0.1074\" role=\"img\" aria-label=\"| i} !\" className=\"flex flex-col gap-3 p-5 rounded-2xl border bg-white border-2 border-slate-200 text-slate-950 shadow-sm hover:shadow-md transition-shadow\">\r\n                <div className=\"w-full h-36 bg-slate-100 border-slate-200 text-slate-500 border flex items-center justify-center rounded-xl overflow-hidden mb-1\" role=\"img\" aria-label=\"| i} !\">\r\n                  <svg className=\"w-10 h-10 opacity-60\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                    <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\" />\r\n                  </svg>\r\n                </div>\r\n                <h3 className=\"text-lg font-bold text-slate-950\">\r\n                  Service Feature\r\n                </h3>\r\n                <p className=\"text-sm font-medium text-slate-700 leading-relaxed\">\r\n                  Comprehensive solution tailored to meet your modern workflow needs.\r\n                </p>\r\n              </article>\r\n              <article data-wireframe-id=\"image-12\" data-semantic-component-id=\"semantic-image-12\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"feature-card\" data-wireframe-bounds=\"0.6437,0.3887,0.2331,0.1074\" role=\"img\" aria-label=\"Detected visual region\" className=\"flex flex-col gap-3 p-5 rounded-2xl border bg-white border-2 border-slate-200 text-slate-950 shadow-sm hover:shadow-md transition-shadow\">\r\n                <div className=\"w-full h-36 bg-slate-100 border-slate-200 text-slate-500 border flex items-center justify-center rounded-xl overflow-hidden mb-1\" role=\"img\" aria-label=\"Detected visual region\">\r\n                  <svg className=\"w-10 h-10 opacity-60\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                    <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\" />\r\n                  </svg>\r\n                </div>\r\n                <h3 className=\"text-lg font-bold text-slate-950\">\r\n                  Service Feature\r\n                </h3>\r\n                <p className=\"text-sm font-medium text-slate-700 leading-relaxed\">\r\n                  Comprehensive solution tailored to meet your modern workflow needs.\r\n                </p>\r\n              </article>\r\n            </section>\r\n            <div data-wireframe-id=\"image-19\" data-semantic-component-id=\"semantic-image-19\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"region\" data-wireframe-bounds=\"0.1261,0.5723,0.1598,0.0898\" role=\"img\" aria-label=\"Detected visual region\" className=\"w-full bg-slate-100 border-slate-200 text-slate-500 border flex items-center justify-center overflow-hidden rounded\" style={{\"aspectRatio\": \"1.780\"}}>\r\n              <svg className=\"w-12 h-12 opacity-50\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\" />\r\n              </svg>\r\n            </div>\r\n          </section>\r\n          <section data-wireframe-id=\"region-56\" data-semantic-component-id=\"semantic-region-56\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"about-section\" data-wireframe-bounds=\"0,0,1,1\" className=\"grid grid-cols-1 md:grid-cols-2 gap-8 items-start p-3 text-slate-800 col-span-full w-full py-12\" id=\"about\">\r\n            <div data-wireframe-id=\"image-24\" data-semantic-component-id=\"semantic-image-24\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"region\" data-wireframe-bounds=\"0.5279,0.6953,0.176,0.1035\" role=\"img\" aria-label=\"Detected visual region\" className=\"w-full bg-slate-100 border-slate-200 text-slate-500 border flex items-center justify-center overflow-hidden rounded\" style={{\"aspectRatio\": \"1.700\"}}>\r\n              <svg className=\"w-12 h-12 opacity-50\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\" />\r\n              </svg>\r\n            </div>\r\n            <div data-wireframe-id=\"image-25\" data-semantic-component-id=\"semantic-image-25\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"region\" data-wireframe-bounds=\"0.7302,0.6953,0.1848,0.1035\" role=\"img\" aria-label=\"Detected visual region\" className=\"w-full bg-slate-100 border-slate-200 text-slate-500 border flex items-center justify-center overflow-hidden rounded\" style={{\"aspectRatio\": \"1.786\"}}>\r\n              <svg className=\"w-12 h-12 opacity-50\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z\" />\r\n              </svg>\r\n            </div>\r\n            <h1 data-wireframe-id=\"text-35\" data-semantic-component-id=\"semantic-text-35\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"heading\" data-wireframe-bounds=\"0.129,0.7041,0.6114,0.0635\" className=\"text-4xl md:text-5xl font-black tracking-tight text-slate-950 mb-3\">\r\n              ABOUT US \u00a9\r\n            </h1>\r\n          </section>\r\n          <section data-wireframe-id=\"region-50\" data-semantic-component-id=\"semantic-region-50\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"contact-section\" data-wireframe-bounds=\"0.3402,0.8379,0.2933,0.0654\" className=\"flex flex-col gap-4 p-3 text-slate-800 col-span-full w-full py-12\" id=\"contact\">\r\n            <h2 data-wireframe-id=\"button-39\" data-semantic-component-id=\"semantic-button-39\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"section-heading\" data-wireframe-bounds=\"0.3974,0.8379,0.2067,0.0166\" className=\"text-2xl md:text-3xl font-extrabold tracking-tight text-slate-950 mb-4\">\r\n              CONTACT US\r\n            </h2>\r\n            <form className=\"w-full max-w-md mx-auto flex flex-col sm:flex-row gap-3 items-center justify-center mt-4\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); setFormData({ message: '' }); }}>\r\n              <input type=\"email\" required placeholder=\"Enter your email address\" aria-label=\"Email address\" className=\"w-full px-4 py-2 rounded bg-white border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all\" value={formData.message} onChange={(event) => setFormData({ message: event.target.value })} />\r\n              <button data-wireframe-id=\"image-29\" data-semantic-component-id=\"semantic-image-29\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"button\" data-wireframe-role=\"action\" data-wireframe-bounds=\"0.5543,0.8691,0.1114,0.0479\" className=\"px-4 py-2 rounded bg-blue-600 text-white font-semibold hover:bg-blue-700 shadow-sm transition-all\" type=\"submit\">\r\n                SEND\r\n              </button>\r\n              {submitted && (\r\n                <p role=\"status\" className=\"text-sm font-medium text-emerald-600 mt-2 w-full text-center\">\r\n                  Thank you! Your message has been sent successfully.\r\n                </p>\r\n              )}\r\n            </form>\r\n          </section>\r\n        </main>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n",
+  "valid": false,
+  "attempts": 0,
+  "log": [
+    {
+      "attempt": 0,
+      "structuralAccuracy": 0,
+      "missingInCode": [
+        "container",
+        "container",
+        "region",
+        "text",
+        "text",
+        "text",
+        "text",
+        "container",
+        "region",
+        "text",
+        "text",
+        "button",
+        "region",
+        "text",
+        "region",
+        "image",
+        "image",
+        "image",
+        "image",
+        "region",
+        "image",
+        "image",
+        "text",
+        "region",
+        "text",
+        "button"
+      ],
+      "extraInCode": [],
+      "autoFixed": [],
+      "result": "needs-retry"
+    }
+  ],
+  "diff": {
+    "schemaCount": 26,
+    "codeCount": 0,
+    "matchedCount": 0,
+    "missingInCode": [
+      {
+        "type": "container",
+        "id": "container-1",
+        "role": "page"
+      },
+      {
+        "type": "container",
+        "id": "container-2",
+        "role": "header"
+      },
+      {
+        "type": "region",
+        "id": "region-47",
+        "role": "nav-group"
+      },
+      {
+        "type": "text",
+        "id": "text-42",
+        "role": "nav-link"
+      },
+      {
+        "type": "text",
+        "id": "text-43",
+        "role": "nav-link"
+      },
+      {
+        "type": "text",
+        "id": "text-44",
+        "role": "nav-link"
+      },
+      {
+        "type": "text",
+        "id": "text-32",
+        "role": "brand"
+      },
+      {
+        "type": "container",
+        "id": "container-6",
+        "role": "main"
+      },
+      {
+        "type": "region",
+        "id": "region-55",
+        "role": "hero-section"
+      },
+      {
+        "type": "text",
+        "id": "text-37",
+        "role": "hero-heading"
+      },
+      {
+        "type": "text",
+        "id": "text-30",
+        "role": "copy"
+      },
+      {
+        "type": "button",
+        "id": "button-38",
+        "role": "action"
+      },
+      {
+        "type": "region",
+        "id": "region-48",
+        "role": "services-section"
+      },
+      {
+        "type": "text",
+        "id": "text-31",
+        "role": "section-heading"
+      },
+      {
+        "type": "region",
+        "id": "region-49",
+        "role": "feature-card-grid"
+      },
+      {
+        "type": "image",
+        "id": "image-10",
+        "role": "feature-card"
+      },
+      {
+        "type": "image",
+        "id": "image-11",
+        "role": "feature-card"
+      },
+      {
+        "type": "image",
+        "id": "image-12",
+        "role": "feature-card"
+      },
+      {
+        "type": "image",
+        "id": "image-19",
+        "role": "region"
+      },
+      {
+        "type": "region",
+        "id": "region-56",
+        "role": "about-section"
+      },
+      {
+        "type": "image",
+        "id": "image-24",
+        "role": "region"
+      },
+      {
+        "type": "image",
+        "id": "image-25",
+        "role": "region"
+      },
+      {
+        "type": "text",
+        "id": "text-35",
+        "role": "heading"
+      },
+      {
+        "type": "region",
+        "id": "region-50",
+        "role": "contact-section"
+      },
+      {
+        "type": "text",
+        "id": "button-39",
+        "role": "section-heading"
+      },
+      {
+        "type": "button",
+        "id": "image-29",
+        "role": "action"
+      }
+    ],
+    "extraInCode": [],
+    "structuralAccuracy": 0,
+    "generatedNodeCoverage": 0,
+    "majorRegionCoverage": 0,
+    "missingMajorRoles": [
+      "page",
+      "header",
+      "main",
+      "hero-section",
+      "services-section",
+      "feature-card-grid",
+      "about-section",
+      "contact-section"
+    ],
+    "isValid": false
+  }
+}

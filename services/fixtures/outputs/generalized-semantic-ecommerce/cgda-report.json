@@ -1,0 +1,10 @@
+{
+  "stripped": [
+    {
+      "tag": "button",
+      "attrs": "type=\"button\" data-wireframe-id=\"text-18\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-link\" data-wireframe-bounds=\"0.6669,0.1577,0.0162,0.0129\" onClick={() ="
+    }
+  ],
+  "kept": 14,
+  "structuralViolations": []
+}

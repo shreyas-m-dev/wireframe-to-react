@@ -1,0 +1,74 @@
+{
+  "pageCategory": "generic",
+  "majorZones": [
+    {
+      "role": "page",
+      "id": "container-1",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      }
+    },
+    {
+      "role": "main",
+      "id": "container-2",
+      "bounds": {
+        "x": 0,
+        "y": 0.1299,
+        "width": 1,
+        "height": 0.7295
+      },
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      }
+    },
+    {
+      "role": "section",
+      "id": "container-4",
+      "bounds": {
+        "x": 0.52,
+        "y": 0.1299,
+        "width": 0.48,
+        "height": 0.7295
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    },
+    {
+      "role": "footer",
+      "id": "container-7",
+      "bounds": {
+        "x": 0,
+        "y": 0.8594,
+        "width": 1,
+        "height": 0.1406
+      },
+      "layout": {
+        "direction": "auto",
+        "columns": 1,
+        "gap": 0,
+        "align": "start",
+        "repeated": false
+      }
+    }
+  ],
+  "regionCount": 6
+}

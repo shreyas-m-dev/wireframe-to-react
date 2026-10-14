@@ -1,0 +1,257 @@
+{
+  "groups": [],
+  "diagnostics": [
+    {
+      "roi": {
+        "x": 532.0,
+        "y": 133.0,
+        "width": 491.0,
+        "height": 747.0
+      },
+      "sourceRegionParent": "section",
+      "headingEvidence": null,
+      "passConfigurations": [
+        {
+          "name": "pass-a-edges",
+          "strategy": "CLAHE/bilateral + contour"
+        },
+        {
+          "name": "pass-b-adaptive",
+          "strategy": "CLAHE/bilateral + contour"
+        }
+      ],
+      "rawCandidates": [
+        {
+          "x": 532.0,
+          "y": 382.0,
+          "width": 443.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 249.0,
+            "width": 443.0,
+            "height": 498.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8895582329317269,
+            "top": 382,
+            "edgeDensity": 0.012977417570961046
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 744.0,
+          "y": 143.0,
+          "width": 211.0,
+          "height": 189.0,
+          "localBounds": {
+            "x": 212.0,
+            "y": 10.0,
+            "width": 211.0,
+            "height": 189.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.1164021164021165,
+            "top": 143,
+            "edgeDensity": 0.01996038014995361
+          },
+          "candidateScore": 0.8899999999999999,
+          "confidence": 0.55
+        },
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 217.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 209.0,
+            "y": 6.0,
+            "width": 217.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-a-edges"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.101522842639594,
+            "top": 139,
+            "edgeDensity": 0.055767386371611036
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 139.0,
+          "width": 170.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 6.0,
+            "width": 170.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8629441624365483,
+            "top": 139,
+            "edgeDensity": 0.04293819050462825
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 382.0,
+          "width": 443.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 249.0,
+            "width": 443.0,
+            "height": 498.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8895582329317269,
+            "top": 382,
+            "edgeDensity": 0.01673057920168258
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        },
+        {
+          "x": 743.0,
+          "y": 143.0,
+          "width": 213.0,
+          "height": 189.0,
+          "localBounds": {
+            "x": 211.0,
+            "y": 10.0,
+            "width": 213.0,
+            "height": 189.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.126984126984127,
+            "top": 143,
+            "edgeDensity": 0.01987232034180391
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 217.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 209.0,
+            "y": 6.0,
+            "width": 217.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.101522842639594,
+            "top": 139,
+            "edgeDensity": 0.076773725701186
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 139.0,
+          "width": 170.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 6.0,
+            "width": 170.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8629441624365483,
+            "top": 139,
+            "edgeDensity": 0.06736339205733055
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        }
+      ],
+      "groupClusters": [],
+      "acceptedGroup": null,
+      "acceptedCardCount": 0,
+      "rejectedCandidates": [
+        {
+          "bounds": {
+            "x": 744.0,
+            "y": 143.0,
+            "width": 211.0,
+            "height": 189.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 382.0,
+            "width": 443.0,
+            "height": 498.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 139.0,
+            "width": 170.0,
+            "height": 197.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        }
+      ],
+      "uncertainty": "low-contrast candidates did not form a multi-signal repeated-card consensus",
+      "projectionPeaks": [
+        166,
+        169,
+        209,
+        212,
+        422,
+        425,
+        439,
+        442
+      ]
+    }
+  ]
+}

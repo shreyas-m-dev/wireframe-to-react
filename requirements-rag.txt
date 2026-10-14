@@ -1,0 +1,3 @@
+# Optional semantic RAG runtime. Core classical CV remains in requirements.txt.
+# Install only when enabling RAG_EMBEDDING_PROVIDER=sentence_transformers.
+sentence-transformers>=3.0,<4

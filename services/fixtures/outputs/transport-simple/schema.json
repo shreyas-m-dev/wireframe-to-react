@@ -1,0 +1,957 @@
+{
+  "type": "root",
+  "id": "root-0",
+  "role": "page-root",
+  "bbox": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 683
+  },
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "size": {
+    "width": 1024,
+    "height": 683
+  },
+  "layout": {
+    "direction": "column",
+    "columns": 1,
+    "gap": 0,
+    "align": "stretch",
+    "repeated": false
+  },
+  "children": [
+    {
+      "type": "container",
+      "id": "container-1",
+      "role": "page",
+      "confidence": 0.98,
+      "roleConfidence": 0.98,
+      "text": null,
+      "textConfidence": null,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 683
+      },
+      "bboxPx": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 683
+      },
+      "bboxNorm": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1024,
+        "height": 683
+      },
+      "relativeBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "label": null,
+      "parentId": "root-0",
+      "parentRole": "page-root",
+      "readingOrder": 0,
+      "ocr": null,
+      "layout": {
+        "direction": "row",
+        "columns": 1,
+        "gap": 12,
+        "align": "center",
+        "repeated": false
+      },
+      "styleHints": {},
+      "repeatInfo": null,
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro page",
+        "vision": null
+      },
+      "uncertainty": 0.02,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      },
+      "children": [
+        {
+          "type": "container",
+          "id": "container-2",
+          "role": "header",
+          "confidence": 0.9,
+          "roleConfidence": 0.9,
+          "text": null,
+          "textConfidence": null,
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 88
+          },
+          "bboxPx": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 88
+          },
+          "bboxNorm": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.1288
+          },
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1024,
+            "height": 88
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.1288
+          },
+          "label": null,
+          "parentId": "container-1",
+          "parentRole": "page",
+          "readingOrder": 0,
+          "ocr": null,
+          "layout": {
+            "direction": "auto",
+            "columns": 1,
+            "gap": 0,
+            "align": "start",
+            "repeated": false
+          },
+          "styleHints": {},
+          "repeatInfo": null,
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro header",
+            "vision": null
+          },
+          "uncertainty": 0.1,
+          "source": {
+            "cv": true,
+            "ocr": false,
+            "vision": false,
+            "merged": false
+          },
+          "children": [
+            {
+              "type": "region",
+              "id": "region-12",
+              "role": "nav-group",
+              "confidence": 0.72,
+              "roleConfidence": 0.72,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 28,
+                "y": 16,
+                "width": 935,
+                "height": 37
+              },
+              "bboxPx": {
+                "x": 28,
+                "y": 16,
+                "width": 935,
+                "height": 37
+              },
+              "bboxNorm": {
+                "x": 0.0273,
+                "y": 0.0234,
+                "width": 0.9131,
+                "height": 0.0542
+              },
+              "position": {
+                "x": 28,
+                "y": 16
+              },
+              "size": {
+                "width": 935,
+                "height": 37
+              },
+              "relativeBounds": {
+                "x": 0.0273,
+                "y": 0.0234,
+                "width": 0.9131,
+                "height": 0.0542
+              },
+              "label": null,
+              "parentId": "container-2",
+              "parentRole": "header",
+              "readingOrder": 0,
+              "ocr": null,
+              "layout": {
+                "direction": "row",
+                "columns": 1,
+                "gap": 12,
+                "align": "center",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro nav-group",
+                "vision": null
+              },
+              "uncertainty": 0.28,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-8",
+                  "role": "nav-link",
+                  "confidence": 0.96,
+                  "roleConfidence": 0.96,
+                  "text": "LOGO",
+                  "textConfidence": 0.96,
+                  "bbox": {
+                    "x": 28,
+                    "y": 24,
+                    "width": 67,
+                    "height": 21
+                  },
+                  "bboxPx": {
+                    "x": 28,
+                    "y": 24,
+                    "width": 67,
+                    "height": 21
+                  },
+                  "bboxNorm": {
+                    "x": 0.0273,
+                    "y": 0.0351,
+                    "width": 0.0654,
+                    "height": 0.0307
+                  },
+                  "position": {
+                    "x": 28,
+                    "y": 24
+                  },
+                  "size": {
+                    "width": 67,
+                    "height": 21
+                  },
+                  "relativeBounds": {
+                    "x": 0.0273,
+                    "y": 0.0351,
+                    "width": 0.0654,
+                    "height": 0.0307
+                  },
+                  "label": "LOGO",
+                  "parentId": "region-12",
+                  "parentRole": "nav-group",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.04,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-11",
+                  "role": "nav-link",
+                  "confidence": 0.58,
+                  "roleConfidence": 0.58,
+                  "text": "Login",
+                  "textConfidence": 0.58,
+                  "bbox": {
+                    "x": 791,
+                    "y": 29,
+                    "width": 40,
+                    "height": 16
+                  },
+                  "bboxPx": {
+                    "x": 791,
+                    "y": 29,
+                    "width": 40,
+                    "height": 16
+                  },
+                  "bboxNorm": {
+                    "x": 0.7725,
+                    "y": 0.0425,
+                    "width": 0.0391,
+                    "height": 0.0234
+                  },
+                  "position": {
+                    "x": 791,
+                    "y": 29
+                  },
+                  "size": {
+                    "width": 40,
+                    "height": 16
+                  },
+                  "relativeBounds": {
+                    "x": 0.7725,
+                    "y": 0.0425,
+                    "width": 0.0391,
+                    "height": 0.0234
+                  },
+                  "label": "Login",
+                  "parentId": "region-12",
+                  "parentRole": "nav-group",
+                  "readingOrder": 1,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.42,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-9",
+                  "role": "nav-link",
+                  "confidence": 0.95,
+                  "roleConfidence": 0.95,
+                  "text": "sign",
+                  "textConfidence": 0.95,
+                  "bbox": {
+                    "x": 902,
+                    "y": 29,
+                    "width": 31,
+                    "height": 16
+                  },
+                  "bboxPx": {
+                    "x": 902,
+                    "y": 29,
+                    "width": 31,
+                    "height": 16
+                  },
+                  "bboxNorm": {
+                    "x": 0.8809,
+                    "y": 0.0425,
+                    "width": 0.0303,
+                    "height": 0.0234
+                  },
+                  "position": {
+                    "x": 902,
+                    "y": 29
+                  },
+                  "size": {
+                    "width": 31,
+                    "height": 16
+                  },
+                  "relativeBounds": {
+                    "x": 0.8809,
+                    "y": 0.0425,
+                    "width": 0.0303,
+                    "height": 0.0234
+                  },
+                  "label": "sign",
+                  "parentId": "region-12",
+                  "parentRole": "nav-group",
+                  "readingOrder": 2,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.05,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-10",
+                  "role": "nav-link",
+                  "confidence": 0.61,
+                  "roleConfidence": 0.61,
+                  "text": "Up",
+                  "textConfidence": 0.61,
+                  "bbox": {
+                    "x": 944,
+                    "y": 29,
+                    "width": 19,
+                    "height": 16
+                  },
+                  "bboxPx": {
+                    "x": 944,
+                    "y": 29,
+                    "width": 19,
+                    "height": 16
+                  },
+                  "bboxNorm": {
+                    "x": 0.9219,
+                    "y": 0.0425,
+                    "width": 0.0186,
+                    "height": 0.0234
+                  },
+                  "position": {
+                    "x": 944,
+                    "y": 29
+                  },
+                  "size": {
+                    "width": 19,
+                    "height": 16
+                  },
+                  "relativeBounds": {
+                    "x": 0.9219,
+                    "y": 0.0425,
+                    "width": 0.0186,
+                    "height": 0.0234
+                  },
+                  "label": "Up",
+                  "parentId": "region-12",
+                  "parentRole": "nav-group",
+                  "readingOrder": 3,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link",
+                    "vision": null
+                  },
+                  "uncertainty": 0.39,
+                  "source": {
+                    "cv": true,
+                    "ocr": true,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "container-3",
+          "role": "main",
+          "confidence": 0.94,
+          "roleConfidence": 0.94,
+          "text": null,
+          "textConfidence": null,
+          "bbox": {
+            "x": 0,
+            "y": 88,
+            "width": 1024,
+            "height": 499
+          },
+          "bboxPx": {
+            "x": 0,
+            "y": 88,
+            "width": 1024,
+            "height": 499
+          },
+          "bboxNorm": {
+            "x": 0,
+            "y": 0.1288,
+            "width": 1,
+            "height": 0.7306
+          },
+          "position": {
+            "x": 0,
+            "y": 88
+          },
+          "size": {
+            "width": 1024,
+            "height": 499
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0.1288,
+            "width": 1,
+            "height": 0.7306
+          },
+          "label": null,
+          "parentId": "container-1",
+          "parentRole": "page",
+          "readingOrder": 1,
+          "ocr": null,
+          "layout": {
+            "direction": "row",
+            "columns": 1,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          },
+          "styleHints": {},
+          "repeatInfo": null,
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro main",
+            "vision": null
+          },
+          "uncertainty": 0.06,
+          "source": {
+            "cv": true,
+            "ocr": false,
+            "vision": false,
+            "merged": false
+          },
+          "children": [
+            {
+              "type": "container",
+              "id": "container-4",
+              "role": "media-region",
+              "confidence": 0.84,
+              "roleConfidence": 0.84,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 0,
+                "y": 88,
+                "width": 532.48,
+                "height": 499
+              },
+              "bboxPx": {
+                "x": 0,
+                "y": 88,
+                "width": 532.48,
+                "height": 499
+              },
+              "bboxNorm": {
+                "x": 0,
+                "y": 0.1288,
+                "width": 0.52,
+                "height": 0.7306
+              },
+              "position": {
+                "x": 0,
+                "y": 88
+              },
+              "size": {
+                "width": 532.48,
+                "height": 499
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0.1288,
+                "width": 0.52,
+                "height": 0.7306
+              },
+              "label": null,
+              "parentId": "container-3",
+              "parentRole": "main",
+              "readingOrder": 0,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro media-region",
+                "vision": null
+              },
+              "uncertainty": 0.16,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": [
+                {
+                  "type": "image",
+                  "id": "image-6",
+                  "role": "media",
+                  "confidence": 0.7,
+                  "roleConfidence": 0.7,
+                  "text": null,
+                  "textConfidence": null,
+                  "bbox": {
+                    "x": 21.299200000000003,
+                    "y": 112.95,
+                    "width": 489.88160000000005,
+                    "height": 449.09999999999997
+                  },
+                  "bboxPx": {
+                    "x": 21.299200000000003,
+                    "y": 112.95,
+                    "width": 489.88160000000005,
+                    "height": 449.09999999999997
+                  },
+                  "bboxNorm": {
+                    "x": 0.0208,
+                    "y": 0.1654,
+                    "width": 0.4784,
+                    "height": 0.6575
+                  },
+                  "position": {
+                    "x": 21.299200000000003,
+                    "y": 112.95
+                  },
+                  "size": {
+                    "width": 489.88160000000005,
+                    "height": 449.09999999999997
+                  },
+                  "relativeBounds": {
+                    "x": 0.0208,
+                    "y": 0.1654,
+                    "width": 0.4784,
+                    "height": 0.6575
+                  },
+                  "label": null,
+                  "parentId": "container-4",
+                  "parentRole": "media-region",
+                  "readingOrder": 0,
+                  "ocr": null,
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "styleHints": {},
+                  "repeatInfo": null,
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro media",
+                    "vision": null
+                  },
+                  "uncertainty": 0.3,
+                  "source": {
+                    "cv": true,
+                    "ocr": false,
+                    "vision": false,
+                    "merged": false
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "id": "container-5",
+              "role": "section",
+              "confidence": 0.84,
+              "roleConfidence": 0.84,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 532.48,
+                "y": 88,
+                "width": 491.52,
+                "height": 499
+              },
+              "bboxPx": {
+                "x": 532.48,
+                "y": 88,
+                "width": 491.52,
+                "height": 499
+              },
+              "bboxNorm": {
+                "x": 0.52,
+                "y": 0.1288,
+                "width": 0.48,
+                "height": 0.7306
+              },
+              "position": {
+                "x": 532.48,
+                "y": 88
+              },
+              "size": {
+                "width": 491.52,
+                "height": 499
+              },
+              "relativeBounds": {
+                "x": 0.52,
+                "y": 0.1288,
+                "width": 0.48,
+                "height": 0.7306
+              },
+              "label": null,
+              "parentId": "container-3",
+              "parentRole": "main",
+              "readingOrder": 1,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro section",
+                "vision": null
+              },
+              "uncertainty": 0.16,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": []
+            },
+            {
+              "type": "container",
+              "id": "container-7",
+              "role": "region",
+              "confidence": 0.7,
+              "roleConfidence": 0.7,
+              "text": null,
+              "textConfidence": null,
+              "bbox": {
+                "x": 46,
+                "y": 131,
+                "width": 934,
+                "height": 209
+              },
+              "bboxPx": {
+                "x": 46,
+                "y": 131,
+                "width": 934,
+                "height": 209
+              },
+              "bboxNorm": {
+                "x": 0.0449,
+                "y": 0.1918,
+                "width": 0.9121,
+                "height": 0.306
+              },
+              "position": {
+                "x": 46,
+                "y": 131
+              },
+              "size": {
+                "width": 934,
+                "height": 209
+              },
+              "relativeBounds": {
+                "x": 0.0449,
+                "y": 0.1918,
+                "width": 0.9121,
+                "height": 0.306
+              },
+              "label": null,
+              "parentId": "container-3",
+              "parentRole": "main",
+              "readingOrder": 2,
+              "ocr": null,
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "styleHints": {},
+              "repeatInfo": null,
+              "evidence": {
+                "source": "component-pass",
+                "grouping": "contour/OCR candidate",
+                "vision": null
+              },
+              "uncertainty": 0.3,
+              "source": {
+                "cv": true,
+                "ocr": false,
+                "vision": false,
+                "merged": false
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layoutPlan": {
+    "pageCategory": "generic",
+    "majorZones": [
+      {
+        "role": "page",
+        "id": "container-1",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "header",
+        "id": "container-2",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 0.1288
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "nav-group",
+        "id": "region-12",
+        "bounds": {
+          "x": 0.0273,
+          "y": 0.0234,
+          "width": 0.9131,
+          "height": 0.0542
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "main",
+        "id": "container-3",
+        "bounds": {
+          "x": 0,
+          "y": 0.1288,
+          "width": 1,
+          "height": 0.7306
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "media-region",
+        "id": "container-4",
+        "bounds": {
+          "x": 0,
+          "y": 0.1288,
+          "width": 0.52,
+          "height": 0.7306
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "section",
+        "id": "container-5",
+        "bounds": {
+          "x": 0.52,
+          "y": 0.1288,
+          "width": 0.48,
+          "height": 0.7306
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      }
+    ],
+    "regionCount": 12
+  }
+}

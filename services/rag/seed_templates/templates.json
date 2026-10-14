@@ -1,0 +1,117 @@
+[
+  {
+    "id": "header-logo-nav-buttons",
+    "schema_pattern": "header row with logo text and two nav buttons login sign up",
+    "code": "<header className=\"flex items-center justify-between px-6 py-4\">\n  <span className=\"font-bold text-xl\">{logoText}</span>\n  <div className=\"flex gap-3\">\n    <button className=\"px-4 py-2 border rounded\">{navButton1Label}</button>\n    <button className=\"px-4 py-2 bg-black text-white rounded\">{navButton2Label}</button>\n  </div>\n</header>"
+  },
+  {
+    "id": "single-button",
+    "schema_pattern": "single standalone button",
+    "code": "<button className=\"px-4 py-2 border rounded hover:bg-gray-50\">{label}</button>"
+  },
+  {
+    "id": "button-with-icon",
+    "schema_pattern": "button containing an icon and text label",
+    "code": "<button className=\"flex items-center gap-2 px-4 py-2 border rounded\">\n  <Icon name={iconName} />\n  <span>{label}</span>\n</button>"
+  },
+  {
+    "id": "text-block-lines",
+    "schema_pattern": "container with multiple horizontal text lines paragraph block",
+    "code": "<div className=\"border rounded p-4 space-y-2\">\n  {lines.map((line, i) => (\n    <p key={i} className=\"text-gray-700\">{line}</p>\n  ))}\n</div>"
+  },
+  {
+    "id": "form-input-with-label",
+    "schema_pattern": "input field with a text label above it",
+    "code": "<div className=\"flex flex-col gap-1\">\n  <label className=\"text-sm font-medium\">{labelText}</label>\n  <input className=\"border rounded px-3 py-2\" placeholder={placeholder} />\n</div>"
+  },
+  {
+    "id": "form-vertical-stack",
+    "schema_pattern": "container with multiple stacked input fields and a submit button form",
+    "code": "<form className=\"flex flex-col gap-4 max-w-sm\">\n  {fields.map((f) => (\n    <div key={f.name} className=\"flex flex-col gap-1\">\n      <label className=\"text-sm font-medium\">{f.label}</label>\n      <input name={f.name} className=\"border rounded px-3 py-2\" />\n    </div>\n  ))}\n  <button type=\"submit\" className=\"px-4 py-2 bg-black text-white rounded\">{submitLabel}</button>\n</form>"
+  },
+  {
+    "id": "checkbox-with-label",
+    "schema_pattern": "checkbox next to a text label",
+    "code": "<label className=\"flex items-center gap-2\">\n  <input type=\"checkbox\" />\n  <span>{label}</span>\n</label>"
+  },
+  {
+    "id": "radio-group",
+    "schema_pattern": "group of radio buttons with labels vertically stacked",
+    "code": "<div className=\"flex flex-col gap-2\">\n  {options.map((opt) => (\n    <label key={opt.value} className=\"flex items-center gap-2\">\n      <input type=\"radio\" name={groupName} value={opt.value} />\n      <span>{opt.label}</span>\n    </label>\n  ))}\n</div>"
+  },
+  {
+    "id": "dropdown-select",
+    "schema_pattern": "dropdown select box with label",
+    "code": "<div className=\"flex flex-col gap-1\">\n  <label className=\"text-sm font-medium\">{labelText}</label>\n  <select className=\"border rounded px-3 py-2\">\n    {options.map((opt) => <option key={opt} value={opt}>{opt}</option>)}\n  </select>\n</div>"
+  },
+  {
+    "id": "card-image-title-text",
+    "schema_pattern": "card container with an image, a title, and body text",
+    "code": "<div className=\"border rounded overflow-hidden\">\n  <img src={imageSrc} alt={imageAlt} className=\"w-full h-40 object-cover\" />\n  <div className=\"p-4\">\n    <h3 className=\"font-semibold text-lg\">{title}</h3>\n    <p className=\"text-gray-600 mt-1\">{body}</p>\n  </div>\n</div>"
+  },
+  {
+    "id": "card-grid",
+    "schema_pattern": "grid of multiple card containers side by side",
+    "code": "<div className=\"grid grid-cols-3 gap-4\">\n  {cards.map((c) => (\n    <div key={c.id} className=\"border rounded p-4\">\n      <h3 className=\"font-semibold\">{c.title}</h3>\n      <p className=\"text-gray-600 text-sm mt-1\">{c.body}</p>\n    </div>\n  ))}\n</div>"
+  },
+  {
+    "id": "sidebar-nav-list",
+    "schema_pattern": "vertical sidebar with a list of navigation links",
+    "code": "<nav className=\"flex flex-col gap-1 w-56 border-r p-4\">\n  {links.map((l) => (\n    <a key={l.href} href={l.href} className=\"px-3 py-2 rounded hover:bg-gray-100\">{l.label}</a>\n  ))}\n</nav>"
+  },
+  {
+    "id": "image-only",
+    "schema_pattern": "single standalone image element",
+    "code": "<img src={imageSrc} alt={imageAlt} className=\"w-full h-auto\" />"
+  },
+  {
+    "id": "icon-only",
+    "schema_pattern": "single standalone icon element",
+    "code": "<Icon name={iconName} className=\"w-5 h-5\" />"
+  },
+  {
+    "id": "link-inline",
+    "schema_pattern": "single inline text link",
+    "code": "<a href={href} className=\"text-blue-600 underline\">{label}</a>"
+  },
+  {
+    "id": "modal-title-text-buttons",
+    "schema_pattern": "container with a title, body text, and two action buttons confirm cancel dialog",
+    "code": "<div className=\"border rounded p-6 max-w-md\">\n  <h2 className=\"text-lg font-semibold\">{title}</h2>\n  <p className=\"text-gray-600 mt-2\">{body}</p>\n  <div className=\"flex justify-end gap-2 mt-4\">\n    <button className=\"px-4 py-2 border rounded\">{cancelLabel}</button>\n    <button className=\"px-4 py-2 bg-black text-white rounded\">{confirmLabel}</button>\n  </div>\n</div>"
+  },
+  {
+    "id": "tab-bar",
+    "schema_pattern": "horizontal row of tab buttons",
+    "code": "<div className=\"flex border-b\">\n  {tabs.map((t) => (\n    <button key={t.id} className={`px-4 py-2 ${t.active ? 'border-b-2 border-black font-medium' : 'text-gray-500'}`}>\n      {t.label}\n    </button>\n  ))}\n</div>"
+  },
+  {
+    "id": "search-bar",
+    "schema_pattern": "input field with an adjacent search button",
+    "code": "<div className=\"flex\">\n  <input className=\"border rounded-l px-3 py-2 flex-1\" placeholder={placeholder} />\n  <button className=\"px-4 py-2 bg-black text-white rounded-r\">{buttonLabel}</button>\n</div>"
+  },
+  {
+    "id": "two-column-row",
+    "schema_pattern": "row split into two side by side containers",
+    "code": "<div className=\"grid grid-cols-2 gap-4\">\n  <div>{leftContent}</div>\n  <div>{rightContent}</div>\n</div>"
+  },
+  {
+    "id": "product-detail-gallery-page",
+    "schema_pattern": "commerce product detail page header main row gallery media thumbnails product detail title price description add to cart related products card grid footer",
+    "code": "<div className=\"min-h-screen\"><header>...</header><main className=\"grid grid-cols-2\"><section className=\"gallery\">...</section><section className=\"product-detail\">...</section></main><section className=\"related-products\">...</section></div>"
+  },
+  {
+    "id": "product-gallery-section",
+    "schema_pattern": "gallery section large product media image with thumbnail images and media controls",
+    "code": "<section className=\"grid gap-3\"><img className=\"w-full\" /><div className=\"grid grid-cols-4 gap-2\">...</div></section>"
+  },
+  {
+    "id": "product-detail-section",
+    "schema_pattern": "product detail section title price metadata description option dropdown quantity add to cart action column",
+    "code": "<section className=\"flex flex-col gap-4\"><h1>Product title</h1><p>Price</p><p>Description</p><button>Add to cart</button></section>"
+  },
+  {
+    "id": "footer-links-row",
+    "schema_pattern": "footer bar with a row of text links",
+    "code": "<footer className=\"flex gap-6 px-6 py-4 border-t text-sm text-gray-600\">\n  {links.map((l) => <a key={l.href} href={l.href}>{l.label}</a>)}\n</footer>"
+  }
+]

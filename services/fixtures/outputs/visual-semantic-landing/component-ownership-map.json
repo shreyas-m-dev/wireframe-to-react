@@ -1,0 +1,152 @@
+{
+  "valid": true,
+  "assignments": [
+    {
+      "sourceNodeId": "container-1",
+      "selectedComponentId": "semantic-container-1",
+      "ownerComponentId": "container-1",
+      "role": "page",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "container-2",
+      "selectedComponentId": "semantic-container-2",
+      "ownerComponentId": "container-2",
+      "role": "header",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "region-24",
+      "selectedComponentId": "semantic-region-24",
+      "ownerComponentId": "container-2",
+      "role": "nav-group",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-22",
+      "selectedComponentId": "semantic-text-22",
+      "ownerComponentId": "container-2",
+      "role": "nav-link",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-23",
+      "selectedComponentId": "semantic-text-23",
+      "ownerComponentId": "container-2",
+      "role": "nav-link",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-21",
+      "selectedComponentId": "semantic-text-21",
+      "ownerComponentId": "container-2",
+      "role": "nav-link",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-14",
+      "selectedComponentId": "semantic-text-14",
+      "ownerComponentId": "container-2",
+      "role": "brand",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "button-19",
+      "selectedComponentId": "semantic-button-19",
+      "ownerComponentId": "container-2",
+      "role": "action",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "container-4",
+      "selectedComponentId": "semantic-container-4",
+      "ownerComponentId": "container-4",
+      "role": "main",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "region-25",
+      "selectedComponentId": "semantic-region-25",
+      "ownerComponentId": "region-25",
+      "role": "hero-section",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-15",
+      "selectedComponentId": "semantic-text-15",
+      "ownerComponentId": "region-25",
+      "role": "hero-heading",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-10",
+      "selectedComponentId": "semantic-text-10",
+      "ownerComponentId": "region-25",
+      "role": "copy",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "button-11",
+      "selectedComponentId": "semantic-button-11",
+      "ownerComponentId": "region-25",
+      "role": "action",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "region-26",
+      "selectedComponentId": "semantic-region-26",
+      "ownerComponentId": "region-26",
+      "role": "services-section",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "image-7",
+      "selectedComponentId": "semantic-image-7",
+      "ownerComponentId": "region-26",
+      "role": "media",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-17",
+      "selectedComponentId": "semantic-text-17",
+      "ownerComponentId": "region-26",
+      "role": "section-heading",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "region-27",
+      "selectedComponentId": "semantic-region-27",
+      "ownerComponentId": "region-27",
+      "role": "about-section",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "text-12",
+      "selectedComponentId": "semantic-text-12",
+      "ownerComponentId": "region-27",
+      "role": "section-heading",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "region-28",
+      "selectedComponentId": "semantic-region-28",
+      "ownerComponentId": "region-28",
+      "role": "contact-section",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "button-13",
+      "selectedComponentId": "semantic-button-13",
+      "ownerComponentId": "region-28",
+      "role": "section-heading",
+      "dropped": false
+    },
+    {
+      "sourceNodeId": "button-18",
+      "selectedComponentId": "semantic-button-18",
+      "ownerComponentId": "region-28",
+      "role": "action",
+      "dropped": false
+    }
+  ]
+}

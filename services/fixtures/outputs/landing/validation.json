@@ -1,0 +1,71 @@
+{
+  "cgda": {
+    "stripped": [],
+    "kept": 12
+  },
+  "validation": {
+    "finalJsx": "import React from \"react\";\r\n\r\nexport default function GeneratedComponent() {\r\n  return (\n<div data-wireframe-id=\"root-0\" data-wireframe-type=\"root\" data-wireframe-role=\"page-root\" className=\"border rounded p-3\">\n  <div data-wireframe-id=\"container-1\" data-wireframe-type=\"container\" data-wireframe-role=\"page\" className=\"flex flex-col gap-3 p-3 min-h-screen bg-white text-gray-900 p-6 space-y-8\">\n    <main data-wireframe-id=\"container-2\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" className=\"flex flex-col gap-3 p-3 w-full\">\n      <div data-wireframe-id=\"container-3\" data-wireframe-type=\"container\" data-wireframe-role=\"media-region\" className=\"border rounded p-3\">\n        <img data-wireframe-id=\"image-6\" data-wireframe-type=\"image\" data-wireframe-role=\"media\" src=\"https://placehold.co/640x480\" alt={\"Product image\"} className=\"w-full h-auto rounded\" />\n      </div>\n      <div data-wireframe-id=\"container-4\" data-wireframe-type=\"container\" data-wireframe-role=\"section\" className=\"border rounded p-3\"></div>\n      <div data-wireframe-id=\"container-5\" data-wireframe-type=\"container\" data-wireframe-role=\"\" className=\"border rounded p-3\"></div>\n      <div data-wireframe-id=\"container-7\" data-wireframe-type=\"container\" data-wireframe-role=\"repeated-region\" className=\"border rounded p-3\">\n        <div data-wireframe-id=\"region-8\" data-wireframe-type=\"region\" data-wireframe-role=\"repeated-card-grid\" className=\"flex items-center justify-between gap-3 p-3\">\n          <div data-wireframe-id=\"region-9\" data-wireframe-type=\"region\" data-wireframe-role=\"card\" className=\"border rounded p-3\"></div>\n          <div data-wireframe-id=\"region-10\" data-wireframe-type=\"region\" data-wireframe-role=\"card\" className=\"border rounded p-3\"></div>\n          <div data-wireframe-id=\"region-11\" data-wireframe-type=\"region\" data-wireframe-role=\"card\" className=\"border rounded p-3\"></div>\n        </div>\n      </div>\n    </main>\n  </div>\n</div>\r\n  );\r\n}\r\n",
+    "valid": true,
+    "attempts": 0,
+    "log": [
+      {
+        "attempt": 0,
+        "structuralAccuracy": 1,
+        "missingInCode": [],
+        "extraInCode": [],
+        "autoFixed": [],
+        "result": "auto-corrected"
+      }
+    ],
+    "diff": {
+      "schemaCount": 11,
+      "codeCount": 11,
+      "matchedCount": 11,
+      "missingInCode": [],
+      "extraInCode": [],
+      "structuralAccuracy": 1,
+      "generatedNodeCoverage": 1,
+      "majorRegionCoverage": 0.25,
+      "missingMajorRoles": [
+        "gallery",
+        "product-detail",
+        "related-products"
+      ],
+      "isValid": false
+    },
+    "autoFixed": []
+  },
+  "fidelity": {
+    "score": 0.75,
+    "fullPage": true,
+    "majorRegionCount": 2,
+    "leafCount": 6,
+    "mediaCount": 1,
+    "buttonCount": 0,
+    "maxDepth": 5,
+    "passed": true,
+    "reasons": [
+      "too few macro regions"
+    ]
+  },
+  "overall": {
+    "schemaGatePassed": true,
+    "generatedOutputValid": true,
+    "schemaToCodeCoverage": 1,
+    "legacyStructuralAccuracy": 1,
+    "macroRegionCoverage": 0.25,
+    "repeatedGroupCoverage": 1,
+    "semanticTextCoverage": 1,
+    "semanticControlCoverage": 1,
+    "sourceStructureCoverage": 0.25,
+    "sourceVsRenderedScore": null,
+    "overallStatus": "needs-review",
+    "needsReview": true,
+    "reasons": [
+      "too few macro regions",
+      "missing generated gallery",
+      "missing generated product-detail",
+      "missing generated related-products"
+    ]
+  }
+}

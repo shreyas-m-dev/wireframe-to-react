@@ -1,0 +1,595 @@
+{
+  "version": 1,
+  "schemaSource": "local-cv-ocr-fallback",
+  "nodes": [
+    {
+      "id": "container-1",
+      "type": "container",
+      "role": "page",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "confidence": 0.98,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "container-2",
+      "type": "container",
+      "role": "main",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.1285,
+        "width": 1,
+        "height": 0.7309
+      },
+      "confidence": 0.94,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "container-3",
+      "type": "container",
+      "role": "gallery",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.1285,
+        "width": 0.52,
+        "height": 0.7309
+      },
+      "confidence": 0.84,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-6",
+      "type": "image",
+      "role": "media",
+      "text": null,
+      "bounds": {
+        "x": 0.0208,
+        "y": 0.165,
+        "width": 0.4784,
+        "height": 0.6578
+      },
+      "confidence": 0.7,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "container-4",
+      "type": "container",
+      "role": "product-detail",
+      "text": null,
+      "bounds": {
+        "x": 0.52,
+        "y": 0.1285,
+        "width": 0.48,
+        "height": 0.7309
+      },
+      "confidence": 0.84,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-18",
+      "type": "text",
+      "role": "nav-link",
+      "text": "Help",
+      "bounds": {
+        "x": 0.6669,
+        "y": 0.1577,
+        "width": 0.0162,
+        "height": 0.0129
+      },
+      "confidence": 0.91,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-13",
+      "type": "text",
+      "role": "product-title",
+      "text": "Product title",
+      "bounds": {
+        "x": 0.5379,
+        "y": 0.2817,
+        "width": 0.0993,
+        "height": 0.0248
+      },
+      "confidence": 0.95,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-23",
+      "type": "text",
+      "role": "rating",
+      "text": "keke Reviews",
+      "bounds": {
+        "x": 0.5371,
+        "y": 0.3281,
+        "width": 0.126,
+        "height": 0.0174
+      },
+      "confidence": 0.57,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-24",
+      "type": "text",
+      "role": "copy",
+      "text": "4",
+      "bounds": {
+        "x": 0.6306,
+        "y": 0.3343,
+        "width": 0.0017,
+        "height": 0.0089
+      },
+      "confidence": 0.73,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-26",
+      "type": "text",
+      "role": "price",
+      "text": "$123.00 be |",
+      "bounds": {
+        "x": 0.5361,
+        "y": 0.408,
+        "width": 0.2549,
+        "height": 0.0382
+      },
+      "confidence": 0.48,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-10",
+      "type": "text",
+      "role": "price",
+      "text": "$ 123.00",
+      "bounds": {
+        "x": 0.5368,
+        "y": 0.4117,
+        "width": 0.0647,
+        "height": 0.0298
+      },
+      "confidence": 0.935,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-27",
+      "type": "text",
+      "role": "heading",
+      "text": "amet conactr",
+      "bounds": {
+        "x": 0.6113,
+        "y": 0.4861,
+        "width": 0.0684,
+        "height": 0.0521
+      },
+      "confidence": 0.53,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-12",
+      "type": "text",
+      "role": "description",
+      "text": "tetur adipiscing elit, sed do eiusmod",
+      "bounds": {
+        "x": 0.6629,
+        "y": 0.5,
+        "width": 0.1272,
+        "height": 0.0308
+      },
+      "confidence": 0.865,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-28",
+      "type": "text",
+      "role": "heading",
+      "text": "tempor bere ahaa nnn",
+      "bounds": {
+        "x": 0.5371,
+        "y": 0.5087,
+        "width": 0.248,
+        "height": 0.0521
+      },
+      "confidence": 0.52,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-11",
+      "type": "text",
+      "role": "copy",
+      "text": "ipsum dolor sit amet,",
+      "bounds": {
+        "x": 0.5636,
+        "y": 0.5099,
+        "width": 0.0698,
+        "height": 0.0119
+      },
+      "confidence": 0.95,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-14",
+      "type": "text",
+      "role": "copy",
+      "text": "Lore",
+      "bounds": {
+        "x": 0.5374,
+        "y": 0.5109,
+        "width": 0.0134,
+        "height": 0.0099
+      },
+      "confidence": 0.95,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-20",
+      "type": "text",
+      "role": "copy",
+      "text": "unt ut",
+      "bounds": {
+        "x": 0.5898,
+        "y": 0.5238,
+        "width": 0.019,
+        "height": 0.0278
+      },
+      "confidence": 0.645,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-15",
+      "type": "text",
+      "role": "description",
+      "text": "nagna aliqua. Ut enim ad minim",
+      "bounds": {
+        "x": 0.6747,
+        "y": 0.5248,
+        "width": 0.1077,
+        "height": 0.0278
+      },
+      "confidence": 0.825,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-22",
+      "type": "text",
+      "role": "copy",
+      "text": "laboris nisi ut",
+      "bounds": {
+        "x": 0.6892,
+        "y": 0.5565,
+        "width": 0.0441,
+        "height": 0.0089
+      },
+      "confidence": 0.8133,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-29",
+      "type": "text",
+      "role": "copy",
+      "text": "is",
+      "bounds": {
+        "x": 0.5787,
+        "y": 0.5585,
+        "width": 0.0061,
+        "height": 0.0069
+      },
+      "confidence": 0.51,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-25",
+      "type": "text",
+      "role": "nav-link",
+      "text": "2 most Ss",
+      "bounds": {
+        "x": 0.2285,
+        "y": 0.151,
+        "width": 0.3936,
+        "height": 0.0226
+      },
+      "confidence": 0.5033,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-19",
+      "type": "text",
+      "role": "nav-link",
+      "text": "(Q",
+      "bounds": {
+        "x": 0.2835,
+        "y": 0.1558,
+        "width": 0.0117,
+        "height": 0.0149
+      },
+      "confidence": 0.9,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-17",
+      "type": "text",
+      "role": "nav-link",
+      "text": "Shop",
+      "bounds": {
+        "x": 0.6044,
+        "y": 0.1577,
+        "width": 0.0179,
+        "height": 0.0129
+      },
+      "confidence": 0.94,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-9",
+      "type": "text",
+      "role": "nav-link",
+      "text": "Home",
+      "bounds": {
+        "x": 0.4805,
+        "y": 0.1587,
+        "width": 0.0206,
+        "height": 0.0099
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-21",
+      "type": "text",
+      "role": "nav-link",
+      "text": "About",
+      "bounds": {
+        "x": 0.5413,
+        "y": 0.1587,
+        "width": 0.0206,
+        "height": 0.0099
+      },
+      "confidence": 0.88,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-30",
+      "type": "text",
+      "role": "heading",
+      "text": "ai ms",
+      "bounds": {
+        "x": 0.2168,
+        "y": 0.6042,
+        "width": 0.4463,
+        "height": 0.0694
+      },
+      "confidence": 0.45,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-31",
+      "type": "text",
+      "role": "copy",
+      "text": "(eee)",
+      "bounds": {
+        "x": 0.5368,
+        "y": 0.6052,
+        "width": 0.1261,
+        "height": 0.0407
+      },
+      "confidence": 0.4,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-16",
+      "type": "text",
+      "role": "copy",
+      "text": "Products",
+      "bounds": {
+        "x": 0.4955,
+        "y": 0.7827,
+        "width": 0.0709,
+        "height": 0.0248
+      },
+      "confidence": 0.95,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-32",
+      "type": "region",
+      "role": "about-section",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.1587,
+        "width": 1,
+        "height": 0.8413
+      },
+      "confidence": 0.66,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "region-33",
+      "type": "region",
+      "role": "map-region",
+      "text": null,
+      "bounds": {
+        "x": 0.0208,
+        "y": 0.165,
+        "width": 0.4784,
+        "height": 0.6578
+      },
+      "confidence": 0.66,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-8",
+      "type": "text",
+      "role": "copy",
+      "text": "Similar",
+      "bounds": {
+        "x": 0.4336,
+        "y": 0.783,
+        "width": 0.0566,
+        "height": 0.0243
+      },
+      "confidence": 0.96,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    }
+  ]
+}

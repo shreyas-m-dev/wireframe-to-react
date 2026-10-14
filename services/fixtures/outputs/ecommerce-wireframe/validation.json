@@ -1,0 +1,196 @@
+{
+  "cgda": {
+    "kept": 0,
+    "stripped": []
+  },
+  "validation": {
+    "finalJsx": "import React from 'react';\r\n\r\nexport default function GeneratedComponent() {\r\n  return (\r\n    <div data-wireframe-id=\"root-0\" data-semantic-component-id=\"semantic-root-0\" data-wireframe-provenance=\"local\" data-wireframe-type=\"root\" data-wireframe-role=\"page-root\" data-wireframe-bounds=\"0,0,0,0\" className=\"relative\">\r\n      <div data-wireframe-id=\"container-1\" data-semantic-component-id=\"semantic-container-1\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"page\" data-wireframe-bounds=\"0,0,1,1\" className=\"flex flex-col gap-3 p-3 min-h-screen bg-white text-gray-900 p-6 space-y-8\" id=\"top\" style={{\"--wf-background\": \"#fefefe\", \"--wf-surface\": \"#f8fafc\", \"--wf-text\": \"#1f2937\", \"--wf-mutedText\": \"#64748b\", \"--wf-primary\": \"#2573db\", \"--wf-primaryContrast\": \"#ffffff\", \"--wf-border\": \"#d1d5db\"}}>\r\n        <main data-wireframe-id=\"container-2\" data-semantic-component-id=\"semantic-container-2\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" data-wireframe-bounds=\"0,0.1285,1,0.7309\" className=\"grid grid-cols-1 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] gap-6 items-start p-3 w-full\">\r\n          <section data-wireframe-id=\"container-3\" data-semantic-component-id=\"semantic-container-3\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"gallery\" data-wireframe-bounds=\"0,0.1285,0.52,0.7309\" className=\"flex flex-col gap-3 p-3 min-w-0 grid gap-3\">\r\n            <div data-wireframe-id=\"image-6\" data-semantic-component-id=\"semantic-image-6\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"image\" data-wireframe-role=\"media\" data-wireframe-bounds=\"0.0208,0.165,0.4784,0.6578\" role=\"img\" aria-label=\"Detected visual region\" className=\"w-full bg-[var(--wf-surface)] border border-[var(--wf-border)] flex items-center justify-center text-[var(--wf-mutedText)] overflow-hidden rounded\" style={{\"aspectRatio\": \"0.727\"}} />\r\n          </section>\r\n          <section data-wireframe-id=\"container-4\" data-semantic-component-id=\"semantic-container-4\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"product-detail\" data-wireframe-bounds=\"0.52,0.1285,0.48,0.7309\" className=\"flex flex-col gap-3 p-3 min-w-0 flex flex-col gap-4\">\r\n            <p data-wireframe-id=\"text-18\" data-semantic-component-id=\"semantic-text-18\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"nav-text\" data-wireframe-bounds=\"0.6669,0.1577,0.0162,0.0129\" className=\"text-[var(--wf-text)]\">\r\n              Help\r\n            </p>\r\n            <h1 data-wireframe-id=\"text-13\" data-semantic-component-id=\"semantic-text-13\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"product-title\" data-wireframe-bounds=\"0.5379,0.2817,0.0993,0.0248\" className=\"text-[var(--wf-text)]\">\r\n              Product title\r\n            </h1>\r\n            <>\r\n              <p data-wireframe-id=\"text-26\" data-semantic-component-id=\"semantic-text-26\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"price\" data-wireframe-bounds=\"0.5361,0.408,0.2549,0.0382\" className=\"text-[var(--wf-text)]\">\r\n                $123.00 be |\r\n              </p>\r\n              <p data-wireframe-id=\"text-10\" data-semantic-component-id=\"semantic-text-10\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"price\" data-wireframe-bounds=\"0.5368,0.4117,0.0647,0.0298\" className=\"text-[var(--wf-text)]\">\r\n                $ 123.00\r\n              </p>\r\n            </>\r\n            <p data-wireframe-id=\"text-12\" data-semantic-component-id=\"semantic-text-12\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"description\" data-wireframe-bounds=\"0.6629,0.5,0.1272,0.0308\" className=\"text-[var(--wf-text)]\">\r\n              tetur adipiscing elit, sed do eiusmod\r\n            </p>\r\n          </section>\r\n          <p data-wireframe-id=\"text-16\" data-semantic-component-id=\"semantic-text-16\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"copy\" data-wireframe-bounds=\"0.4955,0.7827,0.0709,0.0248\" className=\"text-[var(--wf-text)]\">\r\n            Products\r\n          </p>\r\n        </main>\r\n        <section data-wireframe-id=\"region-32\" data-semantic-component-id=\"semantic-region-32\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"about-section\" data-wireframe-bounds=\"0,0.1587,1,0.8413\" className=\"relative col-span-full w-full\" id=\"about\">\r\n          <div data-wireframe-id=\"region-33\" data-semantic-component-id=\"semantic-region-33\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"region\" data-wireframe-role=\"map-region\" data-wireframe-bounds=\"0.0208,0.165,0.4784,0.6578\" className=\"relative\">\r\n            <p data-wireframe-id=\"text-8\" data-semantic-component-id=\"semantic-text-8\" data-wireframe-provenance=\"cv,ocr\" data-wireframe-type=\"text\" data-wireframe-role=\"copy\" data-wireframe-bounds=\"0.4336,0.783,0.0566,0.0243\" className=\"text-[var(--wf-text)]\">\r\n              Similar\r\n            </p>\r\n          </div>\r\n        </section>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n",
+    "valid": false,
+    "attempts": 0,
+    "log": [
+      {
+        "attempt": 0,
+        "structuralAccuracy": 0,
+        "missingInCode": [
+          "container",
+          "container",
+          "container",
+          "image",
+          "container",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "region",
+          "region",
+          "text"
+        ],
+        "extraInCode": [],
+        "autoFixed": [],
+        "result": "needs-retry"
+      }
+    ],
+    "diff": {
+      "schemaCount": 14,
+      "codeCount": 0,
+      "matchedCount": 0,
+      "missingInCode": [
+        {
+          "type": "container",
+          "id": "container-1",
+          "role": "page"
+        },
+        {
+          "type": "container",
+          "id": "container-2",
+          "role": "main"
+        },
+        {
+          "type": "container",
+          "id": "container-3",
+          "role": "gallery"
+        },
+        {
+          "type": "image",
+          "id": "image-6",
+          "role": "media"
+        },
+        {
+          "type": "container",
+          "id": "container-4",
+          "role": "product-detail"
+        },
+        {
+          "type": "text",
+          "id": "text-18",
+          "role": "nav-text"
+        },
+        {
+          "type": "text",
+          "id": "text-13",
+          "role": "product-title"
+        },
+        {
+          "type": "text",
+          "id": "text-26",
+          "role": "price"
+        },
+        {
+          "type": "text",
+          "id": "text-10",
+          "role": "price"
+        },
+        {
+          "type": "text",
+          "id": "text-12",
+          "role": "description"
+        },
+        {
+          "type": "text",
+          "id": "text-16",
+          "role": "copy"
+        },
+        {
+          "type": "region",
+          "id": "region-32",
+          "role": "about-section"
+        },
+        {
+          "type": "region",
+          "id": "region-33",
+          "role": "map-region"
+        },
+        {
+          "type": "text",
+          "id": "text-8",
+          "role": "copy"
+        }
+      ],
+      "extraInCode": [],
+      "structuralAccuracy": 0,
+      "generatedNodeCoverage": 0,
+      "majorRegionCoverage": 0,
+      "missingMajorRoles": [
+        "page",
+        "main",
+        "gallery",
+        "product-detail",
+        "about-section"
+      ],
+      "isValid": false
+    }
+  },
+  "fidelity": {
+    "score": 0.65,
+    "structuralAccuracy": 0.65,
+    "fullPage": true,
+    "majorRegionCount": 4,
+    "leafCount": 7,
+    "mediaCount": 2,
+    "buttonCount": 0,
+    "maxDepth": 5,
+    "schemaToCodeCoverage": 1,
+    "canonicalNodeCoverage": 1,
+    "canonicalTreeValidity": false,
+    "duplicateNodeRate": 0,
+    "macroRoleDuplicateRate": 0,
+    "orphanCount": 0,
+    "emptySemanticParents": 0,
+    "emptyHeadingCount": 0,
+    "unsupportedLabelCount": 0,
+    "logoInsideNavCount": 0,
+    "looseHeroLeafCount": 1,
+    "looseContactControlCount": 0,
+    "sourceStructureCoverage": 1,
+    "layoutBoundsCoverage": null,
+    "styleCueCoverage": null,
+    "repeatedGroupCoverage": null,
+    "semanticTextCoverage": 1,
+    "semanticControlCoverage": 0,
+    "sourceVsRenderedScore": null,
+    "visualComparisonPending": true,
+    "fallbackSource": true,
+    "passed": false,
+    "overallStatus": "needs-review",
+    "reasons": [
+      "Invalid canonical hierarchy: pages=1, duplicateMacros=0, emptyHeadings=0, logoInsideNav=0, looseHero=1, looseContactControls=0",
+      "Source-vs-rendered visual comparison is pending; result cannot be marked ready.",
+      "Schema was produced by local-cv-ocr-fallback; review the reconstruction before export."
+    ]
+  },
+  "overall": {
+    "schemaGatePassed": false,
+    "generatedOutputValid": false,
+    "generatedJsxStaticValid": false,
+    "generatedJsxExecutability": null,
+    "previewSourceMatch": null,
+    "previewRenderSuccess": null,
+    "schemaToCodeCoverage": 0,
+    "legacyStructuralAccuracy": 0,
+    "macroRegionCoverage": 0,
+    "OCRTextCoverage": 1,
+    "textGroupCoverage": 1,
+    "repeatedGroupCoverage": 1,
+    "semanticTextCoverage": 1,
+    "semanticControlCoverage": 1,
+    "sourceStructureCoverage": 0,
+    "sourceVsRenderedScore": null,
+    "overallStatus": "needs-review",
+    "needsReview": true,
+    "reasons": [
+      "Invalid canonical hierarchy: pages=1, duplicateMacros=0, emptyHeadings=0, logoInsideNav=0, looseHero=1, looseContactControls=0",
+      "Source-vs-rendered visual comparison is pending; result cannot be marked ready.",
+      "Schema was produced by local-cv-ocr-fallback; review the reconstruction before export.",
+      "missing generated page",
+      "missing generated main",
+      "missing generated gallery",
+      "missing generated product-detail",
+      "missing generated about-section",
+      "missing detected thumbnail-gallery",
+      "missing detected select",
+      "missing detected primary-action"
+    ]
+  }
+}

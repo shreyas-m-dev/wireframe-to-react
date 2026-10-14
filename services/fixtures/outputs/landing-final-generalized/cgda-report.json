@@ -1,0 +1,10 @@
+{
+  "stripped": [],
+  "kept": 23,
+  "structuralViolations": [
+    {
+      "type": "submit-outside-form",
+      "count": 1
+    }
+  ]
+}

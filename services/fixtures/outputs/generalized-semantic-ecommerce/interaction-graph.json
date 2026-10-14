@@ -1,0 +1,14 @@
+[
+  {
+    "sourceComponentId": "text-18",
+    "type": "scroll",
+    "target": "help",
+    "state": null,
+    "local": true,
+    "accessibility": [
+      "keyboard-focus"
+    ],
+    "confidence": 0.91,
+    "fallback": "no-op if target absent"
+  }
+]

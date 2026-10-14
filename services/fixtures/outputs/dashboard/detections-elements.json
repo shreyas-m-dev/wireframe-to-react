@@ -1,0 +1,72 @@
+[
+  {
+    "type": "container",
+    "confidence": 0.98,
+    "x": 0,
+    "y": 0,
+    "width": 1024.0,
+    "height": 1024.0,
+    "role": "page",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.94,
+    "x": 0,
+    "y": 133.0,
+    "width": 1024.0,
+    "height": 747.0,
+    "role": "main",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 0,
+    "y": 133.0,
+    "width": 532.48,
+    "height": 747.0,
+    "role": "media-region",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 532.48,
+    "y": 133.0,
+    "width": 491.52,
+    "height": 747.0,
+    "role": "section",
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.7,
+    "x": 21.299200000000003,
+    "y": 170.35,
+    "width": 489.88160000000005,
+    "height": 672.3,
+    "role": "media",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.7,
+    "x": 233.0,
+    "y": 388.0,
+    "width": 738.0,
+    "height": 506.0,
+    "role": null,
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.82,
+    "x": 0,
+    "y": 880.0,
+    "width": 1024.0,
+    "height": 144.0,
+    "role": "footer",
+    "label": null
+  }
+]

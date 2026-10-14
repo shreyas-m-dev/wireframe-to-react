@@ -1,0 +1,32 @@
+{
+  "status": {
+    "enabled": true,
+    "executablePath": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "version": "5.5.3.20260724",
+    "reason": null
+  },
+  "originalDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalizedDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "passes": [
+    {
+      "name": "normalized-psm6",
+      "config": "--psm 6",
+      "wordsFound": 0
+    },
+    {
+      "name": "upscaled-psm11",
+      "config": "--psm 11",
+      "wordsFound": 0
+    }
+  ],
+  "words": [],
+  "lines": [],
+  "groups": [],
+  "warnings": []
+}

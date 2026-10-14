@@ -1,0 +1,90 @@
+{
+  "startedAt": "2026-09-03T06:55:43.860730+00:00",
+  "input": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\uploads\\landing-wireframe.jpeg",
+  "output": "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing",
+  "stages": [
+    "preprocessing",
+    "ocr",
+    "detection",
+    "schema",
+    "semantic-ui-plan",
+    "read-only-rag",
+    "generation",
+    "validation"
+  ],
+  "nodeStages": [
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "schema",
+        "--elements",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\detections-elements.json",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\schema.json",
+        "--tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\schema-tree.txt"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "semantic",
+        "--schema",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\schema.json",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\semantic-ui-plan.json",
+        "--codegen-schema-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\codegen-schema.json",
+        "--raw-evidence-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\raw-evidence.json",
+        "--normalized-evidence-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\normalized-evidence.json",
+        "--semantic-candidates-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\semantic-candidates.json",
+        "--selected-component-tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\selected-component-tree.json",
+        "--selected-semantic-page-tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\selected-semantic-page-tree.json",
+        "--component-ownership-map-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\component-ownership-map.json",
+        "--interaction-graph-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\interaction-graph.json",
+        "--resolved-interaction-graph-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\resolved-interaction-graph.json",
+        "--state-dependency-manifest-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\state-dependency-manifest.json",
+        "--layout-plan-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\layout-plan.json",
+        "--codegen-tree-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\codegen-tree.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\scripts\\run_validation_from_files.js",
+        "validate",
+        "--schema",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\codegen-schema.json",
+        "--code",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\generated.jsx",
+        "--output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\validation.json",
+        "--fidelity-output",
+        "C:\\Users\\shett\\Downloads\\wireframe-to-react\\wireframe-to-react\\services\\fixtures\\outputs\\semantic-compiler-landing\\fidelity.json"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "finishedAt": "2026-09-03T06:55:52.825566+00:00"
+}

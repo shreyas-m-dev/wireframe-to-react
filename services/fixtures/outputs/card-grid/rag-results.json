@@ -1,0 +1,26 @@
+[
+  {
+    "id": "product-detail-gallery-page",
+    "text": "commerce product detail page header main row gallery media thumbnails product detail title price description add to cart related products card grid footer",
+    "score": 0.26962828526345683,
+    "code": "<div className=\"min-h-screen\"><header>...</header><main className=\"grid grid-cols-2\"><section className=\"gallery\">...</section><section className=\"product-detail\">...</section></main><section className=\"related-products\">...</section></div>"
+  },
+  {
+    "id": "product-gallery-section",
+    "text": "gallery section large product media image with thumbnail images and media controls",
+    "score": 0.21595771709746958,
+    "code": "<section className=\"grid gap-3\"><img className=\"w-full\" /><div className=\"grid grid-cols-4 gap-2\">...</div></section>"
+  },
+  {
+    "id": "header-logo-nav-buttons",
+    "text": "header row with logo text and two nav buttons login sign up",
+    "score": 0.05699495287201366,
+    "code": "<header className=\"flex items-center justify-between px-6 py-4\">\n  <span className=\"font-bold text-xl\">{logoText}</span>\n  <div className=\"flex gap-3\">\n    <button className=\"px-4 py-2 border rounded\">{navButton1Label}</button>\n    <button className=\"px-4 py-2 bg-black text-white rounded\">{navButton2Label}</button>\n  </div>\n</header>"
+  },
+  {
+    "id": "text-block-lines",
+    "text": "container with multiple horizontal text lines paragraph block",
+    "score": 0.0452858324328046,
+    "code": "<div className=\"border rounded p-4 space-y-2\">\n  {lines.map((line, i) => (\n    <p key={i} className=\"text-gray-700\">{line}</p>\n  ))}\n</div>"
+  }
+]

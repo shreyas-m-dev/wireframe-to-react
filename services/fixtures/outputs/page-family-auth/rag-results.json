@@ -1,0 +1,26 @@
+[
+  {
+    "id": "product-detail-gallery-page",
+    "text": "commerce product detail page header main row gallery media thumbnails product detail title price description add to cart related products card grid footer",
+    "score": 0.21782560756323247,
+    "code": "<div className=\"min-h-screen\"><header>...</header><main className=\"grid grid-cols-2\"><section className=\"gallery\">...</section><section className=\"product-detail\">...</section></main><section className=\"related-products\">...</section></div>"
+  },
+  {
+    "id": "product-gallery-section",
+    "text": "gallery section large product media image with thumbnail images and media controls",
+    "score": 0.18666091831261866,
+    "code": "<section className=\"grid gap-3\"><img className=\"w-full\" /><div className=\"grid grid-cols-4 gap-2\">...</div></section>"
+  },
+  {
+    "id": "product-detail-section",
+    "text": "product detail section title price metadata description option dropdown quantity add to cart action column",
+    "score": 0.05261241680321628,
+    "code": "<section className=\"flex flex-col gap-4\"><h1>Product title</h1><p>Price</p><p>Description</p><button>Add to cart</button></section>"
+  },
+  {
+    "id": "dropdown-select",
+    "text": "dropdown select box with label",
+    "score": 0.021022786791274218,
+    "code": "<div className=\"flex flex-col gap-1\">\n  <label className=\"text-sm font-medium\">{labelText}</label>\n  <select className=\"border rounded px-3 py-2\">\n    {options.map((opt) => <option key={opt} value={opt}>{opt}</option>)}\n  </select>\n</div>"
+  }
+]

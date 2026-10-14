@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "schemaSource": "local-cv-ocr-fallback",
+  "nodes": [
+    {
+      "id": "container-1",
+      "type": "container",
+      "role": "page",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "confidence": 0.98,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "container-3",
+      "type": "container",
+      "role": "main",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.13,
+        "width": 1,
+        "height": 0.73
+      },
+      "confidence": 0.94,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "container-4",
+      "type": "container",
+      "role": "media-region",
+      "text": null,
+      "bounds": {
+        "x": 0,
+        "y": 0.13,
+        "width": 0.52,
+        "height": 0.73
+      },
+      "confidence": 0.84,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-6",
+      "type": "image",
+      "role": "media",
+      "text": null,
+      "bounds": {
+        "x": 0.0208,
+        "y": 0.1665,
+        "width": 0.4784,
+        "height": 0.657
+      },
+      "confidence": 0.7,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "text-8",
+      "type": "text",
+      "role": "heading",
+      "text": "O",
+      "bounds": {
+        "x": 0.118,
+        "y": 0.3986,
+        "width": 0.066,
+        "height": 0.0471
+      },
+      "confidence": 0.72,
+      "source": {
+        "cv": true,
+        "ocr": true,
+        "vision": false,
+        "merged": false
+      }
+    },
+    {
+      "id": "image-7",
+      "type": "image",
+      "role": "region",
+      "text": null,
+      "bounds": {
+        "x": 0.116,
+        "y": 0.4829,
+        "width": 0.77,
+        "height": 0.0929
+      },
+      "confidence": 0.6,
+      "source": {
+        "cv": true,
+        "ocr": false,
+        "vision": false,
+        "merged": false
+      }
+    }
+  ]
+}

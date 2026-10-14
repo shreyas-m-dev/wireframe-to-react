@@ -1,0 +1,87 @@
+{
+  "groups": [
+    {
+      "parentRole": "media-region",
+      "semanticRole": "media-thumbnail-strip",
+      "orientation": "horizontal",
+      "rowCount": 1,
+      "columnCount": 2,
+      "itemCount": 2,
+      "averageItemBounds": {
+        "width": 149.5,
+        "height": 80.5
+      },
+      "averageGap": -138.5,
+      "acceptedItems": [
+        {
+          "x": 131.0,
+          "y": 881.0,
+          "width": 160.0,
+          "height": 102.0,
+          "localBounds": {
+            "x": 131.0,
+            "y": 682.0,
+            "width": 160.0,
+            "height": 102.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 142.0,
+          "y": 886.0,
+          "width": 139.0,
+          "height": 59.0,
+          "localBounds": {
+            "x": 142.0,
+            "y": 687.0,
+            "width": 139.0,
+            "height": 59.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        }
+      ],
+      "rejectedCandidates": [],
+      "confidence": 0.65,
+      "evidence": [
+        "similar ROI-local rectangles",
+        "alignment and size consistency"
+      ],
+      "clippedItems": [
+        {
+          "x": 131.0,
+          "y": 881.0,
+          "width": 160.0,
+          "height": 102.0,
+          "localBounds": {
+            "x": 131.0,
+            "y": 682.0,
+            "width": 160.0,
+            "height": 102.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ]
+    }
+  ]
+}

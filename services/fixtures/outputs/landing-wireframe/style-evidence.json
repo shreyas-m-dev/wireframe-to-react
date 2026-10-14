@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "source": "local-image-analysis",
+  "image": {
+    "width": 1024,
+    "height": 1536
+  },
+  "confidence": 0.72,
+  "dominantColors": [
+    "#fefefe",
+    "#f2f2f2",
+    "#b5b5b5",
+    "#d7d7d8",
+    "#707172"
+  ],
+  "monochrome": true,
+  "edgeDensity": 0.16,
+  "themeHints": {
+    "mode": "light",
+    "dense": true,
+    "cornerRadius": "12px",
+    "shadow": "subtle"
+  },
+  "themeTokenPlan": {
+    "mode": "light",
+    "colors": {
+      "background": "#fefefe",
+      "surface": "#f8fafc",
+      "text": "#1f2937",
+      "mutedText": "#64748b",
+      "primary": "#2573db",
+      "primaryContrast": "#ffffff",
+      "border": "#d1d5db"
+    },
+    "radius": {
+      "sm": "8px",
+      "md": "12px",
+      "lg": "18px"
+    },
+    "spacing": {
+      "section": "72px",
+      "content": "24px",
+      "grid": "24px"
+    },
+    "typography": {
+      "headingFont": "system-ui",
+      "bodyFont": "system-ui",
+      "heroScale": "clamp(2.25rem, 5vw, 4.5rem)"
+    },
+    "layout": {
+      "maxWidth": "1200px",
+      "density": "compact"
+    }
+  }
+}

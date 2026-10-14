@@ -1,0 +1,25 @@
+{
+  "score": 0.75,
+  "fullPage": true,
+  "majorRegionCount": 2,
+  "leafCount": 6,
+  "mediaCount": 1,
+  "buttonCount": 0,
+  "maxDepth": 5,
+  "passed": false,
+  "reasons": [
+    "too few macro regions"
+  ],
+  "schemaGatePassed": false,
+  "generatedOutputValid": true,
+  "schemaToCodeCoverage": 1,
+  "legacyStructuralAccuracy": 1,
+  "macroRegionCoverage": 1,
+  "repeatedGroupCoverage": 1,
+  "semanticTextCoverage": 1,
+  "semanticControlCoverage": 1,
+  "sourceStructureCoverage": 1,
+  "sourceVsRenderedScore": null,
+  "overallStatus": "needs-review",
+  "needsReview": true
+}

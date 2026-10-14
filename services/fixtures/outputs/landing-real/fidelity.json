@@ -1,0 +1,33 @@
+{
+  "score": 1,
+  "fullPage": true,
+  "majorRegionCount": 4,
+  "leafCount": 20,
+  "mediaCount": 3,
+  "buttonCount": 5,
+  "maxDepth": 5,
+  "passed": true,
+  "reasons": [
+    "missing detected feature-card-grid",
+    "missing detected split-content-section",
+    "missing detected map-region"
+  ],
+  "schemaGatePassed": true,
+  "generatedOutputValid": true,
+  "generatedJsxStaticValid": true,
+  "generatedJsxExecutability": null,
+  "previewSourceMatch": null,
+  "previewRenderSuccess": null,
+  "schemaToCodeCoverage": 1,
+  "legacyStructuralAccuracy": 1,
+  "macroRegionCoverage": 1,
+  "OCRTextCoverage": 1,
+  "textGroupCoverage": 1,
+  "repeatedGroupCoverage": 1,
+  "semanticTextCoverage": 1,
+  "semanticControlCoverage": 1,
+  "sourceStructureCoverage": 0.25,
+  "sourceVsRenderedScore": null,
+  "overallStatus": "needs-review",
+  "needsReview": true
+}

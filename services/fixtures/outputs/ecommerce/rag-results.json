@@ -1,0 +1,26 @@
+[
+  {
+    "id": "product-detail-gallery-page",
+    "text": "commerce product detail page header main row gallery media thumbnails product detail title price description add to cart related products card grid footer",
+    "score": 0.615145603762784,
+    "code": "<div className=\"min-h-screen\"><header>...</header><main className=\"grid grid-cols-2\"><section className=\"gallery\">...</section><section className=\"product-detail\">...</section></main><section className=\"related-products\">...</section></div>"
+  },
+  {
+    "id": "product-gallery-section",
+    "text": "gallery section large product media image with thumbnail images and media controls",
+    "score": 0.3301742705300746,
+    "code": "<section className=\"grid gap-3\"><img className=\"w-full\" /><div className=\"grid grid-cols-4 gap-2\">...</div></section>"
+  },
+  {
+    "id": "product-detail-section",
+    "text": "product detail section title price metadata description option dropdown quantity add to cart action column",
+    "score": 0.2632331840029424,
+    "code": "<section className=\"flex flex-col gap-4\"><h1>Product title</h1><p>Price</p><p>Description</p><button>Add to cart</button></section>"
+  },
+  {
+    "id": "card-image-title-text",
+    "text": "card container with an image, a title, and body text",
+    "score": 0.09194921289983901,
+    "code": "<div className=\"border rounded overflow-hidden\">\n  <img src={imageSrc} alt={imageAlt} className=\"w-full h-40 object-cover\" />\n  <div className=\"p-4\">\n    <h3 className=\"font-semibold text-lg\">{title}</h3>\n    <p className=\"text-gray-600 mt-1\">{body}</p>\n  </div>\n</div>"
+  }
+]

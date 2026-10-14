@@ -1,0 +1,15 @@
+{
+  "artifactId": "4c9a47e45c64f058",
+  "generatedAt": "2026-09-03T14:35:43.990222+00:00",
+  "finalJsxSha256": "4c9a47e45c64f05852b509eaa71ba98c702346fefe4a205d77c6f11cbc1fd03f",
+  "finalJsxByteLength": 9487,
+  "generationResultStatus": "needs-review",
+  "expectedPreviewSource": "generated-jsx",
+  "staticValidationPassed": false,
+  "unsupportedImportsOrComponents": false,
+  "remoteUrls": [
+    "http://www.w3.org/2000/svg"
+  ],
+  "containsRemoteUrl": true,
+  "knownLimitations": "Backend cannot prove browser execution without an opt-in browser test."
+}

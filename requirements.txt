@@ -1,0 +1,34 @@
+# === Core (required for the default, fully-offline pipeline) ===
+numpy>=1.26,<2.5
+faiss-cpu>=1.9.0
+opencv-python-headless==4.10.0.84
+scikit-learn>=1.3.0        # services/rag/vector_db.py — real TF-IDF retrieval
+pytesseract>=0.3.10        # services/detection/ocr_extractor.py — reads placeholder/button text
+requests>=2.31.0           # services/codegen/generate.py (only used if GEN_MODE=llm)
+
+# pytesseract is a Python wrapper — it needs the actual Tesseract OCR
+# ENGINE installed as a system binary too:
+#   Ubuntu/Debian: sudo apt install tesseract-ocr
+#   macOS:         brew install tesseract
+#   Windows:       https://github.com/UB-Mannheim/tesseract/wiki
+# If Tesseract isn't installed, OCR silently degrades to "no labels found"
+# rather than crashing the pipeline — see cli_pipeline.py's cmd_detect().
+
+# === Optional: fine-tuned YOLOv8 detection path (services/detection/detect.py) ===
+# Not needed for the default pipeline (heuristic_detector.py handles
+# detection with plain OpenCV, no model required). Only install these if
+# you've fine-tuned a YOLOv8 model on real wireframe data and want to swap
+# it in for higher accuracy — see detect.py + sidecar.py.
+# ultralytics==8.3.28
+# flask==3.0.3
+
+# === Optional: free-tier LLM codegen (GEN_MODE=llm) ===
+# No extra package needed beyond `requests` above — Gemini and OpenRouter
+# are both called via plain REST. See services/codegen/generate.py and the
+# README's "Optional: enable free-tier LLM code generation" section for
+# the API keys this needs (both free, no credit card).
+
+# === Optional: swap SQLite/TF-IDF for FAISS at larger template-library scale ===
+# services/rag/vector_db.py's VectorDB interface (.add()/.search()) is a
+# drop-in match for a FAISS-backed store if you outgrow SQLite:
+# faiss-cpu>=1.9.0

@@ -1,0 +1,9 @@
+{
+  "stripped": [
+    {
+      "tag": "main",
+      "attrs": "data-wireframe-id=\"container-2\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" className=\"grid grid-cols-1 md:grid-cols-2 gap-5 p-3 w-full\""
+    }
+  ],
+  "kept": 4
+}

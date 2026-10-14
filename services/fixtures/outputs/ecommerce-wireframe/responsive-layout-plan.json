@@ -1,0 +1,44 @@
+{
+  "coordinateSystem": "normalized-0-1",
+  "bands": [
+    {
+      "componentId": "container-3",
+      "role": "gallery",
+      "yStart": 0.1285,
+      "yEnd": 0.8593999999999999,
+      "xStart": 0,
+      "xEnd": 0.52,
+      "confidence": 0.84,
+      "headingAnchors": []
+    },
+    {
+      "componentId": "container-4",
+      "role": "product-detail",
+      "yStart": 0.1285,
+      "yEnd": 0.8593999999999999,
+      "xStart": 0.52,
+      "xEnd": 1,
+      "confidence": 0.84,
+      "headingAnchors": [
+        "text-13"
+      ]
+    },
+    {
+      "componentId": "region-32",
+      "role": "about-section",
+      "yStart": 0.1587,
+      "yEnd": 1,
+      "xStart": 0,
+      "xEnd": 1,
+      "confidence": 0.66,
+      "headingAnchors": []
+    }
+  ],
+  "maxWidth": "1200px",
+  "mobile": "stack columns below 768px",
+  "tokens": {
+    "section": "72px",
+    "content": "24px",
+    "grid": "24px"
+  }
+}

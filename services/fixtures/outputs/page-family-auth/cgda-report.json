@@ -1,0 +1,10 @@
+{
+  "stripped": [
+    {
+      "tag": "main",
+      "attrs": "data-wireframe-id=\"container-3\" data-semantic-component-id=\"semantic-container-3\" data-wireframe-provenance=\"cv\" data-wireframe-type=\"container\" data-wireframe-role=\"main\" data-wireframe-bounds=\"0,0.13,1,0.73\" className=\"grid grid-cols-1 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] gap-6 items-start p-3 w-full\""
+    }
+  ],
+  "kept": 2,
+  "structuralViolations": []
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "type": "container",
+    "confidence": 0.98,
+    "x": 0,
+    "y": 0,
+    "width": 1024.0,
+    "height": 1024.0,
+    "role": "page",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.9,
+    "x": 0,
+    "y": 0,
+    "width": 1024.0,
+    "height": 133.0,
+    "role": "header",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.94,
+    "x": 0,
+    "y": 133.0,
+    "width": 1024.0,
+    "height": 747.0,
+    "role": "main",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 0,
+    "y": 133.0,
+    "width": 532.48,
+    "height": 522.0,
+    "role": "media-region",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.84,
+    "x": 532.48,
+    "y": 133.0,
+    "width": 491.52,
+    "height": 522.0,
+    "role": "section",
+    "label": null
+  },
+  {
+    "type": "image",
+    "confidence": 0.7,
+    "x": 21.299200000000003,
+    "y": 159.1,
+    "width": 489.88160000000005,
+    "height": 469.79999999999995,
+    "role": "media",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.78,
+    "x": 0,
+    "y": 655.0,
+    "width": 1024.0,
+    "height": 225.0,
+    "role": "repeated-region",
+    "label": null
+  },
+  {
+    "type": "container",
+    "confidence": 0.7,
+    "x": 49.0,
+    "y": 722.0,
+    "width": 928.0,
+    "height": 136.0,
+    "role": null,
+    "label": null
+  }
+]

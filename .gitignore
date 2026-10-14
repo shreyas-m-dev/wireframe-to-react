@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Local databases and logs
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

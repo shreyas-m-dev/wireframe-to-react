@@ -1,0 +1,31 @@
+{
+  "mode": "light",
+  "colors": {
+    "background": "#fefefe",
+    "surface": "#f8fafc",
+    "text": "#1f2937",
+    "mutedText": "#64748b",
+    "primary": "#2573db",
+    "primaryContrast": "#ffffff",
+    "border": "#d1d5db"
+  },
+  "radius": {
+    "sm": "8px",
+    "md": "12px",
+    "lg": "18px"
+  },
+  "spacing": {
+    "section": "72px",
+    "content": "24px",
+    "grid": "24px"
+  },
+  "typography": {
+    "headingFont": "system-ui",
+    "bodyFont": "system-ui",
+    "heroScale": "clamp(2.25rem, 5vw, 4.5rem)"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "density": "comfortable"
+  }
+}

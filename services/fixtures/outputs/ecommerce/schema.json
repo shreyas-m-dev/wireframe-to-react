@@ -1,0 +1,1769 @@
+{
+  "type": "root",
+  "id": "root-0",
+  "role": "page-root",
+  "bbox": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 1024
+  },
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "layout": {
+    "direction": "auto",
+    "columns": 1,
+    "gap": 0,
+    "align": "start",
+    "repeated": false
+  },
+  "children": [
+    {
+      "type": "container",
+      "id": "container-1",
+      "role": "page",
+      "confidence": 0.98,
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1024
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "relativeBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "label": null,
+      "parentRole": "page-root",
+      "layout": {
+        "direction": "column",
+        "columns": 1,
+        "gap": 12,
+        "align": "stretch",
+        "repeated": false
+      },
+      "evidence": {
+        "source": "macro-layout-pass",
+        "grouping": "macro page"
+      },
+      "children": [
+        {
+          "type": "region",
+          "id": "region-27",
+          "role": "header",
+          "confidence": 0.78,
+          "bbox": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 227
+          },
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1024,
+            "height": 227
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 0.2217
+          },
+          "label": null,
+          "parentRole": "page",
+          "layout": {
+            "direction": "row",
+            "columns": 1,
+            "gap": 12,
+            "align": "center",
+            "repeated": false
+          },
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro header"
+          },
+          "children": [
+            {
+              "type": "region",
+              "id": "region-5",
+              "role": "control-region",
+              "confidence": 0.65,
+              "bbox": {
+                "x": 734,
+                "y": 148,
+                "width": 79,
+                "height": 39
+              },
+              "position": {
+                "x": 734,
+                "y": 148
+              },
+              "size": {
+                "width": 79,
+                "height": 39
+              },
+              "relativeBounds": {
+                "x": 0.7168,
+                "y": 0.1445,
+                "width": 0.0771,
+                "height": 0.0381
+              },
+              "label": null,
+              "parentRole": "header",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro control-region"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-18",
+                  "role": "cart-action",
+                  "confidence": 0.935,
+                  "bbox": {
+                    "x": 765.1428571428571,
+                    "y": 162.85714285714286,
+                    "width": 31.428571428571445,
+                    "height": 9.142857142857139
+                  },
+                  "position": {
+                    "x": 765.1428571428571,
+                    "y": 162.85714285714286
+                  },
+                  "size": {
+                    "width": 31.428571428571445,
+                    "height": 9.142857142857139
+                  },
+                  "relativeBounds": {
+                    "x": 0.7472,
+                    "y": 0.159,
+                    "width": 0.0307,
+                    "height": 0.0089
+                  },
+                  "label": "Your Cart",
+                  "parentRole": "control-region",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro cart-action"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "region",
+              "id": "region-28",
+              "role": "nav-group",
+              "confidence": 0.72,
+              "bbox": {
+                "x": 289.7142857142857,
+                "y": 149.42857142857142,
+                "width": 409.7142857142857,
+                "height": 35.428571428571445
+              },
+              "position": {
+                "x": 289.7142857142857,
+                "y": 149.42857142857142
+              },
+              "size": {
+                "width": 409.7142857142857,
+                "height": 35.428571428571445
+              },
+              "relativeBounds": {
+                "x": 0.2829,
+                "y": 0.1459,
+                "width": 0.4001,
+                "height": 0.0346
+              },
+              "label": null,
+              "parentRole": "header",
+              "layout": {
+                "direction": "row",
+                "columns": 1,
+                "gap": 12,
+                "align": "center",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro nav-group"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-23",
+                  "role": "nav-link",
+                  "confidence": 0.83,
+                  "bbox": {
+                    "x": 289.7142857142857,
+                    "y": 159.42857142857142,
+                    "width": 12.571428571428555,
+                    "height": 15.428571428571416
+                  },
+                  "position": {
+                    "x": 289.7142857142857,
+                    "y": 159.42857142857142
+                  },
+                  "size": {
+                    "width": 12.571428571428555,
+                    "height": 15.428571428571416
+                  },
+                  "relativeBounds": {
+                    "x": 0.2829,
+                    "y": 0.1557,
+                    "width": 0.0123,
+                    "height": 0.0151
+                  },
+                  "label": "(Q",
+                  "parentRole": "nav-group",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-20",
+                  "role": "nav-link",
+                  "confidence": 0.93,
+                  "bbox": {
+                    "x": 554.2857142857143,
+                    "y": 161.71428571428572,
+                    "width": 21.14285714285711,
+                    "height": 10.857142857142861
+                  },
+                  "position": {
+                    "x": 554.2857142857143,
+                    "y": 161.71428571428572
+                  },
+                  "size": {
+                    "width": 21.14285714285711,
+                    "height": 10.857142857142861
+                  },
+                  "relativeBounds": {
+                    "x": 0.5413,
+                    "y": 0.1579,
+                    "width": 0.0206,
+                    "height": 0.0106
+                  },
+                  "label": "About",
+                  "parentRole": "nav-group",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-17",
+                  "role": "nav-link",
+                  "confidence": 0.95,
+                  "bbox": {
+                    "x": 618.8571428571429,
+                    "y": 161.71428571428572,
+                    "width": 18.285714285714334,
+                    "height": 13.142857142857139
+                  },
+                  "position": {
+                    "x": 618.8571428571429,
+                    "y": 161.71428571428572
+                  },
+                  "size": {
+                    "width": 18.285714285714334,
+                    "height": 13.142857142857139
+                  },
+                  "relativeBounds": {
+                    "x": 0.6044,
+                    "y": 0.1579,
+                    "width": 0.0179,
+                    "height": 0.0128
+                  },
+                  "label": "Shop",
+                  "parentRole": "nav-group",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-13",
+                  "role": "nav-link",
+                  "confidence": 0.96,
+                  "bbox": {
+                    "x": 492,
+                    "y": 162.85714285714286,
+                    "width": 21.14285714285711,
+                    "height": 9.714285714285722
+                  },
+                  "position": {
+                    "x": 492,
+                    "y": 162.85714285714286
+                  },
+                  "size": {
+                    "width": 21.14285714285711,
+                    "height": 9.714285714285722
+                  },
+                  "relativeBounds": {
+                    "x": 0.4805,
+                    "y": 0.159,
+                    "width": 0.0206,
+                    "height": 0.0095
+                  },
+                  "label": "Home",
+                  "parentRole": "nav-group",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro nav-link"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "container-2",
+          "role": "main",
+          "confidence": 0.94,
+          "bbox": {
+            "x": 0,
+            "y": 133,
+            "width": 1024,
+            "height": 747
+          },
+          "position": {
+            "x": 0,
+            "y": 133
+          },
+          "size": {
+            "width": 1024,
+            "height": 747
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0.1299,
+            "width": 1,
+            "height": 0.7295
+          },
+          "label": null,
+          "parentRole": "page",
+          "layout": {
+            "direction": "row",
+            "columns": 2,
+            "gap": 12,
+            "align": "stretch",
+            "repeated": false
+          },
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro main"
+          },
+          "children": [
+            {
+              "type": "container",
+              "id": "container-3",
+              "role": "gallery",
+              "confidence": 0.84,
+              "bbox": {
+                "x": 0,
+                "y": 133,
+                "width": 532.48,
+                "height": 522
+              },
+              "position": {
+                "x": 0,
+                "y": 133
+              },
+              "size": {
+                "width": 532.48,
+                "height": 522
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0.1299,
+                "width": 0.52,
+                "height": 0.5098
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "column",
+                "columns": 1,
+                "gap": 12,
+                "align": "stretch",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro gallery"
+              },
+              "children": [
+                {
+                  "type": "image",
+                  "id": "image-6",
+                  "role": "media",
+                  "confidence": 0.7,
+                  "bbox": {
+                    "x": 21.299200000000003,
+                    "y": 159.1,
+                    "width": 489.88160000000005,
+                    "height": 469.79999999999995
+                  },
+                  "position": {
+                    "x": 21.299200000000003,
+                    "y": 159.1
+                  },
+                  "size": {
+                    "width": 489.88160000000005,
+                    "height": 469.79999999999995
+                  },
+                  "relativeBounds": {
+                    "x": 0.0208,
+                    "y": 0.1554,
+                    "width": 0.4784,
+                    "height": 0.4588
+                  },
+                  "label": null,
+                  "parentRole": "gallery",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro media"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "region",
+                  "id": "region-31",
+                  "role": "thumbnail-gallery",
+                  "confidence": 0.65,
+                  "bbox": {
+                    "x": 221,
+                    "y": 622,
+                    "width": 136,
+                    "height": 33
+                  },
+                  "position": {
+                    "x": 221,
+                    "y": 622
+                  },
+                  "size": {
+                    "width": 136,
+                    "height": 33
+                  },
+                  "relativeBounds": {
+                    "x": 0.2158,
+                    "y": 0.6074,
+                    "width": 0.1328,
+                    "height": 0.0322
+                  },
+                  "label": null,
+                  "parentRole": "gallery",
+                  "layout": {
+                    "direction": "row",
+                    "columns": 1,
+                    "gap": 12,
+                    "align": "center",
+                    "repeated": true
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro thumbnail-gallery"
+                  },
+                  "children": [
+                    {
+                      "type": "image",
+                      "id": "image-34",
+                      "role": "thumbnail-image",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 221,
+                        "y": 622,
+                        "width": 41,
+                        "height": 33
+                      },
+                      "position": {
+                        "x": 221,
+                        "y": 622
+                      },
+                      "size": {
+                        "width": 41,
+                        "height": 33
+                      },
+                      "relativeBounds": {
+                        "x": 0.2158,
+                        "y": 0.6074,
+                        "width": 0.04,
+                        "height": 0.0322
+                      },
+                      "label": null,
+                      "parentRole": "thumbnail-gallery",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro thumbnail-image"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "image",
+                      "id": "image-33",
+                      "role": "thumbnail-image",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 268,
+                        "y": 622,
+                        "width": 42,
+                        "height": 33
+                      },
+                      "position": {
+                        "x": 268,
+                        "y": 622
+                      },
+                      "size": {
+                        "width": 42,
+                        "height": 33
+                      },
+                      "relativeBounds": {
+                        "x": 0.2617,
+                        "y": 0.6074,
+                        "width": 0.041,
+                        "height": 0.0322
+                      },
+                      "label": null,
+                      "parentRole": "thumbnail-gallery",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro thumbnail-image"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "image",
+                      "id": "image-32",
+                      "role": "thumbnail-image",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 315,
+                        "y": 622,
+                        "width": 42,
+                        "height": 33
+                      },
+                      "position": {
+                        "x": 315,
+                        "y": 622
+                      },
+                      "size": {
+                        "width": 42,
+                        "height": 33
+                      },
+                      "relativeBounds": {
+                        "x": 0.3076,
+                        "y": 0.6074,
+                        "width": 0.041,
+                        "height": 0.0322
+                      },
+                      "label": null,
+                      "parentRole": "thumbnail-gallery",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro thumbnail-image"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "id": "container-4",
+              "role": "product-detail",
+              "confidence": 0.84,
+              "bbox": {
+                "x": 532.48,
+                "y": 133,
+                "width": 491.52,
+                "height": 522
+              },
+              "position": {
+                "x": 532.48,
+                "y": 133
+              },
+              "size": {
+                "width": 491.52,
+                "height": 522
+              },
+              "relativeBounds": {
+                "x": 0.52,
+                "y": 0.1299,
+                "width": 0.48,
+                "height": 0.5098
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "column",
+                "columns": 1,
+                "gap": 12,
+                "align": "stretch",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro product-detail"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "id": "text-26",
+                  "role": "product-title",
+                  "confidence": 0.94,
+                  "bbox": {
+                    "x": 551,
+                    "y": 288,
+                    "width": 102,
+                    "height": 26
+                  },
+                  "position": {
+                    "x": 551,
+                    "y": 288
+                  },
+                  "size": {
+                    "width": 102,
+                    "height": 26
+                  },
+                  "relativeBounds": {
+                    "x": 0.5381,
+                    "y": 0.2813,
+                    "width": 0.0996,
+                    "height": 0.0254
+                  },
+                  "label": "Product title",
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro product-title"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-24",
+                  "role": "rating",
+                  "confidence": 0.82,
+                  "bbox": {
+                    "x": 644,
+                    "y": 341.7142857142857,
+                    "width": 34.85714285714289,
+                    "height": 10.285714285714278
+                  },
+                  "position": {
+                    "x": 644,
+                    "y": 341.7142857142857
+                  },
+                  "size": {
+                    "width": 34.85714285714289,
+                    "height": 10.285714285714278
+                  },
+                  "relativeBounds": {
+                    "x": 0.6289,
+                    "y": 0.3337,
+                    "width": 0.034,
+                    "height": 0.01
+                  },
+                  "label": "4 Reviews",
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro rating"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "region",
+                  "id": "region-8",
+                  "role": "control-region",
+                  "confidence": 0.65,
+                  "bbox": {
+                    "x": 660,
+                    "y": 419,
+                    "width": 134,
+                    "height": 37
+                  },
+                  "position": {
+                    "x": 660,
+                    "y": 419
+                  },
+                  "size": {
+                    "width": 134,
+                    "height": 37
+                  },
+                  "relativeBounds": {
+                    "x": 0.6445,
+                    "y": 0.4092,
+                    "width": 0.1309,
+                    "height": 0.0361
+                  },
+                  "label": null,
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro control-region"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-22",
+                  "role": "price",
+                  "confidence": 0.88,
+                  "bbox": {
+                    "x": 549.7142857142857,
+                    "y": 421.14285714285717,
+                    "width": 66.28571428571433,
+                    "height": 30.857142857142833
+                  },
+                  "position": {
+                    "x": 549.7142857142857,
+                    "y": 421.14285714285717
+                  },
+                  "size": {
+                    "width": 66.28571428571433,
+                    "height": 30.857142857142833
+                  },
+                  "relativeBounds": {
+                    "x": 0.5368,
+                    "y": 0.4113,
+                    "width": 0.0647,
+                    "height": 0.0301
+                  },
+                  "label": "$123.00",
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro price"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "region",
+                  "id": "region-9",
+                  "role": "control-region",
+                  "confidence": 0.65,
+                  "bbox": {
+                    "x": 563,
+                    "y": 424,
+                    "width": 56,
+                    "height": 27
+                  },
+                  "position": {
+                    "x": 563,
+                    "y": 424
+                  },
+                  "size": {
+                    "width": 56,
+                    "height": 27
+                  },
+                  "relativeBounds": {
+                    "x": 0.5498,
+                    "y": 0.4141,
+                    "width": 0.0547,
+                    "height": 0.0264
+                  },
+                  "label": null,
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro control-region"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-14",
+                  "role": "description",
+                  "confidence": 0.935,
+                  "bbox": {
+                    "x": 550.2857142857143,
+                    "y": 519.4285714285714,
+                    "width": 224,
+                    "height": 18.85714285714289
+                  },
+                  "position": {
+                    "x": 550.2857142857143,
+                    "y": 519.4285714285714
+                  },
+                  "size": {
+                    "width": 224,
+                    "height": 18.85714285714289
+                  },
+                  "relativeBounds": {
+                    "x": 0.5374,
+                    "y": 0.5073,
+                    "width": 0.2188,
+                    "height": 0.0184
+                  },
+                  "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro description"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-15",
+                  "role": "description",
+                  "confidence": 0.8908,
+                  "bbox": {
+                    "x": 549.7142857142857,
+                    "y": 542.8571428571429,
+                    "width": 253.71428571428578,
+                    "height": 17.714285714285666
+                  },
+                  "position": {
+                    "x": 549.7142857142857,
+                    "y": 542.8571428571429
+                  },
+                  "size": {
+                    "width": 253.71428571428578,
+                    "height": 17.714285714285666
+                  },
+                  "relativeBounds": {
+                    "x": 0.5368,
+                    "y": 0.5301,
+                    "width": 0.2478,
+                    "height": 0.0173
+                  },
+                  "label": "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro description"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "text",
+                  "id": "text-19",
+                  "role": "description",
+                  "confidence": 0.9070999999999999,
+                  "bbox": {
+                    "x": 549.7142857142857,
+                    "y": 568.5714285714286,
+                    "width": 201.14285714285722,
+                    "height": 12.571428571428555
+                  },
+                  "position": {
+                    "x": 549.7142857142857,
+                    "y": 568.5714285714286
+                  },
+                  "size": {
+                    "width": 201.14285714285722,
+                    "height": 12.571428571428555
+                  },
+                  "relativeBounds": {
+                    "x": 0.5368,
+                    "y": 0.5552,
+                    "width": 0.1964,
+                    "height": 0.0123
+                  },
+                  "label": "veniam, quis nostrud exercitation laboris nisi ut",
+                  "parentRole": "product-detail",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro description"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "region",
+              "id": "region-29",
+              "role": "product-area",
+              "confidence": 0.84,
+              "bbox": {
+                "x": 0,
+                "y": 227,
+                "width": 1024,
+                "height": 428
+              },
+              "position": {
+                "x": 0,
+                "y": 227
+              },
+              "size": {
+                "width": 1024,
+                "height": 428
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0.2217,
+                "width": 1,
+                "height": 0.418
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro product-area"
+              },
+              "children": []
+            },
+            {
+              "type": "region",
+              "id": "region-10",
+              "role": "control-region",
+              "confidence": 0.65,
+              "bbox": {
+                "x": 548,
+                "y": 618,
+                "width": 110,
+                "height": 45
+              },
+              "position": {
+                "x": 548,
+                "y": 618
+              },
+              "size": {
+                "width": 110,
+                "height": 45
+              },
+              "relativeBounds": {
+                "x": 0.5352,
+                "y": 0.6035,
+                "width": 0.1074,
+                "height": 0.0439
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro control-region"
+              },
+              "children": []
+            },
+            {
+              "type": "text",
+              "id": "text-25",
+              "role": "heading",
+              "confidence": 0.54,
+              "bbox": {
+                "x": 222.85714285714286,
+                "y": 622.8571428571429,
+                "width": 130.85714285714286,
+                "height": 66.28571428571433
+              },
+              "position": {
+                "x": 222.85714285714286,
+                "y": 622.8571428571429
+              },
+              "size": {
+                "width": 130.85714285714286,
+                "height": 66.28571428571433
+              },
+              "relativeBounds": {
+                "x": 0.2176,
+                "y": 0.6083,
+                "width": 0.1278,
+                "height": 0.0647
+              },
+              "label": "la",
+              "parentRole": "main",
+              "layout": {
+                "direction": "auto",
+                "columns": 1,
+                "gap": 0,
+                "align": "start",
+                "repeated": false
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro heading"
+              },
+              "children": []
+            },
+            {
+              "type": "container",
+              "id": "container-11",
+              "role": "related-products",
+              "confidence": 0.78,
+              "bbox": {
+                "x": 0,
+                "y": 655,
+                "width": 1024,
+                "height": 225
+              },
+              "position": {
+                "x": 0,
+                "y": 655
+              },
+              "size": {
+                "width": 1024,
+                "height": 225
+              },
+              "relativeBounds": {
+                "x": 0,
+                "y": 0.6396,
+                "width": 1,
+                "height": 0.2197
+              },
+              "label": null,
+              "parentRole": "main",
+              "layout": {
+                "direction": "grid",
+                "columns": 2,
+                "gap": 12,
+                "align": "stretch",
+                "repeated": true
+              },
+              "evidence": {
+                "source": "macro-layout-pass",
+                "grouping": "macro related-products"
+              },
+              "children": [
+                {
+                  "type": "region",
+                  "id": "region-30",
+                  "role": "product-card-grid",
+                  "confidence": 0.38,
+                  "bbox": {
+                    "x": 0,
+                    "y": 718,
+                    "width": 1024,
+                    "height": 162
+                  },
+                  "position": {
+                    "x": 0,
+                    "y": 718
+                  },
+                  "size": {
+                    "width": 1024,
+                    "height": 162
+                  },
+                  "relativeBounds": {
+                    "x": 0,
+                    "y": 0.7012,
+                    "width": 1,
+                    "height": 0.1582
+                  },
+                  "label": null,
+                  "parentRole": "related-products",
+                  "layout": {
+                    "direction": "auto",
+                    "columns": 1,
+                    "gap": 0,
+                    "align": "start",
+                    "repeated": false
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro product-card-grid"
+                  },
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "text-16",
+                      "role": "section-heading",
+                      "confidence": 0.96,
+                      "bbox": {
+                        "x": 444,
+                        "y": 798.8571428571429,
+                        "width": 136,
+                        "height": 33.714285714285666
+                      },
+                      "position": {
+                        "x": 444,
+                        "y": 798.8571428571429
+                      },
+                      "size": {
+                        "width": 136,
+                        "height": 33.714285714285666
+                      },
+                      "relativeBounds": {
+                        "x": 0.4336,
+                        "y": 0.7801,
+                        "width": 0.1328,
+                        "height": 0.0329
+                      },
+                      "label": "Similar Products",
+                      "parentRole": "product-card-grid",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro section-heading"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "region",
+                  "id": "region-35",
+                  "role": "product-card-grid",
+                  "confidence": 0.9,
+                  "bbox": {
+                    "x": 212,
+                    "y": 869,
+                    "width": 600,
+                    "height": 11
+                  },
+                  "position": {
+                    "x": 212,
+                    "y": 869
+                  },
+                  "size": {
+                    "width": 600,
+                    "height": 11
+                  },
+                  "relativeBounds": {
+                    "x": 0.207,
+                    "y": 0.8486,
+                    "width": 0.5859,
+                    "height": 0.0107
+                  },
+                  "label": null,
+                  "parentRole": "related-products",
+                  "layout": {
+                    "direction": "row",
+                    "columns": 1,
+                    "gap": 12,
+                    "align": "center",
+                    "repeated": true
+                  },
+                  "evidence": {
+                    "source": "macro-layout-pass",
+                    "grouping": "macro product-card-grid"
+                  },
+                  "children": [
+                    {
+                      "type": "region",
+                      "id": "region-36",
+                      "role": "product-card",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 212,
+                        "y": 869,
+                        "width": 105,
+                        "height": 11
+                      },
+                      "position": {
+                        "x": 212,
+                        "y": 869
+                      },
+                      "size": {
+                        "width": 105,
+                        "height": 11
+                      },
+                      "relativeBounds": {
+                        "x": 0.207,
+                        "y": 0.8486,
+                        "width": 0.1025,
+                        "height": 0.0107
+                      },
+                      "label": null,
+                      "parentRole": "product-card-grid",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro product-card"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "region",
+                      "id": "region-37",
+                      "role": "product-card",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 335,
+                        "y": 869,
+                        "width": 106,
+                        "height": 11
+                      },
+                      "position": {
+                        "x": 335,
+                        "y": 869
+                      },
+                      "size": {
+                        "width": 106,
+                        "height": 11
+                      },
+                      "relativeBounds": {
+                        "x": 0.3271,
+                        "y": 0.8486,
+                        "width": 0.1035,
+                        "height": 0.0107
+                      },
+                      "label": null,
+                      "parentRole": "product-card-grid",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro product-card"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "region",
+                      "id": "region-38",
+                      "role": "product-card",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 459,
+                        "y": 869,
+                        "width": 106,
+                        "height": 11
+                      },
+                      "position": {
+                        "x": 459,
+                        "y": 869
+                      },
+                      "size": {
+                        "width": 106,
+                        "height": 11
+                      },
+                      "relativeBounds": {
+                        "x": 0.4482,
+                        "y": 0.8486,
+                        "width": 0.1035,
+                        "height": 0.0107
+                      },
+                      "label": null,
+                      "parentRole": "product-card-grid",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro product-card"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "region",
+                      "id": "region-39",
+                      "role": "product-card",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 582,
+                        "y": 869,
+                        "width": 106,
+                        "height": 11
+                      },
+                      "position": {
+                        "x": 582,
+                        "y": 869
+                      },
+                      "size": {
+                        "width": 106,
+                        "height": 11
+                      },
+                      "relativeBounds": {
+                        "x": 0.5684,
+                        "y": 0.8486,
+                        "width": 0.1035,
+                        "height": 0.0107
+                      },
+                      "label": null,
+                      "parentRole": "product-card-grid",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro product-card"
+                      },
+                      "children": []
+                    },
+                    {
+                      "type": "region",
+                      "id": "region-40",
+                      "role": "product-card",
+                      "confidence": 0.55,
+                      "bbox": {
+                        "x": 706,
+                        "y": 869,
+                        "width": 106,
+                        "height": 11
+                      },
+                      "position": {
+                        "x": 706,
+                        "y": 869
+                      },
+                      "size": {
+                        "width": 106,
+                        "height": 11
+                      },
+                      "relativeBounds": {
+                        "x": 0.6895,
+                        "y": 0.8486,
+                        "width": 0.1035,
+                        "height": 0.0107
+                      },
+                      "label": null,
+                      "parentRole": "product-card-grid",
+                      "layout": {
+                        "direction": "auto",
+                        "columns": 1,
+                        "gap": 0,
+                        "align": "start",
+                        "repeated": false
+                      },
+                      "evidence": {
+                        "source": "macro-layout-pass",
+                        "grouping": "macro product-card"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "id": "container-12",
+          "role": "footer",
+          "confidence": 0.82,
+          "bbox": {
+            "x": 0,
+            "y": 880,
+            "width": 1024,
+            "height": 144
+          },
+          "position": {
+            "x": 0,
+            "y": 880
+          },
+          "size": {
+            "width": 1024,
+            "height": 144
+          },
+          "relativeBounds": {
+            "x": 0,
+            "y": 0.8594,
+            "width": 1,
+            "height": 0.1406
+          },
+          "label": null,
+          "parentRole": "page",
+          "layout": {
+            "direction": "auto",
+            "columns": 1,
+            "gap": 0,
+            "align": "start",
+            "repeated": false
+          },
+          "evidence": {
+            "source": "macro-layout-pass",
+            "grouping": "macro footer"
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "layoutPlan": {
+    "pageCategory": "commerce-product",
+    "majorZones": [
+      {
+        "role": "page",
+        "id": "container-1",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "header",
+        "id": "region-27",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 0.2217
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "nav-group",
+        "id": "region-28",
+        "bounds": {
+          "x": 0.2829,
+          "y": 0.1459,
+          "width": 0.4001,
+          "height": 0.0346
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": false
+        }
+      },
+      {
+        "role": "main",
+        "id": "container-2",
+        "bounds": {
+          "x": 0,
+          "y": 0.1299,
+          "width": 1,
+          "height": 0.7295
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 2,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "gallery",
+        "id": "container-3",
+        "bounds": {
+          "x": 0,
+          "y": 0.1299,
+          "width": 0.52,
+          "height": 0.5098
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "thumbnail-gallery",
+        "id": "region-31",
+        "bounds": {
+          "x": 0.2158,
+          "y": 0.6074,
+          "width": 0.1328,
+          "height": 0.0322
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": true
+        }
+      },
+      {
+        "role": "product-detail",
+        "id": "container-4",
+        "bounds": {
+          "x": 0.52,
+          "y": 0.1299,
+          "width": 0.48,
+          "height": 0.5098
+        },
+        "layout": {
+          "direction": "column",
+          "columns": 1,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": false
+        }
+      },
+      {
+        "role": "product-area",
+        "id": "region-29",
+        "bounds": {
+          "x": 0,
+          "y": 0.2217,
+          "width": 1,
+          "height": 0.418
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "related-products",
+        "id": "container-11",
+        "bounds": {
+          "x": 0,
+          "y": 0.6396,
+          "width": 1,
+          "height": 0.2197
+        },
+        "layout": {
+          "direction": "grid",
+          "columns": 2,
+          "gap": 12,
+          "align": "stretch",
+          "repeated": true
+        }
+      },
+      {
+        "role": "product-card-grid",
+        "id": "region-30",
+        "bounds": {
+          "x": 0,
+          "y": 0.7012,
+          "width": 1,
+          "height": 0.1582
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      },
+      {
+        "role": "product-card-grid",
+        "id": "region-35",
+        "bounds": {
+          "x": 0.207,
+          "y": 0.8486,
+          "width": 0.5859,
+          "height": 0.0107
+        },
+        "layout": {
+          "direction": "row",
+          "columns": 1,
+          "gap": 12,
+          "align": "center",
+          "repeated": true
+        }
+      },
+      {
+        "role": "footer",
+        "id": "container-12",
+        "bounds": {
+          "x": 0,
+          "y": 0.8594,
+          "width": 1,
+          "height": 0.1406
+        },
+        "layout": {
+          "direction": "auto",
+          "columns": 1,
+          "gap": 0,
+          "align": "start",
+          "repeated": false
+        }
+      }
+    ],
+    "regionCount": 38
+  }
+}

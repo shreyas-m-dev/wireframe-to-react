@@ -1,0 +1,1215 @@
+{
+  "regions": [
+    {
+      "parentRole": "main",
+      "roiBounds": {
+        "x": 0.0,
+        "y": 133.0,
+        "width": 1024.0,
+        "height": 747.0
+      },
+      "candidatesBeforeSuppression": [
+        {
+          "x": 229.0,
+          "y": 382.0,
+          "width": 747.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 229.0,
+            "y": 249.0,
+            "width": 747.0,
+            "height": 498.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 745.0,
+          "y": 144.0,
+          "width": 210.0,
+          "height": 188.0,
+          "localBounds": {
+            "x": 745.0,
+            "y": 11.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 489.0,
+          "y": 144.0,
+          "width": 210.0,
+          "height": 188.0,
+          "localBounds": {
+            "x": 489.0,
+            "y": 11.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 233.0,
+          "y": 144.0,
+          "width": 210.0,
+          "height": 188.0,
+          "localBounds": {
+            "x": 233.0,
+            "y": 11.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 744.0,
+          "y": 143.0,
+          "width": 212.0,
+          "height": 190.0,
+          "localBounds": {
+            "x": 744.0,
+            "y": 10.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 488.0,
+          "y": 143.0,
+          "width": 212.0,
+          "height": 190.0,
+          "localBounds": {
+            "x": 488.0,
+            "y": 10.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 232.0,
+          "y": 143.0,
+          "width": 212.0,
+          "height": 190.0,
+          "localBounds": {
+            "x": 232.0,
+            "y": 10.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 742.0,
+          "y": 140.0,
+          "width": 216.0,
+          "height": 196.0,
+          "localBounds": {
+            "x": 742.0,
+            "y": 7.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 486.0,
+          "y": 140.0,
+          "width": 216.0,
+          "height": 196.0,
+          "localBounds": {
+            "x": 486.0,
+            "y": 7.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 230.0,
+          "y": 140.0,
+          "width": 216.0,
+          "height": 196.0,
+          "localBounds": {
+            "x": 230.0,
+            "y": 7.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 741.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 485.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 485.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 229.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 229.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        }
+      ],
+      "accepted": [
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 741.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 485.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 485.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 229.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 229.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        }
+      ],
+      "rejected": [
+        {
+          "bounds": {
+            "x": 229.0,
+            "y": 382.0,
+            "width": 747.0,
+            "height": 498.0
+          },
+          "reason": "global-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 742.0,
+            "y": 140.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 486.0,
+            "y": 140.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 230.0,
+            "y": 140.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 744.0,
+            "y": 143.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 488.0,
+            "y": 143.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 232.0,
+            "y": 143.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 745.0,
+            "y": 144.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 489.0,
+            "y": 144.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 233.0,
+            "y": 144.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "reason": "roi-duplicate"
+        }
+      ]
+    },
+    {
+      "parentRole": "media-region",
+      "roiBounds": {
+        "x": 0.0,
+        "y": 133.0,
+        "width": 532.0,
+        "height": 747.0
+      },
+      "candidatesBeforeSuppression": [
+        {
+          "x": 229.0,
+          "y": 382.0,
+          "width": 303.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 229.0,
+            "y": 249.0,
+            "width": 303.0,
+            "height": 498.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 233.0,
+          "y": 144.0,
+          "width": 210.0,
+          "height": 188.0,
+          "localBounds": {
+            "x": 233.0,
+            "y": 11.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 488.0,
+          "y": 143.0,
+          "width": 44.0,
+          "height": 190.0,
+          "localBounds": {
+            "x": 488.0,
+            "y": 10.0,
+            "width": 44.0,
+            "height": 190.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 232.0,
+          "y": 143.0,
+          "width": 212.0,
+          "height": 190.0,
+          "localBounds": {
+            "x": 232.0,
+            "y": 10.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 230.0,
+          "y": 140.0,
+          "width": 216.0,
+          "height": 196.0,
+          "localBounds": {
+            "x": 230.0,
+            "y": 7.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 485.0,
+          "y": 139.0,
+          "width": 47.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 485.0,
+            "y": 6.0,
+            "width": 47.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 229.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 229.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        }
+      ],
+      "accepted": [
+        {
+          "x": 229.0,
+          "y": 382.0,
+          "width": 303.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 229.0,
+            "y": 249.0,
+            "width": 303.0,
+            "height": 498.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 229.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 229.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 485.0,
+          "y": 139.0,
+          "width": 47.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 485.0,
+            "y": 6.0,
+            "width": 47.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "rejected": [
+        {
+          "bounds": {
+            "x": 230.0,
+            "y": 140.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 232.0,
+            "y": 143.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 233.0,
+            "y": 144.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 488.0,
+            "y": 143.0,
+            "width": 44.0,
+            "height": 190.0
+          },
+          "reason": "roi-duplicate"
+        }
+      ]
+    },
+    {
+      "parentRole": "section",
+      "roiBounds": {
+        "x": 532.0,
+        "y": 133.0,
+        "width": 491.0,
+        "height": 747.0
+      },
+      "candidatesBeforeSuppression": [
+        {
+          "x": 532.0,
+          "y": 386.0,
+          "width": 441.0,
+          "height": 494.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 253.0,
+            "width": 441.0,
+            "height": 494.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 532.0,
+          "y": 382.0,
+          "width": 444.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 249.0,
+            "width": 444.0,
+            "height": 498.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 745.0,
+          "y": 144.0,
+          "width": 210.0,
+          "height": 188.0,
+          "localBounds": {
+            "x": 213.0,
+            "y": 11.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 744.0,
+          "y": 143.0,
+          "width": 212.0,
+          "height": 190.0,
+          "localBounds": {
+            "x": 212.0,
+            "y": 10.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 532.0,
+          "y": 143.0,
+          "width": 168.0,
+          "height": 190.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 10.0,
+            "width": 168.0,
+            "height": 190.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 742.0,
+          "y": 140.0,
+          "width": 216.0,
+          "height": 196.0,
+          "localBounds": {
+            "x": 210.0,
+            "y": 7.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 209.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 532.0,
+          "y": 139.0,
+          "width": 171.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 6.0,
+            "width": 171.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "accepted": [
+        {
+          "x": 532.0,
+          "y": 382.0,
+          "width": 444.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 249.0,
+            "width": 444.0,
+            "height": 498.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        },
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 218.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 209.0,
+            "y": 6.0,
+            "width": 218.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": false
+        },
+        {
+          "x": 532.0,
+          "y": 139.0,
+          "width": 171.0,
+          "height": 198.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 6.0,
+            "width": 171.0,
+            "height": 198.0
+          },
+          "parentRegionId": null,
+          "recoveryStrategy": "roi-canny-contours",
+          "confidence": 0.55,
+          "evidence": [
+            "local rectangular contour"
+          ],
+          "uncertainty": null,
+          "clipped": true
+        }
+      ],
+      "rejected": [
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 386.0,
+            "width": 441.0,
+            "height": 494.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 742.0,
+            "y": 140.0,
+            "width": 216.0,
+            "height": 196.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 744.0,
+            "y": 143.0,
+            "width": 212.0,
+            "height": 190.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 745.0,
+            "y": 144.0,
+            "width": 210.0,
+            "height": 188.0
+          },
+          "reason": "roi-duplicate"
+        },
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 143.0,
+            "width": 168.0,
+            "height": 190.0
+          },
+          "reason": "roi-duplicate"
+        }
+      ]
+    }
+  ],
+  "repeatedGroups": [],
+  "cardDiagnostics": [
+    {
+      "roi": {
+        "x": 532.0,
+        "y": 133.0,
+        "width": 491.0,
+        "height": 747.0
+      },
+      "sourceRegionParent": "section",
+      "headingEvidence": null,
+      "passConfigurations": [
+        {
+          "name": "pass-a-edges",
+          "strategy": "CLAHE/bilateral + contour"
+        },
+        {
+          "name": "pass-b-adaptive",
+          "strategy": "CLAHE/bilateral + contour"
+        }
+      ],
+      "rawCandidates": [
+        {
+          "x": 532.0,
+          "y": 382.0,
+          "width": 443.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 249.0,
+            "width": 443.0,
+            "height": 498.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8895582329317269,
+            "top": 382,
+            "edgeDensity": 0.012977417570961046
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 744.0,
+          "y": 143.0,
+          "width": 211.0,
+          "height": 189.0,
+          "localBounds": {
+            "x": 212.0,
+            "y": 10.0,
+            "width": 211.0,
+            "height": 189.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.1164021164021165,
+            "top": 143,
+            "edgeDensity": 0.01996038014995361
+          },
+          "candidateScore": 0.8899999999999999,
+          "confidence": 0.55
+        },
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 217.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 209.0,
+            "y": 6.0,
+            "width": 217.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-a-edges"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.101522842639594,
+            "top": 139,
+            "edgeDensity": 0.055767386371611036
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 139.0,
+          "width": 170.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 6.0,
+            "width": 170.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-a-edges",
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8629441624365483,
+            "top": 139,
+            "edgeDensity": 0.04293819050462825
+          },
+          "candidateScore": 0.63,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 382.0,
+          "width": 443.0,
+          "height": 498.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 249.0,
+            "width": 443.0,
+            "height": 498.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8895582329317269,
+            "top": 382,
+            "edgeDensity": 0.01673057920168258
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        },
+        {
+          "x": 743.0,
+          "y": 143.0,
+          "width": 213.0,
+          "height": 189.0,
+          "localBounds": {
+            "x": 211.0,
+            "y": 10.0,
+            "width": 213.0,
+            "height": 189.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.126984126984127,
+            "top": 143,
+            "edgeDensity": 0.01987232034180391
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 741.0,
+          "y": 139.0,
+          "width": 217.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 209.0,
+            "y": 6.0,
+            "width": 217.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": false,
+          "features": {
+            "aspect": 1.101522842639594,
+            "top": 139,
+            "edgeDensity": 0.076773725701186
+          },
+          "candidateScore": 0.65,
+          "confidence": 0.55
+        },
+        {
+          "x": 532.0,
+          "y": 139.0,
+          "width": 170.0,
+          "height": 197.0,
+          "localBounds": {
+            "x": 0.0,
+            "y": 6.0,
+            "width": 170.0,
+            "height": 197.0
+          },
+          "sourcePasses": [
+            "pass-b-adaptive"
+          ],
+          "clipped": true,
+          "features": {
+            "aspect": 0.8629441624365483,
+            "top": 139,
+            "edgeDensity": 0.06736339205733055
+          },
+          "candidateScore": 0.55,
+          "confidence": 0.55
+        }
+      ],
+      "groupClusters": [],
+      "acceptedGroup": null,
+      "acceptedCardCount": 0,
+      "rejectedCandidates": [
+        {
+          "bounds": {
+            "x": 744.0,
+            "y": 143.0,
+            "width": 211.0,
+            "height": 189.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 382.0,
+            "width": 443.0,
+            "height": 498.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        },
+        {
+          "bounds": {
+            "x": 532.0,
+            "y": 139.0,
+            "width": 170.0,
+            "height": 197.0
+          },
+          "reason": "no 3-item size/alignment consensus"
+        }
+      ],
+      "uncertainty": "low-contrast candidates did not form a multi-signal repeated-card consensus",
+      "projectionPeaks": [
+        166,
+        169,
+        209,
+        212,
+        422,
+        425,
+        439,
+        442
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "score": 1,
+  "fullPage": true,
+  "majorRegionCount": 6,
+  "leafCount": 27,
+  "mediaCount": 5,
+  "buttonCount": 0,
+  "maxDepth": 5,
+  "passed": true,
+  "reasons": [
+    "missing detected select",
+    "missing detected primary-action"
+  ],
+  "schemaGatePassed": true,
+  "generatedOutputValid": true,
+  "schemaToCodeCoverage": 1,
+  "legacyStructuralAccuracy": 1,
+  "macroRegionCoverage": 1,
+  "repeatedGroupCoverage": 1,
+  "semanticTextCoverage": 1,
+  "semanticControlCoverage": 1,
+  "sourceStructureCoverage": 0.3333333333333333,
+  "sourceVsRenderedScore": null,
+  "overallStatus": "needs-review",
+  "needsReview": true
+}

@@ -10,14 +10,14 @@
  * This module has zero dependencies (no Express/Multer/etc), so unlike
  * server.js itself, it can be tested here without `npm install` first.
  *
- * Run: node backend/python_resolver.test.js
+ * Run: node backend/test/python_resolver.test.js
  */
 
 'use strict';
 
 const assert = require('assert');
 const { execFileSync } = require('child_process');
-const { resolvePythonBin, WINDOWS_STUB_MARKER, _resetCache } = require('./python_resolver');
+const { resolvePythonBin, WINDOWS_STUB_MARKER, _resetCache } = require('../src/pipeline/python_resolver');
 
 let passed = 0, failed = 0;
 

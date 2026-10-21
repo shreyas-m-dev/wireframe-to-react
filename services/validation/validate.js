@@ -10,12 +10,8 @@
 
 'use strict';
 
-const { parseJsx } = require('../cgda/cgda');
-const { flattenSchema, TYPE_TO_ALLOWED_TAGS } = (() => {
-  const schema = require('../schema/schema');
-  const { TYPE_TO_ALLOWED_TAGS } = require('../cgda/cgda');
-  return { flattenSchema: schema.flattenSchema, TYPE_TO_ALLOWED_TAGS };
-})();
+const { parseJsx, buildWhitelist, TYPE_TO_ALLOWED_TAGS } = require('../cgda/cgda');
+const { flattenSchema } = require('../schema/schema');
 
 const MAX_RETRIES = 3;
 
@@ -42,18 +38,31 @@ function flattenJsxTree(node, acc = [], depth = 0) {
  * in that schema type's allowed-tag list (see TYPE_TO_ALLOWED_TAGS).
  */
 function diffTrees(schemaTree, jsxTree) {
-  const schemaNodes = flattenSchema(schemaTree); // [{type, id}, ...]
-  const codeNodes = flattenJsxTree(jsxTree);      // [{tag}, ...]
+  const schemaNodes = flattenSchema(schemaTree); // [{type, id, role}, ...]
+  // The component's outer element carries the schema root's id; flattenSchema
+  // excludes the root, so the code side must exclude it too.
+  const codeNodes = flattenJsxTree(jsxTree).filter((node) => !(schemaTree.id && node.id === schemaTree.id));
   const codeTagsRemaining = [...codeNodes];
 
   const matched = [];
   const missingInCode = [];
+  const unmatchedSchema = [];
 
+  // Pass 1: provenance. An element that carries a schema node's id is that node.
   for (const schemaNode of schemaNodes) {
+    const idx = schemaNode.id ? codeTagsRemaining.findIndex((c) => c.id === schemaNode.id) : -1;
+    if (idx !== -1) {
+      matched.push({ schemaId: schemaNode.id, tag: codeTagsRemaining[idx].tag });
+      codeTagsRemaining.splice(idx, 1);
+    } else {
+      unmatchedSchema.push(schemaNode);
+    }
+  }
+  // Pass 2: nodes without an id-bearing element may be satisfied by an
+  // unattributed element of an allowed tag (bare snippets, LLM output).
+  for (const schemaNode of unmatchedSchema) {
     const allowedTags = TYPE_TO_ALLOWED_TAGS[schemaNode.type] || [];
-    const idx = codeTagsRemaining.findIndex((c) => c.id === schemaNode.id) !== -1
-      ? codeTagsRemaining.findIndex((c) => c.id === schemaNode.id)
-      : codeTagsRemaining.findIndex((c) => allowedTags.includes(c.tag));
+    const idx = codeTagsRemaining.findIndex((c) => !c.id && allowedTags.includes(c.tag));
     if (idx !== -1) {
       matched.push({ schemaId: schemaNode.id, tag: codeTagsRemaining[idx].tag });
       codeTagsRemaining.splice(idx, 1);
@@ -62,10 +71,14 @@ function diffTrees(schemaTree, jsxTree) {
     }
   }
 
-  // whatever's left in codeTagsRemaining is extra (should be near-zero if
-  // CGDA already ran, but catches drift e.g. a whitelisted-but-unused tag)
-  const extraInCode = codeTagsRemaining;
-
+  // Leftover elements are either compiler scaffolding the schema accounts for
+  // (wrappers, icon SVG, card copy) or genuinely unaccounted output: an id the
+  // schema doesn't contain, or a tag no schema node allows.
+  const knownIds = new Set(schemaNodes.map((node) => node.id).filter(Boolean));
+  const whitelist = buildWhitelist(schemaTree);
+  const isAccounted = (node) => (node.id ? knownIds.has(node.id) : whitelist.has(node.tag) || /^[A-Z]/.test(node.tag));
+  const extraInCode = codeTagsRemaining.filter((node) => !isAccounted(node));
+  const scaffoldingCount = codeTagsRemaining.length - extraInCode.length;
   const structuralAccuracy = schemaNodes.length === 0
     ? 1
     : matched.length / schemaNodes.length;
@@ -79,12 +92,13 @@ function diffTrees(schemaTree, jsxTree) {
   return {
     schemaCount: schemaNodes.length,
     codeCount: codeNodes.length,
+    scaffoldingCount,
     matchedCount: matched.length,
     missingInCode,
     extraInCode,
     structuralAccuracy,
     generatedNodeCoverage,
-    majorRegionCoverage: (requiredRoles.length - missingMajorRoles.length) / requiredRoles.length,
+    majorRegionCoverage: requiredRoles.length ? (requiredRoles.length - missingMajorRoles.length) / requiredRoles.length : 1,
     missingMajorRoles,
     isValid: missingInCode.length === 0 && extraInCode.length === 0 && missingMajorRoles.length === 0,
   };

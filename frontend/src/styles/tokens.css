@@ -1,0 +1,60 @@
+/*
+ * Design tokens — see docs/DESIGN_SYSTEM.md. Colours are stored as RGB
+ * channels so Tailwind can apply alpha (`bg-accent/10`). Contrast ratios for
+ * every text/background pair are documented there and were computed, not guessed.
+ */
+
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: 11 12 16;            /* #0b0c10 */
+  --surface-1: 19 21 27;     /* #13151b */
+  --surface-2: 26 29 37;     /* #1a1d25 */
+  --border: 42 46 58;        /* #2a2e3a */
+  --border-strong: 93 100 120; /* #5d6478 */
+  --text: 233 235 241;       /* #e9ebf1 */
+  --text-muted: 166 172 187; /* #a6acbb */
+  --text-subtle: 138 145 163;/* #8a91a3 */
+  --accent: 139 151 255;     /* #8b97ff */
+  --accent-bg: 79 92 224;    /* #4f5ce0 */
+  --on-accent: 255 255 255;
+  --success: 62 207 142;     /* #3ecf8e */
+  --warning: 245 180 64;     /* #f5b440 */
+  --danger: 255 122 122;     /* #ff7a7a */
+  --glass: rgb(19 21 27 / 0.72);
+  --shadow-1: 0 1px 0 rgb(255 255 255 / 0.03) inset, 0 8px 24px -12px rgb(0 0 0 / 0.5);
+  --shadow-2: 0 24px 64px -16px rgb(0 0 0 / 0.6);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: 245 246 248;
+  --surface-1: 255 255 255;
+  --surface-2: 240 242 245;
+  --border: 223 226 232;
+  --border-strong: 133 140 156;
+  --text: 17 20 27;
+  --text-muted: 71 78 94;
+  --text-subtle: 92 99 116;
+  --accent: 63 75 201;
+  --accent-bg: 63 75 201;
+  --on-accent: 255 255 255;
+  --success: 19 122 75;
+  --warning: 138 90 0;
+  --danger: 192 53 47;
+  --glass: rgb(255 255 255 / 0.72);
+  --shadow-1: 0 1px 0 rgb(0 0 0 / 0.04), 0 8px 24px -12px rgb(17 20 27 / 0.18);
+  --shadow-2: 0 24px 64px -16px rgb(17 20 27 / 0.3);
+}
+
+:root {
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --gutter: 16px;
+}
+@media (min-width: 768px) {
+  :root { --gutter: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-fast: 0.01ms; --dur-base: 0.01ms; }
+}

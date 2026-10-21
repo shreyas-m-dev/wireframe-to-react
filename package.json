@@ -1,0 +1,16 @@
+{
+  "name": "wireframe-to-react",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["services", "backend", "frontend"],
+  "engines": { "node": ">=22.9" },
+  "scripts": {
+    "dev:backend": "npm run dev -w backend",
+    "dev:frontend": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "migrate": "npm run migrate -w backend",
+    "migrate:down": "npm run migrate:down -w backend",
+    "test": "node scripts/check_test_assertions.js && npm test -w services && npm test -w backend && npm test -w frontend",
+    "test:py": "node scripts/run_python_tests.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@w2r/services",
+  "private": true,
+  "version": "1.0.0",
+  "description": "JavaScript pipeline stages (schema, semantic plan, CGDA, validation) shared by the backend.",
+  "scripts": {
+    "test": "node --test \"**/*.test.js\""
+  },
+  "dependencies": {
+    "@babel/parser": "^7.29.9"
+  }
+}

@@ -32,3 +32,6 @@ requests>=2.31.0           # services/codegen/generate.py (only used if GEN_MODE
 # services/rag/vector_db.py's VectorDB interface (.add()/.search()) is a
 # drop-in match for a FAISS-backed store if you outgrow SQLite:
 # faiss-cpu>=1.9.0
+
+# === Test tooling ===
+pytest>=8,<9

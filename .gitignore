@@ -34,3 +34,5 @@ coverage/
 .idea/
 .DS_Store
 Thumbs.db
+# App data (uploaded wireframes) and local DB files
+data/

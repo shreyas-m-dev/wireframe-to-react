@@ -1,3 +1,4 @@
+import re
 import sys
 from pathlib import Path
 
@@ -317,6 +318,18 @@ def test_auth_codegen_uses_distinct_local_state_and_submit():
     assert 'Signed in locally.' in code and 'Message sent locally.' not in code
 
 
+def test_regression_input_outside_form_declares_its_state():
+    """Real bug from a user run: every plain <input> binds to formData, but
+    form state was only declared for form/contact-section roles, so a text
+    field elsewhere produced code that crashed with "formData is not defined"."""
+    schema = {"type": "root", "id": "root-0", "children": [{"type": "container", "id": "page-1", "role": "page", "children": [
+        {"type": "container", "id": "main-1", "role": "main", "children": [{"type": "input", "id": "input-1", "role": "region", "children": []}]}]}]}
+    code = compile_schema(schema)
+    assert "formData" in code
+    assert "const [formData, setFormData] = useState" in code, code
+    assert re.search(r"import React, \{[^}]*useState[^}]*\} from", code), code
+
+
 if __name__ == "__main__":
     check("test_single_button_renders_a_button_tag", test_single_button_renders_a_button_tag)
     check("test_nested_container_preserves_nesting", test_nested_container_preserves_nesting)
@@ -352,5 +365,6 @@ if __name__ == "__main__":
     check("test_navigation_has_no_hash_link", test_navigation_has_no_hash_link)
     check("test_feature_card_uses_semantic_article_container", test_feature_card_uses_semantic_article_container)
     check("test_auth_codegen_uses_distinct_local_state_and_submit", test_auth_codegen_uses_distinct_local_state_and_submit)
+    check("test_regression_input_outside_form_declares_its_state", test_regression_input_outside_form_declares_its_state)
     print(f"\n{passed} passed, {failed} failed")
     sys.exit(1 if failed else 0)

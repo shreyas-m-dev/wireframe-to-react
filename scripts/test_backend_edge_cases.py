@@ -6,11 +6,12 @@ crashing or returning a 500 with no useful message. Complements
 test_e2e_integration.py (which proves the happy path across 3 real
 wireframes); this proves the unhappy paths degrade cleanly.
 
-Run: python3 scripts/test_backend_edge_cases.py
+Run: python scripts/test_backend_edge_cases.py
 """
 import json
 import os
 import subprocess
+import tempfile
 import sys
 from pathlib import Path
 
@@ -24,7 +25,7 @@ passed, failed = 0, 0
 def run_cli(args, env=None):
     full_env = {**os.environ, **(env or {})}
     return subprocess.run(
-        ["python3", str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT), env=full_env
+        [sys.executable, str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT), env=full_env
     )
 
 
@@ -47,7 +48,7 @@ def test_corrupt_upload_fails_cleanly_with_json_error():
 
 
 def test_missing_file_fails_cleanly():
-    result = run_cli(["detect", "/tmp/definitely_does_not_exist_xyz.png"])
+    result = run_cli(["detect", str(Path(tempfile.gettempdir()) / "definitely_does_not_exist_xyz.png")])
     assert result.returncode != 0
     err = json.loads(result.stderr)
     assert "not found" in err["error"].lower()
@@ -68,7 +69,7 @@ def test_no_extension_temp_file_with_valid_image_bytes_still_works():
     it writes temp files."""
     import shutil
     fixture = FIXTURES_DIR / "simple_layout.png"
-    no_ext_path = "/tmp/backend_test_no_extension_regression"
+    no_ext_path = str(Path(tempfile.gettempdir()) / "backend_test_no_extension_regression")
     shutil.copy(fixture, no_ext_path)
     result = run_cli(["detect", no_ext_path])
     assert result.returncode == 0, f"should succeed on a valid image with no extension, got: {result.stderr}"
@@ -82,7 +83,7 @@ def test_wrong_but_present_extension_is_still_rejected():
     rejected, extension present or not."""
     import shutil
     fixture = FIXTURES_DIR / "simple_layout.png"
-    fake_gif_path = "/tmp/backend_test_fake_gif.gif"
+    fake_gif_path = str(Path(tempfile.gettempdir()) / "backend_test_fake_gif.gif")
     shutil.copy(fixture, fake_gif_path)
     result = run_cli(["detect", fake_gif_path])
     assert result.returncode != 0
@@ -100,7 +101,7 @@ def test_too_small_image_fails_cleanly():
 def test_blank_image_with_nothing_to_detect_fails_with_helpful_message():
     import cv2
     import numpy as np
-    blank_path = "/tmp/backend_test_blank.png"
+    blank_path = str(Path(tempfile.gettempdir()) / "backend_test_blank.png")
     cv2.imwrite(blank_path, np.full((300, 300, 3), 255, dtype=np.uint8))
     result = run_cli(["detect", blank_path])
     assert result.returncode != 0
@@ -150,7 +151,7 @@ def test_default_gen_mode_is_template_without_env_var():
     env.pop("GEN_MODE", None)
     schema = {"type": "root", "id": "root-0", "children": [{"type": "button", "id": "button-1", "children": []}]}
     result = subprocess.run(
-        ["python3", str(CLI), "generate", json.dumps(schema)],
+        [sys.executable, str(CLI), "generate", json.dumps(schema)],
         capture_output=True, text=True, cwd=str(ROOT), env=env,
     )
     assert result.returncode == 0

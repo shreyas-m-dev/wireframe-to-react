@@ -28,6 +28,7 @@ so nothing is ever invented or dropped no matter what the user asks for.
 from __future__ import annotations
 
 import json
+import re
 
 from instruction_parser import StyleOverrides
 
@@ -345,7 +346,10 @@ def _render_leaf_ast(t: str, label: str, overrides: StyleOverrides, node: dict) 
         bounds = node.get("relativeBounds") or {}
         width, height = float(bounds.get("width") or 1), float(bounds.get("height") or .65)
         ratio = max(.25, min(4, width / height))
-        safe_label = label if label else "Detected visual region"
+        # Accessible name: OCR label when present, otherwise one derived from the
+        # node's structural role (no invented content), then a neutral default.
+        role_alt = {"gallery": "Product image", "product-detail": "Product image"}.get(node.get("parentRole") or "")
+        safe_label = label if label else (role_alt or "Detected visual region")
         attrs["role"] = "img"
         attrs["aria-label"] = safe_label
 
@@ -629,9 +633,22 @@ def compile_schema(
     else:
         body_ast = _render_ast_node(schema_tree, overrides=overrides)
         
+    # State is declared from what the rendered code actually references, not only
+    # from roles: e.g. every plain <input> binds to formData even outside a
+    # form/contact-section, and a missing declaration crashed the component
+    # with "formData is not defined" at render time.
+    rendered = json.dumps(body_ast) + json.dumps(addition or {})
+    def references(*names: str) -> bool:
+        return any(re.search(rf"\b{name}\b", rendered) for name in names)
+    uses_form = uses_form or references("formData", "setFormData", "setSubmitted")
+    uses_auth = uses_auth or references("authEmailOrUsername", "authPassword", "handleAuthSubmit", "handleAuthHelper", "authStatus")
+    uses_search = uses_search or references("searchQuery", "handleSearch")
+    uses_cart = uses_cart or references("cartCount", "cartOpen", "handleAddToCart", "toggleCart")
+    uses_state = uses_state or uses_form or uses_auth or uses_search or uses_cart
+
     imports = []
     if uses_state: imports.append("useState")
-    
+
     hooks = []
     if uses_form:
         hooks.append("const [formData, setFormData] = useState({ message: '' });")

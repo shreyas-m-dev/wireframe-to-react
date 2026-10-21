@@ -60,6 +60,23 @@ class Detection:
         return asdict(self)
 
 
+def _classify_region(gray_img: np.ndarray, x: int, y: int, w: int, h: int, fill_ratio: float) -> tuple[str, float]:
+    """Size/fill classification plus the two pixel-level corrections. Used for
+    raw contours and for merged fragment groups alike, so they can't disagree."""
+    label, confidence = _classify((x, y, w, h), gray_img.shape[:2], fill_ratio)
+    # A short, wide outlined control (e.g. a 100x30 "Login" box) matches the
+    # text-line shape rule; a closed rectangular border says it's a control.
+    # An *empty* thin outlined bar is the wireframe convention for a line of
+    # text, so the box must also contain something (its label).
+    if label == "text" and 20 <= h <= 90 and has_rect_outline(gray_img, x, y, w, h) and _interior_ink(gray_img, x, y, w, h) >= 0.02:
+        return ("input", 0.70) if w / max(h, 1) > 4.0 and fill_ratio < 0.25 else ("button", 0.66)
+    # The X-crossed box is the universal image-placeholder glyph at any size;
+    # size rules alone would call a large one a container.
+    if label == "container" and _is_x_placeholder(gray_img, x, y, w, h):
+        return "image", 0.75
+    return label, confidence
+
+
 def _classify(rect: tuple[int, int, int, int], img_shape: tuple[int, int], fill_ratio: float) -> tuple[str, float]:
     x, y, w, h = rect
     img_h, img_w = img_shape
@@ -69,8 +86,10 @@ def _classify(rect: tuple[int, int, int, int], img_shape: tuple[int, int], fill_
     if w > img_w * 0.35 and h > img_h * 0.12:
         return "container", 0.75
 
-    # wireframe card / media placeholder (e.g. 3-column service cards, map placeholder, media box)
-    if w > img_w * 0.10 and h > 45 and 0.5 <= aspect <= 2.8:
+    # wireframe card / media placeholder (e.g. 3-column service cards, map placeholder, media box).
+    # Cards and media are taller than controls: at h > 45 this rule captured
+    # ordinary ~120x40 buttons (≈124x46 after dilation) and labelled them images.
+    if w > img_w * 0.10 and h > 60 and 0.5 <= aspect <= 2.8:
         return "image", 0.72
 
     # text line: short and wide, low fill (mostly whitespace + thin strokes)
@@ -82,12 +101,19 @@ def _classify(rect: tuple[int, int, int, int], img_shape: tuple[int, int], fill_
     if 0.82 <= aspect <= 1.22 and 16 <= w < 42 and 16 <= h < 42 and fill_ratio > 0.18:
         return "icon", 0.68
 
+    # filled call-to-action: a solid, wide, control-height strip (e.g. a dark
+    # "Login" bar) is a primary button, not a photo block
+    if fill_ratio > 0.55 and aspect >= 2.5 and 20 <= h <= 90:
+        return "button", 0.70
+
     # image: large area, high fill ratio (photo-like block), not text-shaped
     if fill_ratio > 0.55 and w > 60 and h > 60:
         return "image", 0.70
 
-    # input: short and wide box (very low fill, empty input field)
-    if aspect > 1.6 and 18 <= h <= 55 and fill_ratio < 0.25:
+    # input: long, short box (very low fill, empty input field). Fields are
+    # elongated (typically 5:1 and wider); compact outlined boxes (~3:1) are
+    # buttons, which the next rule handles.
+    if aspect > 4.0 and 18 <= h <= 55 and fill_ratio < 0.25:
         return "input", 0.70
 
     # button: moderately wide rectangle, low-to-mid fill, sits on its own
@@ -149,13 +175,83 @@ def detect_from_array(gray_uint8: np.ndarray, min_area: int = MIN_AREA) -> list[
             continue
         fill_ratio = float(np.count_nonzero(roi < 200)) / float(roi.size)
 
-        label, confidence = _classify((x, y, w, h), (img_h, img_w), fill_ratio)
+        label, confidence = _classify_region(gray_uint8, x, y, w, h, fill_ratio)
         detections.append(Detection(label, confidence, float(x), float(y), float(x + w), float(y + h)))
 
-    macro_regions = _detect_macro_regions(gray_uint8)
+
+    # Absorb X-glyph stroke fragments before NMS: a triangle fragment overlaps
+    # its placeholder enough (IoU ~0.43) to knock the placeholder out otherwise.
+    detections = _absorb_placeholder_strokes(detections, gray_uint8)
     deduped = _drop_near_duplicate_boxes(detections)
-    merged = _merge_shape_fragments(deduped, gray_uint8)
+    merged = _absorb_placeholder_strokes(_merge_shape_fragments(deduped, gray_uint8), gray_uint8)
+    # The page skeleton organises real content; it is never evidence on its
+    # own. With no accepted leaf element, return nothing rather than an
+    # invented page/main scaffold (a blank upload must fail as "nothing found").
+    if not any(d.confidence >= MIN_ACCEPTED_CONFIDENCE for d in merged):
+        return []
+    macro_regions = _detect_macro_regions(gray_uint8)
     return _refine_layout_candidates(merged, img_shape=(img_h, img_w), macro_regions=macro_regions)
+
+
+def _interior_ink(gray_img: np.ndarray, x: int, y: int, w: int, h: int, inset: int = 4) -> float:
+    """Dark-pixel fraction inside the box, excluding a border band."""
+    roi = gray_img[y + inset : y + h - inset, x + inset : x + w - inset]
+    return float((roi < 200).mean()) if roi.size else 0.0
+
+
+def has_rect_outline(gray_img: np.ndarray, x: int, y: int, w: int, h: int, coverage: float = 0.85) -> bool:
+    """True when all four sides of the box carry a (nearly) continuous dark
+    stroke within 3 px either side of each edge — the signature of a drawn
+    control border (contours often trace the stroke's inner edge, so the
+    stroke can sit just outside the box). Text lines touch their bounding box
+    only intermittently."""
+    if w < 12 or h < 12:
+        return False
+    t = 3
+    img_h, img_w = gray_img.shape[:2]
+    x0, y0 = max(0, x - t), max(0, y - t)
+    x1, y1 = min(img_w, x + w + t), min(img_h, y + h + t)
+    ink = gray_img[y0:y1, x0:x1] < 200
+    band = 2 * t
+    inner = ink[band:-band, band:-band] if ink.shape[0] > 2 * band and ink.shape[1] > 2 * band else ink
+    sides = (
+        ink[:band, band:-band].any(axis=0), ink[-band:, band:-band].any(axis=0),
+        ink[band:-band, :band].any(axis=1), ink[band:-band, -band:].any(axis=1),
+    )
+    # A closed border, and not a solid block (the interior must be mostly empty).
+    return all(side.size and side.mean() >= coverage for side in sides) and inner.mean() < 0.5
+
+
+def _absorb_placeholder_strokes(detections: list[Detection], gray_img: np.ndarray) -> list[Detection]:
+    """An X-box's diagonals split its interior into triangle-shaped contours.
+    Those fragments are strokes of the placeholder glyph, not UI: drop any
+    detection lying inside an X-box image."""
+    placeholders = [
+        d for d in detections
+        if d.label == "image" and _is_x_placeholder(gray_img, int(d.x1), int(d.y1), int(d.width), int(d.height))
+    ]
+    if not placeholders:
+        return detections
+    def inside(d: Detection, p: Detection) -> bool:
+        return d is not p and d.x1 >= p.x1 - 2 and d.y1 >= p.y1 - 2 and d.x2 <= p.x2 + 2 and d.y2 <= p.y2 + 2
+    return [d for d in detections if not any(inside(d, p) for p in placeholders)]
+
+
+def _has_central_gutter(ink_band: np.ndarray) -> bool:
+    """True when the band splits into two columns: somewhere in the middle
+    fifth there is a near-empty vertical strip. Ink on both halves alone is
+    not enough (a single centred box has that too)."""
+    if ink_band.size == 0:
+        return False
+    w = ink_band.shape[1]
+    columns = ink_band.mean(axis=0)
+    sides = np.concatenate([columns[: int(w * .4)], columns[int(w * .6):]]).mean()
+    middle = columns[int(w * .4): int(w * .6)]
+    if sides <= 0 or middle.size < 5:
+        return False
+    # smallest 5-column run in the middle band, relative to side density
+    gutter = np.convolve(middle, np.ones(5) / 5, mode="valid").min()
+    return gutter < sides * 0.15
 
 
 def _detect_macro_regions(gray_img: np.ndarray) -> list[Detection]:
@@ -177,12 +273,12 @@ def _detect_macro_regions(gray_img: np.ndarray) -> list[Detection]:
     # two-column/product-detail skeleton. Preserve it even if leaf CV is weak.
     if bottom > top and w >= 500:
         left = ink[top:bottom, :w // 2].mean(); right = ink[top:bottom, w // 2:].mean()
-        if left > .006 and right > .006:
+        related_start = int(top + (bottom - top) * .70)
+        if left > .006 and right > .006 and _has_central_gutter(ink[top:related_start]):
             mid = w * .52
             # Dense lower content after a broad main split is commonly a
             # recommendations/card strip. Segment it independently so it
             # does not disappear inside the product detail region.
-            related_start = int(top + (bottom - top) * .70)
             has_related = ink[related_start:bottom].mean() > .012
             upper_bottom = related_start if has_related else bottom
             regions.extend([
@@ -297,6 +393,40 @@ def _has_diagonal_cross(gray_img: np.ndarray, x: int, y: int, w: int, h: int) ->
     return diag_count >= 2  # both diagonals of the X present
 
 
+def _is_x_placeholder(gray_img: np.ndarray, x: int, y: int, w: int, h: int) -> bool:
+    """Stricter than _has_diagonal_cross: the box's *own* corner-to-corner X.
+    Both diagonals must span most of the box and cross near its centre, so a
+    section containing X-crossed cards, or a glyph like "A" (strokes meet at
+    the apex), does not qualify."""
+    if w < 40 or h < 40:
+        return False
+    roi = gray_img[y : y + h, x : x + w]
+    edges = cv2.Canny(roi, 50, 150)
+    diagonal = float(np.hypot(w, h))
+    lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=30, minLineLength=int(diagonal * 0.6), maxLineGap=12)
+    if lines is None:
+        return False
+    rising, falling = [], []
+    for line in lines:
+        x1, y1, x2, y2 = (float(v) for v in line[0])
+        angle = np.degrees(np.arctan2(y2 - y1, x2 - x1)) % 180
+        if 20 < angle < 70:
+            falling.append((x1, y1, x2, y2))
+        elif 110 < angle < 160:
+            rising.append((x1, y1, x2, y2))
+    for a in falling:
+        for b in rising:
+            (x1, y1, x2, y2), (x3, y3, x4, y4) = a, b
+            denom = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
+            if abs(denom) < 1e-6:
+                continue
+            t = ((x1 - x3) * (y3 - y4) - (y1 - y3) * (x3 - x4)) / denom
+            ix, iy = x1 + t * (x2 - x1), y1 + t * (y2 - y1)
+            if abs(ix - w / 2) < w * 0.2 and abs(iy - h / 2) < h * 0.2:
+                return True
+    return False
+
+
 def _merge_shape_fragments(
     detections: list[Detection],
     gray_img: np.ndarray,
@@ -362,7 +492,7 @@ def _merge_shape_fragments(
             if _has_diagonal_cross(gray_img, x, y, w, h):
                 result.append(Detection("image", 0.75, x1, y1, x2, y2))
             else:
-                label, confidence = _classify((x, y, w, h), (img_h, img_w), fill_ratio)
+                label, confidence = _classify_region(gray_img, x, y, w, h, fill_ratio)
                 result.append(Detection(label, confidence, x1, y1, x2, y2))
         else:
             # Check if majority are images

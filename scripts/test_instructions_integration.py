@@ -5,23 +5,25 @@ element addition) and OCR label extraction, combined — proxies
 backend/server.js's exact updated request flow. Complements
 test_e2e_integration.py (which covers the no-instructions case).
 
-Run: python3 scripts/test_instructions_integration.py
+Run: python scripts/test_instructions_integration.py
 """
 import json
 import re
 import subprocess
+import tempfile
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CLI = ROOT / "scripts" / "cli_pipeline.py"
+ROOT_JS = ROOT.as_posix()
 FIXTURES_DIR = ROOT / "services" / "preprocessing" / "fixtures"
 
 passed, failed = 0, 0
 
 
 def call_python_cli(args):
-    result = subprocess.run(["python3", str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT))
+    result = subprocess.run([sys.executable, str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT))
     if result.returncode != 0:
         raise RuntimeError(json.loads(result.stderr)["error"])
     return json.loads(result.stdout)
@@ -57,7 +59,7 @@ def handle_generate_request(image_path: Path, instructions: str) -> dict:
     elements = detect_result["elements"]
 
     schema = run_node(f"""
-const {{ buildSchema }} = require('{ROOT}/services/schema/schema');
+const {{ buildSchema }} = require('{ROOT_JS}/services/schema/schema');
 console.log(JSON.stringify(buildSchema({json.dumps(elements)})));
 """)
 
@@ -66,13 +68,13 @@ console.log(JSON.stringify(buildSchema({json.dumps(elements)})));
     addition = gen_result.get("addition")
 
     cgda_result = run_node(f"""
-const {{ runCgda }} = require('{ROOT}/services/cgda/cgda');
+const {{ runCgda }} = require('{ROOT_JS}/services/cgda/cgda');
 console.log(JSON.stringify(runCgda({json.dumps(raw_jsx)}, {json.dumps(schema)})));
 """)
     cleaned_jsx = cgda_result["cleanedJsx"]
 
     validation = run_node(f"""
-const {{ validateWithRetry }} = require('{ROOT}/services/validation/validate');
+const {{ validateWithRetry }} = require('{ROOT_JS}/services/validation/validate');
 const result = validateWithRetry({json.dumps(schema)}, {json.dumps(cleaned_jsx)}, (prev) => prev, 2);
 console.log(JSON.stringify({{
   valid: result.valid,
@@ -110,7 +112,9 @@ def check(name, fn):
 def test_dark_theme_instruction_is_recognized_and_applied():
     result = handle_generate_request(FIXTURES_DIR / "simple_layout.png", "use a dark theme")
     assert "dark" in result["recognizedInstructions"]
-    assert "bg-gray-900" in result["finalCode"]
+    # Dark palette is slate (the compiler's own test_template_compiler.py asserts
+    # the same root class); the earlier gray palette was replaced.
+    assert "bg-slate-950" in result["finalCode"]
     assert result["valid"] is True
     assert result["structuralAccuracy"] == 1.0
 

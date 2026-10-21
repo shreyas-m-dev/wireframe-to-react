@@ -1,4 +1,5 @@
 import sys
+import json
 import tempfile
 from pathlib import Path
 
@@ -20,6 +21,10 @@ def check(name, fn):
         failed += 1
 
 
+# The catalog grows over time; count against its source, not a fixed number.
+CATALOG_SIZE = len(json.loads((Path(__file__).parent / "seed_templates" / "templates.json").read_text()))
+
+
 def fresh_db():
     """Each test gets its own throwaway SQLite file so tests don't interfere."""
     tmp = Path(tempfile.mkdtemp()) / "test_vectors.sqlite3"
@@ -28,7 +33,7 @@ def fresh_db():
 
 def test_index_builds_with_all_templates():
     db = fresh_db()
-    assert db.size() == 20
+    assert db.size() == CATALOG_SIZE
     db.close()
 
 
@@ -39,18 +44,20 @@ def test_db_is_a_real_persistent_sqlite_file():
     assert tmp.exists(), "expected a real .sqlite3 file on disk"
     # reopen without rebuilding — data should persist across connections
     db2 = VectorDB(tmp)
-    assert db2.size() == 20
+    assert db2.size() == CATALOG_SIZE
     db2.close()
 
 
 def test_describe_schema_node_leaf():
     node = {"type": "button", "children": []}
-    assert describe_schema_node(node) == "button"
+    # role, layout direction, then the "structure" marker (no descendants)
+    assert describe_schema_node(node) == "button auto structure"
 
 
 def test_describe_schema_node_with_children():
     node = {"type": "header", "children": [{"type": "text"}, {"type": "button"}, {"type": "button"}]}
-    assert describe_schema_node(node) == "header with text, button, button"
+    # direct children in order, then the sorted descendant signature
+    assert describe_schema_node(node) == "header auto with text, button, button structure button text"
 
 
 def test_retrieve_exact_pattern_text_returns_itself_top_ranked():

@@ -6,10 +6,11 @@ styles than the original 3 clean synthetic fixtures — rounded corners
 with jittery lines. This directly answers "can it detect real wireframes,
 not just the ones drawn to work with this specific algorithm."
 
-Run: python3 scripts/test_realistic_wireframes.py
+Run: python scripts/test_realistic_wireframes.py
 """
 import json
 import subprocess
+import tempfile
 import sys
 from pathlib import Path
 
@@ -18,7 +19,8 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
 CLI = ROOT / "scripts" / "cli_pipeline.py"
-TMP = Path("/tmp/realistic_wireframe_tests")
+ROOT_JS = ROOT.as_posix()
+TMP = Path(tempfile.gettempdir()) / "realistic_wireframe_tests"
 TMP.mkdir(exist_ok=True)
 
 passed, failed = 0, 0
@@ -87,7 +89,7 @@ FIXTURES = [
 
 
 def call_python_cli(args):
-    result = subprocess.run(["python3", str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT))
+    result = subprocess.run([sys.executable, str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT))
     if result.returncode != 0:
         try:
             raise RuntimeError(json.loads(result.stderr)["error"])
@@ -108,7 +110,7 @@ def run_pipeline(image_path: Path) -> dict:
     elements = detect_result["elements"]
 
     schema = run_node(f"""
-const {{ buildSchema }} = require('{ROOT}/services/schema/schema');
+const {{ buildSchema }} = require('{ROOT_JS}/services/schema/schema');
 console.log(JSON.stringify(buildSchema({json.dumps(elements)})));
 """)
 
@@ -116,13 +118,13 @@ console.log(JSON.stringify(buildSchema({json.dumps(elements)})));
     raw_jsx = gen_result["rawJsx"]
 
     cgda_result = run_node(f"""
-const {{ runCgda }} = require('{ROOT}/services/cgda/cgda');
+const {{ runCgda }} = require('{ROOT_JS}/services/cgda/cgda');
 console.log(JSON.stringify(runCgda({json.dumps(raw_jsx)}, {json.dumps(schema)})));
 """)
     cleaned_jsx = cgda_result["cleanedJsx"]
 
     validation = run_node(f"""
-const {{ validateWithRetry }} = require('{ROOT}/services/validation/validate');
+const {{ validateWithRetry }} = require('{ROOT_JS}/services/validation/validate');
 const result = validateWithRetry({json.dumps(schema)}, {json.dumps(cleaned_jsx)}, (prev) => prev, 2);
 console.log(JSON.stringify({{
   valid: result.valid,

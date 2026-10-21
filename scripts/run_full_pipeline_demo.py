@@ -4,7 +4,7 @@ CGDA/validation illustration demo — NOT the primary proof of the pipeline
 anymore. For the real, fully-live end-to-end proof (real detector, real
 schema, real RAG, real deterministic codegen, all on real images), see
 scripts/test_e2e_integration.py instead — that one needs no faked data at
-all and is what backend/server.js actually runs.
+all and is what backend/src/pipeline/pipeline.js actually runs.
 
 This script keeps its original, narrower purpose: since the default
 deterministic compiler (template_compiler.py) never hallucinates by

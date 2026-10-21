@@ -85,8 +85,11 @@ def test_near_duplicate_boxes_are_deduplicated():
     cv2.rectangle(img, (100, 100), (300, 160), 0, 2)
     cv2.rectangle(img, (101, 101), (299, 159), 0, 1)  # near-identical inner outline (common Canny artifact)
     dets = detect_from_array(img)
-    # should collapse to ~1 detection for this single visual box, not 2+
-    overlapping = [d for d in dets if d.width > 150]
+    # should collapse to ~1 detection for this single visual box, not 2+.
+    # Page-skeleton regions (role set: page/main/header/...) are hierarchy
+    # evidence added after this test was written and are never NMS-dropped by
+    # design, so only leaf boxes are counted here.
+    overlapping = [d for d in dets if d.width > 150 and d.role is None]
     assert len(overlapping) <= 1, f"expected near-duplicate boxes deduplicated, got {len(overlapping)}"
 
 

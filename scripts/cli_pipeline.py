@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CLI entry point Express (backend/server.js) shells out to for the
+CLI entry point the API (backend/src/pipeline/python.js) shells out to for the
 Python-side steps of the pipeline. Node handles steps 3 (schema), 6
 (CGDA), 7 (validation) in-process — see services/schema, services/cgda,
 services/validation — since those have zero Python dependencies.
@@ -51,6 +51,54 @@ sys.path.insert(0, str(ROOT / "services" / "rag"))
 sys.path.insert(0, str(ROOT / "services" / "codegen"))
 sys.path.insert(0, str(ROOT / "services" / "vision"))
 sys.path.insert(0, str(ROOT / "services" / "visual"))
+
+
+def _group_ocr_fragments(words: list[dict]) -> list[dict]:
+    """Rebuilds phrases from OCR fragments. Nav links are separated by
+    wide gaps and stay separate; words of one heading ("Product Overview")
+    sit an ordinary space apart and become one phrase instead of one node per
+    word. Gap threshold: 0.8 × word height."""
+    phrases: list[dict] = []
+    def contained(inner: dict, outer: dict) -> bool:
+        ix = max(0.0, min(inner["x"] + inner["width"], outer["x"] + outer["width"]) - max(inner["x"], outer["x"]))
+        iy = max(0.0, min(inner["y"] + inner["height"], outer["y"] + outer["height"]) - max(inner["y"], outer["y"]))
+        area = max(1.0, inner["width"] * inner["height"])
+        return ix * iy / area >= 0.8 and inner["text"].strip().lower() in outer["text"].strip().lower()
+
+    # The same word often arrives twice (both passes), or inside a full line
+    # from the other pass: keep the longest version.
+    unique: list[dict] = []
+    for word in sorted(words, key=lambda w: -len(w["text"])):
+        if not any(contained(word, u) for u in unique):
+            unique.append(word)
+    center = lambda w: w["y"] + w["height"] / 2
+    # 1. cluster fragments into text lines by vertical-centre proximity
+    lines: list[list[dict]] = []
+    for word in sorted(unique, key=center):
+        for line in lines:
+            ref = line[0]
+            if abs(center(ref) - center(word)) < max(ref["height"], word["height"]) * 0.5:
+                line.append(word)
+                break
+        else:
+            lines.append([word])
+    # 2. within each line, merge left to right across ordinary word spacing
+    for line in lines:
+        last = None
+        for word in sorted(line, key=lambda w: w["x"]):
+            if last is not None:
+                gap = word["x"] - (last["x"] + last["width"])
+                if -2 <= gap <= max(last["height"], word["height"]) * 0.8:
+                    right = max(last["x"] + last["width"], word["x"] + word["width"])
+                    bottom = max(last["y"] + last["height"], word["y"] + word["height"])
+                    last["y"] = min(last["y"], word["y"])
+                    last["width"], last["height"] = right - last["x"], bottom - last["y"]
+                    last["text"] = f'{last["text"]} {word["text"]}'
+                    last["confidence"] = min(last["confidence"], word["confidence"])
+                    continue
+            last = {"text": word["text"], "confidence": word["confidence"], "x": word["x"], "y": word["y"], "width": word["width"], "height": word["height"], "pass": word.get("pass", "ocr")}
+            phrases.append(last)
+    return phrases
 
 
 def cmd_detect(image_path: str, instructions: str = "") -> dict:
@@ -126,6 +174,26 @@ def cmd_detect(image_path: str, instructions: str = "") -> dict:
         pass
 
     detections = detect_from_array(shape_input)
+    # OCR sometimes reads a control's border as text ("|", "vce") and the mask
+    # then erases that border. Controls with an intact outline in the unmasked
+    # image are restored when the masked pass lost them.
+    if shape_input is not gray:
+        from heuristic_detector import has_rect_outline
+        def overlaps(a, b):
+            ix = max(0.0, min(a.x2, b.x2) - max(a.x1, b.x1)); iy = max(0.0, min(a.y2, b.y2) - max(a.y1, b.y1))
+            inter = ix * iy
+            return inter / max(1.0, a.width * a.height + b.width * b.height - inter) > 0.3
+        def solid(d):  # filled control, e.g. a dark "Login" bar with white text
+            roi = gray[int(d.y1):int(d.y2), int(d.x1):int(d.x2)]
+            return roi.size > 0 and float((roi < 200).mean()) > 0.55
+        def holds_ocr_text(d):  # only controls whose label the mask erased
+            return any(d.x1 <= r.x + r.width / 2 <= d.x2 and d.y1 <= r.y + r.height / 2 <= d.y2 for r in text_regions_for_masking)
+        for candidate in detect_from_array(gray):
+            box = (int(candidate.x1), int(candidate.y1), int(candidate.width), int(candidate.height))
+            if candidate.label in ("button", "input") and candidate.role is None and holds_ocr_text(candidate) \
+                    and (has_rect_outline(gray, *box) or solid(candidate)) \
+                    and not any(overlaps(candidate, d) for d in detections if d.label != "text"):
+                detections.append(candidate)
     shape_elements = [e for e in to_schema_input(detections) if e["type"] != "text"]
 
     try:
@@ -153,9 +221,11 @@ def cmd_detect(image_path: str, instructions: str = "") -> dict:
             # are reconstructed from their own OCR boxes below.
             header_limit = processed.resized_shape[0] * .13
             ocr_lines = [line for line in document["lines"] if re.search(r"[A-Za-z0-9]", line["text"]) and line["text"].strip() not in {"=", "|"} and not (line["pass"] == "normalized-psm6" and line["y"] < header_limit)]
-            header_words = [word for word in document["words"] if word["y"] < header_limit and re.fullmatch(r"[A-Za-z]{2,}", word["text"])]
-            for word in header_words:
-                ocr_lines.append({"text": word["text"], "confidence": word["confidence"], "x": word["x"], "y": word["y"], "width": word["width"], "height": word["height"], "pass": f'{word["pass"]}-header-word'})
+            header_words = [word for word in document["words"] if word["y"] < header_limit and re.fullmatch(r"[A-Za-z]{2,}[!?.,:;]?", word["text"])]
+            # Fragments come from two passes (sparse-pass "lines" are often single
+            # words, plus the header word boxes above); regroup them so a phrase
+            # such as a heading is one node, not one node per word.
+            ocr_lines = _group_ocr_fragments(ocr_lines + header_words)
         except Exception:
             ocr_lines = []
     text_elements = []
@@ -196,7 +266,9 @@ def cmd_detect(image_path: str, instructions: str = "") -> dict:
         # field discovered inside a rectangular contour must not become a
         # button merely because the CV box happened to be button-shaped.
         for element in labeled_shapes:
-            label = (element.get("label") or "").strip()
+            # Border strokes OCR'd as "|", "[", "]" are not part of the label.
+            label = re.sub(r"^[\s|\[\](){}_\-–—:;.,]+|[\s|\[\](){}_\-–—:;.,]+$", "", element.get("label") or "")
+            element["label"] = label or None
             lowered = label.lower()
             if element["type"] == "button" and re.search(r"(?:[$€£₹]\s?\d|\d+[.,]\d{2})", label):
                 element["type"], element["role"] = "text", "price"
@@ -204,6 +276,21 @@ def cmd_detect(image_path: str, instructions: str = "") -> dict:
                 element["type"], element["role"] = "input", "select"
             elif element["type"] == "button" and "search" in lowered:
                 element["type"], element["role"] = "input", "search"
+        # OCR text sitting inside a control already labelled with the same words
+        # is that control's label, not a second element.
+        def inside_labeled_control(text_el):
+            words = (text_el.get("label") or "").strip().lower()
+            cx, cy = text_el["x"] + text_el["width"] / 2, text_el["y"] + text_el["height"] / 2
+            for shape in labeled_shapes:
+                if shape["type"] in ("button", "input") and shape.get("label") and words and words in shape["label"].lower() \
+                        and shape["x"] <= cx <= shape["x"] + shape["width"] and shape["y"] <= cy <= shape["y"] + shape["height"]:
+                    # A call-to-action read inside an outlined box ("GET STARTED")
+                    # makes that box the button, rather than an input plus a button.
+                    if text_el.get("type") == "button" or text_el.get("role") == "action":
+                        shape["type"], shape["role"] = "button", "action"
+                    return True
+            return False
+        text_elements = [t for t in text_elements if not inside_labeled_control(t)]
         elements = labeled_shapes + text_elements
     except Exception:
         for e in shape_elements:
@@ -292,7 +379,7 @@ def generate_from_schema(schema: dict, templates: list[dict], error_report: dict
     # in the wireframe), so running it through CGDA would just strip it
     # right back out. Instead, the backend splices `addition["code"]` into
     # the final response only after rawJsx has independently passed
-    # validation — see backend/server.js.
+    # validation — see backend/src/pipeline/pipeline.js.
     # Additions are a normal-upload feature. Fixture runs intentionally do
     # not introduce unobserved elements or open the legacy DB for writing.
     addition = None

@@ -25,9 +25,14 @@ def build_index(db_path: str | Path = DEFAULT_DB_PATH, force_rebuild: bool = Fal
     # Upsert the reviewed catalog on startup. This keeps the persisted store
     # aligned with schema/template upgrades rather than silently querying an
     # old, underspecified catalog from a previous run.
+    # Only rows that actually differ are written: this runs on every generate
+    # request, and rewriting identical rows dirtied the tracked catalog file and
+    # made concurrent jobs contend for SQLite's write lock.
     templates = json.loads(TEMPLATES_PATH.read_text())
+    existing = {row[0]: (row[1], row[2]) for row in db.conn.execute("SELECT id, text, code FROM templates")}
     for t in templates:
-        db.add(t["id"], t["schema_pattern"], t["code"])
+        if existing.get(t["id"]) != (t["schema_pattern"], t["code"]):
+            db.add(t["id"], t["schema_pattern"], t["code"])
     return db
 
 
@@ -48,7 +53,8 @@ def describe_schema_node(node: dict) -> str:
             walk(child)
     walk(node)
     signature = " ".join(sorted(set(descendants)))
-    return f"{role} {layout}{repeated} with {', '.join(child_types)} structure {signature}" if child_types else f"{role} {layout} structure {signature}"
+    text = f"{role} {layout}{repeated} with {', '.join(child_types)} structure {signature}" if child_types else f"{role} {layout} structure {signature}"
+    return text.strip()
 
 
 def _metadata_for(pattern_id: str) -> dict:

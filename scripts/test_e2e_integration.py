@@ -20,15 +20,17 @@ renderers emitting wrapper tags the validator didn't expect (fixed in
 template_compiler.py). Keep it in the suite — it's the only test that
 exercises all 7 modules together instead of in isolation.
 
-Run: python3 scripts/test_e2e_integration.py
+Run: python scripts/test_e2e_integration.py
 """
 import json
 import subprocess
+import tempfile
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CLI = ROOT / "scripts" / "cli_pipeline.py"
+ROOT_JS = ROOT.as_posix()
 FIXTURES_DIR = ROOT / "services" / "preprocessing" / "fixtures"
 FIXTURES = [
     ("nav header (buttons + text block)", FIXTURES_DIR / "simple_layout.png"),
@@ -56,12 +58,16 @@ MAX_REASONABLE_ELEMENTS = {
     "heading_image_input.png": 4,  # heading, image placeholder, input, (occasionally the input's own label)
 }
 
+# Page-skeleton regions from the detector's macro pass are hierarchy, not
+# visible elements, so they don't count toward the "reasonable element" cap.
+SKELETON_ROLES = {"page", "header", "main", "footer", "gallery", "product-detail", "related-products"}
+
 passed, failed = 0, 0
 
 
 def call_python_cli(args):
     """Same shape as backend/server.js's callPython()."""
-    result = subprocess.run(["python3", str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT))
+    result = subprocess.run([sys.executable, str(CLI), *args], capture_output=True, text=True, cwd=str(ROOT))
     if result.returncode != 0:
         try:
             raise RuntimeError(json.loads(result.stderr)["error"])
@@ -78,14 +84,14 @@ def run_node(js_expr: str):
 
 
 def handle_generate_request(image_path: Path) -> dict:
-    """Mirrors backend/server.js's POST /api/generate handler exactly."""
+    """Mirrors the API pipeline (backend/src/pipeline/pipeline.js) stage by stage."""
     # Steps 1+2
     detect_result = call_python_cli(["detect", str(image_path)])
     elements = detect_result["elements"]
 
     # Step 3
     schema = run_node(f"""
-const {{ buildSchema }} = require('{ROOT}/services/schema/schema');
+const {{ buildSchema }} = require('{ROOT_JS}/services/schema/schema');
 console.log(JSON.stringify(buildSchema({json.dumps(elements)})));
 """)
 
@@ -95,7 +101,7 @@ console.log(JSON.stringify(buildSchema({json.dumps(elements)})));
 
     # Step 6
     cgda_result = run_node(f"""
-const {{ runCgda }} = require('{ROOT}/services/cgda/cgda');
+const {{ runCgda }} = require('{ROOT_JS}/services/cgda/cgda');
 console.log(JSON.stringify(runCgda({json.dumps(raw_jsx)}, {json.dumps(schema)})));
 """)
     cleaned_jsx = cgda_result["cleanedJsx"]
@@ -103,7 +109,7 @@ console.log(JSON.stringify(runCgda({json.dumps(raw_jsx)}, {json.dumps(schema)}))
     # Step 7 (regenerate callback omitted here since GEN_MODE=template
     # never needs it — see test_regenerate_loop_reachable below for that path)
     validation = run_node(f"""
-const {{ validateWithRetry }} = require('{ROOT}/services/validation/validate');
+const {{ validateWithRetry }} = require('{ROOT_JS}/services/validation/validate');
 const result = validateWithRetry({json.dumps(schema)}, {json.dumps(cleaned_jsx)}, (prev) => prev, 2);
 console.log(JSON.stringify({{
   valid: result.valid,
@@ -113,7 +119,7 @@ console.log(JSON.stringify({{
 """)
 
     return {
-        "elementsDetected": len(elements),
+        "elementsDetected": len([e for e in elements if e.get("role") not in SKELETON_ROLES]),
         "strippedByCgda": len(cgda_result["report"]["stripped"]),
         "genMode": gen_result["genMode"],
         "finalCode": cleaned_jsx,
@@ -162,7 +168,10 @@ def check(name, image_path):
             # complete phrase, not split word-by-word across several tags.
             assert "Join our team today" in result["finalCode"], \
                 f"heading should appear as one complete phrase, not split into fragments: {result['finalCode']}"
-            assert '<img' in result["finalCode"], \
+            # The compiler renders a source-less placeholder as an accessible
+            # <div role="img" aria-label=…> with a glyph: an <img> without src
+            # would display as a broken image.
+            assert 'role="img"' in result["finalCode"], \
                 f"the X-boxed placeholder should be typed as an image element: {result['finalCode']}"
         print(f"PASS  {name}  ({result['elementsDetected']} elements, 100% accuracy, 0 retries, text content intact)")
         passed += 1
